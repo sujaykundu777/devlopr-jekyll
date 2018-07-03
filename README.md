@@ -59,3 +59,12 @@ title, description, name , bio
 twitter_username, facebook_username, medium_username , telegram_username, behance_username, github_username ,
 instagram_username
 
+# Add blog section
+
+Create a new file blog.md file with following content 
+
+```
+---
+layout: blog
+title: Blog 
+```
