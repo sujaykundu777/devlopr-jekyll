@@ -50,4 +50,12 @@ To add a custom directory to your theme-gem, please edit the regexp in `devlopr.
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-# Categories, Posts, Images
+# Variables need to be declared in _config.yml of your jekyll site
+
+`{{site.variable}}`
+
+title, description, name , bio
+
+twitter_username, facebook_username, medium_username , telegram_username, behance_username, github_username ,
+instagram_username
+

@@ -1,6 +1,6 @@
 ---
 title: Contact
-layout: default
+layout: home
 ---
 
  <h1> Contact Me </h1>
