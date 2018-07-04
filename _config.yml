@@ -7,10 +7,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-author_logo: site-logo.png
+author_logo: profile.png
 disqus_shortname: shortname
 author: Your Name
-author_bio: Hi I am a full stack web developer and freelancer based in India. I enjoy experimenting with new technologies and love anything related to hacking. I tend to follow startup scenes and also enjoy gaming.
+author_bio: Something About You for about me
 author_email: "your-email@example.com"
 author_location: Your Location
 author_website_url: "https://yourwebsite.com"

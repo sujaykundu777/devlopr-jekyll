@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "devlopr"
-  spec.version       = "0.1.6"
+  spec.version       = "0.1.7"
   spec.authors       = ["Sujay Kundu"]
   spec.email         = ["sujaykundu777@gmail.com"]
 
@@ -10,8 +10,10 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://www.sujaykundu.com"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
-
+  spec.files = `git ls-files -z`.split("\x0").select do |f|
+    f.match(%r!^(assets|_(includes|layouts|sass)/|(LICENSE|README)((\.(txt|md|markdown)|$)))!i)
+  end
+ 
   spec.add_runtime_dependency "jekyll", "~> 3.8"
 
   spec.add_development_dependency "bundler", "~> 1.16"
