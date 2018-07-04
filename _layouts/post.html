@@ -1,20 +1,18 @@
---- 
-layout: default 
----
+--- layout: default ---
 
-    <nav aria-label="breadcrumb" role="navigation">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item">
-                <a href="/blog">Blog</a>
-            </li>
-            <li class="breadcrumb-item">
-                <a href="/blog/categories">Categories</a>
-            </li>
-            <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
-        </ol>
-    </nav>
+<nav aria-label="breadcrumb" role="navigation">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="/blog">Blog</a>
+        </li>
+        <li class="breadcrumb-item">
+            <a href="/blog/categories">Categories</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    </ol>
+</nav>
 
-    <div class="row">
+<div class="row">
 
     <div class="col-lg-8">
 
@@ -25,7 +23,7 @@ layout: default
                 <!-- <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1> -->
                 <h4 class="post-meta">{{ page.summary }}</h4>
                 <p class="post-summary">Posted by : {% if page.author %}
-                    <img src="{{site.url}}/assets/img/{{ site.author_logo }}" class="author-profile-img">
+                    <img src="/assets/img/{{ site.author_logo }}" class="author-profile-img">
                     <span itemprop="author" itemscope itemtype="http://schema.org/Person">
                         <span itemprop="name">{{ page.author }}</span>
                     </span>{% endif %} at
@@ -46,7 +44,7 @@ layout: default
             </div>
 
             <div class="card-body" itemprop="articleBody">
-                <img class="card-img-top" src="{{site.url}}/assets/img/{{ page.thumbnail }}" alt="{{ post.title }}"> {{ content }} {%- include share.html -%}
+                <img class="card-img-top" src="/assets/img/{{ page.thumbnail }}" alt="{{ post.title }}"> {{ content }} {%- include share.html -%}
             </div>
 
             <div id="disqus_thread"></div>
