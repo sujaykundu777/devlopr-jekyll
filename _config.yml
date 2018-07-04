@@ -1,5 +1,5 @@
-title: Your Site Title
-subtitle: Your Site Subtitle
+title: devlopr
+subtitle: Jekyll theme built for Devloper
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -9,10 +9,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 author_logo: profile.png
 disqus_shortname: sujay-kundu  #for comments using disqus
-author: Your Name
-author_bio: Something About You for about me
-author_email: "your-email@example.com"
-author_location: Your Location
+author: devlopr
+author_bio: Hello, my name is John Doe.I am an award winning Full Stack Web Developer and UI/UX Javascript specialist.Check out my blog articles, React.JS and Vue.JS UI components at the code laboratory.Feel free to take a look at my latest projects below.Based in London, UK. 
+author_email: "john@devlopr.com"
+author_location: India
 author_website_url: "https://yourwebsite.com"
 
 # social links
