@@ -25,7 +25,7 @@ layout: default
                 <!-- <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1> -->
                 <h4 class="post-meta">{{ page.summary }}</h4>
                 <p class="post-summary">Posted by : {% if page.author %}
-                    <img src="https://www.sujaykundu.com/assets/images/brand/sujay.png" class="author-profile-img">
+                    <img src="{{site.url}}/assets/img/{{ site.author_logo }}" class="author-profile-img">
                     <span itemprop="author" itemscope itemtype="http://schema.org/Person">
                         <span itemprop="name">{{ page.author }}</span>
                     </span>{% endif %} at
@@ -46,7 +46,7 @@ layout: default
             </div>
 
             <div class="card-body" itemprop="articleBody">
-                {{ content }} {%- include share.html -%}
+                <img class="card-img-top" src="{{site.url}}/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}"> {{ content }} {%- include share.html -%}
             </div>
 
             <div id="disqus_thread"></div>
@@ -97,22 +97,22 @@ layout: default
     <!-- End of Sidebar -->
 
     </div>
- 
-     <script>
-    var disqus_config = function () {
-        this.page.url = "http://www.sujaykundu.com{{ page.url }}"; // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = "{{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
+
+    <script>
+        var disqus_config = function () {
+            this.page.url = "{{ site.url }}{{ page.url }}"; // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = "{{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
 
 
-    (function () { // DON'T EDIT BELOW THIS LINE
-        var d = document,
-            s = d.createElement('script');
-        s.src = 'https://sujay-kundu.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+        (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document,
+                s = d.createElement('script');
+            s.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
     </script>
     <noscript>Please enable JavaScript to view the
-    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
     </noscript>

@@ -8,7 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 author_logo: profile.png
-disqus_shortname: shortname
+disqus_shortname: sujay-kundu  #for comments using disqus
 author: Your Name
 author_bio: Something About You for about me
 author_email: "your-email@example.com"

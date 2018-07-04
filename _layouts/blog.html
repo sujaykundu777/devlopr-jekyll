@@ -1,8 +1,8 @@
 --- 
-layout: default 
+layout: default
 ---
 
-<div class="row">
+    <div class="row">
 
     <div class="col-lg-8">
         <ul>
@@ -10,7 +10,7 @@ layout: default
             <div class="card blog-post">
                 <img class="card-img-top" src="{{site.url}}/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}">
                 <div class="card-body center">
-                    <img src="{{site.url}}/assets/img/{{ author_logo }}" class="author-profile-img">
+                    <img src="{{site.url}}/assets/img/{{ site.author_logo }}" class="author-profile-img">
                     <h4 class="card-title">{{ post.title }}</h4>
 
                     <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
