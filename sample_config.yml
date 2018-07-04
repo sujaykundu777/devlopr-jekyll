@@ -1,0 +1,28 @@
+title: Your Site Title
+subtitle: Your Site Subtitle
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+author_logo: site-logo.png
+disqus_shortname: shortname
+author: Your Name
+author_bio: Hi I am a full stack web developer and freelancer based in India. I enjoy experimenting with new technologies and love anything related to hacking. I tend to follow startup scenes and also enjoy gaming.
+author_email: "your-email@example.com"
+author_location: Your Location
+author_website_url: "https://yourwebsite.com"
+
+# social links
+twitter_username: yourusername
+github_username:  yourusername
+facebook_username: yourusername
+linkedin_username: yourusername
+behance_username: yourusername
+instagram_username: yourusername
+medium_username: yourusername 
+telegram_username: yourusername
+dribbble_username: yourusername 
+flickr_username: yourusername

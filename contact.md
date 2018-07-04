@@ -1,12 +1,8 @@
 ---
-title: Contact
-layout: home
+layout: page
+title: Contact Me
 ---
 
- <h1> Contact Me </h1>
+<h1> Contact Me</h1>
 
-Need help in building Websites, Apps or UI/UX. You can mail me your requirements at  
-
-`
-sujaykundu777@gmail.com
-`
+<p> Mail me at sujaykundu777@gmail.com </p>
