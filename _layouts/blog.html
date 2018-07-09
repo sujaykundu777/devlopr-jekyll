@@ -1,11 +1,12 @@
 --- 
-layout: default
+layout: default 
 ---
 
     <div class="row">
 
-    <div class="col-lg-8">
+    <div class="col-lg-8 col-md-4">
         <ul>
+          <div class="row">
             {% for post in site.posts %}
             <div class="card blog-post">
                 <img class="card-img-top" src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}">
@@ -23,6 +24,7 @@ layout: default
             </div>
 
             {% endfor %}
+            </div>
         </ul>
     </div>
 

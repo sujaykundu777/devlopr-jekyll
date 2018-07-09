@@ -95,9 +95,20 @@ footer {
     border-radius: 0% !important;
 }
 
+.blog-post {
+    width: 350px;
+    height: auto;
+    margin: 20px !important;
+}
+
 @media (min-width: 320px) and (max-width: 780px) {
     header {
         height: auto;
         text-align: center;
+    }
+    .blog-post {
+        width: 300px;
+        height: auto;
+        margin-left: -20px !important;
     }
 }
