@@ -5,7 +5,7 @@ summary: Learn how to use all git commands
 categories: 
     - git
     - web-development
-thumbnail: gitflow-workflow.png
+thumbnail: posts/gitflow-workflow.png
 author: Sujay Kundu
 ---
 
