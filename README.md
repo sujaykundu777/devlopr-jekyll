@@ -1,23 +1,26 @@
-# devlopr
+---
+layout: page
+title: Docs
+---
+
+# devlopr jekyll - Getting Started
 
 [![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+Anyone can use devlopr theme to build a personal <strong>Portfolio + Blog Type of Website</strong>, hosted freely on <b>Github Pages</b> or <b>Netlify </b>. 
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+To get started follow the below given methods to get your devlopr mod jekyll website !
+Many features are in our checklist, that needs to be worked upon and are in progress. And if you liked this project ! Do share with your developer friends and colleagues who may find it interesting :D 
 
-TODO: Delete this and the text above, and describe your gem
+## Method 1:  Installation for new Jekyll Site using Rubygem
 
-
-## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
+Add this line to your Jekyll site's Gemfile :
 
 ```ruby
 gem "devlopr"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+And add this line to your Jekyll site's _config.yml:
 
 ```yaml
 theme: devlopr
@@ -25,38 +28,35 @@ theme: devlopr
 
 And then execute:
 
-    $ bundle
+`$ bundle`
 
 Or install it yourself as:
 
-    $ gem install devlopr
+`$ gem install devlopr`
 
-## Usage
+Run locally using :
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+`$ jekyll serve`
+ 
 
-## Contributing
+## Method 2: Easy Installation - Just Clone !!
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+All you need to do is clone this repo and customize the theme accordingly.
 
-## Development
+Clone the repo :
 
-To set up your environment to develop this theme, run `bundle install`.
+`$ git clone https://github.com/sujaykundu777/devlopr-jekyll.git"`
+`$ cd devlopr-jekyll`
+`$ code .`
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+Edit the below file configurations to make devlopr theme yours, you can customize everything from logo, name, posts.. anything. 
 
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `devlopr.gemspec` accordingly.
+Add Posts in <highlight>_posts</highlight> directory. <br /> 
+Add Images in <highlight>assets/img</highlight> directory <br />
+Add Categories in <highlight>categories</highlight> directory  <br />
+Edit Styles in <highlight>_sass</highlight> directory <br />
 
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-# Variables need to be declared in _config.yml of your jekyll site
-
-`{{site.variable}}`
-
-# _config.yml configuration  ( Copy and Edit accordingly )
+### _config.yml configuration  ( Copy and Edit accordingly )
 
 ```
 title: Your Site Title
@@ -89,7 +89,7 @@ dribbble_username: yourusername
 flickr_username: yourusername
 ```
 
-# Add blog section
+### Add blog section (if you want \blog)
 
 Create a new file blog.md file with following front yaml inside it. 
 
@@ -101,7 +101,7 @@ permalink: \blog\
 ---
 ```
 
-# Post Yaml Format  ( Example Below ) :
+### Post Yaml Format  ( Example Below ) :
 
 ```
 ---
@@ -116,7 +116,7 @@ author: Sujay Kundu
 ---
 ```
 
-# Adding Categories 
+### Adding Categories 
 
 For Adding Categories create new folder categories and inside that create a file `all.md` and copy the below code in that :
 
@@ -147,7 +147,7 @@ permalink: /blog/categories/
 
 ```
 
-# Individual Categories 
+### Individual Categories 
 
 If you want to show all posts of a particular category, create a new file for that category inside categories folder
 
@@ -167,4 +167,10 @@ permalink: /blog/categories/angularjs
 
 
 ```
+
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
 

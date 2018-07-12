@@ -4,50 +4,56 @@ layout: default
 
     <div class="row">
 
-    <div class="col-lg-8 col-md-4">
-        <ul>
-          <div class="row">
-            {% for post in site.posts %}
-            <div class="card blog-post">
-                <img class="card-img-top" src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}">
-                <div class="card-body center">
-                    <img src="/assets/img/{{ site.author_logo }}" class="author-profile-img">
-                    <h4 class="card-title">{{ post.title }}</h4>
+        <div class="col-lg-8 col-md-4">
+            <ul>
+                <div class="row">
+                    {% for post in site.posts %}
+                    <div class="card blog-post">
+                        <img class="card-img-top" src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}">
+                        <div class="card-body center">
+                            <img src="/assets/img/{{ site.author_logo }}" class="author-profile-img">
+                            <h4 class="card-title">{{ post.title }}</h4>
 
-                    <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
-                    <p class="card-text">{{ post.summary }} </p>
+                            <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
+                            <p class="card-text">{{ post.summary }} </p>
 
-                    <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-primary btn-lg">Read</a>
-                    <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
+                            <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-primary btn-lg">Read</a>
+                            <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
 
+                        </div>
+                    </div>
+
+                    {% endfor %}
+                </div>
+            </ul>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header"> About {{ site.author }} </div>
+                <div class="card-body text-dark">
+                    <p> devlopr is a rubygem ( Jekyll Theme ) built for Developers. Anyone can create their website and host it freely
+                        like this. All you need is to follow the simple steps in the DOCS !!</p>
                 </div>
             </div>
+            <div class="card">
 
-            {% endfor %}
+                <div class="card-header">Categories </div>
+                <div class="card-body text-dark">
+                    {% for tag in site.categories %} {% capture tag_name %}{{ tag | first }}{% endcapture %}
+                    <div id="#{{ tag_name | slugize }}"></div>
+                    <li class="tag-head">
+                        <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }}</a>
+                    </li>
+                    <a name="{{ tag_name | slugize }}"></a>
+
+                    {% endfor %}
+                </div>
+
+
             </div>
-        </ul>
-    </div>
-
-    <div class="col-lg-4">
-
-        <div class="card">
-
-            <div class="card-header">Categories </div>
-            <div class="card-body text-dark">
-                {% for tag in site.categories %} {% capture tag_name %}{{ tag | first }}{% endcapture %}
-                <div id="#{{ tag_name | slugize }}"></div>
-                <li class="tag-head">
-                    <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }}</a>
-                </li>
-                <a name="{{ tag_name | slugize }}"></a>
-
-                {% endfor %}
+            <div class="card">
+                <!-- Begin MailChimp Signup Form -->
+                {%- include newsletter.html -%}
             </div>
-
-
         </div>
-        <div class="card">
-            <!-- Begin MailChimp Signup Form -->
-            {%- include newsletter.html -%}
-        </div>
-    </div>
