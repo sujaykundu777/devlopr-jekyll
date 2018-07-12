@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "devlopr"
-  spec.version       = "0.2.4"
+  spec.version       = "0.2.5"
   spec.authors       = ["Sujay Kundu"]
   spec.email         = ["sujaykundu777@gmail.com"]
 
   spec.summary       = %q{ A Theme built for developers }
-  spec.homepage      = "https://www.sujaykundu.com"
+  spec.homepage      = "https://github.com/sujaykundu777/devlopr-jekyll"
   spec.license       = "MIT"
 
   spec.files = `git ls-files -z`.split("\x0").select do |f|
