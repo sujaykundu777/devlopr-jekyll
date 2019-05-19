@@ -8,37 +8,15 @@ title: Docs
 [![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
 
-Anyone can use devlopr theme to build a personal <strong>Portfolio + Blog Type of Website</strong>, hosted freely on <b>Github Pages</b> or <b>Netlify </b>. 
+Anyone can use devlopr theme to build a personal <strong>Portfolio + Blog Type of Website</strong>, hosted freely on <b>[Github Pages](https://pages.github.com)</b> or <b>[Netlify](https://netlify.com) </b>. 
 
-To get started follow the below given methods to get your devlopr mod jekyll website !
-Many features are in our checklist, that needs to be worked upon and are in progress. And if you liked this project ! Do share with your developer friends and colleagues who may find it interesting :D 
+To get started follow the below given methods to get your devlopr mod jekyll website ! For a complete Tutorial : [How to create a blog using Jekyll and Github Pages](https://sujaykundu.com/github/jekyll/2019/05/18/deploy-blog-using-github-free.html)
+
+Many features are in our checklist, that needs to be worked upon and are in progress. And if you liked this project ! Do share with your developer friends and colleagues who may find it interesting :D  
 
 ## Method 1:  Installation for new Jekyll Site using Rubygem
 
-Add this line to your Jekyll site's Gemfile :
-
-```ruby
-gem "devlopr"
-```
-
-And add this line to your Jekyll site's _config.yml:
-
-```yaml
-theme: devlopr
-```
-
-And then execute:
-
-`$ bundle`
-
-Or install it yourself as:
-
-`$ gem install devlopr`
-
-Run locally using :
-
-`$ jekyll serve`
- 
+Follow this step by step [Tutorial](https://sujaykundu.com/github/jekyll/2019/05/19/setup-devlopr-for-blog.html), if you are new to Jekyll Themes Customization !
 
 ## Method 2: Easy Installation - Just Clone !!
 
@@ -168,7 +146,6 @@ permalink: /blog/categories/angularjs
 
 
 ```
-
 
 ## License
 
