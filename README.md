@@ -10,16 +10,13 @@ title: Docs
 
 ## Creating a new blog using devlopr jekyll theme:
 
-Use the Starter Template [devlopr-starter](https://github.com/sujaykundu777/devlopr-starter.git) 
+Follow this [Guide to Get Started](https://sujaykundu.com/jekyll/2019/06/22/building-a-blog-using-devlopr-jekyll-theme.html)
 
 ### Feature Todo
 
 - Pagination
 - Menu Support
-- Algolia Support
-- Gallery
-- Admin
-
+- Algolia Search
 
 
 
