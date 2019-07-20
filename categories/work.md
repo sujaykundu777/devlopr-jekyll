@@ -1,12 +1,12 @@
 ---
 layout: page
-permalink: /blog/categories/git
+permalink: /blog/categories/work
 ---
  
 <h3> Posts by Category : {{ page.title }} </h3>
 
 <div class="card">
-{% for post in site.categories.git %}
+{% for post in site.categories.work %}
  <li class="category-posts"><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </div>

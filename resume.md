@@ -1,4 +1,0 @@
----
-title: Resume
-layout: home
----

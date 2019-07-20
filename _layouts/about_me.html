@@ -1,0 +1,45 @@
+--- 
+layout: default 
+---
+
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card">
+                <h1 class="card-title">About Me</h1>
+                 {%- include author_bio.html -%}
+            </div>
+            <div class="card">
+                <h1 class="card-title"> Work Experience</h1>
+                <br />
+                 {%- include author_work_experience.html -%}
+            </div>
+        </div>
+        <div class="col-lg-4">
+    
+            <div class="card">
+    
+                <h6>
+                    <i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</h6>
+                <h6>
+                    <i class="fas fa-envelope"></i> {{ site.author_email }}</h6>
+                <h6>
+                    <i class="fas fa-link"></i> {{ site.author_website_url }} </h6>
+    
+            </div>
+    
+            <div class="card">
+                <h1> Skills </h1>
+
+                {%- include author_skills.html -%}
+               
+            </div>
+    
+            <div class="card">
+                <h1> Coding Activity </h1>
+    
+                {%- include coding_activity.html -%}
+    
+            </div>
+    
+        </div>
+        </div>

@@ -1,0 +1,18 @@
+<div class="col-lg-4">
+    <div class="card">
+        <div class="card-header"> About {{ site.author }} </div>
+        <div class="card-body text-dark">
+            <!-- Your Bio -->
+            <p> {{ site.author_bio }}</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">Categories </div>
+        <div class="card-body text-dark">
+            {%- include blog_categories.html -%}
+        </div>
+    </div>
+    <div class="card">
+        {%- include blog_newsletters.html -%}
+    </div>
+</div>

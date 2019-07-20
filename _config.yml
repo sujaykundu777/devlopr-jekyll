@@ -10,10 +10,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author_logo: profile.png
 disqus_shortname: sujay-kundu  #for comments using disqus
 author: devlopr
-author_bio: Hello, my name is John Doe.I am an award winning Full Stack Web Developer and UI/UX Javascript specialist.Check out my blog articles, React.JS and Vue.JS UI components at the code laboratory.Feel free to take a look at my latest projects below.Based in London, UK. 
+author_bio: Hello, my name is John Doe.I am an award winning Full Stack Web Developer and UI/UX Javascript specialist
 author_email: "john@devlopr.com"
 author_location: India
-author_website_url: "https://yourwebsite.com"
+author_website_url: "https://johndoe.com"
 
 # social links
 twitter_username: yourusername

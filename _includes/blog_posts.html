@@ -1,0 +1,22 @@
+
+            <ul>
+                    <div class="row">
+                        {% for post in site.posts %}
+                        <div class="card blog-post">
+                            <img class="card-img-top" src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}">
+                            <div class="card-body center">
+                                <img src="/assets/img/{{ site.author_logo }}" class="author-profile-img">
+                                <h4 class="card-title">{{ post.title }}</h4>
+    
+                                <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
+                                <p class="card-text">{{ post.summary }} </p>
+    
+                                <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-primary btn-lg">Read</a>
+                                <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
+    
+                            </div>
+                        </div>
+    
+                        {% endfor %}
+                    </div>
+                </ul>
