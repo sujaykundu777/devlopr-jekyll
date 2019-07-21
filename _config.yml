@@ -26,3 +26,9 @@ medium_username: yourusername
 telegram_username: yourusername
 dribbble_username: yourusername 
 flickr_username: yourusername
+
+# dont touch this unless required
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
