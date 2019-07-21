@@ -2,6 +2,9 @@ body {
     background-color: #D6DDE1 !important;
     font-family: 'Quicksand', sans-serif !important;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 header {
     background-color: #F5F5F5;
@@ -44,11 +47,21 @@ header {
     padding: 20px !important;
 }
 
+.blog-post{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.blog-post:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
 .social-link {
     color: #262222;
     font-size: 15px;
     padding: 5px;
     margin: 2px;
+    text-decoration: none !important;
 }
 
 #navigation {
@@ -59,13 +72,13 @@ header {
     font-size: 24px !important;
     color: #000;
 }
-
 footer {
     width: 100%;
     height: 70px;
     text-align: center;
     padding: 20px;
-    background-color: #F5F5F5;
+    background-color: #000000;
+    color:#fff;
 }
 
 .company-logo {
@@ -121,7 +134,12 @@ code {
     display: block;
 }
 
-@media (min-width: 320px) and (max-width: 780px) {
+#newsletter_footer{
+    background-color: #1e90ff;
+    color:#fff;
+
+
+@media (min-width: 320px) and (max-width: 480px) {
     header {
         height: auto;
         text-align: center;
@@ -131,4 +149,293 @@ code {
         height: auto;
         margin-left: -20px !important;
     }
+    #mc-embedded-subscribe-form{
+        width: 100%;
+        padding: 50px;
+    }
+
+    #mc_embed_signup_scroll_footer{
+        margin-left:5%;
+        margin-right: 5%;
+        text-align:center;
+        font-size: 12px;
+    }
+    #mce-EMAIL_footer {
+        width: 200px;
+        padding: 14px;
+        color: #111;
+        border-color:#fff;
+        text-align: center;
+        text-transform: capitalize;
+        border: 1px solid #fff;
+    }
+    #mc-embedded-subscribe_footer{
+        margin-top: 30px;
+    }
+}
+
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    #mc-embedded-subscribe-form{
+        width: 100%;
+        padding: 50px;
+    }
+
+
+    #mc_embed_signup_scroll_footer{
+        margin-left:5%;
+        margin-right: 5%;
+        text-align:center;
+        font-size: 20px;
+    }
+    #mce-EMAIL_footer {
+        width: 300px;
+        padding: 14px;
+        color: #111;
+        border-color:#fff;
+        text-align: center;
+        text-transform: capitalize;
+        border: 1px solid #fff;
+    }
+    #mc-embedded-subscribe_footer{
+        margin-top: 30px;
+    }
+
+  }
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #mc-embedded-subscribe-form{
+        width: 100%;
+        padding: 50px;
+    }
+
+    #mc_embed_signup_scroll_footer{
+        margin-left:35%;
+        margin-right: 35%;
+        text-align:center;
+        font-size: 22px;
+    }
+    #mce-EMAIL_footer {
+        width: 400px;
+        padding: 14px;
+        color: #111;
+        border-color:#fff;
+        text-align: center;
+        text-transform: capitalize;
+        border: 1px solid #fff;
+    }
+    #mc-embedded-subscribe_footer{
+        margin-top: 30px;
+    }
+
+}
+/*
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    #mc-embedded-subscribe-form{
+        width: 100%;
+        padding: 50px;
+    }
+
+    #mc_embed_signup_scroll_footer{
+        margin-left:25%;
+        margin-right: 25%;
+        text-align:center;
+        font-size: 22px;
+    }
+    #mce-EMAIL_footer {
+        width: 400px;
+        padding: 14px;
+        color: #111;
+        border-color:#fff;
+        text-align: center;
+        text-transform: capitalize;
+        border: 1px solid #fff;
+    }
+    #mc-embedded-subscribe_footer{
+        margin-top: 30px;
+    }
+
+}
+
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    #mc-embedded-subscribe-form{
+        width: 100%;
+        padding: 50px;
+    }
+
+    #mc_embed_signup_scroll_footer{
+        margin-left:25%;
+        margin-right: 25%;
+        text-align:center;
+        font-size: 22px;
+    }
+    #mce-EMAIL_footer {
+        width: 400px;
+        padding: 14px;
+        color: #111;
+        border-color:#fff;
+        text-align: center;
+        text-transform: capitalize;
+        border: 1px solid #fff;
+    }
+    #mc-embedded-subscribe_footer{
+        margin-top: 30px;
+    }
+
+  }
+ /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+
+    #mc-embedded-subscribe-form{
+        width: 100%;
+        padding: 50px;
+    }
+    
+    #mc_embed_signup_scroll_footer{
+        margin-left:25%;
+        margin-right: 25%;
+        text-align:center;
+        font-size: 22px;
+    }
+    #mce-EMAIL_footer {
+        width: 400px;
+        padding: 14px;
+        color: #111;
+        border-color:#fff;
+        text-align: center;
+        text-transform: capitalize;
+        border: 1px solid #fff;
+    }
+    #mc-embedded-subscribe_footer{
+        margin-top: 30px;
+    }
+    
+
+}
+ /* (1920x1080) Full HD Display */
+ @media (min-width: 1281px) and (max-width: 1920px) {
+
+    #mc-embedded-subscribe-form{
+        width: 100%;
+        padding: 50px;
+    }
+    
+    #mc_embed_signup_scroll_footer{
+        margin-left:25%;
+        margin-right: 25%;
+        text-align:center;
+        font-size: 22px;
+    }
+    #mce-EMAIL_footer {
+        width: 400px;
+        padding: 14px;
+        color: #111;
+        border-color:#fff;
+        text-align: center;
+        text-transform: capitalize;
+        border: 1px solid #fff;
+    }
+    #mc-embedded-subscribe_footer{
+        margin-top: 30px;
+    }
+}
+
+/* Syntax Hightlighter */
+/* Theme - Autumn */
+/* For More Themes : https://github.com/richleland/pygments-css */
+
+.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #ffffff; }
+.highlight .c { color: #aaaaaa; font-style: italic } /* Comment */
+.highlight .err { color: #FF0000; background-color: #FFAAAA } /* Error */
+.highlight .k { color: #0000aa } /* Keyword */
+.highlight .ch { color: #aaaaaa; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #aaaaaa; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #4c8317 } /* Comment.Preproc */
+.highlight .cpf { color: #aaaaaa; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #aaaaaa; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #0000aa; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #aa0000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00aa00 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #555555 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kc { color: #0000aa } /* Keyword.Constant */
+.highlight .kd { color: #0000aa } /* Keyword.Declaration */
+.highlight .kn { color: #0000aa } /* Keyword.Namespace */
+.highlight .kp { color: #0000aa } /* Keyword.Pseudo */
+.highlight .kr { color: #0000aa } /* Keyword.Reserved */
+.highlight .kt { color: #00aaaa } /* Keyword.Type */
+.highlight .m { color: #009999 } /* Literal.Number */
+.highlight .s { color: #aa5500 } /* Literal.String */
+.highlight .na { color: #1e90ff } /* Name.Attribute */
+.highlight .nb { color: #00aaaa } /* Name.Builtin */
+.highlight .nc { color: #00aa00; text-decoration: underline } /* Name.Class */
+.highlight .no { color: #aa0000 } /* Name.Constant */
+.highlight .nd { color: #888888 } /* Name.Decorator */
+.highlight .ni { color: #880000; font-weight: bold } /* Name.Entity */
+.highlight .nf { color: #00aa00 } /* Name.Function */
+.highlight .nn { color: #00aaaa; text-decoration: underline } /* Name.Namespace */
+.highlight .nt { color: #1e90ff; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #aa0000 } /* Name.Variable */
+.highlight .ow { color: #0000aa } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #009999 } /* Literal.Number.Bin */
+.highlight .mf { color: #009999 } /* Literal.Number.Float */
+.highlight .mh { color: #009999 } /* Literal.Number.Hex */
+.highlight .mi { color: #009999 } /* Literal.Number.Integer */
+.highlight .mo { color: #009999 } /* Literal.Number.Oct */
+.highlight .sa { color: #aa5500 } /* Literal.String.Affix */
+.highlight .sb { color: #aa5500 } /* Literal.String.Backtick */
+.highlight .sc { color: #aa5500 } /* Literal.String.Char */
+.highlight .dl { color: #aa5500 } /* Literal.String.Delimiter */
+.highlight .sd { color: #aa5500 } /* Literal.String.Doc */
+.highlight .s2 { color: #aa5500 } /* Literal.String.Double */
+.highlight .se { color: #aa5500 } /* Literal.String.Escape */
+.highlight .sh { color: #aa5500 } /* Literal.String.Heredoc */
+.highlight .si { color: #aa5500 } /* Literal.String.Interpol */
+.highlight .sx { color: #aa5500 } /* Literal.String.Other */
+.highlight .sr { color: #009999 } /* Literal.String.Regex */
+.highlight .s1 { color: #aa5500 } /* Literal.String.Single */
+.highlight .ss { color: #0000aa } /* Literal.String.Symbol */
+.highlight .bp { color: #00aaaa } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #00aa00 } /* Name.Function.Magic */
+.highlight .vc { color: #aa0000 } /* Name.Variable.Class */
+.highlight .vg { color: #aa0000 } /* Name.Variable.Global */
+.highlight .vi { color: #aa0000 } /* Name.Variable.Instance */
+.highlight .vm { color: #aa0000 } /* Name.Variable.Magic */
+.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */ 
+
 }
