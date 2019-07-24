@@ -1,5 +1,5 @@
 
-### Build a free blog using devlopr jekyll and Github Pages - Getting Started
+### Build a free blog using devlopr jekyll and Github Pages
 
 
 [![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)
@@ -10,7 +10,7 @@
 
 ## Creating a new blog using devlopr jekyll theme:
 
-Follow this [Guide to Get Started](https://sujaykundu.com/jekyll/2019/06/22/building-a-blog-using-devlopr-jekyll-theme.html)
+Follow this : [Building a blog using devlopr jekyll theme and Github Pages](https://sujaykundu.com/jekyll/2019/06/22/building-a-blog-using-devlopr-jekyll-theme.html)
 
 ![Screenshot 1](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot1.png)
 
