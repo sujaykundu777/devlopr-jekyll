@@ -12,7 +12,7 @@ permalink: /
 
 Anyone can use devlopr jekyll theme to build a personal <strong>Portfolio + Blog Type of Website like this one.</strong>,and that too hosted freely on <b>[Github Pages](https://pages.github.com)</b> or <b>[Netlify](https://netlify.com) </b>. So Get Your Free and Fast Static Website Today using devlopr-jekyll :D
 
-Follow this tutorial : 
+Follow this Guides to Get Started : 
 
 - [Creating a new Blog with devlopr jekyll](https://sujaykundu.com/jekyll/2019/06/22/building-a-blog-using-devlopr-jekyll-theme.html)
 
@@ -22,7 +22,7 @@ Follow this tutorial :
 
 - [Deploy Your Blog using AWS (Coming Soon)](#)
 
-- [Deploy Your Bloh using Linode VPS (Coming Soon)](#)
+- [Deploy Your Blog using Linode VPS (Coming Soon)](#)
 
 
 ## License
