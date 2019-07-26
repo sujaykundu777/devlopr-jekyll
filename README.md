@@ -1,4 +1,5 @@
 
+
 ### Build a free blog using devlopr jekyll and Github Pages
 
 
@@ -10,15 +11,17 @@
 
 ## Creating a new blog using devlopr jekyll theme:
 
-Follow this : [Building a blog using devlopr jekyll theme and Github Pages](https://sujaykundu.com/jekyll/2019/06/22/building-a-blog-using-devlopr-jekyll-theme.html)
+Follow this : [Building a blog using devlopr jekyll theme and Github Pages](https://sujaykundu.com/jekyll/2019/06/22/building-a-blog-using-devlopr-jekyll-theme.html){:class="img-fluid"}
 
-![Screenshot 1](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot1.png)
 
-![Screenshot 2](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot2.png)
+![Screenshot 1](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot1.png){:class="img-fluid"}
 
-![Screenshot 3](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot3.png)
+![Screenshot 2](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot2.png){:class="img-fluid"}
 
-![Screenshot 4](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot4.png)
+![Screenshot 3](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot3.png){:class="img-fluid"}
+
+![Screenshot 4](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot4.png){:class="img-fluid"}
+
 
 
 ## Licence
