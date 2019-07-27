@@ -9,9 +9,10 @@
 
 ### Demo - [here](https://devlopr.netlify.com)
 
-## Creating a new blog using devlopr jekyll theme:
+## Create a new blog using devlopr-jekyll theme - [Guide](https://devlopr.netlify.com/guides/2017/11/19/build-a-blog-using-devlopr-jekyll)
 
-Follow this : [Building a blog using devlopr jekyll theme and Github Pages](https://sujaykundu.com/jekyll/2019/06/22/building-a-blog-using-devlopr-jekyll-theme.html)
+## Deploy devlopr-jekyll blog using Github Pages and Travis CI - [Guide](https://devlopr.netlify.com/guides/2017/11/19/deploy-blog-using-devlopr-jekyll-and-github-pages)
+
 
 ## Screenshots:
 

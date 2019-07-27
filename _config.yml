@@ -8,19 +8,19 @@ url: "https://devlopr.netlify.com" # the base hostname & protocol for your site,
 author_logo: profile.png
 disqus_shortname: sujay-kundu  #for comments using disqus
 author: devlopr
-author_bio: devlopr-jekyll is a theme built for developers. Anyone can create a blog like this. Just follow the DOCS.
-author_email: "john@devlopr.com"
+author_bio: devlopr-jekyll is a theme built for developers. Anyone can create a blog like this. As easy as PIE !
+author_email: "sujaykundu777@gmail.com"
 author_location: India
-author_website_url: "https://johndoe.com"
+author_website_url: "https://sujaykundu.com"
 
 # social links
-twitter_username: yourusername
-github_username:  yourusername
-facebook_username: yourusername
-linkedin_username: yourusername
-behance_username: yourusername
-instagram_username: yourusername
-medium_username: yourusername 
+twitter_username: sujaykundu777
+github_username:  sujaykundu777
+facebook_username: sujay.kundu2
+linkedin_username: sujaykundu
+behance_username: sujaykundu
+instagram_username: sujaykundu777
+medium_username: sujaykundu
 telegram_username: yourusername
 dribbble_username: yourusername 
 flickr_username: yourusername
@@ -31,6 +31,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-analytics
+  - jekyll-menus
 
 jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics

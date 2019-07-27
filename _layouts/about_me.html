@@ -7,6 +7,8 @@ layout: default
             <div class="card">
                 <h1 class="card-title">About</h1>
                  {%- include author_bio.html -%}
+
+                 
             </div>
          
             <div class="card">
@@ -30,6 +32,11 @@ layout: default
                     <i class="fas fa-envelope"></i> {{ site.author_email }}</h6>
                 <h6>
                     <i class="fas fa-link"></i> {{ site.author_website_url }} </h6>
+
+                    {%- include github_follow_button.html -%}
+        
+                    {%- include twitter_follow_button.html -%}
+               
     
             </div>
     
