@@ -4,6 +4,9 @@ title: Create a blog using devlopr jekyll
 author: Sujay Kundu
 date: '2017-11-19 14:35:23 +0530'
 category: guides
+tag: 
+    - jekyll
+    - blogging
 summary: Getting Started - Build your blog using devlopr jekyll
 thumbnail: /assets/img/posts/devlopr.png
 ---

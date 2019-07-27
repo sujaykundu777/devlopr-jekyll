@@ -32,7 +32,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-analytics
   - jekyll-algolia
-  - jekyll-menus
+  - jekyll-menus 
+
 
 # code highlighter
 highlighter: rouge
@@ -60,3 +61,4 @@ algolia:
   files_to_exclude: []
   nodes_to_index: 'article'
   search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
+

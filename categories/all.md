@@ -7,13 +7,13 @@ permalink: /blog/categories/
 <h3>  {{ page.title }} </h3>
 
 <div id="categories">
-{% for tag in site.categories %}
+{% for category in site.categories %}
   <div class="category-box" >
-    {% capture tag_name %}{{ tag | first }}{% endcapture %}
-    <div id="#{{ tag_name | slugize }}"></div>
-    <h4 class="tag-head"><a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }}</a></h4>
-    <a name="{{ tag_name | slugize }}"></a>
-     {% for post in site.tags[tag_name] %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <h4 class="category-head"><a href="{{ site.baseurl }}/blog/categories/{{ category_name }}">{{ category_name }}</a></h4>
+    <a name="{{ category_name | slugize }}"></a>
+     {% for post in site.categories[category_name] %}
     <article class="center">
       <h6 ><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h6>
     </article>
