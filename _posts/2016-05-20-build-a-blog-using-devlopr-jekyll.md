@@ -114,7 +114,7 @@ Now you can make your changes to your blog locally,
 
 After you are happy with your blog. It's time to show it to the world. There are several ways which are possible for deploying the blog for free. Below is the list of build guides :
 
-- [Deploy your blog using Github Pages, Travis CI and Forestry CMS (Coming Soon)](#)
+- [Deploy your blog using Github Pages and Travis CI](#)
 
 - [Deploy your blog using Netlify Hosting and Netlify CMS (Coming Soon)](#)  
 
