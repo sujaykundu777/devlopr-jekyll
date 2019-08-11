@@ -56,18 +56,7 @@
 
             </div>
             <div class="col-md-6 center">
-                
-                <!-- Jekyll Menus 
-                    
-                    <ul class="nav justify-content-end" id="navigation">
-                    {% for item in site.menus.header %}
-                      <li class="nav-item menu-item-{{ loop.index }}">
-                        <a class="nav-link" href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
-                      </li>
-                    {% endfor %}
-                    </ul>
-                     -->
-
+     
                     <ul class="nav justify-content-end" id="navigation">
                     {% for i in site.urls %}
                     <li class="nav-item">
@@ -75,20 +64,7 @@
                     </li>
                      {% endfor %}
                     </ul>
-                 <!-- <ul class="nav justify-content-end" id="navigation">
-                    {%- assign default_paths = site.pages | map: "path" -%} {%- assign page_paths = site.header_pages | default: default_paths-%}
-                    {%- if page_paths -%} {%- for path in page_paths -%} {%- assign my_page = site.pages | where: "path",path
-                    | first -%} {%- if my_page.title -%}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-                    </li>
-                    {%- endif -%} {%- endfor -%}
-
-                </ul>  
-
-                {%- endif -%}
-                -->
-
+      
             </div>
         </div>
     </div>
