@@ -1,64 +1,94 @@
-title: devlopr jekyll
-subtitle: A Jekyll Theme built for Developers
+title: John Doe
+subtitle: Full Stack Web Developer
 description: >- # this means to ignore newlines until "baseurl:"
-  A Jekyll Theme Built For Developers
+  devlopr-jekyll - A Jekyll Theme Built For Developers
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://devlopr.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-author_logo: profile.png
 disqus_shortname: sujay-kundu  #for comments using disqus
-author: devlopr
-author_bio: devlopr-jekyll is a theme built for developers. Anyone can create a blog like this. As easy as PIE !
-author_email: "sujaykundu777@gmail.com"
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: Contact Me
+      url : /contact/
+    - text: Styleguide
+      url: /styleguide/
+
+
+
+# Edit these details 
+
+author_logo: profile.png
+author: John Doe
+author_bio: Hi, My Name is John Doe. I love to Code and Design. 
+author_email: "johndoe@gmail.com"
 author_location: India
-author_website_url: "https://sujaykundu.com"
+author_website_url: "http://johndoe.com"
+
+author_work_experiences: 
+            - company_name: Google
+              company_logo: google.png
+              company_url: https://google.com
+              designation: Software Engineer
+              description: Worked on various Google Products
+              visibility: true
+            - company_name: Microsoft
+              company_logo: microsoft.png
+              company_url: https://microsoft.com
+              designation: Azure Developer
+              description: Worked on various Azure Cloud Products
+              visibility: true
+
+author_education_details:
+              - college_logo: mit.png
+                college_name: MIT
+                college_url: https://mit.org
+                college_degree: CS Engineer
+                description: Bachelor of Technology
+                visibility: true
 
 # social links
-twitter_username: sujaykundu777
-github_username:  sujaykundu777
-facebook_username: sujay.kundu2
-linkedin_username: sujaykundu
-behance_username: sujaykundu
-instagram_username: sujaykundu777
-medium_username: sujaykundu
-telegram_username: yourusername
-dribbble_username: yourusername 
-flickr_username: yourusername
+twitter_username: 
+github_username:  johndoe
+facebook_username: johndoe
+linkedin_username: johndoe
+behance_username: johndoe
+instagram_username: johndoe
+medium_username: johndoe
+telegram_username: johndoe
+dribbble_username: johndoe
+flickr_username: johndoe
+
+markdown: kramdown
+
+google_analytics: UA-46783401-10 # Google Analytics Code 
+
+# Choose what to show ( can be true or false)
+show_author_work_experiences: true
+show_author_education_details: true
 
 # dont touch this unless required
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
   - jekyll-seo-tag
-  - jekyll-analytics
-  - jekyll-algolia
-  - jekyll-menus 
+  - jekyll-sitemap
+  - jekyll-feed
 
+paginate: 8
+per_page: 4
+paginate_path: "/page/:num/"
 
-# code highlighter
-highlighter: rouge
-
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-46783401-10      # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
-
-# minify html
 compress_html:
-    clippings: []
-    comments: []
-    endings: []
-    ignore:
-    envs: []
-    blanklines: false
-    profile: false
-    startings: []
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
 
-# algolia search 
-algolia:
-  application_id: D9WA1YKTRQ
-  index_name: blog_posts # You can replace that with whatever name you want
-  files_to_exclude: []
-  nodes_to_index: 'article'
-  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
+
 

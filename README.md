@@ -25,6 +25,15 @@
 ![Screenshot 4](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot4.png)
 
 
+# Run using Docker 
+
+```
+$ git clone 
+$ cd repo
+$ export JEKYLL_VERSION=3.8
+$ docker run --rm --volume="$PWD" -it jekyll/jekyll:$JEKYLL_VERSION jekyll build
+$ jekyll serve
+```
 
 ## Licence
 

@@ -4,11 +4,8 @@ title: Create a blog using devlopr jekyll
 author: Sujay Kundu
 date: '2017-11-19 14:35:23 +0530'
 category: guides
-tag: 
-    - jekyll
-    - blogging
 summary: Getting Started - Build your blog using devlopr jekyll
-thumbnail: /assets/img/posts/devlopr.png
+thumbnail: devlopr.png
 ---
 
 If you are a developer, who want a fast static website with no cost for hosting/domain stuff. This guide will help you setup a blog for you. The blog files resides in your github repo and the site is build with any of the free deployment providers of your choice such as [Github Pages](https://pages.github.com) / [Netlify](https://netlify.com) / [Heroku](https://heroku.com). You can also connect your custom domain later with SSL enabled :D !
