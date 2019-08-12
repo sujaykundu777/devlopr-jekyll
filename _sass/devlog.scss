@@ -110,9 +110,9 @@ footer {
 }
 
 .blog-post {
-    width: auto;
+    width: 350px;
     height: auto;
-    margin-left: -20px !important;
+    margin: 20px !important;
 }
 
 .responsive-table {
@@ -137,8 +137,7 @@ code {
 #newsletter_footer{
     background-color: #1e90ff;
     color:#fff;
-
-
+}
 
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -173,6 +172,10 @@ code {
     }
     #mc-embedded-subscribe_footer{
         margin-top: 30px;
+    }
+
+    #author_details{
+        text-align: center;
     }
 }
 
@@ -209,6 +212,10 @@ code {
         margin-top: 30px;
     }
 
+    #author_details{
+        text-align: center;
+    }
+
   }
 /* 
   ##Device = Tablets, Ipads (portrait)
@@ -240,7 +247,9 @@ code {
     #mc-embedded-subscribe_footer{
         margin-top: 30px;
     }
-
+    #author_details{
+        text-align: center;
+    }
 }
 /*
 ##Device = Tablets, Ipads (landscape)
@@ -440,4 +449,3 @@ code {
 .highlight .vm { color: #aa0000 } /* Name.Variable.Magic */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */ 
 
-}

@@ -7,7 +7,6 @@ layout: default
         <div class="col-lg-8 col-md-4">
            
                 <!-- Blog Posts -->
-
              <ul >
                 <div class="row">
                     {% for post in paginator.posts %}
@@ -31,7 +30,7 @@ layout: default
             </ul> 
 
 
-      
+      <div class="row center">
         <!-- Pagination links -->
         {% if paginator.total_pages > 1 %}
           <ul class="pagination pagination-sm">
@@ -62,10 +61,11 @@ layout: default
             {% endif %}
           </ul>
         {% endif %}
-   
-        </div>
+    </div>
+        
+</div>
 
- 
+
             {%- include blog_sidebar.html -%}
         </div>
 
