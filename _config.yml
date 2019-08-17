@@ -76,6 +76,9 @@ flickr_username: johndoe
 #for comments using disqus
 disqus_shortname: sujay-kundu  
 
+# wakatime username
+wakatime_username: sujaykundu777
+
 # syntax highlighter
 markdown: kramdown
 
