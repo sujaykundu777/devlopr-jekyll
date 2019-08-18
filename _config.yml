@@ -102,7 +102,7 @@ plugins:
 # pagination of posts
 paginate: 8
 per_page: 4
-paginate_path: "/page/:num/"
+paginate_path: "/blog/page/:num/"
 
 # minify 
 compress_html:
