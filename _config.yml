@@ -97,7 +97,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-archives
+  # - jekyll-archives
 
 # pagination of posts
 paginate: 8
@@ -113,11 +113,11 @@ compress_html:
     envs: ['development']
 
 # Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
+# jekyll-archives:
+#   enabled:
+#     - categories
+#   layout: archive
+#   permalinks:
+#     category: '/category/:name/'
 
 
