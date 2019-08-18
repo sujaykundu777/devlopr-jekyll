@@ -8,15 +8,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
     - text: Blog
-      url: /
+      url: /blog
     - text: About Me
-      url: /about/
+      url: /about
     - text: Contact Me
-      url : /contact/
+      url : /contact
     - text: Styleguide
-      url: /styleguide/
-
-
+      url: /styleguide
 
 # Edit these details 
 
@@ -62,8 +60,8 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  johndoe
+twitter_username: SujayKundu777
+github_username:  sujaykundu777
 facebook_username: johndoe
 linkedin_username: johndoe
 behance_username: johndoe
@@ -76,11 +74,13 @@ flickr_username: johndoe
 #for comments using disqus
 disqus_shortname: sujay-kundu  
 
-# wakatime username
+# wakatime username (coding activity)
 wakatime_username: sujaykundu777
 
 # syntax highlighter
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
 
 # google analytics
 google_analytics: UA-46783401-10 
@@ -97,6 +97,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-archives
 
 # pagination of posts
 paginate: 8
@@ -111,5 +112,12 @@ compress_html:
   ignore:
     envs: ['development']
 
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
 
 

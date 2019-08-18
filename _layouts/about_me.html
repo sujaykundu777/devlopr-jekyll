@@ -96,11 +96,13 @@ layout: default
                 {% if site.author_website_url %}
                 <h6> <i class="fas fa-link"></i> {{ site.author_website_url }} </h6>
                 {% endif %}
-<!-- 
-                    {%- include github_follow_button.html -%}
-        
-                    {%- include twitter_follow_button.html -%} -->
-               
+                
+
+                 {%- include github_follow_button.html -%} 
+
+                {% if site.twitter_username %}
+                  {%- include twitter_follow_button.html -%} 
+                {% endif %}
     
             </div>
     
