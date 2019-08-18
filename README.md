@@ -11,9 +11,6 @@
 
 ## Create a new blog using devlopr-jekyll theme - [Guide](https://devlopr.netlify.com/guides/2017/11/19/build-a-blog-using-devlopr-jekyll)
 
-## Deploy devlopr-jekyll blog using Github Pages and Travis CI - [Guide](https://devlopr.netlify.com/guides/2017/11/19/deploy-blog-using-devlopr-jekyll-and-github-pages)
-
-
 ## Screenshots:
 
 ![Screenshot 1](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot1.png)
