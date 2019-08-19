@@ -8,7 +8,7 @@
 
 ### Demo - [here](https://devlopr.netlify.com)
 
-## Deploy a new blog using devlopr-jekyll theme using 3 easy steps - [Guide](https://devlopr.netlify.com/guides/2017/11/19/build-a-blog-using-devlopr-jekyll)
+## Build and Deploy a new blog using devlopr-jekyll theme using 3 Easy Steps - [Guide](https://devlopr.netlify.com/guides/2019/05/20/build-a-blog-using-devlopr-jekyll/)
 
 ## Screenshots:
 
