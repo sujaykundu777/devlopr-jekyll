@@ -77,6 +77,9 @@ disqus_shortname: sujay-kundu
 # wakatime username (coding activity)
 wakatime_username: sujaykundu777
 
+# formspree (contact form)
+formspree_email: sujaykundu777@gmail.com
+
 # syntax highlighter
 markdown: kramdown
 highlighter: rouge
