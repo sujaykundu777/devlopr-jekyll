@@ -1,12 +1,11 @@
-name: Jekyll site CI
+name: devlopr-jekyll CI
 
 on: [push]
 
 jobs:
   build:
-
+    name: build devlopr jekyll site
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v1
     - name: Build the site in the jekyll/builder container
