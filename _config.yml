@@ -1,5 +1,5 @@
-title: devlopr
-subtitle: A Jekyll Theme Built For Developers
+title: John Doe
+subtitle: Web Developer and Designer
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a Jekyll Theme Built For Developers
 
@@ -60,8 +60,8 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: SujayKundu777
-github_username:  sujaykundu777
+twitter_username: johndoe
+github_username:  johndoe
 facebook_username: johndoe
 linkedin_username: johndoe
 behance_username: johndoe
@@ -78,7 +78,7 @@ disqus_shortname: sujay-kundu
 wakatime_username: sujaykundu777
 
 # formspree (contact form)
-formspree_email: sujaykundu777@gmail.com
+formspree_email: johndoe@gmail.com
 
 # syntax highlighter
 markdown: kramdown
@@ -122,5 +122,3 @@ compress_html:
 #   layout: archive
 #   permalinks:
 #     category: '/category/:name/'
-
-
