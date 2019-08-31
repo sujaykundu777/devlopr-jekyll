@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<div class="row">
+   <div class="products-container col-lg-8">
+        {% for product in site.products %}
+        {% include product.html %}
+        {% endfor %}
+    </div>
+</div>

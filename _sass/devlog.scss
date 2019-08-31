@@ -63,15 +63,33 @@ header {
     margin: 2px;
     text-decoration: none !important;
 }
+.product{
+    width: 400px;
+    float:left;
+}
+.products-container{
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+}
+@media (min-width: 768px)
+{
+    .snipcart-layout__header {
+    width: 100% !important;
+    margin: 0 auto;
+    }
+}
 
 #navigation {
     margin-top: 50px;
 }
 
 .nav-link {
-    font-size: 24px !important;
+    font-size: 15px !important;
     color: #000;
+    font-weight: 600;
 }
+
 footer {
     width: 100%;
     height: 70px;
@@ -138,6 +156,120 @@ code {
     background-color: #1e90ff;
     color:#fff;
 }
+
+
+// Variables
+$color--default: #3a3a3a;
+$color--light: lighten($color--default, 65%);
+$color--primary: #429bfc;
+$color--secondary: #429bfc;
+$color--background: #f8faff;
+
+$size--unit: 8px;
+
+$layout--max-width: 1000px;
+
+
+// Mixins
+@mixin sm {
+    @media (max-width: #{$layout--max-width}) {
+      @content;
+    }
+  }
+  
+  @mixin ms {
+    @media (min-width: #{$layout--max-width}) {
+      @content;
+    }
+  }
+  
+  @mixin button-hover($color) {
+    position: relative;
+    z-index: 2;
+  
+    &:hover {
+      transition: 0.2s all;
+      background-color: darken($color, 10%);
+      &:before {
+        transform: scale(1.1, 1.5);
+      }
+    }
+  
+    &:before {
+      content: " ";
+      position: absolute;
+      background-color: $color;
+      top: 0;
+      left: 0;
+      border-radius: 4px;
+      width: 100%;
+      height: 100%;
+      opacity: 0.4;
+      z-index: -1;
+      transform: scale(1);
+      transition: all 0.3s cubic-bezier(0.16, 0.8, 0.66, 1.54);
+    }
+  }
+@mixin fit-to-layout-and-center {
+    width: 100%;
+    max-width: $layout--max-width;
+    margin-left: auto;
+    margin-right: auto;
+    @include sm {
+      padding-left: $size--unit * 3;
+      padding-right: $size--unit * 3;
+    }
+  }
+// Components
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: $size--unit * 6;
+    padding-top: $size--unit * 4;
+    padding-bottom: $size--unit * 4;
+    border-bottom: 1px solid $color--light;
+  
+    &__container {
+      display: flex;
+      justify-content: center;
+      @include fit-to-layout-and-center;
+    }
+  
+    &__branding {
+      all: unset;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    &__logo {
+      max-height: $size--unit*4;
+      margin-right: $size--unit*1;
+    }
+  
+    &__title {
+      font-weight: bold;
+      font-size: $size--unit * 3;
+      cursor: pointer;
+    }
+  
+    &__checkout {
+      all: unset;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      font-weight: bold;
+      svg {
+        margin-right: $size--unit * 1;
+      }
+    }
+  
+    &__checkout-fill {
+      fill: $color--primary;
+    }
+  }
 
 
 @media (min-width: 320px) and (max-width: 480px) {
