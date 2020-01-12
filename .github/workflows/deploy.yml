@@ -1,4 +1,4 @@
-name: Jekyll Deploy
+name: Deploy Site
 
 on: [push]
 
