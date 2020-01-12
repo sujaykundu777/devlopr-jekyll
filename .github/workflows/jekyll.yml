@@ -1,12 +1,18 @@
-name: devlopr-jekyll CI
+name: Jekyll Deploy
 
 on: [push]
 
-jobs:
-  build:
-    name: build devlopr jekyll site
+jobs: 
+  build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: Jekyll Action
-      uses: helaili/jekyll-action@1.0
+      - name: checkout repo
+        uses: actions/checkout@v2
+        with:
+          ref: 'master'
+      - name: Build & Deploy to GitHub Pages
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+        uses: BryanSchuetz/jekyll-deploy-gh-pages@master
