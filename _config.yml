@@ -1,5 +1,5 @@
-title: devlopr jekyll
-subtitle: A Jekyll theme built for Developers
+title: devlopr-jekyll
+subtitle: A Gem based Jekyll theme built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a Jekyll Theme Built For Developers
 
@@ -7,12 +7,12 @@ url: "https://devlopr.netlify.com" # the base hostname & protocol for your site,
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
+    - text: About Me
+      url: /
     - text: Blog
       url: /blog
     - text: Shop
       url : /shop/
-    - text: About Me
-      url: /about/
     - text: Contact Me
       url : /contact/
     - text: Styleguide
