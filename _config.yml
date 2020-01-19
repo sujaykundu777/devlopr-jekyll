@@ -1,5 +1,5 @@
-title: devlopr-jekyll
-subtitle: A Gem based Jekyll theme built for Developers
+title: John Doe
+subtitle: Web Developer
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a Jekyll Theme Built For Developers
 
@@ -17,18 +17,18 @@ urls:
       url : /contact/
     - text: Styleguide
       url: /styleguide/
-    
 
-# Edit these details 
+
+# Edit these details
 
 author_logo: profile.png
 author: John Doe
-author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
+author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.
 author_email: "johndoe@gmail.com"
 author_location: India
 author_website_url: "http://johndoe.com"
 
-author_work_experiences: 
+author_work_experiences:
             - company_name: Google
               company_logo: google.png
               company_url: https://google.com
@@ -75,7 +75,7 @@ dribbble_username: johndoe
 flickr_username: johndoe
 
 #for comments using disqus
-disqus_shortname: sujay-kundu  
+disqus_shortname: sujay-kundu
 
 # wakatime username (coding activity)
 wakatime_username: sujaykundu777
@@ -89,7 +89,7 @@ highlighter: rouge
 permalink: pretty
 
 # google analytics
-google_analytics: UA-46783401-10 
+google_analytics: UA-46783401-10
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
@@ -106,7 +106,7 @@ plugins:
   - jekyll-algolia
 # - jekyll-archives
 
-# algolia search 
+# algolia search
 algolia:
   application_id: D9WA1YKTRQ
   index_name: blog_posts # You can replace that with whatever name you want
@@ -119,7 +119,7 @@ paginate: 4
 per_page: 4
 paginate_path: "/blog/page/:num/"
 
-# minify 
+# minify
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
