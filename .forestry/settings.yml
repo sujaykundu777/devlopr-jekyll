@@ -10,7 +10,7 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: documents
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: _products
   label: Products
