@@ -12,10 +12,11 @@
 [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sujaykundu777/devlopr-jekyll)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sujaykundu777/devlopr-jekyll)
 
-### Demo (Hosted)
+### Demo (Hosted Apps)
 - Netlify Demo - [here](https://devlopr.netlify.com)
 - Github Pages Demo - [here](https://sujaykundu.com)
 - Zeit Now Demo - [here](https://devlopr-jekyll.now.sh)
+- Heroku Demo - [here](https://devlopr-jekyll.herokuapp.com)
 
 #### Features : 
 
