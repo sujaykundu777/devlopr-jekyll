@@ -37,7 +37,6 @@
 #### [Step By Step Installation Guide](https://sujaykundu.com/blog/post/setup-devlopr-jekyll-theme#/)
 
 
-
 ## Screenshots:
 
 ![Screenshot 1](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot1.png)
@@ -48,9 +47,9 @@
 
 ![Screenshot 4](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot4.png)
 
-## Want to Contribute !
+## Contributions:
 
-Fork the Repo and Create a Pull Request with your Changes 
+Contributions are more than just welcome. Fork this repo and create a new branch, then submit a pull request
 
 ## Licence
 
