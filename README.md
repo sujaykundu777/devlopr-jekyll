@@ -6,9 +6,11 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
 ![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
 
-### Demo - [here](https://devlopr.netlify.com)
+## Build and Deploy a new blog using devlopr-jekyll theme using 3 Easy Steps - [Guide](https://sujaykundu.com/blog/post/setup-devlopr-jekyll-theme#/)
 
-## Build and Deploy a new blog using devlopr-jekyll theme using 3 Easy Steps - [Guide](https://devlopr.netlify.com/guides/2019/05/20/build-a-blog-using-devlopr-jekyll/)
+### Netlify Hosted Demo - [here](https://devlopr.netlify.com)
+
+### Github Pages Hosted Demo - [here](https://sujaykundu.com)
 
 ## Screenshots:
 
@@ -20,16 +22,13 @@
 
 ![Screenshot 4](https://raw.githubusercontent.com/sujaykundu777/devlopr-starter/master/assets/img/screenshot4.png)
 
+## Want to Contribute !
 
-# Run using Docker 
+Fork the Repo and Create a Pull Request with your Changes 
 
-```
-$ git clone 
-$ cd repo
-$ export JEKYLL_VERSION=3.8
-$ docker run --rm --volume="$PWD" -it jekyll/jekyll:$JEKYLL_VERSION jekyll build
-$ jekyll serve
-```
+## Todo :
+
+- Gallery Support
 
 ## Licence
 
