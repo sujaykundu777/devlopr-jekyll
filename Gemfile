@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 # gem 'github-pages', group: :jekyll_plugins
-ruby '2.5.7'
+ruby '2.5.5'
 gem 'bundler'
 gem 'jekyll'
 gem 'rack-jekyll'
