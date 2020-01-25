@@ -6,6 +6,15 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
 ![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
 
+### Deploy your Blog using devlopr-jekyll
+
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/sujaykundu777/devlopr-jekyll)
+
+### Demo (Hosted)
+- Netlify Demo - [here](https://devlopr.netlify.com)
+- Github Pages Demo - [here](https://sujaykundu.com)
+- Zeit Now Demo - [here](https://devlopr-jekyll.now.sh)
+
 #### Features : 
 
 - Supports Latest [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io)
@@ -26,9 +35,7 @@
 
 #### [Step By Step Installation Guide](https://sujaykundu.com/blog/post/setup-devlopr-jekyll-theme#/)
 
-### Netlify Hosted Demo - [here](https://devlopr.netlify.com)
-### Github Pages Hosted Demo - [here](https://sujaykundu.com)
-### Zeit Now Hosted Demo - [here](https://devlopr-jekyll.now.sh)
+
 
 ## Screenshots:
 
