@@ -28,7 +28,7 @@
 - Send Newsletters using [Mailchimp](https://mailchimp.com/)
 - Contact Forms using [Formspree](https://formspree.io/)
 - Coding Activity using [Wakatime](https://wakatime.com/)
-- Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co)
+- Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com)
 
 ## Upcoming Features (In development) :
 
@@ -52,6 +52,12 @@
 ## Contributions:
 
 Contributions are more than just welcome. Fork this repo and create a new branch, then submit a pull request
+
+1.Fork it ( http://github.com/sujaykundu777/devlopr-jekyll/fork )
+2.Create your feature branch (git checkout -b my-new-feature)
+3.Commit your changes (git commit -am 'Add some feature')
+4.Push to the branch (git push origin my-new-feature)
+5.Create new Pull Request
 
 ## Licence
 
