@@ -6,7 +6,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
 ![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
 
-## Build and Deploy a new blog using devlopr-jekyll theme using 3 Easy Steps - [Guide](https://sujaykundu.com/blog/post/setup-devlopr-jekyll-theme#/)
+##  How to use devlopr-jekyll theme for your Blog ? 
+
+Follow this Step By Step [Guide](https://sujaykundu.com/blog/post/setup-devlopr-jekyll-theme#/)
 
 ### Netlify Hosted Demo - [here](https://devlopr.netlify.com)
 
