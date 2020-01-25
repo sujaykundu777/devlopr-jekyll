@@ -2,13 +2,13 @@
 layout: page
 menus: header
 title: Styleguide
-permalink: /styleguide
+permalink: /styleguide/
 ---
 
 <h1 class="text-center"> devlopr jekyll - Styleguide </h1>
 
 <hr />
- 
+
  <img src="assets/img/styleguide.png" class="img-fluid">
 
 <p> Lets try the different text styles  <b> Bold </b> , <strong> Strong </strong>, <em> Emphasis </em>, <i> Italic </i> </p>
@@ -34,7 +34,7 @@ permalink: /styleguide
 <li> List Item 5 </li>
 </ul>
 
-<p> Ordered List </p> 
+<p> Ordered List </p>
 <ol>
 <li> List Item 1 </li>
 <li> List Item 2 </li>
@@ -43,7 +43,7 @@ permalink: /styleguide
 <li> List Item 5 </li>
 </ol>
 
-<blockquote> 
+<blockquote>
 <p>This is a Block Quote,  It can Expand Multiple Lines </p>
 
 </blockquote>
@@ -115,7 +115,7 @@ permalink: /styleguide
         </tr>
       </tbody>
     </table>
-    </div> 
+    </div>
 
 <hr />
 

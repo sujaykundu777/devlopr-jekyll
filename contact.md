@@ -1,6 +1,6 @@
 ---
 title: Contact
 menus: header
-layout: contact_me
+layout: contact
 permalink: /contact
 ---

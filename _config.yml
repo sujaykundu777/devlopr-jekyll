@@ -12,11 +12,11 @@ urls:
     - text: Blog
       url: /blog
     - text: Shop
-      url : /shop/
+      url : /shop
     - text: Contact Me
-      url : /contact/
+      url : /contact
     - text: Styleguide
-      url: /styleguide/
+      url: /styleguide
 
 
 # Edit these details
