@@ -3,7 +3,7 @@ subtitle: Web Developer
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a Jekyll Theme Built For Developers
 
-url: "https://devlopr.netlify.com" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
@@ -96,16 +96,6 @@ show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
 
-# dont touch this unless required
-plugins:
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-algolia
-# - jekyll-archives
-
 # algolia search
 algolia:
   application_id: D9WA1YKTRQ
@@ -139,6 +129,32 @@ compress_html:
 collections:
  - products
 
+# minify
+# compress_html:
+#   clippings: all
+#   comments: ["<!-- ", " -->"]
+#   endings: all
+#   ignore:
+#     envs: ['development']
+
+# Shop
+
+collections:
+ - products
+
+# Build settings
+
+theme: devlopr
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-algolia
+  - jekyll-menus
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -158,4 +174,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - config.ru
+
+destination: ./build

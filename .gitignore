@@ -1,5 +1,9 @@
 *.gem
+*.gemspec
 .bundle
 .sass-cache
 _site
-devlopr.gemspec
+.jekyll-cache
+.jekyll-metadata
+vendor
+build/
