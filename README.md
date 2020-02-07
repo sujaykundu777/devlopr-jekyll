@@ -13,8 +13,13 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sujaykundu777/devlopr-jekyll)
 
 ### Demo (Hosted Apps)
+
+- Github Pages Demo - [here](https://sujaykundu.com/devlopr-jekyll)
+
+ The css currently breaks in the below cases cause of the baseurl - which is set to
+ **/devlopr-jekyll** . You can try removing it (in your case). Should work fine :D
+
 - Netlify Demo - [here](https://devlopr.netlify.com)
-- Github Pages Demo - [here](https://sujaykundu.com)
 - Zeit Now Demo - [here](https://devlopr-jekyll.now.sh)
 - Heroku Demo - [here](https://devlopr-jekyll.herokuapp.com)
 - AWS Amplify Demo - [here](https://master.d36jewwgpz3hzd.amplifyapp.com/)
@@ -29,11 +34,11 @@
 - Send Newsletters using [Mailchimp](https://mailchimp.com/)
 - Contact Forms using [Formspree](https://formspree.io/)
 - Coding Activity using [Wakatime](https://wakatime.com/)
-- Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com)
+- Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com)
 
-#### Installation :
+#### Installation Instructions :
 
-** How to use devlopr-jekyll theme for your Blog ? **
+***How to use devlopr-jekyll theme for your Blog ?***
 
 #### [Step By Step Installation Guide](https://sujaykundu.com/blog/post/setup-devlopr-jekyll-theme#/)
 
