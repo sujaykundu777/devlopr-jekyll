@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a Jekyll Theme Built For Developers
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/devlopr-jekyll" # the subpath of your site, e.g. /blog
 
 urls:
     - text: About Me
@@ -110,12 +110,12 @@ per_page: 4
 paginate_path: "/blog/page/:num/"
 
 # minify
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ['development']
+# compress_html:
+#   clippings: all
+#   comments: ["<!-- ", " -->"]
+#   endings: all
+#   ignore:
+#     envs: ['development']
 
 # Archives
 # jekyll-archives:
@@ -125,20 +125,7 @@ compress_html:
 #   permalinks:
 #     category: '/category/:name/'
 
-
-collections:
- - products
-
-# minify
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
-#   ignore:
-#     envs: ['development']
-
 # Shop
-
 collections:
  - products
 

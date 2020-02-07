@@ -3,6 +3,8 @@
 ### devlopr-jekyll - A Jekyll Theme Built for Developers
 
 [![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)
+
+![workflow-badge](https://github.com/sujaykundu777/devlopr-jekyll/workflows/deploy/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
 ![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
 
@@ -19,7 +21,7 @@
 - Heroku Demo - [here](https://devlopr-jekyll.herokuapp.com)
 - AWS Amplify Demo - [here](https://master.d36jewwgpz3hzd.amplifyapp.com/)
 
-#### Features : 
+#### Features :
 
 - Supports Latest [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io)
 - SEO, Google Adsense and Analytics Optimized
@@ -33,9 +35,9 @@
 
 ## Upcoming Features (In development) :
 
--  Image Gallery Support 
+-  Image Gallery Support
 
-##  How to use devlopr-jekyll theme for your Blog ? 
+##  How to use devlopr-jekyll theme for your Blog ?
 
 #### [Step By Step Installation Guide](https://sujaykundu.com/blog/post/setup-devlopr-jekyll-theme#/)
 
@@ -56,13 +58,13 @@ Contributions are more than just welcome. Fork this repo and create a new branch
 
 - 1.Fork it [http://github.com/sujaykundu777/devlopr-jekyll/fork](http://github.com/sujaykundu777/devlopr-jekyll/fork )
 
-- 2.Create your feature branch 
+- 2.Create your feature branch
 `git checkout -b my-new-feature`
 
-- 3.Commit your changes 
+- 3.Commit your changes
 `git commit -am 'Add some feature'`
 
-- 4.Push to the branch 
+- 4.Push to the branch
 `git push origin my-new-feature`
 
 - 5.Create new Pull Request
