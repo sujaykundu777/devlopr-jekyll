@@ -18,7 +18,7 @@
  }
 
 </style>
-    
+
     <script>
     /* Instanciating InstantSearch.js with Algolia credentials */
     const search = instantsearch({
@@ -26,7 +26,7 @@
       indexName: '{{ site.algolia.index_name }}',
       apiKey: '{{ site.algolia.search_only_api_key }}'
     });
-    
+
     search.addWidget(
       instantsearch.widgets.searchBox({
         container: '#search-searchbar',
@@ -34,7 +34,7 @@
         poweredBy: true
       })
     );
-    
+
     search.addWidget(
       instantsearch.widgets.hits({
         container: '#search-hits',
@@ -44,15 +44,15 @@
                         <div class="card blog-post">
                             <img class="card-img-top" src="${ hit.thumbnail }" alt="${ hit.title }">
                             <div class="card-body center">
-                                <img src="/assets/img/{{ site.author_logo }}" class="author-profile-img">
+                                <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img">
                                 <h4 class="card-title">${ hit.title }</h4>
-    
+
                                 <h6 class="card-subtitle mb-2 text-muted">${moment.unix(hit.date).format('MMM D, YYYY')}</h6>
                                 <p class="card-text">${hit.summary }</p>
-    
+
                                 <a href="${hit.url}" data-disqus-identifier="${hit.url}" class="btn btn-primary btn-sm">Read</a>
                                 <span class="disqus-comment-count" data-disqus-identifier="${ hit.url }"></span>
-    
+
                             </div>
                         </div>
             `;
@@ -60,7 +60,7 @@
         }
       })
     );
-    
+
     search.start();
-    
+
     </script>

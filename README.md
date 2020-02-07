@@ -2,9 +2,7 @@
 
 ### devlopr-jekyll - A Jekyll Theme Built for Developers
 
-[![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)
-
-![workflow-badge](https://github.com/sujaykundu777/devlopr-jekyll/workflows/deploy/badge.svg)
+[![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)[![workflow-badge](https://github.com/sujaykundu777/devlopr-jekyll/workflows/deploy/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
 ![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
 
@@ -33,14 +31,15 @@
 - Coding Activity using [Wakatime](https://wakatime.com/)
 - Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com)
 
-## Upcoming Features (In development) :
+#### Installation :
 
--  Image Gallery Support
-
-##  How to use devlopr-jekyll theme for your Blog ?
+** How to use devlopr-jekyll theme for your Blog ? **
 
 #### [Step By Step Installation Guide](https://sujaykundu.com/blog/post/setup-devlopr-jekyll-theme#/)
 
+## Upcoming Features (In development) :
+
+-  Image Gallery Support
 
 ## Screenshots:
 
