@@ -17,6 +17,7 @@
 - Github Pages Demo - [here](https://sujaykundu.com)
 - Zeit Now Demo - [here](https://devlopr-jekyll.now.sh)
 - Heroku Demo - [here](https://devlopr-jekyll.herokuapp.com)
+- AWS Amplify Demo - [here](https://master.d36jewwgpz3hzd.amplifyapp.com/)
 
 #### Features : 
 
