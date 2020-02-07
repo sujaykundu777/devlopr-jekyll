@@ -23,7 +23,7 @@ urls:
 
 author_logo: profile.png
 author: John Doe
-author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.
+author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers. To use this theme in your blog visit - https://github.com/sujaykundu777/devlopr-jekyll
 author_email: "johndoe@gmail.com"
 author_location: India
 author_website_url: "http://johndoe.com"
@@ -56,10 +56,10 @@ author_project_details:
                 project_description: A Platform built for Gamers and Game Devs
                 project_url: https://gamershub.in
                 visibility: true
-              - project_thumbnail: programmingebooks.png
-                project_title: Programming Ebooks
-                project_description: A Platform to easily find and read programming books
-                project_url: https://programmingebooks.com
+              - project_thumbnail: hack4r.png
+                project_title: Hack4r
+                project_description: A Platform built for Hackers and Penetration Testers
+                project_url: https://hack4r.com
                 visibility: true
 
 # social links
