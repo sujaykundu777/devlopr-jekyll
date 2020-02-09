@@ -16,7 +16,17 @@ Steps to create your blog using devlopr-jekyll:
 
 > **Step 2.** Use **your-github-username.github.io** as the new repo  ( Replace your-github-username with yours). Remember if you use the name other than your-github-username.github.io , your blog will be built using gh-pages branch.
 
+![Devlopr Jekyll Repo](/assets/img/posts/fork2.png){:class="img-fluid"}
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork3.png){:class="img-fluid"}
+
 > **Step 3.** Clone the new repo locally to make changes :
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork31.png){:class="img-fluid"}
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork32.png){:class="img-fluid"}
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork33.png){:class="img-fluid"}
 
 ```
  $ git clone https://github.com/yourusername/yourusername.github.io
@@ -30,6 +40,8 @@ Steps to create your blog using devlopr-jekyll:
 - _posts - Add your blog posts here
 - _includes - You can replace the contents of the files with your data. (contains widgets)
 - _assets/img - Add all your images here
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork34.png){:class="img-fluid"}
 
 > **Step 5** - Install the development requirements:
 
@@ -67,7 +79,7 @@ For bundler :
 
 Visit [http://localhost:4000](http://localhost:4000) for development server
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork5.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](/assets/img/posts/fork41.png){:class="img-fluid"}
 
 Once happy with your blog changes. Push your changes to master branch.
 
@@ -81,7 +93,12 @@ Once happy with your blog changes. Push your changes to master branch.
 
 Visit your Github Repo settings ! Enable master branch as Github Pages Branch :
 
+![Devlopr Jekyll Repo](/assets/img/posts/fork6.png){:class="img-fluid"}
+
 > **Step 9.** Deploy your Blog :
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork7.png){:class="img-fluid"}
+
 
 Check the Deployment Guides Below :
 
