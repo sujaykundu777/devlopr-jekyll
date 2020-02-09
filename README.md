@@ -6,7 +6,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
 ![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
 
-### Deploy your Blog using devlopr-jekyll
+### Deploy your Blog using devlopr-jekyll - [Get Started](https://devlopr.netlify.com/get-started)
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/sujaykundu777/devlopr-jekyll)
 [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sujaykundu777/devlopr-jekyll)
@@ -31,12 +31,6 @@
 - Contact Forms using [Formspree](https://formspree.io/)
 - Coding Activity using [Wakatime](https://wakatime.com/)
 - Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com)
-
-#### Installation Instructions :
-
-***How to use devlopr-jekyll theme for your Blog ?***
-
-#### [Step By Step Installation Guide](https://sujaykundu.com/blog/post/setup-devlopr-jekyll-theme#/)
 
 ## Upcoming Features (In development) :
 

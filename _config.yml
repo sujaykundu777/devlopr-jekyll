@@ -7,6 +7,8 @@ url: "" # the base hostname & protocol for your site, e.g. https://example.githu
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
+    - text: Get Started
+      url: /get-started
     - text: About Me
       url: /
     - text: Blog
@@ -18,12 +20,11 @@ urls:
     - text: Styleguide
       url: /styleguide
 
-
 # Edit these details
 
 author_logo: profile.png
 author: John Doe
-author_bio: Hello, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers. To use this theme in your blog visit - https://github.com/sujaykundu777/devlopr-jekyll
+author_bio: Hello, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.
 author_email: "johndoe@gmail.com"
 author_location: India
 author_website_url: "http://johndoe.com"
