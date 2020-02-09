@@ -1,5 +1,5 @@
-title: John Doe
-subtitle: Web Developer
+title: devlopr
+subtitle: A Jekyll Theme Built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a Jekyll Theme Built For Developers
 
@@ -23,7 +23,7 @@ urls:
 
 author_logo: profile.png
 author: John Doe
-author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers. To use this theme in your blog visit - https://github.com/sujaykundu777/devlopr-jekyll
+author_bio: Hello, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers. To use this theme in your blog visit - https://github.com/sujaykundu777/devlopr-jekyll
 author_email: "johndoe@gmail.com"
 author_location: India
 author_website_url: "http://johndoe.com"
