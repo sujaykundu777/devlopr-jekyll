@@ -15,10 +15,6 @@
 ### Demo (Hosted Apps)
 
 - Github Pages Demo - [here](https://sujaykundu.com/devlopr-jekyll)
-
- The css currently breaks in the below cases cause of the baseurl - which is set to
- **/devlopr-jekyll** . You can try removing it (in your case). Should work fine :D
-
 - Netlify Demo - [here](https://devlopr.netlify.com)
 - Zeit Now Demo - [here](https://devlopr-jekyll.now.sh)
 - Heroku Demo - [here](https://devlopr-jekyll.herokuapp.com)
