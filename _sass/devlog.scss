@@ -55,7 +55,7 @@ header {
 .blog-post:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
-  
+
 .social-link {
     color: #262222;
     font-size: 15px;
@@ -153,7 +153,7 @@ code {
 }
 
 #newsletter_footer{
-    background-color: #1e90ff;
+    background-color: #191c20;
     color:#fff;
 }
 
@@ -176,17 +176,17 @@ $layout--max-width: 1000px;
       @content;
     }
   }
-  
+
   @mixin ms {
     @media (min-width: #{$layout--max-width}) {
       @content;
     }
   }
-  
+
   @mixin button-hover($color) {
     position: relative;
     z-index: 2;
-  
+
     &:hover {
       transition: 0.2s all;
       background-color: darken($color, 10%);
@@ -194,7 +194,7 @@ $layout--max-width: 1000px;
         transform: scale(1.1, 1.5);
       }
     }
-  
+
     &:before {
       content: " ";
       position: absolute;
@@ -229,31 +229,31 @@ $layout--max-width: 1000px;
     padding-top: $size--unit * 4;
     padding-bottom: $size--unit * 4;
     border-bottom: 1px solid $color--light;
-  
+
     &__container {
       display: flex;
       justify-content: center;
       @include fit-to-layout-and-center;
     }
-  
+
     &__branding {
       all: unset;
       display: flex;
       justify-content: center;
       align-items: center;
     }
-  
+
     &__logo {
       max-height: $size--unit*4;
       margin-right: $size--unit*1;
     }
-  
+
     &__title {
       font-weight: bold;
       font-size: $size--unit * 3;
       cursor: pointer;
     }
-  
+
     &__checkout {
       all: unset;
       cursor: pointer;
@@ -265,7 +265,7 @@ $layout--max-width: 1000px;
         margin-right: $size--unit * 1;
       }
     }
-  
+
     &__checkout-fill {
       fill: $color--primary;
     }
@@ -311,12 +311,12 @@ $layout--max-width: 1000px;
     }
 }
 
-  
-  /* 
+
+  /*
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-  
+
   @media (min-width: 481px) and (max-width: 767px) {
 
     #mc-embedded-subscribe-form{
@@ -349,7 +349,7 @@ $layout--max-width: 1000px;
     }
 
   }
-/* 
+/*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
@@ -416,13 +416,13 @@ $layout--max-width: 1000px;
 
 }
 
-  /* 
+  /*
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
-  
+
   @media (min-width: 1025px) and (max-width: 1280px) {
-    
+
     #mc-embedded-subscribe-form{
         width: 100%;
         padding: 50px;
@@ -448,7 +448,7 @@ $layout--max-width: 1000px;
     }
 
   }
- /* 
+ /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
@@ -460,7 +460,7 @@ $layout--max-width: 1000px;
         width: 100%;
         padding: 50px;
     }
-    
+
     #mc_embed_signup_scroll_footer{
         margin-left:25%;
         margin-right: 25%;
@@ -479,7 +479,7 @@ $layout--max-width: 1000px;
     #mc-embedded-subscribe_footer{
         margin-top: 30px;
     }
-    
+
 
 }
  /* (1920x1080) Full HD Display */
@@ -489,7 +489,7 @@ $layout--max-width: 1000px;
         width: 100%;
         padding: 50px;
     }
-    
+
     #mc_embed_signup_scroll_footer{
         margin-left:25%;
         margin-right: 25%;
@@ -579,5 +579,5 @@ $layout--max-width: 1000px;
 .highlight .vg { color: #aa0000 } /* Name.Variable.Global */
 .highlight .vi { color: #aa0000 } /* Name.Variable.Instance */
 .highlight .vm { color: #aa0000 } /* Name.Variable.Magic */
-.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */ 
+.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
