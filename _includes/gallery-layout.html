@@ -1,6 +1,6 @@
 
 
-<div id="image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}">
+<div id="imageGallery{% if include.id_number %}-{{ include.id_number }}{% endif %}">
   <div id="gallery-sizer{% if include.id_number %}-{{ include.id_number }}{% endif %}"></div>
   {% for picture in include.gallery.pictures %}
     <a href="{{ site.url }}{{ site.baseurl }}/assets/img/gallery/{{ include.gallery.picture_path }}/{{ picture.original }}"
@@ -12,10 +12,10 @@
 </div>
 
 <script type="text/javascript">
-$(document).ready(function() {
-  var $gallery = $("#image-gallery").lightGallery({
-    thumbnail: false,
-    selector: '.image'
-  });
-});
+    $(document).ready(function() {
+        $("#imageGallery").lightGallery({
+          thumbnail: false,
+          selector: '.image'
+        });
+    });
 </script>
