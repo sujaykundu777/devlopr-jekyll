@@ -13,6 +13,8 @@ urls:
       url: /
     - text: Blog
       url: /blog
+    - text: Gallery
+      url: /gallery
     - text: Shop
       url : /shop
     - text: Contact Me
@@ -132,6 +134,14 @@ paginate_path: "/blog/page/:num/"
 # Shop
 collections:
  - products
+
+# Gallery
+defaults:
+  -
+    scope:
+      path: "gallery"
+    values:
+      permalink: /:path/:basename:output_ext
 
 # Build settings
 

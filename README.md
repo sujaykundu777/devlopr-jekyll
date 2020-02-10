@@ -14,7 +14,7 @@
 
 ### Demo (Hosted Apps)
 
-- Github Pages Demo - [here](https://sujaykundu.com/devlopr-jekyll)
+- Github Pages Demo - [here](https://sujaykundu.com)
 - Netlify Demo - [here](https://devlopr.netlify.com)
 - Zeit Now Demo - [here](https://devlopr-jekyll.now.sh)
 - Heroku Demo - [here](https://devlopr-jekyll.herokuapp.com)
