@@ -64,6 +64,12 @@ Serve the site at http://localhost:4000 :
 
 `docker-compose -f docker-compose-prod.yml up --build --remove-orphans`
 
+Stop the app :
+`docker-compose -f docker-compose-prod.yml down`
+Once everything is good and ready to go live -
+
+`docker-compose -f docker-compose-prod.yml up --build --detach`
+
 ## Contributions:
 
 Contributions are more than just welcome. Fork this repo and create a new branch, then submit a pull request
