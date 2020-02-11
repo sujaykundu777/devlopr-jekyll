@@ -63,21 +63,21 @@ We need this token as a Environment Variable in Travis. For Travis can automatic
 
 Go to [Github Generate a New Token](https://github.com/settings/tokens) Page.
 
-![deploy using travis](/devlopr-jekyll/assets/img/posts/d1.png){:class="img-fluid"}
+![deploy using travis](/assets/img/posts/d1.png){:class="img-fluid"}
 
 Create a new Access Token
 
-![deploy using travis](/devlopr-jekyll/assets/img/posts/d2.png){:class="img-fluid"}
+![deploy using travis](/assets/img/posts/d2.png){:class="img-fluid"}
 
 
 ##### Configure Travis
 
 Go to [Travis](https://travis.org) and Toggle the repository access to use Travis
 
-![deploy using travis](/devlopr-jekyll/assets/img/posts/d3.png){:class="img-fluid"}
+![deploy using travis](/assets/img/posts/d3.png){:class="img-fluid"}
 
 Go to the repository settings page and Add Environment Variable 'GITHUB_TOKEN'
-![deploy using travis](/devlopr-jekyll/assets/img/posts/d4.png){:class="img-fluid"}
+![deploy using travis](/assets/img/posts/d4.png){:class="img-fluid"}
 
 ##### Push your changes to Github
 
@@ -89,10 +89,10 @@ Commit your local changes in gh-pages branch
 
 After push, Travis will automatically run a build process and deploy your blog.
 
-![deploy using travis](/devlopr-jekyll/assets/img/posts/d5.png){:class="img-fluid"}
+![deploy using travis](/assets/img/posts/d5.png){:class="img-fluid"}
 
 You can visit your site at https://yourusername.github.io
 
-![deploy using travis](/devlopr-jekyll/assets/img/posts/d6.png){:class="img-fluid"}
+![deploy using travis](/assets/img/posts/d6.png){:class="img-fluid"}
 
 Done ! Enjoy your brand new devlopr-jekyll blog. You can visit the site at https://yourusername.github.io

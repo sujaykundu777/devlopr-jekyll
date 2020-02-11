@@ -1,7 +1,7 @@
 ---
 title:  Get Started
 layout: page
-permalink: /get-started
+permalink: /get-started/
 ---
 
 ## Getting Started - How to create your blog using devlopr-jekyll
