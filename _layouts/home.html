@@ -18,7 +18,7 @@ layout: default
                 <br />
                 {% for project in site.author_project_details %}
                 {% if project.visibility == true %}
-                <div class="row">
+                <div class="row" id="project-card">
                         <div class="col-md-6">
                             <img src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}" class="project-img" />
                         </div>

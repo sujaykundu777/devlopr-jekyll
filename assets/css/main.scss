@@ -189,6 +189,9 @@ header {
         width: 300px;
         height: 200px;
     }
+    #project-card{
+        margin-top:30px;
+    }
 }
 
 
@@ -271,8 +274,8 @@ footer {
 
  .switch {
      position: relative;
-     width: 130px;
-     height: 50px;
+     width: 80px;
+     height: 38px;
      margin: 0px;
      appearance: none;
      -webkit-appearance: none;
@@ -297,13 +300,13 @@ footer {
 
  .switch:after {
      content: '';
-     width: 46px;
-     height: 46px;
-     border-radius: 50%;
-     background-color: #fff;
-     position: absolute;
-     left: 2px;
-     top: 2px;
+     display: none;
+    height: 37px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    position: absolute;
+    left: -43px;
+    top: 1px;
      transform: translateX(0px);
      animation: off .7s forwards cubic-bezier(.8, .5, .2, 1.4);
      box-shadow: inset 5px -5px 4px rgba(53, 53, 53, 0.3);
@@ -408,8 +411,8 @@ footer {
      height: 15px;
      border-radius: 50%;
      position: absolute;
-     left: 15px;
-     top: 5px;
+     left: -30px;
+     top: 11px;
      filter: blur(1px);
      background-color: #f5daaa;
      box-shadow: 0px 0px 10px #f5deb4,
