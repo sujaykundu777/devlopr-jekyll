@@ -11,18 +11,16 @@ $nav-typeface: "Gill sans";
 $mono-typeface: Menlo, Monaco, monospace;
 $text-width: 650px;
 
-
-
 html[data-theme="dark"] {
     --bold-color: rgb(240, 240, 240);
     --box-background-color: hsl(0, 0%, 20%);
     --highlight-color: hsl(0, 0%, 60%);
     --light-border-color: hsl(0, 0%, 30%);
     --light-text-color: rgb(199, 199, 204);
-    --link-color: rgb(100, 210, 255);
+    --link-color: #f69801;
     --link-color-visited: hsl(250, 100%, 60%);
     --main-background-color: rgb(28, 28, 30);
-    --main-text-color: rgb(229, 229, 234);
+    --main-text-color: rgb(139, 139, 139);
     --medium-text-color: hsl(0, 0%, 70%);
     --underline-color: hsl(0, 0%, 50%);
     --social-link-color: #ffffff;
@@ -58,10 +56,10 @@ html[data-theme="light"] {
         --highlight-color: hsl(0, 0%, 60%);
         --light-border-color: hsl(0, 0%, 30%);
         --light-text-color: rgb(199, 199, 204);
-        --link-color: rgb(100, 210, 255);
+        --link-color: #f69801;
         --link-color-visited: hsl(250, 100%, 60%);
         --main-background-color: rgb(28, 28, 30);
-        --main-text-color: rgb(229, 229, 234);
+        --main-text-color: rgb(139, 139, 139);
         --medium-text-color: hsl(0, 0%, 70%);
         --underline-color: hsl(0, 0%, 50%);
         --social-link-color: #ffffff;
@@ -109,7 +107,7 @@ html[data-theme="light"] {
 body {
     background-color: var(--main-background-color) !important;
     color: var(--main-text-color) !important;
-    font-family: $body-typeface;
+    font-family: 'Quicksand', sans-serif !important;
     font-feature-settings: "kern"on;
     font-size: 1.4rem;
     font-variant-numeric: oldstyle-nums;
@@ -121,7 +119,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--main-text-color) !important;
+  color: var(--bold-color) !important;
   line-height: 1.1;
 }
 
@@ -191,6 +189,9 @@ header {
     }
     #project-card{
         margin-top:30px;
+    }
+    .project-link{
+        color: var(--link-color);
     }
 }
 
