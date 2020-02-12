@@ -7,8 +7,7 @@ url: "" # the base hostname & protocol for your site, e.g. https://example.githu
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: Get Started
-      url: /get-started
+
     - text: About Me
       url: /
     - text: Blog
@@ -21,6 +20,8 @@ urls:
       url : /contact
     - text: Styleguide
       url: /styleguide
+    - text: Get Started
+      url: /get-started
 
 # Edit these details
 

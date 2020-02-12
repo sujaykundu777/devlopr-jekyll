@@ -55,7 +55,7 @@
                 </p>
 
             </div>
-            <div class="col-md-7 center">
+            <div class="col-md-7" id="header-nav">
 
                     <ul class="nav justify-content-end" id="navigation">
                     {% for i in site.urls %}
@@ -67,11 +67,10 @@
                          <a class="nav-link" href="{{ site.url}}{{site.baseurl}}/search/"><i class="fa fa-search" aria-hidden="true"></i></a>
                      </li>
                      <li class="nav-item">
-                         <input class="nav-link switch" id="theme-toggle" onclick="modeSwitcher() "type="checkbox" name="checkbox" >
-                        </li>
-                    </ul>
-
+                      <input class="nav-link switch" id="theme-toggle" onclick="modeSwitcher() "type="checkbox" name="checkbox" >
+                    </li>
             </div>
+
         </div>
     </div>
 
