@@ -158,6 +158,11 @@ header {
 #search-icon{
     color: #FF7901;
 }
+@media (min-width: 768px) {
+    .offset-md-1 {
+    margin-left: 3.333333% !important;
+    }
+}
 
 #profile-card {
     text-align: center;
