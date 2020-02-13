@@ -2,7 +2,11 @@
 layout: default
 ---
 
-    <div class="row">
+<div class="row">
+  <!-- Blog Post Breadcrumbs -->
+  {%- include blog_post_breadcrumb.html -%}
+  </div>
+      <div class="row">
 
         <div class="col-lg-7 offset-md-1">
 
@@ -13,7 +17,7 @@ layout: default
                     <div class="card blog-post">
                         <img class="card-img-top" src="{{site.url}}{{site.baseurl}}/assets/img/posts/{{ post.thumbnail }}" alt="{{ post.title }}">
                         <div class="card-body center">
-                            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img">
+                            <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
                             <h4 class="card-title">{{ post.title }}</h4>
 
                             <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
