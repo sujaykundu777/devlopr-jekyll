@@ -2,7 +2,12 @@
 layout: default
 ---
 
-<div class="card">
-    <h1 class="card-title"> Gallery</h1>
-     {{ content }}
- </div>
+<div class="row">
+    <!-- Blog Post Breadcrumbs -->
+{%- include gallery_breadcrumb.html -%}
+
+        {{content}}
+
+</div>
+
+

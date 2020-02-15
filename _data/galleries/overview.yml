@@ -1,9 +1,9 @@
 -
-  title: NCBS - Bangalore, Karnataka
-  directory: ncbs
+  title: Mountains
+  directory: mountains
   preview:
-    filename: Photo-0793
-    original: Photo-0793.jpg
+    filename: 1.jpg
+    original: 1-thumbnail.jpg
     sizes:
-    - Photo-0793.jpg
-    thumbnail: Photo-0793-thumbnail.jpg
+    - 1-thumbnail.jpg
+    thumbnail: 1-thumbnail.jpg
