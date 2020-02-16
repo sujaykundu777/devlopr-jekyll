@@ -100,9 +100,7 @@ html[data-theme="light"] {
     padding: 0;
 }
 
-// *+* {
-//     margin-top: 1.5em;
-// }
+/* Progress bar */
 .my-class .bar {
     background: #f69801;
 }
@@ -179,6 +177,19 @@ header {
 }
 #blog-post-container{
     margin-top: -20px;
+}
+
+/* Gallery */
+/* image-gallery */
+#imageGallery{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lg-progress-bar .lg-progress {
+    background-color: #db980f !important;
+    height: 4px;
+    width: 0;
 }
 
 @media (min-width: 768px) {
