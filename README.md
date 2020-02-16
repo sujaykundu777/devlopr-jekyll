@@ -2,6 +2,8 @@
 
 ### devlopr-jekyll - A Jekyll Theme Built for Developers
 
+Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+
 [![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)![workflow-badge](https://github.com/sujaykundu777/devlopr-jekyll/workflows/deploy/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
 ![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
@@ -22,7 +24,8 @@
 
 #### Features :
 
-- Supports Latest [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io)
+- Supports Latest [Jekyll 4.x](https://jekyllrb.com) and [Bundler](https://bundler.io)
+- Stylesheet built using Sass
 - SEO, Google Adsense and Analytics Optimized
 - CMS Admin support using [Forestry](https://forestry.io)
 - Real Time Search using [Algolia](https://algolia.com/)
@@ -31,10 +34,6 @@
 - Contact Forms using [Formspree](https://formspree.io/)
 - Coding Activity using [Wakatime](https://wakatime.com/)
 - Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com)
-
-## Upcoming Features (In development) :
-
--  Image Gallery Support
 
 ## Using Docker :
 

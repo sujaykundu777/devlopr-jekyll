@@ -150,7 +150,6 @@ header {
     padding: 20px !important;
     background-color: var(--card-background-color) !important;
 }
-
 .navbar{
        box-shadow: #000 0px 0px 8px;
        background-color: #131313 !important;
@@ -160,6 +159,15 @@ header {
 }
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, .5) !important;
+}
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #000 !important;
+    border: 1px solid #020305 !important;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+    margin: 40px;
 }
 #search-icon{
     color: #FF7901;
