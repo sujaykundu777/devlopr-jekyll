@@ -4,6 +4,8 @@
 
 Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
 
+You can easily manage the site using the admin : [http://localhost:4000/admin](http://localhost:4000/admin)
+
 [![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)![workflow-badge](https://github.com/sujaykundu777/devlopr-jekyll/workflows/deploy/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
 ![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
@@ -24,10 +26,10 @@ Just a little something I'm using to jump start a site refresh. I like to think 
 
 #### Features :
 
+- CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
 - Supports Latest [Jekyll 4.x](https://jekyllrb.com) and [Bundler](https://bundler.io)
 - Stylesheet built using Sass
 - SEO, Google Adsense and Analytics Optimized
-- CMS Admin support using [Forestry](https://forestry.io)
 - Real Time Search using [Algolia](https://algolia.com/)
 - Sell Stuff (Ecommerce) in your Blog using [Snipcart](https://snipcart.com/)
 - Send Newsletters using [Mailchimp](https://mailchimp.com/)
