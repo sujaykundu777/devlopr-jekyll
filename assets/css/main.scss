@@ -132,7 +132,7 @@ a{
 /* Navigation Header */
 header {
     background-color: var(--main-background-color);
-    box-shadow: #000 0px 0px 8px;
+    box-shadow:0px;
     height: auto;
     width: 100%;
     padding: 11px;
@@ -180,8 +180,73 @@ header {
 }
 
 .product{
+    width: 300px;
     float:left;
 }
+.snipcart-modal__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 100vh;
+    z-index: 10;
+    margin-top: 60px !important;
+    padding: 5px !important ;
+    background-color: var(--main-background-color) !important;
+}
+
+.snipcart-cart__content {
+    margin: 0 auto;
+    background-color: var(--main-background-color) !important;
+}
+
+.snipcart-modal {
+    position: relative;
+    margin: 70px auto !important;
+    max-width: 100%;
+    background-color: var(--main-background-color) !important;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.snipcart-item-line {
+    background-color:var(--main-background-color) !important;
+    color: var(--bold-color) !important;
+    margin-bottom: 24px;
+    padding: 32px;
+    -webkit-box-shadow: 0 8px 24px rgba(231,235,237,.6);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6) !important;
+}
+.snipcart-item-quantity {
+    color: var(--bold-color) !important;
+    margin-top: -2px;
+}
+.snipcart-cart-summary-fees {
+    color: var(--bold-color) !important;
+}
+
+.snipcart-cart-header {
+    background-color: var(--main-background-color) !important;
+    color: var(--bold-color) !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.snipcart-modal__close-title {
+    color: coral !important;
+}
+.snipcart__button--icon {
+    border: 0px solid #f0f5f6 !important;
+}
+
 /* Gallery */
 /* image-gallery */
 #imageGallery{
