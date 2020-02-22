@@ -266,11 +266,16 @@ header {
 /* jumbotron */
 .jumbotron {
     background-color: var(--main-background-color) !important;
+    background-image: url('https://d1qmdf3vop2l07.cloudfront.net/dear-deodorant.cloudvent.net/compressed/_min_/f6faab65951d8a814a63e2a7d9e61b66.svg');
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: top;
 }
+
 .lead {
-    font-size: 1.85rem !important;
-    font-weight: 300;
-    color: var(--bold-color);
+    font-size: 1.30rem !important;
+    font-weight: 600;
+    color: #ff7601 !important;
 }
 
 /* Gallery */
