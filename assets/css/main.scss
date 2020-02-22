@@ -259,6 +259,19 @@ header {
     padding: 16px;
     text-transform: none;
 }
+.snipcart-payment-methods__title {
+    background-color: black !important;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-color: var(--main-background-color) !important;
+}
+.lead {
+    font-size: 1.85rem !important;
+    font-weight: 300;
+    color: var(--bold-color);
+}
 
 /* Gallery */
 /* image-gallery */
