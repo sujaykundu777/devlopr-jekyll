@@ -278,6 +278,15 @@ header {
     color: #ff7601 !important;
 }
 
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 25px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 /* Gallery */
 /* image-gallery */
 #imageGallery{
