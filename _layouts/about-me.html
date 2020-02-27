@@ -57,6 +57,16 @@ layout: default
                         <i class="fab fa-telegram-plane"></i>
                     </a>
                     {% endif %}
+                    {% if site.dribbble_username %}
+                    <a class="social-link" href="https://dribbble.com/{{ site.dribbble_username }}">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.flickr_username %}
+                    <a class="social-link" href="https://www.flickr.com/photos/{{ site.flickr_username }}">
+                        <i class="fab fa-flickr"></i>
+                    </a>
+                    {% endif %}
                 </p>
 
                 {% if site.author_location %}
