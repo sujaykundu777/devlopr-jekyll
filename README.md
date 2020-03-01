@@ -4,6 +4,8 @@
 
 Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
 
+![devlopr jekyll](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/screenshot.PNG?raw=true)
+
 You can easily manage the site using the admin : [http://localhost:4000/admin](http://localhost:4000/admin)
 
 ![jekyll admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
@@ -89,6 +91,14 @@ Contributions are more than just welcome. Fork this repo and create a new branch
 `git push origin my-new-feature`
 
 - 5.Create new Pull Request
+
+## Support / Buy Me a Coffee
+
+If you like the project. Don't forget to Star ! Also, It would be great if you can help my by Donating some amount at any of the below links:
+
+- [Support via Patreon](https://patreon.com/sujaykundu)
+- [Support via Kofi](https://ko-fi.com/sujaykundu)
+- [Donate Me using Paypal](https://paypal.me/sujaykundu)
 
 ## Licence
 
