@@ -144,8 +144,6 @@ defaults:
       permalink: /:path/:basename:output_ext
 
 # Build settings
-
-# theme: devlopr
 plugins:
   - jekyll-feed
   - jekyll-paginate
