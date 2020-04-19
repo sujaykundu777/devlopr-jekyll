@@ -92,13 +92,13 @@ Contributions are more than just welcome. Fork this repo and create a new branch
 
 - 5.Create new Pull Request
 
-## Support / Buy Me a Coffee
 
-If you like the project. Don't forget to Star ! Also, It would be great if you can help my by Donating some amount at any of the below links:
 
-- [Support via Patreon](https://patreon.com/sujaykundu)
-- [Support via Kofi](https://ko-fi.com/sujaykundu)
-- [Donate Me using Paypal](https://paypal.me/sujaykundu)
+### If you like the project. Don't forget to Star !
+
+
+
+
 
 ## Licence
 
