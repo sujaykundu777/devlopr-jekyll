@@ -20,9 +20,7 @@ You can easily manage the site using the admin : [http://localhost:4000/admin](h
 [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sujaykundu777/devlopr-jekyll)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sujaykundu777/devlopr-jekyll)
 
-### Using unsupported Plugins (For Github Pages):
 
-You can use this [deploy-jekyll-site](https://github.com/marketplace/actions/deploy-jekyll-site) action to build the site and use custom or non-supported jekyll plugins.
 
 ### Demo (Hosted Apps)
 
@@ -44,6 +42,11 @@ You can use this [deploy-jekyll-site](https://github.com/marketplace/actions/dep
 - Contact Forms using [Formspree](https://formspree.io/)
 - Coding Activity using [Wakatime](https://wakatime.com/)
 - Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com)
+
+### Using non-supported Jekyll Plugins (For Github Pages):
+
+You can use this [deploy-jekyll-site](https://github.com/marketplace/actions/deploy-jekyll-site) action to build the site and use custom or non-supported jekyll plugins
+
 
 ## Using Docker :
 
