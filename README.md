@@ -20,6 +20,10 @@ You can easily manage the site using the admin : [http://localhost:4000/admin](h
 [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sujaykundu777/devlopr-jekyll)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sujaykundu777/devlopr-jekyll)
 
+### Using unsupported Plugins (For Github Pages):
+
+You can use this [deploy-jekyll-site](https://github.com/marketplace/actions/deploy-jekyll-site) action to build the site and use custom or non-supported jekyll plugins.
+
 ### Demo (Hosted Apps)
 
 - Github Pages Demo - [here](https://sujaykundu.com)
