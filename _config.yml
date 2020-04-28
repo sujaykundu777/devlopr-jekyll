@@ -78,8 +78,10 @@ telegram_username: johndoe
 dribbble_username: johndoe
 flickr_username: johndoe
 
-#for comments using disqus
-disqus_shortname: sujay-kundu
+#for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
+
+# disqus_shortname: sujay-kundu
+hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
 wakatime_username: sujaykundu777
