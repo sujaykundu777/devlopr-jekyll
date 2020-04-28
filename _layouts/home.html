@@ -3,21 +3,55 @@ layout: default
 ---
 
 <script>
-        $(document).ready(function(){
-            $('#typewriteText').typewrite({
-                actions: [
-                    {type: 'Hello, I’m {{site.author}}, {{site.author_bio}}.'}
-                ]
-            });
-        });
-    </script>
+  $(document).ready(function() {
+    $("#typewriteText").typewrite({
+      actions: [{ type: "{{site.typewrite-text}}" }]
+    });
+  });
+</script>
+    <div class="jumbotron" style="text-align: center;">
+      <img class="author-profile-img" src="/assets/img/profile.png" />
+      <p class="jumbotron-heading">Hi, I am {{site.author}} !</p>
+      <p class="lead" id="typewriteText"></p>
+      {% if site.github_username %} {%- include github_follow_button.html -%} {%
+      endif %} {%- include github_star_button.html -%}
+    </div>
+    <div class="col-lg-8 offset-md-2">
+      <section id="recent-articles">
+        <div id="recent-articles-header">
+          <div id="recent-articles-title">
+            <h1 class="card-title">Recent Articles</h1>
+          </div>
+          <div id="recent-articles-show-all">
+            <a class="btn btn-lg btn-dark" href="/blog"> View All </a>
+          </div>
+        </div>
+        <br />
 
-
-<div class="col-lg-8 offset-md-2">
-  <div class="jumbotron" style="text-align: center;">
-    <h1 class="display-4">Hello, {{site.author}} !</h1>
-    <h3> {{site.author_bio}} . You can edit this in _config.yml file</h3>
-    <p class="lead" id="typewriteText"></p>
-    <button class="btn btn-dark btn-lg"><a href="/about"> About Me </a></button>
-  </div>
-</div>
+        <ul>
+          {% for post in site.posts limit:5 %}
+          <li class="article-card">
+            <a href="{{post.url}}" class="article-card-link">
+              <div id="article-container">
+                <div id="article-img">
+                  <img
+                    src="/assets/img/{{site.author_logo}}"
+                    width="50px"
+                    height="50px"
+                  />
+                </div>
+                <div id="article-link">
+                  <p class="recent-article-link">{{post.title}}</p>
+                </div>
+                <div id="article-alert">
+                  {% for cat in post.category limit:2 %}
+                   <button class="btn btn-sm btn-dark">{{cat}}</button>
+                  {% endfor %}
+                </div>
+              </div>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>

@@ -18,13 +18,9 @@ layout: default
   </div>
 </div>
 <div class="row">
-      <!-- Blog Post Breadcrumbs -->
-{%- include shop_breadcrumb.html -%}
    <div class="col-lg-8 offset-md-2">
         {% for product in site.products %}
-
         {% include product.html %}
-
         {% endfor %}
       </div>
     </div>
