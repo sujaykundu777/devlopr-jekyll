@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<div class="row">
-    <!-- Blog Post Breadcrumbs -->
-{%- include gallery_breadcrumb.html -%}
-
-        {{content}}
-
+<div class="row" id="blog-posts-container">
+        <div class="col-lg-11 offset-md-1">
+                <div class="card">
+                        <h1 class="card-title"> Gallery </h1>
+                          {{content}}
+                </div>
+        </div>
 </div>
-
 
