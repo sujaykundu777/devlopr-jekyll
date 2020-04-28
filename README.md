@@ -3,8 +3,13 @@
 ### devlopr-jekyll - A Jekyll Theme Built for Developers
 
 Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+The Theme supports both Light and Dark Style. Highly Customizable and No Hosting or Maintainence Cost is required !
+
+[Get Started](https://devlopr.netlify.com/get-started)
 
 ![devlopr jekyll](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/screenshot.PNG?raw=true)
+
+devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Products etc. No external database is required.
 
 You can easily manage the site using the admin : [http://localhost:4000/admin](http://localhost:4000/admin)
 
@@ -14,13 +19,11 @@ You can easily manage the site using the admin : [http://localhost:4000/admin](h
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
 ![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
 
-### Deploy your Blog using devlopr-jekyll - [Get Started](https://devlopr.netlify.com/get-started)
+### Deploy your devlopr-jekyll blog - One Click Deploy
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/sujaykundu777/devlopr-jekyll)
 [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sujaykundu777/devlopr-jekyll)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sujaykundu777/devlopr-jekyll)
-
-
 
 ### Demo (Hosted Apps)
 
@@ -46,7 +49,6 @@ You can easily manage the site using the admin : [http://localhost:4000/admin](h
 ### Using non-supported Jekyll Plugins (For Github Pages):
 
 You can use this [deploy-jekyll-site](https://github.com/marketplace/actions/deploy-jekyll-site) action to build the site and use custom or non-supported jekyll plugins
-
 
 ## Using Docker :
 
