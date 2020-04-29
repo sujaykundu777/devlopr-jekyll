@@ -5,12 +5,15 @@ layout: page
 permalink: /get-started/
 ---
 
-## Getting Started - Deploying your blog using devlopr-jekyll
+## Getting Started - How to use “devlopr-jekyll” theme
 
-Steps to create your blog using devlopr-jekyll and Host using Github Pages :
+## What's Jekyll ?
+
+If you aren’t familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked…just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! If you are a beginner we recommend you start with [Jekyll’s Docs](https://jekyllrb.com/docs/installation/). Now, if you know how to use Jekyll, let’s move on to using this theme in Jekyll:
+
+### Steps to create your blog using devlopr-jekyll and Host using Github Pages :
 
 >  **Step 1.**  Fork the repo - [click here](https://github.com/sujaykundu777/devlopr-jekyll/fork)
-
 
 ![Devlopr Jekyll Repo](/assets/img/posts/fork1.png){:class="img-fluid"}
 
@@ -45,7 +48,7 @@ Steps to create your blog using devlopr-jekyll and Host using Github Pages :
 
 > **Step 5** - Install the development requirements:
 
-Let's first set up our development environment, You might need to install the following tools:
+### Set up local development environment
 
 1. [Git](https://git-scm.com/)
 2. [Ruby](https://www.ruby-lang.org/) and [Bundler](https://bundler.io/)
@@ -62,6 +65,7 @@ ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux-gnu]
 For bundler :
 
 ```bash
+$ gem install bundler
 $ bundler -v
 Bundler version 2.1.4
 ```
@@ -89,7 +93,7 @@ $ bundle install
 > **Step 7.** Serve the site locally by running the following command below:
 
 ```bash
-$ bundle exec jekyll serve
+$ bundle exec jekyll serve --watch
 ```
 or you can also serve using :
 
@@ -102,6 +106,47 @@ Visit [http://localhost:4000](http://localhost:4000) for development server
 ![Devlopr Jekyll Repo](/assets/img/posts/fork4.png){:class="img-fluid"}
 
 ![Devlopr Jekyll Repo](/assets/img/posts/fork41.png){:class="img-fluid"}
+
+### Adding Content
+
+Start populating your blog by adding your .md files in _posts. devlopr-jekyll already has a few examples.
+
+#### YAML Post Example:
+
+```yml
+---
+layout: post
+title: Sample Post
+author: Sujay Kundu
+date: '2019-05-21 14:35:23 +0530'
+category:
+        - jekyll
+summary: This is the summary for the sample post
+thumbnail: sample.png
+---
+
+Hi ! This is sample post.
+
+```
+
+#### YAML Page Example:
+
+```yml
+---
+layout: page
+title: Sample Page
+menus: header
+permalink: /sample-page/
+---
+
+Hi ! This is sample page.
+```
+
+#### Editing stylesheet
+
+You’ll only work with a single file to edit/add theme style: assets/css/main.scss.
+
+### Deploy your Changes
 
 Once happy with your blog changes. Push your changes to master branch.
 
