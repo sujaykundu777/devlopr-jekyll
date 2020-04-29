@@ -421,6 +421,75 @@ header {
     width: 0;
 }
 
+
+/* Homepage project cards*/
+
+#project-card{
+    margin: 0px !important;
+}
+#article{
+    margin-left: 35px !important;
+    margin-top: 20px !important;
+}
+.project_thumbnail{
+    text-align: center;
+}
+.project-img{
+    width:150px;
+    height:100px;
+}
+.project_details{
+    padding: 10px;
+}
+.project_links {
+    margin: 4px;
+    padding-top: 32px;
+    padding-left: 50px !important;
+}
+
+#blog-posts-container{
+    margin-left:20px !important;
+}
+
+#article-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 7fr 4fr;
+}
+
+#recent-articles,#recent-projects{
+    margin-top: 100px !important;
+}
+
+#recent-articles-header{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 17fr 2fr;
+}
+#article-img, #article-link, #article-alert{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 4px;
+}
+.recent-article-link{
+    font-size: 20px;
+    text-decoration: none;
+}
+.article-card-link, .article-card-link:hover{
+    text-decoration: none;
+    color: orange !important;
+}
+.article-card{
+    list-style-type: none;
+}
+.article-card a :hover{
+    text-decoration: none;
+    background: #303030!important;
+    border-color: #303030;
+    background: transparent;
+}
+
+
 @media (min-width: 768px) {
     .offset-md-1 {
     margin-left: 3.333333% !important;
@@ -450,7 +519,7 @@ header {
         margin-top: 5px;
     }
     .social-link {
-        color: var(--social-link-color);
+        color: var(--social-link-color) !important;
         font-size: 15px;
         padding: 5px;
         margin: 2px;
@@ -630,7 +699,6 @@ footer {
                 font-size: 1.25rem;
                 line-height: inherit;
                 white-space: nowrap;
-                margin-left: -80px;
 
             }
             .jumbotron {
@@ -742,6 +810,11 @@ footer {
             #author_details{
                 text-align: center;
             }
+        }
+
+        #topNav {
+            padding-left:  0px;
+            padding-right: 0px;
         }
 
           #mc-embedded-subscribe-form {

@@ -2,10 +2,14 @@
 
 ### devlopr-jekyll - A Jekyll Theme Built for Developers
 
+[![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)![workflow-badge](https://github.com/sujaykundu777/devlopr-jekyll/workflows/deploy/badge.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
+![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
+
 Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
 The Theme supports both Light and Dark Style. Highly Customizable and No Hosting or Maintainence Cost is required !
 
-[Get Started](https://devlopr.netlify.com/get-started)
+#### [Installation Guide](https://devlopr.netlify.app/get-started)
 
 ![devlopr jekyll](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/screenshot.PNG?raw=true)
 
@@ -14,10 +18,6 @@ devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Produc
 You can easily manage the site using the admin : [http://localhost:4000/admin](http://localhost:4000/admin)
 
 ![jekyll admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
-
-[![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)![workflow-badge](https://github.com/sujaykundu777/devlopr-jekyll/workflows/deploy/badge.svg)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
-![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
 
 ### Deploy your devlopr-jekyll blog - One Click Deploy
 
@@ -38,17 +38,14 @@ You can easily manage the site using the admin : [http://localhost:4000/admin](h
 - CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
 - Supports Latest [Jekyll 4.x](https://jekyllrb.com) and [Bundler](https://bundler.io)
 - Stylesheet built using Sass
-- SEO, Google Adsense and Analytics Optimized
+- Comments using [Hyvor](https://talk.hyvor.com/) and [Disqus](https://disqus.com/)
+- Google SEO and Analytics Optimized
 - Real Time Search using [Algolia](https://algolia.com/)
 - Sell Stuff (Ecommerce) in your Blog using [Snipcart](https://snipcart.com/)
 - Send Newsletters using [Mailchimp](https://mailchimp.com/)
 - Contact Forms using [Formspree](https://formspree.io/)
 - Coding Activity using [Wakatime](https://wakatime.com/)
 - Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com)
-
-### Using non-supported Jekyll Plugins (For Github Pages):
-
-You can use this [deploy-jekyll-site](https://github.com/marketplace/actions/deploy-jekyll-site) action to build the site and use custom or non-supported jekyll plugins
 
 ## Using Docker :
 
