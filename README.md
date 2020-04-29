@@ -1,6 +1,4 @@
-
-
-### devlopr-jekyll - A Jekyll Theme Built for Developers
+### devlopr-jekyll - A Beautiful Jekyll Theme Built for Developers
 
 [![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)![workflow-badge](https://github.com/sujaykundu777/devlopr-jekyll/workflows/deploy/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
@@ -98,17 +96,10 @@ Contributions are more than just welcome. Fork this repo and create a new branch
 
 - 5.Create new Pull Request
 
-
-
-### If you like the project. Don't forget to Star !
-
-
-
-
+### If you like the project. Don't forget to :star: !
 
 ## Licence
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). You can do anything you want, including projects for your clients, as long as you mention an attribution back (credit links in footer).
 
-
-
+I understand that sometimes footer links or any links to external websites are not convenient, so you have the option to remove credits by donating here.[here](https://buymeacoff.ee/sujaykundu).
