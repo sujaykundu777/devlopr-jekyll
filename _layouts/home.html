@@ -41,13 +41,13 @@ layout: default
                   />
                 </div>
                 <div id="article-link">
-                  <p class="recent-article-link">{{post.title}}</p>
-                </div>
-                <div id="article-alert">
-                  {% for cat in post.category limit:2 %}
+                    <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"> - <i><time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i></span></p>
+                  </div>
+                  <div id="article-alert">
+                  {% for cat in post.category limit:1 %}
                    <button class="btn btn-sm btn-dark">{{cat}}</button>
                   {% endfor %}
-                </div>
+                  </div>
               </div>
             </a>
           </li>
