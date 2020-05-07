@@ -105,6 +105,10 @@ Contributions are more than just welcome. Fork this repo and create a new branch
 
 ### If you like the project. Don't forget to :star: !
 
+### For Help :
+
+You can contact me, if you need any help via [Email](mailto:sujaykundu777@gmail.com)
+
 ### Backers
 
 Thank you to all our backers! 🙏 [Become a backer](https://https://buymeacoff.ee/sujaykundu)
