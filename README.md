@@ -8,7 +8,7 @@
 Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
 The Theme supports both Light and Dark Style. Highly Customizable and No Hosting or Maintainence Cost is required !
 
-#### [Installation Guide](https://devlopr.netlify.app/get-started)
+### [Installation Guide](https://devlopr.netlify.app/get-started)
 
 ![devlopr jekyll](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/screenshot.PNG?raw=true)
 
@@ -115,6 +115,6 @@ Thank you to all our backers! 🙏 [Become a backer](https://https://buymeacoff.
 
 ## Licence
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). You can do anything you want, including projects for your clients, as long as you mention an attribution back (credit links in footer). See the [Licence]((https://github.com/sujaykundu777/devlopr-jekyll/blob/master/LICENSE) file
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). You can do anything you want, including projects for your clients, as long as you mention an attribution back (credit links in footer). See the [Licence](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/LICENSE) file
 
-I understand that sometimes footer links or any links to external websites are not convenient, so you have the option to remove credits by becoming a Backer.
+I understand that sometimes footer links or any links to external websites are not convenient, so you have the option to remove credits/footer links by becoming a Backer.
