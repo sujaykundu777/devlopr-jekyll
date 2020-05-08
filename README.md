@@ -103,15 +103,19 @@ Contributions are more than just welcome. Fork this repo and create a new branch
 
 - 5.Create new Pull Request
 
-### If you like the project. Don't forget to :star: !
+Thanks to all our contributors:
 
-### For Help :
-
-You can contact me, if you need any help via [Email](mailto:sujaykundu777@gmail.com)
+<a href="../../graphs/contributors"><img src="https://opencollective.com/devlopr-jekyll/contributors.svg?width=890&button=false" /></a>
 
 ### Backers
 
-Thank you to all our backers! 🙏 [Become a backer](https://https://buymeacoff.ee/sujaykundu)
+Thank you to all our backers! 🙏 [<object type="image/svg+xml" data="https://opencollective.com/devlopr-jekyll/tiers/backer.svg?avatarHeight=36&width=600"></object>](https://opencollective.com/devlopr-jekyll)
+
+<a href="https://opencollective.com/devlopr-jekyll#backers" target="_blank"><img src="https://opencollective.com/devlopr-jekyll/backers.svg?width=890" /></a>
+
+### For Help :
+
+You can contact me, if you need any help via [Email](mailto:sujaykundu777@gmail.com). If you like the project. Don't forget to :star: !
 
 ## Licence
 
