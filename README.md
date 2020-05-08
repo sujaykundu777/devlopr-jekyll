@@ -103,13 +103,9 @@ Contributions are more than just welcome. Fork this repo and create a new branch
 
 - 5.Create new Pull Request
 
-Thanks to all our contributors:
-
-<a href="../../graphs/contributors"><img src="https://opencollective.com/devlopr-jekyll/contributors.svg?width=890&button=false" /></a>
-
 ### Backers
 
-Thank you to all our backers! 🙏 [<object type="image/svg+xml" data="https://opencollective.com/devlopr-jekyll/tiers/backer.svg?avatarHeight=36&width=600"></object>](https://opencollective.com/devlopr-jekyll)
+Thank you to all our Backers ! 🙏 [Become a Backer](https://opencollective.com/devlopr-jekyll#backer)
 
 <a href="https://opencollective.com/devlopr-jekyll#backers" target="_blank"><img src="https://opencollective.com/devlopr-jekyll/backers.svg?width=890" /></a>
 
@@ -121,4 +117,4 @@ You can contact me, if you need any help via [Email](mailto:sujaykundu777@gmail.
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). You can do anything you want, including projects for your clients, as long as you mention an attribution back (credit links in footer). See the [Licence](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/LICENSE) file
 
-I understand that sometimes footer links or any links to external websites are not convenient, so you have the option to remove credits/footer links by becoming a Backer.
+I understand that sometimes footer links or any links to external websites are not convenient, so you have the option to remove credits/footer links by becoming a [Backer](https://opencollective.com/devlopr-jekyll#backer).
