@@ -3,7 +3,7 @@ layout: post
 author: Sujay Kundu
 title: How to setup Netlify CMS with Github-Hosted devlopr Blog
 date: 2020-05-23T19:50:21.763Z
-thumbnail: netlify-cms-blog-opengraph-image-02.png
+thumbnail: /assets/img/posts/netlify-cms-blog-opengraph-image-02.png
 category: jekyll
 summary: Using Netlify CMS with Devlopr-Jekyll
 ---
@@ -29,7 +29,7 @@ In **Authorization callback URL**, enter: `https://api.netlify.com/auth/done`.
 
 Once finished, leave the page in the background. You will need the **Client ID** and **Client Secret** on this page later.
 
-![Creating an Github OAuth App](/assets/img/posts/auth1.png "Creating an Github OAuth App"){:class="img-flui}
+![Creating an Github OAuth App](/assets/img/posts/auth1.png "Creating an Github OAuth App"){:class="img-fluid}
 
 ## **2.  Creating a Netlify Site**
 

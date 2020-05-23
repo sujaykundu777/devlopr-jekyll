@@ -3,7 +3,7 @@ layout: post
 author: John Doe
 title: Netlify CMS created this Article
 date: 2020-05-23T09:52:20.613Z
-thumbnail: hello.jpg
+thumbnail: /assets/img/posts/hello.jpg
 category: jekyll
 summary: Testing CMS Article
 ---
