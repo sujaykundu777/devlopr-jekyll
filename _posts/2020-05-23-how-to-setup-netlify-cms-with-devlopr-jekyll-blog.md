@@ -3,11 +3,11 @@ layout: post
 author: Sujay Kundu
 title: How to setup Netlify CMS with Github-Hosted devlopr Blog
 date: 2020-05-23T19:50:21.763Z
-thumbnail: /assets/img/posts/netlify-cms-blog-opengraph-image-02.png
+thumbnail: netlify-cms-blog-opengraph-image-02.png
 category: jekyll
 summary: Using Netlify CMS with Devlopr-Jekyll
 ---
-Lets face it, We have our beautiful **Devlopr Jekyll** Site ready, but what if we want to ensure that it is as easy to update the site without any technical / markup sideof it. The administration should be simple and easy for any author or editor who wants to update the content of your site. To solve this problem, we are going to use Netlify CMS with our Devlopr Jekyll Blog. In this article I will show you how I setup Netlify CMS for my Github Pages Hosted site \[https://sujaykundu.com](https://sujaykundu.com) 
+Lets face it, We have our beautiful **Devlopr Jekyll** Site ready, but what if we want to ensure that it is as easy to update the site without any technical / markup sideof it. The administration should be simple and easy for any author or editor who wants to update the content of your site. To solve this problem, we are going to use Netlify CMS with our Devlopr Jekyll Blog. In this article I will show you how I setup Netlify CMS for my Github Pages Hosted site \[https://sujaykundu.com](https://sujaykundu.com)
 
 ### Setting up Netlify CMS with Github-Pages Hosted devlopr-jekyll Site:
 
@@ -21,7 +21,7 @@ This post walks through the really fast process of adding [Netlify CMS](https://
 
 ## 1. Creating an GitHub OAuth App
 
-First, go to [Github Dev Settings](https://github.com/settings/developers) and click **New OAuth App.** 
+First, go to [Github Dev Settings](https://github.com/settings/developers) and click **New OAuth App.**
 
 Enter whatever you like for **Application name** and **Homepage URL**.
 
@@ -29,7 +29,7 @@ In **Authorization callback URL**, enter: `https://api.netlify.com/auth/done`.
 
 Once finished, leave the page in the background. You will need the **Client ID** and **Client Secret** on this page later.
 
-![Creating an Github OAuth App](/assets/img/posts/auth1.png "Creating an Github OAuth App"){:class="img-fluid"}
+![Creating an Github OAuth App](/assets/img/posts/auth1.png "Creating an Github OAuth App"){:class="img-flui}
 
 ## **2.  Creating a Netlify Site**
 
@@ -45,7 +45,7 @@ After that, go to **Settings**, and copy your **Site name**. It should be someth
 
 From the sidebar go to **Domain Management** and add your GitHub Pages domain (`you.github.io`) as a custom domain. Choose **Yes** when asked if you are `github.io`’s owner.
 
-In my case I added sujaykundu.com,  since that's my custom domain, otherwise it would have been sujaykundu777.github.io 
+In my case I added sujaykundu.com,  since that's my custom domain, otherwise it would have been sujaykundu777.github.io
 
 ![](/assets/img/posts/auth4.png){:class="img-fluid"}
 
@@ -71,7 +71,7 @@ Here’s how the `config.yml` looks for now (in case of Github Pages hosted) Rep
 
 You may edit this according to your preference.
 
-and here's how the **index.html** looks like 
+and here's how the **index.html** looks like
 
 ```html
 <!doctype html>
