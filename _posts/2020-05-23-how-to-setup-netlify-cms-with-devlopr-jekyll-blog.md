@@ -97,4 +97,4 @@ The Dashboard can be accessed by admins using **/admin** URL.
 
 
 
-That's all, Now you can updated your Site using the Netlify CMS.
+That's all, Now you can updated your Site using the Netlify CMS. You can visit the site at http://you.github.io/admin (you - your github username) :D
