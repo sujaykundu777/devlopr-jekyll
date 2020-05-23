@@ -1,6 +1,6 @@
 ---
 layout: post
-author: John Doe
+author: Sujay Kundu
 title: How to setup Netlify CMS with Github-Hosted devlopr Blog
 date: 2020-05-23T19:50:21.763Z
 thumbnail: /assets/img/posts/netlify-cms-blog-opengraph-image-02.png
@@ -29,7 +29,7 @@ In **Authorization callback URL**, enter: `https://api.netlify.com/auth/done`.
 
 Once finished, leave the page in the background. You will need the **Client ID** and **Client Secret** on this page later.
 
-![Creating an Github OAuth App](/assets/img/posts/auth1.png "Creating an Github OAuth App")
+![Creating an Github OAuth App](/assets/img/posts/auth1.png "Creating an Github OAuth App"){:class="img-fluid"}
 
 ## **2.  Creating a Netlify Site**
 
@@ -37,25 +37,25 @@ Once finished, leave the page in the background. You will need the **Client ID**
 
 Go to [Netlify](https://app.netlify.com/account/sites) and create a new site from…*any* repo. We are not really using Netlify to host that, anyway.
 
-![](/assets/img/posts/auth2.png)
+![](/assets/img/posts/auth2.png){:class="img-fluid"}
 
 After that, go to **Settings**, and copy your **Site name**. It should be something like **agitated-northcutt-53b578**.
 
-![](/assets/img/posts/auth3.png)
+![](/assets/img/posts/auth3.png){:class="img-fluid"}
 
 From the sidebar go to **Domain Management** and add your GitHub Pages domain (`you.github.io`) as a custom domain. Choose **Yes** when asked if you are `github.io`’s owner.
 
 In my case I added sujaykundu.com,  since that's my custom domain, otherwise it would have been sujaykundu777.github.io 
 
-![](/assets/img/posts/auth4.png)
+![](/assets/img/posts/auth4.png){:class="img-fluid"}
 
 From the sidebar go to **Access control**, scroll down to **OAuth** and click **Install provider**.
 
-![](/assets/img/posts/auth5.png)
+![](/assets/img/posts/auth5.png){:class="img-fluid"}
 
 Choose **GitHub** as provider, and enter the **Client ID** and **Client Secret** from GitHub OAuth app page mentioned above.
 
-![](/assets/img/posts/auth6.png)
+![](/assets/img/posts/auth6.png){:class="img-fluid"}
 
 Then you can close the Netlify and GitHub webpages.
 
@@ -93,6 +93,6 @@ and here's how the **index.html** looks like
 
 The Dashboard can be accessed by admins using **/admin** URL.
 
-![netlify cms dashboard](/assets/img/posts/auth7.png "Netlify CMS Dashboard")
+![netlify cms dashboard](/assets/img/posts/auth7.png "Netlify CMS Dashboard"){:class="img-fluid"}
 
 That's all, Now you can updated your Site using the Netlify CMS. You can visit the site at http://you.github.io/admin (you - your github username) :D
