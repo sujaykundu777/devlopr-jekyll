@@ -21,10 +21,12 @@ devlopr supports Netlify CMS and Jekyll Admin :
 #### Netlify CMS
  devlopr supports Netlify CMS out of the box, which provides easy to use CMS for your Site. You can visit the admin at [http://devlopr.netlify.app/admin](http://devlopr.netlify.app/admin)
 
+![Netlify CMS](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/netlify-cms.PNG?raw=true)
+
 #### Jekyll Admin
 You can easily manage the site locally using the Jekyll admin : [http://localhost:4000/admin](http://localhost:4000/admin)
 
-![jekyll admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
+![Jekyll Admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
 
 ### Deploy your devlopr-jekyll blog - One Click Deploy
 
