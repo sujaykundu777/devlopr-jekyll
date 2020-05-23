@@ -14,7 +14,15 @@ The Theme supports both Light and Dark Style. Highly Customizable and No Hosting
 
 devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Products etc. No external database is required.
 
-You can easily manage the site using the admin : [http://localhost:4000/admin](http://localhost:4000/admin)
+### Admin - CMS
+
+devlopr supports Netlify CMS and Jekyll Admin :
+
+#### Netlify CMS
+ devlopr supports Netlify CMS out of the box, which provides easy to use CMS for your Site. You can visit the admin at [http://devlopr.netlify.app/admin](http://devlopr.netlify.app/admin)
+
+#### Jekyll Admin
+You can easily manage the site locally using the Jekyll admin : [http://localhost:4000/admin](http://localhost:4000/admin)
 
 ![jekyll admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
 
