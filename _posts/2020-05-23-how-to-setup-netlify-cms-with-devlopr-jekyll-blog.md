@@ -7,7 +7,7 @@ thumbnail: /assets/img/posts/netlify-cms-blog-opengraph-image-02.png
 category: jekyll
 summary: Using Netlify CMS with Devlopr-Jekyll
 ---
-Lets face it, We have our beautiful **Devlopr Jekyll** Site ready, but what if we want to ensure that it is as easy to update the site without any technical / markup sideof it. The administration should be simple and easy for any author or editor who wants to update the content of your site. To solve this problem, we are going to use Netlify CMS with our Devlopr Jekyll Blog.
+Lets face it, We have our beautiful **Devlopr Jekyll** Site ready, but what if we want to ensure that it is as easy to update the site without any technical / markup sideof it. The administration should be simple and easy for any author or editor who wants to update the content of your site. To solve this problem, we are going to use Netlify CMS with our Devlopr Jekyll Blog. In this article I will show you how I setup Netlify CMS for my Github Pages Hosted site \[https://sujaykundu.com](https://sujaykundu.com) 
 
 ### Setting up Netlify CMS with Github-Pages Hosted devlopr-jekyll Site:
 
@@ -94,7 +94,5 @@ and here's how the **index.html** looks like
 The Dashboard can be accessed by admins using **/admin** URL.
 
 ![netlify cms dashboard](/assets/img/posts/auth7.png "Netlify CMS Dashboard")
-
-
 
 That's all, Now you can updated your Site using the Netlify CMS. You can visit the site at http://you.github.io/admin (you - your github username) :D
