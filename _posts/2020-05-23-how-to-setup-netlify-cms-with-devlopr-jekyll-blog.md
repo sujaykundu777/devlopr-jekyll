@@ -29,19 +29,33 @@ In **Authorization callback URL**, enter: `https://api.netlify.com/auth/done`.
 
 Once finished, leave the page in the background. You will need the **Client ID** and **Client Secret** on this page later.
 
+![Creating an Github OAuth App](/assets/img/posts/auth1.png "Creating an Github OAuth App")
+
 ## **2.  Creating a Netlify Site**
 
 … Relax! We’re just creating one, without actually using it. In fact, if you want to deploy Jekyll site on Netlify, you [will need](https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/) to include Jekyll (generator) in your git repo.
 
 Go to [Netlify](https://app.netlify.com/account/sites) and create a new site from…*any* repo. We are not really using Netlify to host that, anyway.
 
+![](/assets/img/posts/auth2.png)
+
 After that, go to **Settings**, and copy your **Site name**. It should be something like **agitated-northcutt-53b578**.
+
+![](/assets/img/posts/auth3.png)
 
 From the sidebar go to **Domain Management** and add your GitHub Pages domain (`you.github.io`) as a custom domain. Choose **Yes** when asked if you are `github.io`’s owner.
 
+In my case I added sujaykundu.com,  since that's my custom domain, otherwise it would have been sujaykundu777.github.io 
+
+![](/assets/img/posts/auth4.png)
+
 From the sidebar go to **Access control**, scroll down to **OAuth** and click **Install provider**.
 
+![](/assets/img/posts/auth5.png)
+
 Choose **GitHub** as provider, and enter the **Client ID** and **Client Secret** from GitHub OAuth app page mentioned above.
+
+![](/assets/img/posts/auth6.png)
 
 Then you can close the Netlify and GitHub webpages.
 
@@ -53,34 +67,7 @@ Since you might have forked the repo, you might find a **admin** folder already 
 
 The **/admin/** directory contains the `index.html` and `config.yml` for Netlify CMS.
 
-Here’s how the `config.yml` looks for now (in case of Github Pages hosted)
-
-```yaml
-backend:
-  name: github
-  repo: you/you.github.io
-  branch: master
-  site_domain: agitated-northcutt-53b578.netlify.app
-
-media_folder: "assets/img/posts" # Media files will be stored in the repo under images/uploads
-public_folder: "/assets/img/posts" # The src attribute for uploaded media will begin with /images/uploads
-
-collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "_posts" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Category", name: "category", widget: "string", default: "jekyll"}
-      - {label: "Summary", name: "summary", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-```
+Here’s how the `config.yml` looks for now (in case of Github Pages hosted) Replace **you** with your **Github's username**
 
 You may edit this according to your preference.
 
@@ -106,4 +93,8 @@ and here's how the **index.html** looks like
 
 The Dashboard can be accessed by admins using **/admin** URL.
 
-![devlopr-jekyll netlify cms dashboard](/assets/img/posts/netlify-cms.png "Netlify CMS Dashboard")
+![netlify cms dashboard](/assets/img/posts/auth7.png "Netlify CMS Dashboard")
+
+
+
+That's all, Now you can updated your Site using the Netlify CMS.
