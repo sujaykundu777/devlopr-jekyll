@@ -42,7 +42,7 @@
     property="article:published_time"
   />
   <meta content="{{ site.url }}/about/" property="article:author" />
-  {% endif %} {% if page.image %}
+  {% endif %} {% if page.thumbnail %}
   <meta content="{{ site.url }}{{ page.thumbnail }}" property="og:image" />
   {% endif %} {% if page.categories %} {% for category in page.categories
   limit:1 %}
@@ -51,6 +51,7 @@
   <meta content="{{ tag }}" property="article:tag" />
   {% endfor %} {% endif %}
 
+  <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{ site.share.twitter_username }}" />
   <meta name="twitter:creator" content="@{{ site.share.twitter_username }}" />
@@ -60,17 +61,17 @@
   {% else %}
   <meta name="twitter:title" content="{{ site.title }}" />
   {% endif %}
-  <meta content="{{ site.title }}" property="og:site_name" />
+
   {% if page.url %}
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
-  {% endif %} {% if page.description %}
-  <meta name="twitter:description" content="{{ page.description }}" />
+  {% endif %} {% if page.summary %}
+  <meta name="twitter:description" content="{{ page.summary }}" />
   {% else %}
   <meta name="twitter:description" content="{{ site.description }}" />
   {% endif %} {% if page.header-img %}
   <meta
     name="twitter:image:src"
-    content="{{ site.url }}/{{ page.header-img }}"
+    content="{{ site.url }}{{ page.thumbnail }}"
   />
   {% endif %}
 
