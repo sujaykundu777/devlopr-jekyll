@@ -35,8 +35,9 @@
     <br />
     <br />
     {{ content }}
+    <br />
+    {%- include share_page.html -%}
   </div>
-
   {%- if site.hyvor_talk_website_id -%}
   <div class="comments">
     {%- include hyvor_comments.html -%}
@@ -45,4 +46,6 @@
   <!-- Incomment incase you want to use Disqus
       <div id="disqus_thread"></div>
    -->
+
+
 </article>

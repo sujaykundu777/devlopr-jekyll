@@ -35,7 +35,7 @@
       {% endif %}
 
       {% if page.image %}
-        <meta content="{{ site.url }}/assets/img/posts/{{ page.image }}" property="og:image">
+        <meta content="{{ site.url }}{{ page.thumbnail }}" property="og:image">
       {% endif %}
 
       {% if page.categories %}
