@@ -401,16 +401,11 @@ header {
     border-radius: 5px;
     margin: 1.5 * 1 * 0;
 
-    a {
-        font-weight: 700;
-        color: #fff;
-        margin-left: 10px;
-
-        &:hover {
-            border-bottom: 1px dashed #fff;
-        }
+    .share-text{
+        color: var(--main-text-color);
     }
 }
+.fb_iframe_widget span{vertical-align:inherit !important;}
 
 /* floating btn for buy me coffee */
 #bmc-wbtn{
