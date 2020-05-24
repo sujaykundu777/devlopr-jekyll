@@ -14,20 +14,6 @@ The Theme supports both Light and Dark Style. Highly Customizable and No Hosting
 
 devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Products etc. No external database is required.
 
-### Admin - CMS
-
-devlopr supports Netlify CMS and Jekyll Admin :
-
-#### Netlify CMS
- devlopr supports Netlify CMS out of the box, which provides easy to use CMS for your Site. You can visit the admin at [http://devlopr.netlify.app/admin](http://devlopr.netlify.app/admin)
-
-![Netlify CMS](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/netlify-cms.PNG?raw=true)
-
-#### Jekyll Admin
-You can easily manage the site locally using the Jekyll admin : [http://localhost:4000/admin](http://localhost:4000/admin)
-
-![Jekyll Admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
-
 ### Deploy your devlopr-jekyll blog - One Click Deploy
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/sujaykundu777/devlopr-jekyll)
@@ -44,7 +30,8 @@ You can easily manage the site locally using the Jekyll admin : [http://localhos
 
 #### Features :
 
-- CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
+- Local CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
+- Onine CMS Admin Support using [Netlify CMS](https://sujaykundu.com/jekyll/2020/05/24/how-to-setup-netlify-cms-with-github-hosted-devlopr-blog/#/), Forestry, Siteleaf, CloudCannon.
 - Supports Latest [Jekyll 4.x](https://jekyllrb.com) and [Bundler](https://bundler.io)
 - Stylesheet built using Sass
 - Comments using [Hyvor](https://talk.hyvor.com/) and [Disqus](https://disqus.com/)
@@ -55,6 +42,12 @@ You can easily manage the site locally using the Jekyll admin : [http://localhos
 - Contact Forms using [Formspree](https://formspree.io/)
 - Coding Activity using [Wakatime](https://wakatime.com/)
 - Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com)
+
+#### Jekyll Admin
+You can easily manage the site locally using the Jekyll admin : [http://localhost:4000/admin](http://localhost:4000/admin)
+
+![Jekyll Admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
+
 
 ## Release Changes :
 
