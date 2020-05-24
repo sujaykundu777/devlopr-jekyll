@@ -29,7 +29,7 @@ In **Authorization callback URL**, enter: `https://api.netlify.com/auth/done`.
 
 Once finished, leave the page in the background. You will need the **Client ID** and **Client Secret** on this page later.
 
-![Creating an Github OAuth App](/assets/img/posts/auth1.png "Creating an Github OAuth App"){:class="img-fluid}
+![Creating an Github OAuth App](/assets/img/posts/auth1.png "Creating an Github OAuth App"){:class="img-fluid"}
 
 ## **2.  Creating a Netlify Site**
 
