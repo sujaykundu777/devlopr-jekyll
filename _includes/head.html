@@ -35,15 +35,15 @@
   {% else %}
   <meta content="{{ site.description }}" property="og:description" />
   {% endif %} {% if page.url %}
-  <meta content="{{ site.url }}{{ page.url }}" property="og:url" />
+  <meta content="{{ site.url }}{{site.baseurl}}{{ page.url }}" property="og:url" />
   {% endif %} {% if page.date %}
   <meta
     content="{{ page.date | date_to_xmlschema }}"
     property="article:published_time"
   />
-  <meta content="{{ site.url }}/about/" property="article:author" />
+  <meta content="{{ site.url }}{{site.baseurl}}/about/" property="article:author" />
   {% endif %} {% if page.thumbnail %}
-  <meta content="{{ site.url }}{{ page.thumbnail }}" property="og:image" />
+  <meta content="{{ site.url }}{{site.baseurl}}{{ page.thumbnail }}" property="og:image" />
   {% endif %} {% if page.categories %} {% for category in page.categories
   limit:1 %}
   <meta content="{{ category }}" property="article:section" />
@@ -63,7 +63,7 @@
   {% endif %}
 
   {% if page.url %}
-  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+  <meta name="twitter:url" content="{{ site.url }}{{site.baseurl}}{{ page.url }}" />
   {% endif %} {% if page.summary %}
   <meta name="twitter:description" content="{{ page.summary }}" />
   {% else %}
@@ -71,15 +71,15 @@
   {% endif %} {% if page.header-img %}
   <meta
     name="twitter:image:src"
-    content="{{ site.url }}{{ page.thumbnail }}"
+    content="{{ site.url }}{{site.baseurl}}{{ page.thumbnail }}"
   />
   {% endif %}
 
-  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/main.css" />
   <!-- <link rel="stylesheet" href="/assets/css/custom-style.css" /> -->
   <link
     rel="stylesheet"
-    href="/assets/bower_components/lightgallery/dist/css/lightgallery.min.css"
+    href="{{site.url}}{{site.baseurl}}/assets/bower_components/lightgallery/dist/css/lightgallery.min.css"
   />
   <link
     rel="stylesheet"
@@ -97,15 +97,15 @@
   />
   <link
     rel="stylesheet"
-    href="/assets/bower_components/bootstrap/dist/css/bootstrap.min.css"
+    href="{{site.url}}{{site.baseurl}}/assets/bower_components/bootstrap/dist/css/bootstrap.min.css"
   />
   <link
     rel="stylesheet"
-    href="/assets/bower_components/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css"
+    href="{{site.url}}{{site.baseurl}}/assets/bower_components/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css"
   />
   <link
     rel="stylesheet"
-    href="/assets/bower_components/icono/dist/icono.min.css"
+    href="{{site.url}}{{site.baseurl}}/assets/bower_components/icono/dist/icono.min.css"
   />
   <!-- Fonts-->
   <link
@@ -127,14 +127,14 @@
     crossorigin="anonymous"
   ></script>
   <!-- <script src="/assets/bower_components/jquery/dist/jquery.min.js"></script> -->
-  <script src="/assets/bower_components/jquery.easing/jquery.easing.min.js"></script>
-  <script src="/assets/bower_components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="/assets/bower_components/jquery-mousewheel/jquery.mousewheel.min.js"></script>
-  <script src="/assets/bower_components/lightgallery/dist/js/lightgallery-all.min.js"></script>
+  <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery.easing/jquery.easing.min.js"></script>
+  <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+  <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/lightgallery/dist/js/lightgallery-all.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.2/picturefill.min.js"></script>
-  <script src="/assets/bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="/assets/bower_components/nanobar/nanobar.min.js"></script>
-  <script src="/assets/bower_components/typewrite/dist/typewrite.min.js"></script>
+  <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/nanobar/nanobar.min.js"></script>
+  <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/typewrite/dist/typewrite.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
 
