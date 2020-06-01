@@ -35,7 +35,7 @@ devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Produc
 - Supports Latest [Jekyll 4.x](https://jekyllrb.com) and [Bundler](https://bundler.io)
 - Stylesheet built using Sass
 - Comments using [Hyvor](https://talk.hyvor.com/) and [Disqus](https://disqus.com/)
-- Google SEO and Analytics Optimized
+- SEO-optimized
 - Real Time Search using [Algolia](https://algolia.com/)
 - Sell Stuff (Ecommerce) in your Blog using [Snipcart](https://snipcart.com/)
 - Send Newsletters using [Mailchimp](https://mailchimp.com/)
