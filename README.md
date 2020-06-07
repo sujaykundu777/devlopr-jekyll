@@ -31,7 +31,7 @@ devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Produc
 #### Features :
 
 - Local CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
-- Onine CMS Admin Support using [Netlify CMS](https://sujaykundu.com/jekyll/2020/05/24/how-to-setup-netlify-cms-with-github-hosted-devlopr-blog/#/), Forestry, Siteleaf, CloudCannon.
+- Onine CMS Admin Support using [Netlify CMS](https://sujaykundu.com/jekyll/2020/05/24/how-to-setup-netlify-cms-with-github-hosted-devlopr-blog/#/), Forestry, [Siteleaf](https://sujaykundu.com/jekyll/2019/05/22/using-siteleaf/), CloudCannon.
 - Supports Latest [Jekyll 4.x](https://jekyllrb.com) and [Bundler](https://bundler.io)
 - Stylesheet built using Sass
 - Comments using [Hyvor](https://talk.hyvor.com/) and [Disqus](https://disqus.com/)
@@ -48,6 +48,12 @@ You can easily manage the site locally using the Jekyll admin : [http://localhos
 
 ![Jekyll Admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
 
+#### Using CI/CD for deployment
+
+You can refer to this guieds, if you want to deploy your blog using other Deployment methods :
+
+- Deploy to Github Pages using [Travis CI](https://sujaykundu.com/blog/posts/deploy-jekyll-blog-using-github-pages-and-travis-ci/)
+- Deploy using Buddy
 
 ## Release Changes :
 
