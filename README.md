@@ -49,6 +49,14 @@ You can easily manage the site locally using the Jekyll admin : [http://localhos
 
 ![Jekyll Admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
 
+#### Search Configuration
+
+Replace *_algolia_api_key* content with your algolia's app Admin API key and run to index blog posts:
+
+`jekyll algolia`
+
+For more info : [Docs here](https://sujaykundu.com/jekyll/2020/06/18/how-to-add-realtime-search-to-your-devlopr-jekyll-blog-using-jekyll-algolia/)
+
 ## Release Changes :
 
 You can check out the latest changes [here](https://www.buymeacoffee.com/p/57109)
