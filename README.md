@@ -23,6 +23,7 @@ devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Produc
 ### Demo (Hosted Apps)
 
 - Github Pages Demo - [here](https://sujaykundu.com)
+- Firebase Demo - [here](https://devlopr.web.app)
 - Netlify Demo - [here](https://devlopr.netlify.com)
 - Zeit Now Demo - [here](https://devlopr-jekyll.now.sh)
 - Heroku Demo - [here](https://devlopr-jekyll.herokuapp.com)
@@ -41,7 +42,7 @@ devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Produc
 - Send Newsletters using [Mailchimp](https://mailchimp.com/)
 - Contact Forms using [Formspree](https://formspree.io/)
 - Coding Activity using [Wakatime](https://wakatime.com/)
-- Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com)
+- Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com), [Firebase](https://firebase.com)
 - CI/CD Support using [Travis CI](https://sujaykundu.com/blog/posts/deploy-jekyll-blog-using-github-pages-and-travis-ci/), Buddy , Circle CI
 
 #### Jekyll Admin
