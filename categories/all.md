@@ -2,7 +2,7 @@
 layout: page
 permalink: /blog/categories/
 ---
- 
+
 
 <h3>  {{ page.title }} </h3>
 
@@ -20,7 +20,7 @@ permalink: /blog/categories/
 
 
     {% endfor %}
-    
+
   </div>
 {% endfor %}
 </div>
