@@ -5,6 +5,7 @@ summary: Acompanhe logs com facilidade
 author: Karlipe Gomes
 date: '2020-06-03 1:35:23 +0530'
 category: 
+- elk
 - teampass
 - tooltip
 thumbnail: /assets/img/posts/elk-p3-tomcat/elk-p3.png
@@ -86,6 +87,7 @@ Esta linha adicionará no diretório de logs um arquivo chamado “tomcat-2-elk.
 | %T | Tempo da requisição em segundos |
 | %U | URL path acessada |
 | %u |	Usuário remoto (autenticado) |
+
 
 Segue um exemplo de como é o arquivo de log.
 ```bash
