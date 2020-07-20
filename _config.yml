@@ -1,49 +1,64 @@
-title: devlopr
-subtitle: A Jekyll Theme Built for Developers
+title: CringerLabs
+subtitle: SysAdmin flying up to Cloud!
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a Jekyll Theme Built For Developers
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://karlipegomes.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: About Me
-      url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
+    - text: About Me
+      url: /about
     - text: Contact Me
       url : /contact
-    - text: Styleguide
-      url: /styleguide
-    - text: Get Started
-      url: /get-started
 
 # Edit these details
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
-typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
+author_logo: profile.jpeg
+author: Karlipe Gomes
+author_bio: Hi, my name is Carlos Felipe, better known as Karlipe. I am a RedHat fanboy, fan of Technology, passionate in Infrastructure and Cloud, and also a DJ in my spare time.
+author_email: "karlipe@cringerlabs.com"
+author_location: Brazil
+author_website_url: "cringerlabs.com"
+typewrite-text: SysAdmin flying up to Cloud!
 
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: SEDUC-CE
+              company_logo: seduc-ce.png
+              company_url: https://seduc.ce.gov.br.com
+              designation: Senior Infrastructure Engineer
+              description: Working to support all applications to education public environment in State
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: BeachPark
+              company_logo: bpk.png
+              company_url: https://www.beachpark.com.br
+              designation: Infrastructure Team Lead
+              description: Worked as Team Lead, managing Infrastructure as a Service to internal clients
+              visibility: true
+            - company_name: MobTelecom
+              company_logo: mob.png
+              company_url: https://www.mobtelecom.com.br
+              designation: Solutions Architect
+              description: Designing ways to solve problems clients using DataCenter Solutions
+              visibility: true
+            - company_name: CoreSec (EnergyTelecom Group)
+              company_logo: coresec.png
+              company_url: https://www.energytelecom.com.br
+              designation: Red Hat Engineer
+              description: Worked as Red Hat Partner deploying solutions to big Companies and Government
+              visibility: true
+            - company_name: EnergyTelecom
+              company_logo: energy.png
+              company_url: https://www.energytelecom.com.br
+              designation: Technical Support Engineer
+              description: Worked as Security Service Provider to big Companies and Government 
+              visibility: true
+            - company_name: MobTelecom
+              company_logo: mob.png
+              company_url: https://www.mobtelecom.com.br
+              designation: Junior Support Analyst
+              description: Worked managing Core and Client Servers/Storages, Virtualized and Bare-Metal
               visibility: true
 
 author_education_details:
@@ -55,42 +70,30 @@ author_education_details:
                 visibility: true
 
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_thumbnail: cringerlabs.png
+                project_title: CringerLabs IaC
+                project_description: A self Challenge to organize my principal products
+                project_url: https://github.com/cringerlabs/lab-iac
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+github_username:  cringerlabs
+linkedin_username: cfgomes
+telegram_username: karlipegomes
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
-# disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476
+disqus_shortname: karlipegomes
+# hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+# wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+mailchimp_form_url: https://cringerlabs.us10.list-manage.com/subscribe/post?u=dbccd98e032ae5f2751bbe133&amp;id=c177f31bb7
 
 # formspree (contact form)
-formspree_email: johndoe@gmail.com
+formspree_email: karlipe@cringerlabs.com
 
 # syntax highlighter
 markdown: kramdown
@@ -99,16 +102,16 @@ permalink: pretty
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
-show_author_education_details: true
+show_author_education_details: false
 show_author_project_details: true
 
 # algolia search
 algolia:
-  application_id: D9WA1YKTRQ
+  application_id: JQYVPALC97
   index_name: blog_posts # You can replace that with whatever name you want
   files_to_exclude: []
   nodes_to_index: 'article'
-  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
+  search_only_api_key: edb928c3a16193fd37541c1094619019
 
 # pagination of posts
 paginate: 4
@@ -132,8 +135,8 @@ paginate_path: "/blog/page/:num/"
 #     category: '/category/:name/'
 
 # Shop
-collections:
- - products
+#collections:
+# - products
 
 # Gallery
 defaults:
