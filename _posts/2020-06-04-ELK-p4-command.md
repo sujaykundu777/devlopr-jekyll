@@ -84,3 +84,4 @@ Log sem a informação do IP de origem (após escalada de privilégio)
 
 Também é possivel criar um dashboard informando a lista de últimos comandos executados.
 <img src="/assets/img/posts/elk-p4-commands/elk-p4-04.png" width="740" >
+
