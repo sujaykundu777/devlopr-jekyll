@@ -107,11 +107,11 @@ show_author_project_details: true
 
 # algolia search
 algolia:
-  application_id: JQYVPALC97
-  index_name: blog_posts # You can replace that with whatever name you want
+  application_id: NALF881FJV
+  index_name: article # You can replace that with whatever name you want
   files_to_exclude: []
   nodes_to_index: 'article'
-  search_only_api_key: edb928c3a16193fd37541c1094619019
+  search_only_api_key: 84c98d69ccc2e30f4ff778bd69b9c23d
 
 # pagination of posts
 paginate: 8
