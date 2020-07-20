@@ -114,8 +114,8 @@ algolia:
   search_only_api_key: edb928c3a16193fd37541c1094619019
 
 # pagination of posts
-paginate: 4
-per_page: 4
+paginate: 8
+per_page: 8
 paginate_path: "/blog/page/:num/"
 
 # minify

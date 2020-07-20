@@ -12,7 +12,7 @@ html[data-theme="dark"] {
     --highlight-color: hsl(0, 0%, 60%);
     --light-border-color: hsl(0, 0%, 30%);
     --light-text-color: rgb(199, 199, 204);
-    --link-color: #f69801;
+    --link-color: #3cff00;
     --link-color-visited: hsl(250, 100%, 60%);
     --main-background-color: rgb(28, 28, 30);
     --main-text-color: rgb(139, 139, 139);
@@ -53,9 +53,9 @@ html[data-theme="light"] {
         --highlight-color: hsl(0, 0%, 60%);
         --light-border-color: hsl(0, 0%, 30%);
         --light-text-color: rgb(199, 199, 204);
-        --link-color: #f69801;
+        --link-color: #3cff00;
         --nav-color: #131313;
-        --search-color: #FF7901;
+        --search-color: #3cff00;
         --nav-link-color: rgba(255, 255, 255, .5);
         --link-color-visited: hsl(250, 100%, 60%);
         --main-background-color: rgb(28, 28, 30);
@@ -111,7 +111,7 @@ ol, ul {
 
 /* Progress bar */
 .my-class .bar {
-    background: #f69801;
+    background: #3cff00;
 }
 
 body {
@@ -225,7 +225,7 @@ header {
 }
 
 .navbar-dark .navbar-brand {
-    color: #ff7601 !important;
+    color: #3cff00 !important;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: var(--nav-link-color) !important;
@@ -235,8 +235,8 @@ header {
 }
 
 .navbar-brand-img{
-    width: 50px;
-    height: 50px;
+    width: 197px;
+    height: 30px;
 }
 
 .btn-dark {
@@ -499,7 +499,7 @@ header {
 }
 .article-card-link, .article-card-link:hover{
     text-decoration: none;
-    color: orange !important;
+    color: #3cff00 !important;
 }
 .article-card{
     list-style-type: none;
