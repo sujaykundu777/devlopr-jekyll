@@ -1,19 +1,16 @@
 <head>
   <meta charset="utf-8" />
   <title>
-    {% if {page.title %}{{ page.title }}{% else %}{{ site.title }} - {{
+    {% if {page.title %}{{ page.title }} -{{site.title}}{% else %}{{ site.title }} - {{
     site.subtitle }}{% endif %}
   </title>
   <meta http-equip="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta
-    name="description"
-    content="{% if {page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}"
-  />
-  <meta
-    name="keywords"
-    content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}"
-  />
+  {% if page.summary %}
+    <meta name="description" content="{{ page.summary | escape }}- {% if {page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}">
+  {% endif %}
+   <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %},{{ page.keywords | escape }}"/>
+
   <link
     rel="alternate"
     type="application/rss+xml"
@@ -35,15 +32,15 @@
   {% else %}
   <meta content="{{ site.description }}" property="og:description" />
   {% endif %} {% if page.url %}
-  <meta content="{{ site.url }}{{site.baseurl}}{{ page.url }}" property="og:url" />
+  <meta content="{{ site.url }}{{ page.url }}" property="og:url" />
   {% endif %} {% if page.date %}
   <meta
     content="{{ page.date | date_to_xmlschema }}"
     property="article:published_time"
   />
-  <meta content="{{ site.url }}{{site.baseurl}}/about/" property="article:author" />
+  <meta content="{{ site.url }}/about/" property="article:author" />
   {% endif %} {% if page.thumbnail %}
-  <meta content="{{ site.url }}{{site.baseurl}}{{ page.thumbnail }}" property="og:image" />
+  <meta content="{{ site.url }}{{ page.thumbnail }}" property="og:image" />
   {% endif %} {% if page.categories %} {% for category in page.categories
   limit:1 %}
   <meta content="{{ category }}" property="article:section" />
@@ -63,7 +60,7 @@
   {% endif %}
 
   {% if page.url %}
-  <meta name="twitter:url" content="{{ site.url }}{{site.baseurl}}{{ page.url }}" />
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
   {% endif %} {% if page.summary %}
   <meta name="twitter:description" content="{{ page.summary }}" />
   {% else %}
@@ -71,7 +68,7 @@
   {% endif %} {% if page.header-img %}
   <meta
     name="twitter:image:src"
-    content="{{ site.url }}{{site.baseurl}}{{ page.thumbnail }}"
+    content="{{ site.url }}{{ page.thumbnail }}"
   />
   {% endif %}
 
@@ -146,7 +143,8 @@
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"
   ></script>
-
+ <!-- (you can remove the below scripts but do buy me a coffee to show some support :) -->
+<!-- Maker widget  -->
   <script>
     (function(d, h, m) {
       var js,

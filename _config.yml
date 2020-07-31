@@ -27,9 +27,9 @@ urls:
 author_logo: profile.png
 author: John Doe
 author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "johndoe@gmail.com"
+author_email: "mail@sujaykundu.com"
 author_location: India
-author_website_url: "http://johndoe.com"
+author_website_url: "https://sujaykundu.com"
 typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
 
 author_work_experiences:
