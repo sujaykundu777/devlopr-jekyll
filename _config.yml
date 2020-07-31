@@ -2,7 +2,7 @@ title: CringerLabs
 subtitle: SysAdmin flying up to Cloud!
 description: >- # this means to ignore newlines until "baseurl:"
 
-url: "https://cringerlabs.com" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "http://cringerlabs.com" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
