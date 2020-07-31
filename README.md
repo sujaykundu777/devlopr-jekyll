@@ -60,7 +60,18 @@ For more info : [Docs here](https://sujaykundu.com/jekyll/2020/06/18/how-to-add-
 
 ## Release Changes :
 
-You can check out the latest changes [here](https://www.buymeacoffee.com/p/57109)
+You can check out the info on latest changes [here](https://www.buymeacoffee.com/p/57109)
+
+## Pull the latest changes
+
+```s
+git remote -v
+git remote add upstream https://github.com/sujaykundu777/devlopr-jekyll.git
+git fetch upstream
+git checkout master
+git merge upstream/master
+git push
+```
 
 ## Using Docker :
 
