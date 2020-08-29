@@ -5,14 +5,15 @@
 ![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
-The Theme supports both Light and Dark Style. Highly Customizable and No Hosting or Maintainence Cost is required !
+Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup. (Under Active Development) !
+
+Highly Customizable and No Hosting or Maintainence Cost is required !
 
 ### [Installation Guide](https://devlopr.netlify.app/get-started)
 
 ![devlopr jekyll](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/screenshot.PNG?raw=true)
 
-devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Products etc. No external database is required.
+devlopr uses Markdown Files to generate data like Blog Posts, Gallery, Shop Products etc. No external database is required.
 
 ### Deploy your devlopr-jekyll blog - One Click Deploy
 
@@ -37,7 +38,7 @@ devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Produc
 - Stylesheet built using Sass
 - Comments using [Hyvor](https://talk.hyvor.com/) and [Disqus](https://disqus.com/)
 - SEO-optimized
-- Real Time Search using [Algolia](https://algolia.com/)
+- Real Time Search
 - Sell Stuff (Ecommerce) in your Blog using [Snipcart](https://snipcart.com/)
 - Send Newsletters using [Mailchimp](https://mailchimp.com/)
 - Contact Forms using [Formspree](https://formspree.io/)
@@ -50,17 +51,14 @@ You can easily manage the site locally using the Jekyll admin : [http://localhos
 
 ![Jekyll Admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
 
-#### Search Configuration
+## Recent Release Changes (v 0.4.6):
 
-Replace *_algolia_api_key* content with your algolia's app Admin API key and run to index blog posts:
+- Minor Bug fixes and optimizations
+- You can use Editorial workflow while using Netlify CMS  (Draft, Preview, Publish) !
+- Removed Algolia, Now supporting real time search without anythird party !
+- Removed Jekyll Feeds plugin to optimize build time (now uses auto feed generation) !
 
-`jekyll algolia`
-
-For more info : [Docs here](https://sujaykundu.com/jekyll/2020/06/18/how-to-add-realtime-search-to-your-devlopr-jekyll-blog-using-jekyll-algolia/)
-
-## Release Changes :
-
-You can check out the info on latest changes [here](https://www.buymeacoffee.com/p/57109)
+You can check out for all changelogs [here](https://www.buymeacoffee.com/p/57109)
 
 ## Pull the latest changes
 
