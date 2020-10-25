@@ -1,5 +1,5 @@
 title: devlopr
-subtitle: A Jekyll Theme Built for Developers
+subtitle: A Portfolio Jekyll Theme Built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -7,7 +7,9 @@ url: "" # the base hostname & protocol for your site, e.g. https://example.githu
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: About Me
+    - text: Home
+      url: /
+    - text: About
       url: /about
     - text: Blog
       url: /blog
@@ -15,14 +17,14 @@ urls:
       url: /gallery
     - text: Shop
       url : /shop
-    - text: Contact Me
+    - text: Contact
       url : /contact
     - text: Styleguide
       url: /styleguide
     - text: Get Started
       url: /get-started
 
-# Edit these details
+# Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
 author: John Doe
@@ -126,17 +128,25 @@ paginate_path: "/blog/page/:num/"
 #   permalinks:
 #     category: '/category/:name/'
 
-# Shop
 collections:
- - products
+  products:
+    output: true
+  authors:
+    output: true
 
-# Gallery
 defaults:
   -
     scope:
       path: "gallery"
     values:
       permalink: /:path/:basename:output_ext
+  -
+    scope:
+      path: ""
+      type: authors
+    values:
+      layout: author
+      permalink: /blog/authors/:slug
 
 # Build settings
 plugins:
