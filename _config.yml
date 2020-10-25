@@ -128,15 +128,12 @@ paginate_path: "/blog/page/:num/"
 #   permalinks:
 #     category: '/category/:name/'
 
-# Shop
 collections:
- - products
-
-collections:
+  products:
+    output: true
   authors:
     output: true
 
-# Gallery
 defaults:
   -
     scope:
