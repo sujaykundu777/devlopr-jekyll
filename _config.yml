@@ -6,6 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
+# Menu Links
 urls:
     - text: About Me
       url: /about
@@ -32,6 +33,7 @@ author_location: India
 author_website_url: "https://sujaykundu.com"
 typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
 
+# Experiences
 author_work_experiences:
             - company_name: Google
               company_logo: google.png
@@ -46,6 +48,7 @@ author_work_experiences:
               description: Worked on various Azure Cloud Products
               visibility: true
 
+# Education
 author_education_details:
               - college_logo: mit.png
                 college_name: MIT
@@ -54,6 +57,7 @@ author_education_details:
                 description: Bachelor of Technology
                 visibility: true
 
+# Projects
 author_project_details:
               - project_thumbnail: gamershub.png
                 project_title: Gamers Hub
