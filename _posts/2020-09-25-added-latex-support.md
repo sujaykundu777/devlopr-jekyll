@@ -3,12 +3,12 @@ layout: post
 title:  "Added Latex Support"
 summary: Writing Equations using Latex
 author: John Doe
-date: '2020-10-25 9:35:23 +0530'
+date: '2020-09-25 10:35:23 +0530'
 category: jekyll
 thumbnail: /assets/img/posts/code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
-permalink: /blog/added-latex-equations-support
 usemathjax: true
+permalink: /blog/added-latex-equations-support
 ---
 
 ## You can now use LaTex to write equations :
