@@ -128,9 +128,13 @@ author: janedoe
 This is Jane Doe's Article
 ```
 
-Now a page will be created for Jane Doe to showcase her profile and all her posts and details.
+Now there will be Authors widget in Blog Sidebar, showing all authors like this :
 
-![Author Page](https://res.cloudinary.com/sujaykundu/image/upload/c_scale,fl_progressive,w_506/v1603643237/1_ee3yke.png)
+![Author Sidebar Widget](https://res.cloudinary.com/sujaykundu/image/upload/c_scale,fl_progressive,w_400/v1603700133/3_tiuar0.png)
+
+Also a Author Profile Page will be created for Jane Doe to showcase her written articles.
+
+![Author Page](https://res.cloudinary.com/sujaykundu/image/upload/c_scale,fl_progressive,w_400/v1603643237/1_ee3yke.png)
 
 Also, below this article you can see the Author Profile Card , who has written the article too ! ;)
 
