@@ -15,14 +15,14 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
+#    - text: Shop
+#     url : /shop
     - text: Contact
       url : /contact
-    - text: Styleguide
-      url: /styleguide
-    - text: Get Started
-      url: /get-started
+#   - text: Styleguide
+#     url: /styleguide
+#   - text: Get Started
+#     url: /get-started
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
