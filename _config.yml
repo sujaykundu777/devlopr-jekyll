@@ -32,7 +32,7 @@ author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
 author_email: "mail@sujaykundu.com"
 author_location: India
 author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
+typewrite-text: 발전하는 개발자 정욱입니다.
 
 # Experiences
 author_work_experiences:
