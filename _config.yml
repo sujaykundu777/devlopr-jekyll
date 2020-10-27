@@ -83,7 +83,7 @@ telegram_username: null
 dribbble_username: null
 flickr_username: null
 
-#for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
+for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 disqus_shortname: kjh121511-github-io-1
 hyvor_talk_website_id: 476
