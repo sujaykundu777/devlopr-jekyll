@@ -24,7 +24,7 @@ devlopr uses Markdown Files to generate data like Blog Posts, Gallery, Shop Prod
 
 ### Demo (Hosted Apps)
 
-- Github Pages Demo - [here](https://sujaykundu.com)
+- Github Pages Demo - [here](https://sanketkundu.github.io/)
 - Firebase Demo - [here](https://devlopr.web.app)
 - Netlify Demo - [here](https://devlopr.netlify.com)
 - Zeit Now Demo - [here](https://devlopr-jekyll.now.sh)
@@ -52,14 +52,13 @@ You can easily manage the site locally using the Jekyll admin : [http://localhos
 
 ![Jekyll Admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
 
-## Recent Release Changes (v 0.4.6):
+## Recent Release Changes (v 0.4.7):
 
 - Minor Bug fixes and optimizations
-- You can use Editorial workflow while using Netlify CMS  (Draft, Preview, Publish) !
-- Removed Algolia, Now supporting real time search without anythird party !
-- Removed Jekyll Feeds plugin to optimize build time (now uses auto feed generation) !
+- [Added Support for Multi Authors](https://devlopr.netlify.app/blog/added-multi-author-support/#/)
+- [Added Support for Math Symbols](https://devlopr.netlify.app/blog/added-latex-equations-support/#/)
 
-You can check out for all changelogs [here](https://www.buymeacoffee.com/p/57109)
+You can check out for all changelogs [here](https://www.buymeacoffee.com/sujaykundu/release-v-0-4-7)
 
 ## Pull the latest changes
 
@@ -125,7 +124,7 @@ Contributions are more than just welcome. Fork this repo and create a new branch
 
 - 5.Create new Pull Request
 
-### Backers
+### Remove Credits
 
 You can remove credits/footer attribution links, by Donating $5 to our [Open Collective](https://opencollective.com/devlopr-jekyll/donate) or [Buymeacoffee](https://buymeacoffee.com/sujaykundu).
 
