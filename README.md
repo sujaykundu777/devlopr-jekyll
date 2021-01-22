@@ -16,6 +16,23 @@ Highly Customizable and No Hosting or Maintainence Cost is required !
 
 devlopr uses Markdown Files to generate data like Blog Posts, Gallery, Shop Products etc. No external database is required.
 
+### [Get Started Locally]
+
+To get started follow this [tutorial](https://devlopr.netlify.app/get-started).Then follow the below commands to start the server locally at http://127.0.0.1:4000/.
+
+```sh
+$ git clone https://github.com/your_github_username/your_github_username.github.io.git
+$ cd your_github_username
+$ ruby -v
+$ gem install bundler
+$ bundler -v
+$ bundle add jekyll
+$ bundle exec jekyll -v
+$ bundle update
+$ bundle install
+$ bundle exec jekyll serve --watch
+```
+
 ### Deploy your devlopr-jekyll blog - One Click Deploy
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/sujaykundu777/devlopr-jekyll)
