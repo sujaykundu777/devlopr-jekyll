@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Guides
-permalink: /blog/categories/guides
+permalink: /blog/categories/guides/
 ---
- 
+
 <h5> Posts by Category : {{ page.title }} </h5>
 
 <div class="card">

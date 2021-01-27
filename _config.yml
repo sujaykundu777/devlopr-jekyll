@@ -1,13 +1,15 @@
 title: devlopr
-subtitle: A Jekyll Theme Built for Developers
+subtitle: A Portfolio Jekyll Theme Built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a Jekyll Theme Built For Developers
+  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: About Me
+    - text: Home
+      url: /
+    - text: About
       url: /about
     - text: Blog
       url: /blog
@@ -15,23 +17,24 @@ urls:
       url: /gallery
     - text: Shop
       url : /shop
-    - text: Contact Me
+    - text: Contact
       url : /contact
     - text: Styleguide
       url: /styleguide
     - text: Get Started
       url: /get-started
 
-# Edit these details
+# Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
 author: John Doe
 author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "johndoe@gmail.com"
+author_email: "mail@sujaykundu.com"
 author_location: India
-author_website_url: "http://johndoe.com"
+author_website_url: "https://sujaykundu.com"
 typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
 
+# Experiences
 author_work_experiences:
             - company_name: Google
               company_logo: google.png
@@ -46,6 +49,7 @@ author_work_experiences:
               description: Worked on various Azure Cloud Products
               visibility: true
 
+# Education
 author_education_details:
               - college_logo: mit.png
                 college_name: MIT
@@ -54,6 +58,7 @@ author_education_details:
                 description: Bachelor of Technology
                 visibility: true
 
+# Projects
 author_project_details:
               - project_thumbnail: gamershub.png
                 project_title: Gamers Hub
@@ -97,21 +102,10 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# google analytics
-google_analytics: UA-46783401-10
-
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
-
-# algolia search
-algolia:
-  application_id: D9WA1YKTRQ
-  index_name: blog_posts # You can replace that with whatever name you want
-  files_to_exclude: []
-  nodes_to_index: 'article'
-  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
 
 # pagination of posts
 paginate: 4
@@ -134,26 +128,32 @@ paginate_path: "/blog/page/:num/"
 #   permalinks:
 #     category: '/category/:name/'
 
-# Shop
 collections:
- - products
+  products:
+    output: true
+  authors:
+    output: true
 
-# Gallery
 defaults:
   -
     scope:
       path: "gallery"
     values:
       permalink: /:path/:basename:output_ext
+  -
+    scope:
+      path: ""
+      type: authors
+    values:
+      layout: author
+      permalink: /blog/authors/:slug
 
 # Build settings
 plugins:
-  - jekyll-feed
   - jekyll-paginate
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-algolia
   - jekyll-menus
 
 
