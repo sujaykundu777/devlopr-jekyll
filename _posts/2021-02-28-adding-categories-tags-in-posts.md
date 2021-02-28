@@ -22,27 +22,27 @@ category: ['jekyll', 'guides', 'sample_category']
 ---
 ```
 
-Then to render this category using link and pages. All we need to do is, Create a new file with [your_category_name].md inside categories folder. Then copy the below code, replacing all the values with your_category_name. For eg. to create a category with your_category_name.
+Then to render this category using link and pages. All we need to do is,
 
-To add a category with name "sample_category", use this
+1. Create a new file with [your_category_name].md inside categories folder.
 
-In categories/sample_category.md
+2. Copy categories/sample_category.md file and replace the content in [your_category_name].md in that. (Please don't copy the code below its just sample, since it renders the jekyll syntax dynamically)
 
 ```jsx
 ---
 layout: page
 title: Guides
-permalink: /blog/categories/sample_category/
+permalink: /blog/categories/your_category_name/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>
 
 <div class="card">
-{% for post in site.categories.sample_category %}
+{% for post in site.categories.your_category_name %}
  <li class="category-posts"><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </div>
 ```
 
 Using the category, all the posts associated with the category will be listed on
-`http://localhost:4000/blog/categories/sample_category`
+`http://localhost:4000/blog/categories/your_category_name`
