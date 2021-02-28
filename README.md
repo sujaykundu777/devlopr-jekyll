@@ -143,7 +143,7 @@ Contributions are more than just welcome. Fork this repo and create a new branch
 
 ### Remove Credits
 
-You can remove credits/footer attribution links, by Donating $5 to our [Open Collective](https://opencollective.com/devlopr-jekyll/donate) or [Buymeacoffee](https://buymeacoffee.com/sujaykundu).
+You can remove credits/footer attribution links, by Donating $5 to [Buymeacoffee](https://buymeacoffee.com/sujaykundu)  or [Open Collective](https://opencollective.com/devlopr-jekyll/donate).
 
 Thanks to all our Backers ! 🙏 [Become a Backer](https://opencollective.com/devlopr-jekyll#backer)
 
