@@ -1,66 +1,45 @@
 title: CringerLabs
-subtitle: SysAdmin flying up to Cloud!
+subtitle: A Portfolio Jekyll Theme Built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
+  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-url: "https://cringerlabs.com" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
+    - text: About
+      url: /about
     - text: Blog
       url: /blog
-    - text: About Me
-      url: /about
-    - text: Contact Me
+    - text: Contact
       url : /contact
 
-# Edit these details
+# Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.jpeg
+author_logo: profile.png
 author: Karlipe Gomes
-author_bio: Hi, my name is Carlos Felipe, better known as Karlipe. I am a RedHat fanboy, fan of Technology, passionate in Infrastructure and Cloud, and also a DJ in my spare time.
-author_email: "karlipe@cringerlabs.com"
-author_location: Brazil
-author_website_url: "cringerlabs.com"
-typewrite-text: SysAdmin flying up to Cloud!
+author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
+author_email: "mail@sujaykundu.com"
+author_location: India
+author_website_url: "https://sujaykundu.com"
+typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
 
+# Experiences
 author_work_experiences:
-            - company_name: SEDUC-CE
-              company_logo: seduc-ce.png
-              company_url: https://seduc.ce.gov.br
-              designation: Senior Infrastructure Engineer
-              description: Working to support all applications to education public environment in State
+            - company_name: Google
+              company_logo: google.png
+              company_url: https://google.com
+              designation: Software Engineer
+              description: Worked on various Google Products
               visibility: true
-            - company_name: BeachPark
-              company_logo: bpk.png
-              company_url: https://www.beachpark.com.br
-              designation: Infrastructure Team Lead
-              description: Worked as Team Lead, managing Infrastructure as a Service to internal clients
-              visibility: true
-            - company_name: MobTelecom
-              company_logo: mob.png
-              company_url: https://www.mobtelecom.com.br
-              designation: Solutions Architect
-              description: Designing ways to solve problems clients using DataCenter Solutions
-              visibility: true
-            - company_name: CoreSec (EnergyTelecom Group)
-              company_logo: coresec.png
-              company_url: https://www.energytelecom.com.br
-              designation: Red Hat Engineer
-              description: Worked as Red Hat Partner deploying solutions to big Companies and Government
-              visibility: true
-            - company_name: EnergyTelecom
-              company_logo: energy.png
-              company_url: https://www.energytelecom.com.br
-              designation: Technical Support Engineer
-              description: Worked as Security Service Provider to big Companies and Government 
-              visibility: true
-            - company_name: MobTelecom
-              company_logo: mob.png
-              company_url: https://www.mobtelecom.com.br
-              designation: Junior Support Analyst
-              description: Worked managing Core and Client Servers/Storages, Virtualized and Bare-Metal
+            - company_name: Microsoft
+              company_logo: microsoft.png
+              company_url: https://microsoft.com
+              designation: Azure Developer
+              description: Worked on various Azure Cloud Products
               visibility: true
 
+# Education
 author_education_details:
               - college_logo: mit.png
                 college_name: MIT
@@ -69,28 +48,37 @@ author_education_details:
                 description: Bachelor of Technology
                 visibility: true
 
+# Projects
 author_project_details:
-              - project_thumbnail: cringerlabs.png
-                project_title: CringerLabs IaC
-                project_description: A self Challenge to organize my principal products
-                project_url: https://github.com/cringerlabs/lab-iac
+              - project_thumbnail: gamershub.png
+                project_title: Gamers Hub
+                project_description: A Platform built for Gamers and Game Devs
+                project_url: https://gamershub.in
+                visibility: true
+              - project_thumbnail: hack4r.PNG
+                project_title: Hack4r
+                project_description: A Platform built for Hackers and Penetration Testers
+                project_url: https://hack4r.com
                 visibility: true
 
 # social links
+twitter_username: cringerlabs
 github_username:  karlipegomes
 linkedin_username: cfgomes
+instagram_username: cringerlabs
 telegram_username: karlipegomes
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
-disqus_shortname: cringerlabs-com
-# hyvor_talk_website_id: 476
+#
+disqus_shortname: sujay-kundu
+#hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-# wakatime_username: sujaykundu777
+wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://cringerlabs.us10.list-manage.com/subscribe/post?u=dbccd98e032ae5f2751bbe133&amp;id=c177f31bb7
+mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # formspree (contact form)
 formspree_email: karlipe@cringerlabs.com
@@ -102,20 +90,12 @@ permalink: pretty
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
-show_author_education_details: false
+show_author_education_details: true
 show_author_project_details: true
 
-# algolia search
-algolia:
-  application_id: NALF881FJV
-  index_name: article # You can replace that with whatever name you want
-  files_to_exclude: []
-  nodes_to_index: 'article'
-  search_only_api_key: 84c98d69ccc2e30f4ff778bd69b9c23d
-
 # pagination of posts
-paginate: 8
-per_page: 8
+paginate: 10
+per_page: 10
 paginate_path: "/blog/page/:num/"
 
 # minify
@@ -134,26 +114,32 @@ paginate_path: "/blog/page/:num/"
 #   permalinks:
 #     category: '/category/:name/'
 
-# Shop
 #collections:
-# - products
+#  products:
+#    output: true
+#  authors:
+#    output: false
 
-# Gallery
 defaults:
   -
     scope:
       path: "gallery"
     values:
       permalink: /:path/:basename:output_ext
+  -
+    scope:
+      path: ""
+      type: authors
+    values:
+      layout: author
+      permalink: /blog/authors/:slug
 
 # Build settings
 plugins:
-  - jekyll-feed
   - jekyll-paginate
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-algolia
   - jekyll-menus
 
 
