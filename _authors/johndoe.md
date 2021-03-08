@@ -1,10 +1,10 @@
 ---
-name: John Doe
-username: johndoe
+name: Carlos Felipe Gomes
+username: karlipegomes
 bio: "Hi I a John, a Web Developer and Designer."
-site: http://johndoe.com
+site: http://cringerlabs.com
 avatar: johndoe.png
-email: mail@johndoe.com
+email: karlipe@cringerlabs.com
 social:
     - title: "github"
       url: "https://github.com/johndoe"
