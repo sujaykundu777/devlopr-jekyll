@@ -62,14 +62,14 @@ author_work_experiences:
               visibility: true
 
 author_education_details:
-              - college_logo: estacio-2020.png
+              - college_logo: estacio.png
                 college_name: Estacio College
                 college_url: https://estacio.br
                 college_degree: MBA in Cloud Computing Architecture and Projects
                 description: MBA
                 visibility: true
 
-              - college_logo: estacio-2020.png
+              - college_logo: estacio.png
                 college_name: Estacio College
                 college_url: https://estacio.br
                 college_degree: Analysis and Systems Development
