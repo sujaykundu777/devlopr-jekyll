@@ -26,21 +26,22 @@ html[data-theme="dark"] {
 
 html,
 html[data-theme="light"] {
-    --bold-color: rgb(188, 188, 188);
-    --box-background-color: hsl(0, 0%, 20%);
-    --highlight-color: hsl(0, 0%, 60%);
-    --light-border-color: hsl(0, 0%, 30%);
-    --light-text-color: rgb(199, 199, 204);
-    --link-color: #3cff00;
-    --link-color-visited: hsl(250, 100%, 60%);
-    --main-background-color: rgb(28, 28, 30);
-    --main-text-color: rgb(139, 139, 139);
-    --medium-text-color: hsl(0, 0%, 70%);
-    --underline-color: hsl(0, 0%, 50%);
-    --social-link-color: #ffffff;
-    --card-background-color: rgb(32, 32, 34);
-    --newsletter-background-color: #222324;
-    --button-background-color: #111;
+    --bold-color: rgb(0, 0, 0);
+    --box-background-color: rgb(249, 249, 250);
+    --highlight-color: hsl(0, 0%, 80%);
+    --light-border-color: rgb(230, 230, 230);
+    --light-text-color: rgb(72, 72, 74);
+    --link-color: rgb(0, 112, 201);
+    --link-color-visited: hsl(250, 100%, 37%);
+    --main-background-color: rgb(255, 255, 255);
+    --main-text-color: rgb(51, 51, 51);
+    --medium-text-color: hsl(0, 40%, 2%);
+    --sidebar-color: hsl(0, 0%, 90%);
+    --underline-color: hsl(0, 0%, 60%);
+    --social-link-color: #262222;
+    --card-background-color: rgb(250, 250, 250);
+    --newsletter-background-color: #00000008;
+    --button-background-color: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -69,24 +70,24 @@ html[data-theme="light"] {
 
     /* Light Mode */
     html[data-theme="light"] {
-        --bold-color: rgb(188, 188, 188);
-        --box-background-color: hsl(0, 0%, 20%);
-        --highlight-color: hsl(0, 0%, 60%);
-        --light-border-color: hsl(0, 0%, 30%);
-        --light-text-color: rgb(199, 199, 204);
-        --link-color: #3cff00;
-        --nav-color: #131313;
-        --search-color: #3cff00;
-        --nav-link-color: rgba(255, 255, 255, .5);
-        --link-color-visited: hsl(250, 100%, 60%);
-        --main-background-color: rgb(28, 28, 30);
-        --main-text-color: rgb(139, 139, 139);
-        --medium-text-color: hsl(0, 0%, 70%);
-        --underline-color: hsl(0, 0%, 50%);
-        --social-link-color: #ffffff;
-        --card-background-color: rgb(32, 32, 34);
-        --newsletter-background-color: #222324;
-        --button-background-color: #111;
+        --bold-color: rgb(0, 0, 0);
+        --box-background-color: rgb(249, 249, 250);
+        --highlight-color: hsl(0, 0%, 80%);
+        --light-border-color: rgb(230, 230, 230);
+        --light-text-color: rgb(72, 72, 74);
+        --link-color: #ca6521;
+        --nav-color: #ffffff;
+        --nav-link-color: #111111;
+        --search-color: #ababab;
+        --link-color-visited: hsl(250, 100%, 37%);
+        --main-background-color: rgb(255, 255, 255);
+        --main-text-color: rgb(51, 51, 51);
+        --medium-text-color: hsl(0, 0%, 20%);
+        --sidebar-color: hsl(0, 0%, 90%);
+        --underline-color: hsl(0, 0%, 60%);
+        --social-link-color: #262222;
+        --card-background-color: rgb(250, 250, 250);
+        --button-background-color: #fff;
     }
 }
 
