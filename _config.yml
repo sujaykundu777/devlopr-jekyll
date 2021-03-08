@@ -152,13 +152,15 @@ paginate_path: "/blog/page/:num/"
 #    output: false
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "gallery"
     values:
       permalink: /:path/:basename:output_ext
-  -
-    scope:
+  - scope:
+      path: categories
+    values:
+      permalink: /blog/categories/:slug
+  - scope:
       path: ""
       type: authors
     values:
