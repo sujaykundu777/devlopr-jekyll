@@ -35,12 +35,12 @@ layout: default
         >
           <i class="fab fa-instagram"></i>
         </a>
-        {% endif %} {% if site.medium_username %}
+        {% endif %} {% if site.youtube_username %}
         <a
           class="social-link"
-          href="http://medium.com/@{{ site.medium_username }}"
+          href="https://www.youtube.com/channel/{{ site.youtube_username }}"
         >
-          <i class="fab fa-medium-m"></i>
+          <i class="fab fa-youtube"></i>
         </a>
         {% endif %} {% if site.github_username %}
         <a
@@ -83,7 +83,7 @@ layout: default
         </a>
         {% endif %}
       </p>
-
+   
       {% if site.author_location %}
       <h6><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</h6>
       {% endif %} {% if site.author_email %}
