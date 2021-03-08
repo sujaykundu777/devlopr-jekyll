@@ -76,6 +76,13 @@ author_education_details:
                 description: Degree
                 visibility: true
 
+              - college_logo: ffb.png
+                college_name: Farias Brito University
+                college_url: https://fbuni.edu.br/
+                college_degree: Computer Science
+                description: Bachelor Degree (Incomplete - 7/8)
+                visibility: true
+
 author_project_details:
               - project_thumbnail: cringerlabs.png
                 project_title: CringerLabs IaC
