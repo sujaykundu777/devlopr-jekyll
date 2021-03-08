@@ -11,7 +11,26 @@
           >
             <span class="icono-hamburger" id="navbar-hamburger"> </span>
           </button>
-          <a class="navbar-brand" href="/">{{site.title}}</a>
+          <!-- Tirando o nome e colocando a imagem!!
+            <a class="navbar-brand" href="/">{{site.title}}</a>
+              OPCAO ANTIGA
+              <a class="navbar-brand" href="/">
+            <img 
+                         class="navbar-brand-img" 
+              alt="CringerLabs"
+              src="/assets/img/cg_logo.png"
+              width="250px"
+              height="38px"
+                        
+          </a>
+          -->
+          <a class="navbar-brand" href="/">
+            <img 
+              src="/assets/img/cg_logo.png"
+              width="250px"
+              height="38px"
+            >            
+          </a>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               {% for i in site.urls %}
