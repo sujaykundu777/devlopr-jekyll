@@ -1,4 +1,4 @@
-title: CringerLabs
+title: Karlipe Gomes
 subtitle: SysAdmin flying up to Cloud!
 description: >- # this means to ignore newlines until "baseurl:"
 
@@ -17,7 +17,7 @@ urls:
 
 author_logo: profile.jpeg
 author: Karlipe Gomes
-author_bio: Hi, my name is Carlos Felipe, better known as Karlipe. I am a RedHat fanboy, fan of Technology, passionate in Infrastructure and Cloud, and also a DJ in my spare time.
+author_bio: Hi, my name is Carlos Felipe, better known as Karlipe. I am a Linux fanboy, fan of Technology and most recently I have focused on cloud computing in specific Kubernetes, OpenShift and Infra as Code, and also a DJ(psytrance/techno) in my spare time.
 author_email: "karlipe@cringerlabs.com"
 author_location: Brazil
 author_website_url: "cringerlabs.com"
@@ -93,6 +93,8 @@ author_project_details:
 # social links
 github_username:  karlipegomes
 linkedin_username: cfgomes
+instagram_username: cringerlabs
+twitter_username: cringerlabs
 telegram_username: karlipegomes
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
