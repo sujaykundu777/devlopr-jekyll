@@ -25,37 +25,37 @@ author_website_url: "cringerlabs.com"
 typewrite-text: SysAdmin flying up to Cloud!
 
 author_work_experiences:
-            - company_name: SEDUC-CE
+            - company_name: SEDUC-CE - May/2020 to present
               company_logo: seduc-ce.png
               company_url: https://seduc.ce.gov.br
               designation: Senior Infrastructure Engineer
               description: Working to support all applications to education public environment in State
               visibility: true
-            - company_name: BeachPark
+            - company_name: BeachPark - Jan/2018 to May/2020
               company_logo: bpk.png
               company_url: https://www.beachpark.com.br
               designation: Infrastructure Team Lead
               description: Worked as Team Lead, managing Infrastructure as a Service to internal clients
               visibility: true
-            - company_name: MobTelecom
+            - company_name: MobTelecom - Nov/2014 to Jan/2018
               company_logo: mob.png
               company_url: https://www.mobtelecom.com.br
               designation: Solutions Architect
               description: Designing ways to solve problems clients using DataCenter Solutions
               visibility: true
-            - company_name: CoreSec (EnergyTelecom Group)
+            - company_name: CoreSec (EnergyTelecom Group) - Dec/2013 to Nov/2014
               company_logo: coresec.png
               company_url: https://www.energytelecom.com.br
               designation: Red Hat Engineer
               description: Worked as Red Hat Partner deploying solutions to big Companies and Government
               visibility: true
-            - company_name: EnergyTelecom
+            - company_name: EnergyTelecom - Aug/2012 to Nov/2013
               company_logo: energy.png
               company_url: https://www.energytelecom.com.br
               designation: Technical Support Engineer
               description: Worked as Security Service Provider to big Companies and Government 
               visibility: true
-            - company_name: MobTelecom
+            - company_name: MobTelecom - Nov/2011 to Jul/2012
               company_logo: mob.png
               company_url: https://www.mobtelecom.com.br
               designation: Junior Support Analyst

@@ -1,7 +1,7 @@
 ---
 name: Carlos Felipe Gomes
 username: karlipegomes
-bio: "Hi I a John, a Web Developer and Designer."
+bio: "Hi I a Karlipe, a SysAdmin Flying up to Cloud."
 site: http://cringerlabs.com
 avatar: johndoe.png
 email: karlipe@cringerlabs.com
