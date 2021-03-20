@@ -149,10 +149,6 @@ Thanks to all our Backers ! 🙏 [Become a Backer](https://opencollective.com/de
 
 <a href="https://opencollective.com/devlopr-jekyll#backers" target="_blank"><img src="https://opencollective.com/devlopr-jekyll/backers.svg?width=890" /></a>
 
-Also thanks to some cool people for raising funds:
-
-[Dirish Mohan](https://dirishmohan.com)
-
 ### For Help :
 
 You can contact me, if you need any help via [Email](mailto:sujaykundu777@gmail.com). If you like the project. Don't forget to :star: !
