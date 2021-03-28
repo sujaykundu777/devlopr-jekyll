@@ -28,7 +28,7 @@ typewrite-text: 공부중인 개발자, Siki_ - 고치고 또 고치며 나아�
 # Experiences
 author_work_experiences:
             - company_name: H그룹
-              company_logo: null
+              company_logo: hello.jpg
               company_url: null
               designation: Software Engineer
               description: 물류/SCM 
@@ -38,7 +38,7 @@ author_work_experiences:
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
+              - project_thumbnail: hello.jpg
                 project_title: 코레일 웹서비스 개선
                 project_description: 현재 코레인 웹서비스를 개선한 신규 웹서비스
                 project_url: https://github.com/LEEGYEOLE/Project_RailTraveler
@@ -63,13 +63,13 @@ flickr_username: null
 hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: yoonsik0926
 
 # mailchimp embedded form url (newsletter):
 mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # formspree (contact form)
-formspree_email: johndoe@gmail.com
+formspree_email: yoonsik09262naver.com
 
 # syntax highlighter
 markdown: kramdown
@@ -78,7 +78,7 @@ permalink: pretty
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
-show_author_education_details: true
+show_author_education_details: false
 show_author_project_details: true
 
 # pagination of posts
