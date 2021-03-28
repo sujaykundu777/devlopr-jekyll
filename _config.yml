@@ -27,34 +27,21 @@ typewrite-text: 공부중인 개발자, Siki_ - 고치고 또 고치며 나아�
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
+            - company_name: H그룹
+              company_logo: null
+              company_url: null
               designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+              description: 물류/SCM 
               visibility: true
 
-# Education
-author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: true
+
 
 # Projects
 author_project_details:
               - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+                project_title: 코레일 웹서비스 개선
+                project_description: 현재 코레인 웹서비스를 개선한 신규 웹서비스
+                project_url: https://github.com/LEEGYEOLE/Project_RailTraveler
                 visibility: true
               
 
