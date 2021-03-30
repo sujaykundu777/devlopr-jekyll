@@ -66,7 +66,7 @@ GEM
     jgd (1.12)
       jekyll (>= 1.5.1)
       trollop (= 2.9.9)
-    kramdown (2.3.0)
+    kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
