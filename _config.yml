@@ -19,16 +19,16 @@ urls:
 
 author_logo: main_ys.png
 author: Siki_ :)
-author_bio: 안녕하세요, 공부중인 개발자 Siki_ 입니다 :)
+author_bio: 안녕하세요, 공부중인 개발자 Siki_ 입니다:)
 author_email: "yoonsik0926@naver.com"
 author_location: republic of korea
 author_website_url: "https://blog.naver.com/yoonsik0926"
-typewrite-text: 공부중인 개발자, Siki_ - 고치고 또 고치며 나아가라 !!
+typewrite-text: 공부중인 개발자, Siki_ - 고치고 또 고치며 나아가라
 
 # Experiences
 author_work_experiences:
             - company_name: H그룹
-              company_logo: hyundai.PNG
+              company_logo: hd.PNG
               company_url: null
               designation: Software Engineer
               description: 물류/SCM 
