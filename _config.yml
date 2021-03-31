@@ -28,7 +28,7 @@ typewrite-text: 공부중인 개발자, Siki_ - 고치고 또 고치며 나아�
 # Experiences
 author_work_experiences:
             - company_name: H그룹
-              company_logo: hyundai.png
+              company_logo: hyundai.PNG
               company_url: null
               designation: Software Engineer
               description: 물류/SCM 
@@ -38,7 +38,7 @@ author_work_experiences:
 
 # Projects
 author_project_details:
-              - project_thumbnail: rail_traveler.png
+              - project_thumbnail: rail_traveler.PNG
                 project_title: 코레일 웹서비스 개선
                 project_description: 현재 코레인 웹서비스를 개선한 신규 웹서비스
                 project_url: https://github.com/LEEGYEOLE/Project_RailTraveler
