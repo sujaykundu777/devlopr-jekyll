@@ -17,7 +17,7 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: mit.png
+author_logo: ys.jpg
 author: Siki_ :)
 author_bio: 안녕하세요, 공부중인 개발자 Siki_ 입니다 :)
 author_email: "yoonsik0926@naver.com"
@@ -28,7 +28,7 @@ typewrite-text: 공부중인 개발자, Siki_ - 고치고 또 고치며 나아�
 # Experiences
 author_work_experiences:
             - company_name: H그룹
-              company_logo: hello.jpg
+              company_logo: ys.jpg
               company_url: null
               designation: Software Engineer
               description: 물류/SCM 
@@ -38,7 +38,7 @@ author_work_experiences:
 
 # Projects
 author_project_details:
-              - project_thumbnail: hello.jpg
+              - project_thumbnail: ys.jpg
                 project_title: 코레일 웹서비스 개선
                 project_description: 현재 코레인 웹서비스를 개선한 신규 웹서비스
                 project_url: https://github.com/LEEGYEOLE/Project_RailTraveler
