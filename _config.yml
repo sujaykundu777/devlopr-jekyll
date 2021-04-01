@@ -19,7 +19,7 @@ urls:
 
 author_logo: main_ys.png
 author: Siki_ :)
-author_bio: 안녕하세요, 공부중인 개발자 Siki_ 입니다:)
+author_bio: 안녕하세요, 공부중인 개발자 Siki_입니다:)
 author_email: "yoonsik0926@naver.com"
 author_location: Republic of korea
 author_website_url: "https://blog.naver.com/yoonsik0926"
@@ -69,7 +69,7 @@ wakatime_username: yoonsik0926
 mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # formspree (contact form)
-formspree_email: yoonsik09262naver.com
+formspree_email: yoonsik0926@naver.com
 
 # syntax highlighter
 markdown: kramdown
