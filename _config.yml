@@ -11,7 +11,7 @@ urls:
       url: /
     - text: About
       url: /about
-    - text: Coding Test
+    - text: Blog
       url: /blog
 
 
