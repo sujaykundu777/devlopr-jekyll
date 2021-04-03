@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Jekyll
-permalink: /blog/categories/jekyll/
+title: 코틀린
+permalink: /blog/categories/코틀린/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>
