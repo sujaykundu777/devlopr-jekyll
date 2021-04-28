@@ -151,6 +151,10 @@ pre {
     color: #d4d4d4 !important;
 }
 
+.m10{
+    margin:10px;
+}
+
 blockquote {
     margin: 2rem 1rem 1rem;
     padding: 3px;
@@ -615,9 +619,9 @@ header {
     padding-left: 50px !important;
 }
 
-#blog-posts-container{
-    margin-left:20px !important;
-}
+// #blog-posts-container{
+//     margin-left:20px !important;
+// }
 
 #article-container{
     display: grid;
@@ -658,17 +662,6 @@ header {
     background: transparent;
 }
 
-
-@media (min-width: 768px) {
-    .offset-md-1 {
-    margin-left: 3.333333% !important;
-    }
-    // #topNav{
-    //     padding-left: 100px;
-    //     padding-right: 100px;
-    //     background-color: var(--nav-color) !important;
-    // }
-}
 
 #profile-card {
     text-align: center;
