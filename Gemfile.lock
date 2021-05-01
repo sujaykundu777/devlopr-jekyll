@@ -92,7 +92,6 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    rake (13.0.3)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -147,8 +146,8 @@ DEPENDENCIES
   jgd (~> 1.12)
   kramdown
   puma
+  rack
   rack-jekyll
-  rake
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

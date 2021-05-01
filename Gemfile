@@ -4,7 +4,7 @@ gem 'jekyll', '~> 4.2', '>= 4.1.1'
 gem 'bundler', '~> 2.2.6'
 gem 'kramdown'
 gem 'rack-jekyll'
-gem 'rake'
+gem 'rack'
 gem 'puma'
 
 
