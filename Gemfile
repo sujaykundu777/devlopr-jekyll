@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem 'jekyll', '~> 4.2', '>= 4.1.1'
-gem 'bundler'
+gem 'bundler', '~> 2.2.6'
 gem 'kramdown'
 gem 'rack-jekyll'
 gem 'rake'
@@ -14,8 +14,9 @@ gem 'puma'
 
 # Plugins
 group :jekyll_plugins do
-    gem 'devlopr', '~> 0.4.5'
+    # gem 'devlopr', '~> 0.4.5'
     gem 'jgd', '~> 1.12'
+    gem 'jekyll-feed', '~> 0.13.0'
     gem 'jekyll-paginate', '~> 1.1.0'
     gem 'jekyll-gist', '~> 1.5.0'
     gem 'jekyll-seo-tag', '~> 2.6.1'
