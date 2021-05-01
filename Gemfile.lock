@@ -48,7 +48,7 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
-    jekyll-admin (0.10.2)
+    jekyll-admin (0.11.0)
       jekyll (>= 3.7, < 5.0)
       sinatra (~> 1.4)
       sinatra-contrib (~> 1.4)
@@ -145,7 +145,7 @@ DEPENDENCIES
   bundler
   devlopr (~> 0.4.5)
   jekyll (~> 4.2, >= 4.1.1)
-  jekyll-admin (~> 0.10.2)
+  jekyll-admin (~> 0.11.0)
   jekyll-gist (~> 1.5.0)
   jekyll-menus (~> 0.6.1)
   jekyll-paginate (~> 1.1.0)
@@ -161,4 +161,4 @@ DEPENDENCIES
   wdm (~> 0.1.1)
 
 BUNDLED WITH
-   2.1.4
+   2.2.16
