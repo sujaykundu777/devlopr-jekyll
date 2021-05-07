@@ -67,7 +67,7 @@ For bundler :
 ```bash
 $ gem install bundler
 $ bundler -v
-Bundler version 2.1.4
+Bundler version 2.2.6
 ```
 Add jekyll :
 
@@ -80,7 +80,7 @@ You can check the jekyll version
 
 ```
 $ bundle exec jekyll -v
-jekyll 4.0.0
+jekyll 4.2.0
 ```
 
 > **Step 6.** Install the gem dependencies by running the following command
