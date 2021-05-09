@@ -48,7 +48,7 @@ This Project uses this custom built action for deploying jekyll to github, avail
 - Github Pages Demo - [here](https://sanketkundu.github.io/)
 - Firebase Demo - [here](https://devlopr.web.app)
 - Netlify Demo - [here](https://devlopr.netlify.com)
-- Zeit Now Demo - [here](https://devlopr-jekyll.now.sh)
+- Vercel Demo - [here](https://devlopr-jekyll.vercel.app/#/)
 - Heroku Demo - [here](https://devlopr-jekyll.herokuapp.com)
 - AWS Amplify Demo - [here](https://master.d3t30wwddt6jju.amplifyapp.com/)
 
@@ -65,7 +65,7 @@ This Project uses this custom built action for deploying jekyll to github, avail
 - Send Newsletters using [Mailchimp](https://mailchimp.com/)
 - Contact Forms Support for [Getform](https://getform.io), [Formspree](https://formspree.io/)
 - Coding Activity using [Wakatime](https://wakatime.com/)
-- Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com), [Firebase](https://firebase.com)
+- Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Vercel](https://vercel.com), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com), [Firebase](https://firebase.com)
 - CI/CD Support using [Travis CI](https://sujaykundu.com/blog/deploy-jekyll-blog-using-github-pages-and-travis-ci/), [Buddy](https://buddy.works/) , [Circle CI](https://circleci.com/)
 
 #### Jekyll Admin
