@@ -6,7 +6,6 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Bakers](https://opencollective.com/devlopr-jekyll/tiers/badge.svg)](https://opencollective.com/devlopr-jekyll/)
 
-### Launch your Static Site using Devlopr in minutes - [Get Started](https://devlopr.netlify.app/get-started)]
 
 You can use Devlopr as a starter for building your own Jekyll site. we purposely keep the styling minimal and bare to make it easier to add your own flare and markup. (Under Active Development) !
 
@@ -16,9 +15,10 @@ Highly Customizable and No Hosting or Maintainence Cost is required !
 
 devlopr uses Markdown Files to generate data like Blog Posts, Gallery, Shop Products etc. No external database is required.
 
-### Get Started Locally - [Watch Video Walkthrough](https://youtu.be/cXBEfpn0qrg)
 
-To get started follow this [tutorial](https://devlopr.netlify.app/get-started).Then follow the below commands to start the server locally at http://127.0.0.1:4000/.
+### Launch your Static Site using Devlopr in minutes - [Docs](https://devlopr.netlify.app/get-started) [Watch Video Walkthrough](https://youtu.be/cXBEfpn0qrg)
+
+To get started follow this [tutorial](https://devlopr.netlify.app/get-started).
 
 ```sh
 $ git clone https://github.com/your_github_username/your_github_username.github.io.git
@@ -32,6 +32,7 @@ $ bundle update
 $ bundle install
 $ bundle exec jekyll serve --watch
 ```
+Start the server locally at http://127.0.0.1:4000/ or http://localhost:4000/
 
 ### Deploy your devlopr-jekyll blog - One Click Deploy
 
