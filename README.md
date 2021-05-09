@@ -145,7 +145,7 @@ Contributions are more than just welcome. Fork this repo and create a new branch
 
 - 5.Create new Pull Request
 
-### Support this Project
+## Support this Project:
 
 Back this project by Donating to our [Open Collective](https://opencollective.com/devlopr-jekyll/donate) or if you like my work[Buymeacoffee](https://buymeacoffee.com/sujaykundu).
 
