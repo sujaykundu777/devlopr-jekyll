@@ -1,8 +1,8 @@
 ---
-{{new_page_extension: md
+new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
+admin_path:
+webhook_url:
 sections:
 - type: jekyll-pages
   label: Pages
@@ -30,4 +30,4 @@ build:
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
-    --port 8080 --host 0.0.0.0 -d _site}} 
+    --port 8080 --host 0.0.0.0 -d _site}}
