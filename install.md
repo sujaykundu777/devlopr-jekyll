@@ -13,7 +13,7 @@ If you aren’t familiar with Jekyll yet, you should know that it is a static si
 
 ## Watch Tutorial
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bBpKMH3nBzE?rel=0&amp;controls=0&amp;showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cXBEfpn0qrg&amp;controls=0&amp;showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Steps to create your blog using devlopr-jekyll and Host using Github Pages :
 
