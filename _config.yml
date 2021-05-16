@@ -20,10 +20,7 @@ urls:
       url : /shop
     - text: Contact
       url : /contact
-    - text: Styleguide
-      url: /styleguide
-    - text: Get Started
-      url: /get-started
+
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
@@ -95,7 +92,8 @@ wakatime_username: sujaykundu777
 # mailchimp embedded form url (newsletter):
 mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
-# formspree (contact form)
+# contact form - (choose formspress or getform)
+getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
 formspree_email: johndoe@gmail.com
 
 # syntax highlighter
