@@ -18,7 +18,7 @@ devlopr uses Markdown Files to generate data like Blog Posts, Gallery, Shop Prod
 
 ### Launch your Static Site using Devlopr in minutes :rocket:
 
-To get started follow this [Tutorial](https://devlopr.netlify.app/get-started) or [Watch Video Walkthrough](https://youtu.be/cXBEfpn0qrg).
+To get started follow this [Tutorial](https://devlopr.netlify.app/get-started)
 
 ```sh
 $ git clone https://github.com/your_github_username/your_github_username.github.io.git
@@ -55,7 +55,7 @@ This Project uses this custom built action for deploying jekyll to github, avail
 #### Features :
 
 - Local CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
-- Onine CMS Admin Support using [Netlify CMS](https://sujaykundu.com/blog/how-to-setup-netlify-cms-with-github-pages-hosted-jekyll-blog/), Forestry, Siteleaf, CloudCannon, Cosmic, Contentful
+- Onine CMS Admin Support using [Netlify CMS](https://sujaykundu.com/blog/how-to-setup-netlify-cms-with-github-pages-hosted-jekyll-blog/),Forestry, Siteleaf, CloudCannon, Cosmic, Contentful
 - Supports Latest [Jekyll 4.x](https://jekyllrb.com) and [Bundler](https://bundler.io)
 - Stylesheet built using Sass
 - Comments using [Hyvor](https://talk.hyvor.com/) and [Disqus](https://disqus.com/)
