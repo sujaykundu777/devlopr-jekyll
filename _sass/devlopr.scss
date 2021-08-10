@@ -218,8 +218,8 @@ header {
 }
 
 #topNav{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
     background-color: var(--main-background-color) !important;
     box-shadow: #000 0px 0px 8px;
 }
@@ -786,7 +786,16 @@ footer {
 
 
 
+
 /* Responsive Media Queries */
+
+@media screen and (min-width: 768px) {
+    .main-container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+}
 
  /*
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -1018,8 +1027,8 @@ footer {
                 width: auto;
                 float:left;
             }
-
  }
+
 
  /* Github Follow Button */
 .widget-lg .btn, .widget-lg .social-count {
