@@ -71,7 +71,7 @@ For bundler :
 ```bash
 $ gem install bundler
 $ bundler -v
-Bundler version 2.2.6
+Bundler version 2.2.29
 ```
 Add jekyll :
 
