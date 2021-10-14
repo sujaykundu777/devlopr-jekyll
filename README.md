@@ -26,11 +26,17 @@ $ cd your_github_username
 $ ruby -v
 $ gem install bundler
 $ bundler -v
-$ bundle add jekyll
-$ bundle exec jekyll -v
 $ bundle update
-$ bundle install
+$ bundle exec jekyll -v
 $ bundle exec jekyll serve --watch
+```
+
+If you are using permission issues, running bundler:
+
+```sh
+$ sudo rm -rf _site
+$ bundle update
+$ bundle exec jekyll serve
 ```
 Start the server locally at http://127.0.0.1:4000/ or http://localhost:4000/
 

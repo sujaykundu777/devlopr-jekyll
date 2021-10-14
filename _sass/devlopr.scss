@@ -496,14 +496,7 @@ header {
     background-color:  var(--main-background-color) !important;
 }
 
-/* jumbotron */
-.jumbotron {
-    background-color: var(--main-background-color) !important;
-    background-image: url('https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-}
+
 /* pagination */
 .pagination-link{
     padding:15px;
@@ -524,14 +517,12 @@ header {
 }
 
 .jumbotron-heading{
-    color: #111;
     font-size: 35px;
 }
 
 .lead {
     font-size: 1.30rem !important;
     font-weight: 600;
-    color: #111 !important;
 }
 
 .fa {
