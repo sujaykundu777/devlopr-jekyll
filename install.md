@@ -20,21 +20,21 @@ If you aren’t familiar with Jekyll yet, you should know that it is a static si
 
 >  **Step 1.**  Fork the repo - [click here](https://github.com/sujaykundu777/devlopr-jekyll/fork)
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork1.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](/assets/img/posts/fork1.PNG){:class="img-fluid"}
 
 > **Step 2.** Use **your-github-username.github.io** as the new repo  ( Replace your-github-username with yours). Remember if you use the name other than your-github-username.github.io , your blog will be built using gh-pages branch.
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork2.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](/assets/img/posts/fork2.PNG){:class="img-fluid"}
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork3.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](/assets/img/posts/fork3.PNG){:class="img-fluid"}
 
 > **Step 3.** Clone the new repo locally to make changes :
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork31.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](/assets/img/posts/fork31.PNG){:class="img-fluid"}
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork32.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](/assets/img/posts/fork32.PNG){:class="img-fluid"}
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork33.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](/assets/img/posts/fork33.PNG){:class="img-fluid"}
 
 ```bash
  $ git clone https://github.com/yourusername/yourusername.github.io
@@ -49,7 +49,7 @@ If you aren’t familiar with Jekyll yet, you should know that it is a static si
 - _includes - You can replace the contents of the files with your data. (contains widgets)
 - _assets/img - Add all your images here
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork34.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](/assets/img/posts/fork34.PNG){:class="img-fluid"}
 
 > **Step 5** - Install the development requirements:
 
@@ -77,6 +77,7 @@ Bundler version 2.2.6
 Add jekyll :
 
 ```bash
+$ bundle update
 $ bundle add jekyll
 ```
  This command will add the Jekyll gem to our Gemfile and install it to the ./vendor/bundle/ folder.
@@ -108,9 +109,8 @@ $ jekyll serve
 
 Visit [http://localhost:4000](http://localhost:4000) for development server
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork4.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](/assets/img/posts/fork41.PNG){:class="img-fluid"}
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork41.png){:class="img-fluid"}
 
 ### Adding Content
 
@@ -165,11 +165,11 @@ Once happy with your blog changes. Push your changes to master branch.
 
 Visit your Github Repo settings ! Enable master branch as Github Pages Branch :
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork6.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](/assets/img/posts/fork6.PNG){:class="img-fluid"}
 
 > **Step 9.** Deploy your Blog :
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork7.png){:class="img-fluid"}
+![Devlopr Jekyll Repo](/assets/img/posts/fork7.PNG){:class="img-fluid"}
 
 > Congrats ! On your new shining Blog !
 

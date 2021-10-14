@@ -31,6 +31,7 @@ author_email: "mail@sujaykundu.com"
 author_location: India
 author_website_url: "https://sujaykundu.com"
 typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
@@ -97,8 +98,8 @@ mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50b
 formspree_email: johndoe@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
-# olvy_organization: devlopr
-# olvy_widget_type: sidebar
+olvy_organization: devlopr
+olvy_widget_type: sidebar
 
 # syntax highlighter
 markdown: kramdown
