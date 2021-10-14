@@ -1,6 +1,5 @@
 ---
 title: Styleguide
-menus: header
 layout: page
 permalink: /styleguide/
 ---

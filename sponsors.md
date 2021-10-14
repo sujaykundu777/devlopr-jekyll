@@ -1,6 +1,5 @@
 ---
 title: Our Sponsors
-menus: header
 layout: page
 permalink: /sponsors/
 ---

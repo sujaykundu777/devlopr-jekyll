@@ -1,6 +1,5 @@
 ---
 title: Get Started
-menus: header
 layout: page
 permalink: /get-started/
 ---
@@ -140,7 +139,6 @@ Hi ! This is sample post.
 ---
 layout: page
 title: Sample Page
-menus: header
 permalink: /sample-page/
 ---
 

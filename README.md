@@ -24,7 +24,7 @@ To get started follow this [Tutorial](https://devlopr.netlify.app/get-started)
 $ git clone https://github.com/your_github_username/your_github_username.github.io.git
 $ cd your_github_username
 $ ruby -v
-$ gem install bundler
+$ gem install jekyll bundler
 $ bundler -v
 $ bundle update
 $ bundle exec jekyll -v
