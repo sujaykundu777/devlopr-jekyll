@@ -24,6 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-gist", '~> 1.5.0'
   spec.add_runtime_dependency "jekyll-admin", '~> 0.11.0'
 
-  spec.add_development_dependency "bundler", "~> 2.2.6"
+  spec.add_development_dependency "bundler", "~> 2.2.29"
   spec.add_development_dependency "rake", "~> 12.0"
 end

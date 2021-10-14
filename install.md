@@ -1,6 +1,5 @@
 ---
 title: Get Started
-menus: header
 layout: page
 permalink: /get-started/
 ---
@@ -72,7 +71,7 @@ For bundler :
 ```bash
 $ gem install bundler
 $ bundler -v
-Bundler version 2.2.6
+Bundler version 2.2.29
 ```
 Add jekyll :
 
@@ -140,7 +139,6 @@ Hi ! This is sample post.
 ---
 layout: page
 title: Sample Page
-menus: header
 permalink: /sample-page/
 ---
 
