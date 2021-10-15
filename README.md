@@ -48,7 +48,13 @@ Start the server locally at http://127.0.0.1:4000/ or http://localhost:4000/
 
 ### Github Actions
 
-This Project uses this custom built action for deploying jekyll to github, available in Marketplace - [Jekyll Deploy Action](https://github.com/marketplace/actions/deploy-jekyll-site)
+This Project has actions to deploy jekyll to github pages and firebase. The deployment target can be set by editing the `DEPLOY_STRATEGY` file. Valid values are:
+- `gh-pages`: deploys to github pages. This uses a custom action available in the Marketplace - [Jekyll Deploy Action](https://github.com/marketplace/actions/deploy-jekyll-site)
+- `firebase`: deploys to firebase. Before you can use this you need to first create a firebase project [here](https://console.firebase.google.com/). Then, in your repo's settings, go to the secrets section and add the following:
+  * `FIREBASE_TOKEN`: your firebase token. you can get this by running `firebase login:ci` with the firebase cli.
+  * `FIREBASE_PROJECT_ID`: the project id of the project you just created
+- `none`: default value. use this if you don't want to deploy the site.
+
 ### Demo (Hosted Apps)
 
 - Github Pages Demo - [here](https://sanketkundu.github.io/)
