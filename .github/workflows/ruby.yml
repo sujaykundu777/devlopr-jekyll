@@ -1,0 +1,30 @@
+name: Deploy to Firebase Hosting
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: setup ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+
+    - name: build jekyll
+      run: |
+        rm -f Gemfile.lock
+        bundle install
+        bundle exec jekyll build
+
+    - name: deploy to firebase
+      uses: w9jds/firebase-action@master
+      with:
+        args: deploy --only hosting
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
