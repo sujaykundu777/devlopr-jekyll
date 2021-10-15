@@ -17,14 +17,16 @@ jobs:
         run: TARGET=$(cat DEPLOY_STRATEGY)
 
       - name: check if target is valid
-        if: !contains($VALID_TARGETS, $TARGET)
+        if: ! contains($VALID_TARGETS, $TARGET)
         run: |
           echo 'Invalid Deployment Target'
           exit 1
 
   deploy-gh-pages:
     runs-on: ubuntu-latest
+    needs: set-deploy-type
     if: $TARGET == 'gh-pages'
+
     steps:
     - uses: actions/checkout@v2
 
@@ -37,6 +39,8 @@ jobs:
 
   deploy-firebase:
     runs-on: ubuntu-latest
+    needs: set-deploy-type
+    if: $TARGET == 'firebase'
 
     steps:
     - uses: actions/checkout@v2
