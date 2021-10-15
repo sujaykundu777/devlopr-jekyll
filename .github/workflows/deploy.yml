@@ -8,24 +8,40 @@ on:
 jobs:
   set-deploy-type:
     runs-on: ubuntu-latest
-    env:
-      VALID_TARGETS: ['gh-pages', 'firebase']
+    outputs:
+      target: ${{ steps.set-output.outputs.target }}
     steps:
       - uses: actions/checkout@v2
 
       - name: get deployment target
-        run: TARGET=$(cat DEPLOY_STRATEGY)
+        run: |
+          TARGET=$(cat DEPLOY_STRATEGY)
+          echo "TARGET=$TARGET" >> $GITHUB_ENV
 
       - name: check if target is valid
-        if: !(contains($VALID_TARGETS, $TARGET))
-        run: |
-          echo 'Invalid Deployment Target'
-          exit 1
+        if: success() && !contains(fromJSON('["gh-pages", "firebase", "none"]'), env.TARGET)
+        run: echo 'Invalid Deployment Target' && exit 1
+
+      # gh actions doesn't support using the 'env' context on job level ifs for
+      # some reason smh. here we use outputs instead
+      - name: set output to deploy target
+        id: set-output
+        run: echo "::set-output name=target::${{ env.TARGET }}"
+
+  # not sure if anyone wants this but I'm putting this here for those that don't
+  # want to host their site. else the actions will show an annoying x whenever
+  # you push to master
+  deploy-none:
+    runs-on: ubuntu-latest
+    needs: set-deploy-type
+    if: needs.set-deploy-type.outputs.target == 'none'
+    steps:
+      - run: echo 'No Deployment Specified' && exit 0
 
   deploy-gh-pages:
     runs-on: ubuntu-latest
     needs: set-deploy-type
-    if: $TARGET == 'gh-pages'
+    if: needs.set-deploy-type.outputs.target == 'gh-pages'
 
     steps:
     - uses: actions/checkout@v2
@@ -40,7 +56,7 @@ jobs:
   deploy-firebase:
     runs-on: ubuntu-latest
     needs: set-deploy-type
-    if: $TARGET == 'firebase'
+    if: needs.set-deploy-type.outputs.target == 'firebase'
 
     steps:
     - uses: actions/checkout@v2
