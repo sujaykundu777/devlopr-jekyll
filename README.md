@@ -28,7 +28,7 @@ $ gem install jekyll bundler
 $ bundler -v
 $ bundle update
 $ bundle exec jekyll -v
-$ bundle exec jekyll serve --watch
+$ bundle exec jekyll serve --livereload
 ```
 
 If you are using permission issues, running bundler:
@@ -61,7 +61,7 @@ This Project uses this custom built action for deploying jekyll to github, avail
 #### Features :
 
 - Local CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
-- Onine CMS Admin Support using [Netlify CMS](https://sujaykundu.com/blog/how-to-setup-netlify-cms-with-github-pages-hosted-jekyll-blog/),Forestry, Siteleaf, CloudCannon, Cosmic, Contentful
+- Headless CMS Admin Support using [Netlify CMS](https://sujaykundu.com/blog/how-to-setup-netlify-cms-with-github-pages-hosted-jekyll-blog/)
 - Supports Latest [Jekyll 4.x](https://jekyllrb.com) and [Bundler](https://bundler.io)
 - Stylesheet built using Sass
 - Comments using [Hyvor](https://talk.hyvor.com/) and [Disqus](https://disqus.com/)
@@ -72,20 +72,15 @@ This Project uses this custom built action for deploying jekyll to github, avail
 - Contact Forms Support for [Getform](https://getform.io), [Formspree](https://formspree.io/)
 - Coding Activity using [Wakatime](https://wakatime.com/)
 - Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Vercel](https://vercel.com), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com), [Firebase](https://firebase.com)
-- CI/CD Support using [Travis CI](https://sujaykundu.com/blog/deploy-jekyll-blog-using-github-pages-and-travis-ci/), [Buddy](https://buddy.works/) , [Circle CI](https://circleci.com/)
+- CI/CD Support using [Travis CI](https://sujaykundu.com/blog/deploy-jekyll-blog-using-github-pages-and-travis-ci/)
 
 #### Jekyll Admin
 You can easily manage the site locally using the Jekyll admin : [http://localhost:4000/admin](http://localhost:4000/admin)
 
 ![Jekyll Admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
 
-## Recent Release Changes (v 0.4.7):
 
-- Minor Bug fixes and optimizations
-- [Added Support for Multi Authors](https://devlopr.netlify.app/blog/added-multi-author-support/#/)
-- [Added Support for Math Symbols](https://devlopr.netlify.app/blog/added-latex-equations-support/#/)
-
-You can check out for all changelogs [here](https://www.buymeacoffee.com/sujaykundu/release-v-0-4-7)
+You can check out for all changelogs [here](https://devlopr.olvy.co/)
 
 ## Pull the latest changes
 
@@ -155,7 +150,7 @@ Contributions are more than just welcome. Fork this repo and create a new branch
 
 Back this project by Donating to our [Open Collective](https://opencollective.com/devlopr-jekyll/donate) or if you like my work[Buymeacoffee](https://buymeacoffee.com/sujaykundu).
 
-Thanks to all our Backers ! 🙏 [Become a Backer](https://opencollective.com/devlopr-jekyll/donate)
+Thanks to all our Backers ! [Become a Backer](https://opencollective.com/devlopr-jekyll/donate)
 
 <a href="https://opencollective.com/devlopr-jekyll#backers" target="_blank"><img src="https://opencollective.com/devlopr-jekyll/backers.svg?width=890" /></a>
 
