@@ -179,6 +179,11 @@ jekyll_admin:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 
+### Switching Deployment Strategy (in DEPLOY_STRATEGY) file change the key accordingly:
+# none - For no default
+# gh-pages - For Github Pages
+# firebase - For Firebase Hosting
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/
