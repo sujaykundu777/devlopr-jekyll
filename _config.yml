@@ -84,7 +84,7 @@ flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
-disqus_shortname: tgryu.github.io
+disqus_shortname: https-tgryu-github-io
 hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
