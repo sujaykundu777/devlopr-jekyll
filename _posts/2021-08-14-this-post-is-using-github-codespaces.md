@@ -9,7 +9,7 @@ summary: Learn how to use Github Codespaces with Devlopr
 keywords: using github codespaces with devlopr-jekyll, devlopr jekyll netlify cms, how to use netlify cms
 permalink: /blog/using-github-codespaces
 ---
-# Hello World ,
+## Hello World
 
 This post is being written using Github Codespaces, You can try out to just press "." while you are in the repo to start your codespace environment
 
