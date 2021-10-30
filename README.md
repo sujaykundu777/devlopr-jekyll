@@ -40,6 +40,14 @@ $ bundle exec jekyll serve
 ```
 Start the server locally at http://127.0.0.1:4000/ or http://localhost:4000/
 
+### Security 
+
+We use codeQL and dependabot alerts for vulnerabality analysis & fixes.
+
+```sh
+$ bundle audit
+```
+
 ### Deploy your devlopr-jekyll blog - One Click Deploy
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/sujaykundu777/devlopr-jekyll)
