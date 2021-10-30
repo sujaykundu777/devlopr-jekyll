@@ -49,8 +49,8 @@ jobs:
         with:
           # Includes some specific rules to ignore
           config: .github/workflows/markdownlint-config.json
+          files: '_posts/**/*.md'
           # Ignore the built website, might have some funky files
           ignore: _site/
-          ignore: assets/
           # Try to fix basic errors
           fix: true
