@@ -51,5 +51,8 @@ jobs:
           config: .github/workflows/markdownlint-config.json
           # Ignore the built website, might have some funky files
           ignore: _site/
+                  assets/
+                  node_modules/
+                  bower_components/
           # Try to fix basic errors
           fix: true
