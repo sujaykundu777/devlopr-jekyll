@@ -1,0 +1,7 @@
+{
+  "default": true,
+  "line-length": false,
+  "no-trailing-punctuation": {
+    "punctuation": ".,;:"
+  }
+}
