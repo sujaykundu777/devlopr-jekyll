@@ -114,6 +114,17 @@ ol, ul {
     background: #f69801;
 }
 
+/* On scroll progress bar */
+#progress-bar {
+    background: linear-gradient(to right, #f69801 var(--progress), transparent 0);
+    height: 5px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 25px;
+}
+
 body {
     background-color: var(--main-background-color) !important;
     color: var(--main-text-color) !important;
