@@ -43,6 +43,15 @@
         "design",
         "bug"
       ]
+    },
+    {
+      "login": "csvance",
+      "name": "Carroll Vance",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6805096?v=4",
+      "profile": "https://csvance.github.io",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
