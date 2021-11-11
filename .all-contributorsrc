@@ -80,6 +80,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "aekkasit114",
+      "name": "Chivaszx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57280995?v=4",
+      "profile": "http://chivaszx.netlify.app",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
