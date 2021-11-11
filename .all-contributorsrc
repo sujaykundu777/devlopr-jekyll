@@ -62,6 +62,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Raghwendra-Dey",
+      "name": "Raghwendra Dey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45457947?v=4",
+      "profile": "http://raghwendra-dey.github.io",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
