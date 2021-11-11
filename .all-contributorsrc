@@ -52,6 +52,16 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "Tzeny",
+      "name": "Andrei Tenescu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6255363?v=4",
+      "profile": "https://tzeny.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
