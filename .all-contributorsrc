@@ -89,6 +89,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "resynth1943",
+      "name": "resynth1943",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49915996?v=4",
+      "profile": "https://github.com/resynth1943",
+      "contributions": [
+        "infra",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
