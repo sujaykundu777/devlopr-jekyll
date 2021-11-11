@@ -15,6 +15,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "rmrt1n",
+      "name": "Ryan Martin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51780559?v=4",
+      "profile": "https://rmrt1n.github.io/",
+      "contributions": [
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7,
