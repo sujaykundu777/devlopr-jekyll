@@ -24,6 +24,15 @@
       "contributions": [
         "infra"
       ]
+    },
+    {
+      "login": "jackneer",
+      "name": "Jack Wu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6252713?v=4",
+      "profile": "http://don't have one",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
