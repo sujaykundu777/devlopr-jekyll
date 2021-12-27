@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # Navigation
 urls:
     - text: Home
-      url: /
+      url: "https://swalbak.github.io"
     - text: About
       url: /about
     - text: Blog
