@@ -23,6 +23,22 @@ devlopr uses Markdown Files to generate data like Blog Posts, Gallery, Shop Prod
 
 To get started follow this [Tutorial](https://devlopr.netlify.app/get-started)
 
+or if you want to try fast :
+
+### Follow this steps in browser (takes 5-10 mins): 
+1. Fork this Repo with your name as  your_username.github.io
+2. Visit your Fork repo at https://github.com/your_username/your_username.github.io
+3. Press "." in keyboard (this will open up vs-code editor in browser) of the repo.
+4. Customize config.yml file according to your needs (eg. change your Name, Email... etc.)
+5. Commit your changes, and push 
+6. Wait for CI/CD to build your website. Visit Github Actions to see the build process.
+7. Once Ready, Your website will be ready at https://your_username.github.io :sparkles: 
+8. Happy Hacking your new site ! For Local changes you can clone locally.
+
+
+### Local Development Steps :
+To work locally, follow this commands. You might need ruby and git installed.
+
 ```sh
 $ git clone https://github.com/your_github_username/your_github_username.github.io.git
 $ cd your_github_username
