@@ -37,7 +37,7 @@ or if you want to try fast :
 
 
 ### Local Development Steps :
-To work locally, follow this commands. You might need ruby and git installed.
+To work locally, follow this commands. You might need to download and install [ruby (with devkit)](https://www.ruby-lang.org/downloads/) and [git](https://git-scm.com/downloads).
 
 ```sh
 $ git clone https://github.com/your_github_username/your_github_username.github.io.git
