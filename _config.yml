@@ -151,6 +151,11 @@ defaults:
     values:
       layout: author
       permalink: /blog/authors/:slug
+  -
+    scope:
+      path: 'assets/**'
+    values:
+      sitemap: false
 
 # Build settings
 plugins:
