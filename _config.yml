@@ -1,5 +1,5 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: 배워서 남주자!!
+subtitle: since 2022.03
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -27,10 +27,10 @@ urls:
 author_logo: profile.png
 author: Minseok Lee
 author_bio: Hi, my name is Minseok Lee.
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author_email: "lmsas105@gmail.com"
+author_location: Korea
+author_website_url: ""
+typewrite-text: Since 2022.03
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -71,16 +71,16 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
+twitter_username: null
 github_username:  sujaykundu777
 facebook_username: johndoe
 linkedin_username: johndoe
-behance_username: johndoe
+behance_username: null
 instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+medium_username: null
+telegram_username: null
+dribbble_username: null
+flickr_username: null
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
