@@ -25,5 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-admin", '~> 0.11.0'
 
   spec.add_development_dependency "bundler", "~> 2.2.29"
-  spec.add_development_dependency "rake", "~> 12.0"
+  spec.add_development_dependency "rake", "~> 13.0"
 end
