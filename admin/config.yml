@@ -19,7 +19,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail-img", widget: "image"}
-      - {label: "Category", name: "category", widget: "string", default: "jekyll"}
+      - {label: "Category", name: "category", widget: "string", default: "etc"}
       - {label: "Summary", name: "summary", widget: "string"}
       - {label: "Keywords", name: "keywords", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
