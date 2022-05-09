@@ -123,12 +123,12 @@ paginate_path: "/blog/page/:num/"
 #     envs: ['development']
 
 # Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
+ jekyll-archives:
+  enabled:
+     - categories
+   layout: archive
+   permalinks:
+    category: '/category/:name/'
 
 collections:
   products:
