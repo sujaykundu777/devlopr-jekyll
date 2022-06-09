@@ -95,7 +95,7 @@ Run the following in your terminal :
 ```sh
 echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
 echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
-echo "chruby ruby-3.1.1" >> ~/.zshrc
+echo "chruby ruby-3.1.2" >> ~/.zshrc
 ```
 If you’re using Bash, replace *.zshrc* with *.bash_profile*.
 
