@@ -99,6 +99,15 @@
         "infra",
         "code"
       ]
+    },
+    {
+      "login": "blakedrumm",
+      "name": "Blake Drumm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63755224?v=4",
+      "profile": "https://blakedrumm.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
