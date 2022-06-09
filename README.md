@@ -36,34 +36,96 @@ or if you want to try fast :
 8. Happy Hacking your new site ! For Local changes you can clone locally.
 
 
-### Local Development Steps :
-To work locally, follow this commands. You might need to download and install [ruby (with devkit)](https://www.ruby-lang.org/downloads/) and [git](https://git-scm.com/downloads).
+## Local Development Steps :
 
-```sh
+### Clone Locally:
+
+```s
 $ git clone https://github.com/your_github_username/your_github_username.github.io.git
 $ cd your_github_username
-$ ruby -v
+```
+
+### For Windows :
+
+To work locally with windows machine, follow this commands. You might need to download and install [ruby (with devkit)](https://www.ruby-lang.org/en/downloads/) and [git](https://git-scm.com/downloads).
+
+```s
+$ ruby -v 
+(ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [universal.x86_64-darwin21])
+
 $ gem install jekyll bundler
+
 $ bundler -v
+Bundler version 2.3.15
+
 $ bundle update
-$ bundle exec jekyll -v
+
+$ bundle exec jekyll -v 
+jekyll 4.2.2
+
 $ bundle exec jekyll serve --livereload
 ```
 
 If you are using permission issues, running bundler:
 
-```sh
+```s
 $ sudo rm -rf _site
 $ bundle update
 $ bundle exec jekyll serve
 ```
 Start the server locally at http://127.0.0.1:4000/ or http://localhost:4000/
 
+### For MacOS :
+Run the following in your terminal :
+
+1. Install Homebrew
+
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+2. Install churby and ruby-install with Homebrew
+
+`brew install chruby ruby-install`
+
+3. Install latest ruby version 
+
+`ruby-install ruby`
+
+4. This will take a few minutes, and once it’s done, configure your shell to automatically use chruby:
+
+```sh
+echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
+echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
+echo "chruby ruby-3.1.1" >> ~/.zshrc
+```
+If you’re using Bash, replace *.zshrc* with *.bash_profile*.
+
+Quit and relaunch Terminal, then check that everything is working:
+
+`$ ruby -v`
+ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-darwin21]
+
+5. Install latest gems
+
+```s
+$ gem install jekyll bundler
+
+$ bundler -v
+Bundler version 2.3.15
+
+$ bundle update
+
+$ bundle exec jekyll -v 
+jekyll 4.2.2
+
+$ bundle exec jekyll serve --livereload
+```
+
+
 ### Security 
 
 We use codeQL and dependabot alerts for vulnerabality analysis & fixes.
 
-```sh
+```s
 $ bundle audit
 ```
 

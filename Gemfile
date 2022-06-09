@@ -1,7 +1,9 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '~> 4.2', '>= 4.1.1'
-gem 'bundler', '~> 2.3.8'
+gem 'jekyll', '~> 4.2.2', '>= 4.1.1'
+gem 'bundler', '~> 2.3.15'
+gem 'faraday-retry'
+gem 'backports', '~> 3.23'
 gem 'kramdown'
 gem 'rack-jekyll'
 gem 'rack'
@@ -16,10 +18,10 @@ gem 'puma'
 group :jekyll_plugins do
     # gem 'devlopr', '~> 0.4.5'
     gem 'jgd', '~> 1.12'
-    gem 'jekyll-feed', '~> 0.13.0'
+    gem 'jekyll-feed', '~> 0.16.0'
     gem 'jekyll-paginate', '~> 1.1.0'
     gem 'jekyll-gist', '~> 1.5.0'
-    gem 'jekyll-seo-tag', '~> 2.6.1'
+    gem 'jekyll-seo-tag', '~> 2.8.0'
     gem 'jekyll-sitemap', '~> 1.4.0'
     gem 'jekyll-admin', '~> 0.11.0'
 end
@@ -28,7 +30,7 @@ end
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem "tzinfo", "~> 1.2"
+  gem "tzinfo", "~> 2.0"
   gem "tzinfo-data"
 end
 
