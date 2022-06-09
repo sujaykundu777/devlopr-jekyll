@@ -99,6 +99,15 @@
         "infra",
         "code"
       ]
+    },
+    {
+      "login": "Ledmington",
+      "name": "Filippo Barbari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68538713?v=4",
+      "profile": "https://ledmington.github.io",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
