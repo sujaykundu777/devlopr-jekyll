@@ -44,6 +44,24 @@ or if you want to try fast :
 $ git clone https://github.com/your_github_username/your_github_username.github.io.git
 $ cd your_github_username
 ```
+### For Linux : (Ubuntu 20.04)
+
+To work locally with ubuntu, follow this commands.
+
+Install Ruby :
+```s
+$ sudo apt install ruby-full`
+$ ruby --version
+ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux-gnu]
+
+$ gem install jekyll bundler
+$ bundle update
+$ bundle install
+$ bundle exec jekyll -v
+jekyll 4.2.2
+
+$ bundle exec jekyll serve --livereload
+```
 
 ### For Windows :
 
@@ -59,7 +77,7 @@ $ bundler -v
 Bundler version 2.3.15
 
 $ bundle update
-
+$ bundle install
 $ bundle exec jekyll -v 
 jekyll 4.2.2
 
@@ -71,6 +89,7 @@ If you are using permission issues, running bundler:
 ```s
 $ sudo rm -rf _site
 $ bundle update
+$ bundle install
 $ bundle exec jekyll serve
 ```
 Start the server locally at http://127.0.0.1:4000/ or http://localhost:4000/
