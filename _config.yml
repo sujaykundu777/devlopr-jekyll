@@ -25,7 +25,7 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author:Erik Paida
+author: Erik Paida
 author_bio: Hi, my name is Erik Paida. I built this site using devlopr-jekyll :D
 author_email: "erikpaida@aol.com"
 author_location: America
