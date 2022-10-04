@@ -1,4 +1,4 @@
-title: devlopr
+title: Heidi Saleh
 subtitle: A Portfolio Jekyll Theme Built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
@@ -14,88 +14,59 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
     - text: Contact
       url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author_logo: authors/heidisaleh.jpg
+author: Heidi Saleh
+author_bio: Hi, my name is Heidi Saleh. I built this site using devlopr-jekyll. Some fun facts about me is that I lived in three different countries, I love sharks. I also love adventure! (skydiving, parasailing, rock climbing etc). I hope to go shark diving and bungee jumping at some point :) Here is the path to my resume /Users/heidisaleh/Documents/GitHub/resume/_config.yml 
+author_email: "Heidi.saleh1@marist.edu"
+author_location: New York
+author_website_url: "https://github.com/Hsaleh13"
+typewrite-text: I am a Junior here at Marist college, studying cybersecurity. I have alot of hobbies, I like to do hardware aspects of fixing computers, I also like drawing/painting. Other hobbies include playing soccer and rugby. As well as skydiving and diving with sharks.
+
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Briarcliff Highschool
+              company_logo: bhslogo.png
+              company_url: https://www.briarcliffschools.org/district-information/information-technology
+              designation: Apple Certified Technician/ Student Help desk
+              description: Worked on teaching students, teachers, and administration about apple devices. Fixed computers, iPads , whiteboards and phones.
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Ossining Volunteer Ambulance Corps
+              company_logo: ovac.png
+              company_url: https://www.ossiningvac.org/
+              designation: Aider
+              description: Assisted Paramedics and EMTs on calls 
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: fox.jpg
+                college_name: Marist College
+                college_url: https://www.marist.edu/
+                college_degree: BS Cybersecurity 
+                description: Bachelor of Cybersecurity
                 visibility: true
 
-# Projects
-author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
+
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
+github_username:  Hsaleh13
+facebook_username: /heidi.saleh
 linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 # disqus_shortname: sujay-kundu
 hyvor_talk_website_id: 476
 
-# wakatime username (coding activity)
-wakatime_username: sujaykundu777
-
-# mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
-
-# contact form - (choose formspress or getform)
-# getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: devlopr
@@ -109,7 +80,7 @@ permalink: pretty
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
-show_author_project_details: true
+show_author_project_details: false
 
 # pagination of posts
 paginate: 4

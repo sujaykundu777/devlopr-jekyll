@@ -12,7 +12,7 @@ html[data-theme="dark"] {
     --highlight-color: hsl(0, 0%, 60%);
     --light-border-color: hsl(0, 0%, 30%);
     --light-text-color: rgb(199, 199, 204);
-    --link-color: #f69801;
+    --link-color: #6ab7ee;
     --link-color-visited: hsl(250, 100%, 60%);
     --main-background-color: rgb(28, 28, 30);
     --main-text-color: rgb(139, 139, 139);
@@ -53,9 +53,9 @@ html[data-theme="light"] {
         --highlight-color: hsl(0, 0%, 60%);
         --light-border-color: hsl(0, 0%, 30%);
         --light-text-color: rgb(199, 199, 204);
-        --link-color: #f69801;
+        --link-color:#6ab7ee;
         --nav-color: #131313;
-        --search-color: #FF7901;
+        --search-color: #e987e4;
         --nav-link-color: rgba(255, 255, 255, .5);
         --link-color-visited: hsl(250, 100%, 60%);
         --main-background-color: rgb(28, 28, 30);
@@ -75,7 +75,7 @@ html[data-theme="light"] {
         --highlight-color: hsl(0, 0%, 80%);
         --light-border-color: rgb(230, 230, 230);
         --light-text-color: rgb(72, 72, 74);
-        --link-color: #ca6521;
+        --link-color: #6ab7ee;
         --nav-color: #ffffff;
         --nav-link-color: #111111;
         --search-color: #ababab;
@@ -240,7 +240,7 @@ header {
 }
 
 .navbar-dark .navbar-brand {
-    color: #ff7601 !important;
+    color: #2f97dc !important;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: var(--nav-link-color) !important;
@@ -543,7 +543,7 @@ header {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: coral;
+    color: #6ab7ee;
 }
 
 .product{
@@ -720,8 +720,7 @@ header {
 
 
 .company-logo {
-    width: 100px;
-    height: 100px;
+    width: 68px;
 }
 
 .author-profile-img {
