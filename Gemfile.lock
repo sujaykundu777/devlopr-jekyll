@@ -125,7 +125,7 @@ PLATFORMS
 
 DEPENDENCIES
   backports (~> 3.23)
-  bundler (~> 2.3.15)
+  bundler (~> 2.3.22)
   faraday-retry
   jekyll (~> 4.2.2, >= 4.1.1)
   jekyll-admin (~> 0.11.0)
