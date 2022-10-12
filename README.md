@@ -74,7 +74,7 @@ $ ruby -v
 $ gem install jekyll bundler
 
 $ bundler -v
-Bundler version 2.3.15
+Bundler version 2.3.23
 
 $ bundle update
 $ bundle install
@@ -129,7 +129,7 @@ ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-darwin21]
 $ gem install jekyll bundler
 
 $ bundler -v
-Bundler version 2.3.15
+Bundler version 2.3.23
 
 $ bundle update
 
