@@ -1,12 +1,10 @@
 source "https://rubygems.org"
 
 gem 'jekyll', '~> 4.2.2', '>= 4.1.1'
-gem 'bundler', '~> 2.3.22'
+gem 'bundler', '~> 2.3.23'
 gem 'faraday-retry'
 gem 'backports', '~> 3.23'
 gem 'kramdown'
-gem 'rack-jekyll'
-gem 'rack'
 gem 'puma'
 
 
@@ -23,7 +21,7 @@ group :jekyll_plugins do
     gem 'jekyll-gist', '~> 1.5.0'
     gem 'jekyll-seo-tag', '~> 2.8.0'
     gem 'jekyll-sitemap', '~> 1.4.0'
-    gem 'jekyll-admin', '~> 0.11.0'
+    gem 'jekyll-admin', '~> 0.11.1'
 end
 
 
