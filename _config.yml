@@ -164,6 +164,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-admin
+  - jekyll-postcss
 
 # Jekyll Admin Config
 jekyll_admin:
