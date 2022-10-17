@@ -40,7 +40,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
       sinatra (>= 1.4)
       sinatra-contrib (>= 1.4)
-    jekyll-feed (0.16.0)
+    jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
@@ -125,7 +125,7 @@ DEPENDENCIES
   faraday-retry
   jekyll (~> 4.2.2, >= 4.1.1)
   jekyll-admin (~> 0.11.1)
-  jekyll-feed (~> 0.16.0)
+  jekyll-feed (~> 0.17.0)
   jekyll-gist (~> 1.5.0)
   jekyll-paginate (~> 1.1.0)
   jekyll-seo-tag (~> 2.8.0)
