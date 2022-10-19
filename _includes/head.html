@@ -110,15 +110,43 @@
       var base_url = '{{ site.url}}{{site.baseurl}}' ;
    </script>
 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
   <!-- Jquery -->
   <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
     crossorigin="anonymous"
   ></script>
-  <!-- <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery/dist/jquery.min.js"></script> -->
+  <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery.easing/jquery.easing.min.js"></script>
-  <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- flowbite-tailwind -->
+  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+
+  <script>
+    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark')
+    }
+</script>
+
+
+  <!-- <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/jquery-mousewheel/jquery.mousewheel.min.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/ghosthunter/dist/jquery.ghostHunter.min.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/lightgallery/dist/js/lightgallery-all.min.js"></script>
@@ -130,6 +158,7 @@
   <script src="{{site.url}}{{site.baseurl}}/assets/js/on-scroll-progress.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
 
  <!-- for Mathjax support -->
   {% if page.usemathjax %}

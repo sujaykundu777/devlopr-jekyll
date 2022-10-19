@@ -1,12 +1,99 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+<html lang="{{ page.lang | default: site.lang | default: " en " }}" class="bg-white">
 {%- include head.html -%}
-<body>
+<body class="bg-white dark:bg-gray-800">
   {%- include header-tailwind.html -%}
+  {%- include slider.html -%}
+  <div class="bg-white dark:bg-gray-800">
+    {%- include recent_posts.html -%}
+  </div>
 
+<!--   {%- include footer.html -%} -->
+ 
+ <script>
+    /* Navbar code */
+    $(document).ready(function() {
+
+      /* 
+      * dark-light mode-switcher
+      * Change the icons inside the button based on previous settings
+      */
+      if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        $('#theme-toggle-light-mode').removeClass('hidden');
+      } else {
+        $('#theme-toggle-dark-mode').removeClass('hidden');
+      }
+
+      $('#theme-toggle').on('click', function() {
+        
+          // toggle icons inside button
+          $('#theme-toggle-dark-mode').toggleClass('hidden');
+          $('#theme-toggle-light-mode').toggleClass('hidden');
+
+          // if set via local storage previously
+          if (localStorage.getItem('color-theme')) {
+            if (localStorage.getItem('color-theme') === 'light') {
+              $(document.documentElement).addClass('dark');
+              localStorage.setItem('color-theme', 'dark');
+            } else {
+              $(document.documentElement).removeClass('dark');
+              localStorage.setItem('color-theme', 'light');
+            }
+
+          // if NOT set via local storage previously
+          } else {
+            if ($(document.documentElement).hasClass('dark')) {
+              $(document.documentElement).removeClass('dark');
+              localStorage.setItem('color-theme', 'light');
+            } else {
+              $(docuemnt.documentElement).addClass('dark');
+              localStorage.setItem('color-theme', 'dark');
+            }
+          }
+      });
+
+        /*
+          theme based on system preferences  
+          const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+          console.log('darkThemeMq', darkThemeMq)
+          if (darkThemeMq.matches) {
+            // Theme set to dark.
+            console.log('setting to dark....');
+            localStorage.setItem('color-theme', 'dark');
+          } else {
+            // Theme set to light.
+            console.log('setting to light...');
+            localStorage.setItem('color-theme', 'light');
+          }
+      */
+      $('#user-menu-dropdown').hide();
+      $('#mobile-menu-dropdown').hide();
+
+      $('#user-menu-button').on('click', function(){
+        $('#user-menu-dropdown').toggle();
+      });
+
+      $('#mobile-menu-btn').on('click', function() {
+        $('#mobile-menu-dropdown').toggle("slow", function(){
+          if ($('#menu-btn-bars').hasClass('block')) {
+            $('#menu-btn-bars').removeClass('block');
+            $('#menu-btn-bars').addClass('hidden');
+          } else {
+            $('#menu-btn-bars').removeClass('hidden');
+            $('#menu-btn-bars').addClass('block');
+          }
+
+          if ($('#menu-btn-cross').hasClass('block')) {
+            $('#menu-btn-cross').removeClass('block');
+            $('#menu-btn-cross').addClass('hidden');
+          } else {
+            $('#menu-btn-cross').removeClass('hidden');
+            $('#menu-btn-cross').addClass('block'); 
+          }
+        });
+      });
+    })
+    
+  </script>
   </body>
 </html>
