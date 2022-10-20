@@ -50,7 +50,7 @@ To work locally with ubuntu, follow this commands.
 
 Install Ruby :
 ```s
-$ sudo apt install ruby-full`
+$ sudo apt install ruby-full
 $ ruby --version
 ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux-gnu]
 
@@ -84,7 +84,7 @@ jekyll 4.2.2
 $ bundle exec jekyll serve --livereload
 ```
 
-If you are using permission issues, running bundler:
+If you are running into permission issues running bundler, try the following:
 
 ```s
 $ sudo rm -rf _site
