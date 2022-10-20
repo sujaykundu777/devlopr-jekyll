@@ -3,13 +3,11 @@
 {%- include head.html -%}
 <body class="bg-white dark:bg-gray-800">
   {%- include header-tailwind.html -%}
-  {%- include slider.html -%}
   <div class="bg-white dark:bg-gray-800">
-    {%- include recent_posts.html -%}
+    {{ content }}
   </div>
+  {%- include footer.html -%}
 
-<!--   {%- include footer.html -%} -->
- 
  <script>
     /* Navbar code */
     $(document).ready(function() {

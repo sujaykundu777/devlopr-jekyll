@@ -1,5 +1,5 @@
 
-<nav class="bg-white dark:bg-gray-800">
+<nav class="bg-gray-50 dark:bg-gray-900 fixed w-full z-50 top-0 left-0">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -29,13 +29,14 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
+        <button  type="button" class="sm:block lg:hidden rounded-full dark:bg-gray-800 p-1 mr-4 dark:text-gray-400 hover:text-black dark:hover:text-white dark:focus:outline-none hover:ring-1 hover:ring-black dark:focus:ring-2 focus:ring-black dark:focus:ring-white focus:ring-offset-2 dark:focus:ring-offset-gray-800">
+          <span class="sr-only">Search</span>
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </button>
       </div>
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex flex-shrink-0 items-center">
           <img class="h-8 w-8 rounded-full" src="{{site.url}}{{site.baseurl}}/assets/img/authors/xplor4r.png" class="author-profile-img" alt="Devlopr">
-          <!-- <img class="block h-10 w-auto lg:hidden" src="{{site.url}}{{site.baseurl}}/assets/img/devlopr.png" class="author-profile-img" alt="Devlopr">
-          <img class="hidden h-10 w-auto lg:block" src="{{site.url}}{{site.baseurl}}/assets/img/devlopr.png"  class="author-profile-img" alt="Devlopr">
-          -->
         </div> 
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4">
@@ -50,15 +51,10 @@
         </div>
       </div>
       <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-        <button  type="button" class="rounded-full dark:bg-gray-800 p-1 mr-4 dark:text-gray-400 hover:text-black dark:hover:text-white dark:focus:outline-none hover:ring-1 hover:ring-black dark:focus:ring-2 focus:ring-black dark:focus:ring-white focus:ring-offset-2 dark:focus:ring-offset-gray-800">
+        <button  type="button" class="hidden md:block rounded-full dark:bg-gray-800 p-1 mr-4 dark:text-gray-400 hover:text-black dark:hover:text-white dark:focus:outline-none hover:ring-1 hover:ring-black dark:focus:ring-2 focus:ring-black dark:focus:ring-white focus:ring-offset-2 dark:focus:ring-offset-gray-800">
             <span class="sr-only">Search</span>
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
         </button>
-  <!--       <button type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
-          <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
-          <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-        </button> -->
-
         <button id="theme-toggle" type="button" class="rounded-full dark:bg-gray-800 p-1 mr-4 dark:text-gray-400 hover:text-black dark:hover:text-white">
           <span class="sr-only">Switch Mode</span>
           <!-- moon  -->
@@ -67,18 +63,20 @@
           <svg id="theme-toggle-light-mode" class="hidden w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
           </button>
       
-        <button type="button" class="rounded-full dark:bg-gray-800 p-1 dark:text-gray-400 hover:text-black dark:hover:text-white dark:focus:outline-none hover:ring-1 hover:ring-black dark:focus:ring-2 focus:ring-black dark:focus:ring-white focus:ring-offset-2 dark:focus:ring-offset-gray-800">
+        <button type="button" class="hidden md:block rounded-full dark:bg-gray-800 p-1 dark:text-gray-400 hover:text-black dark:hover:text-white dark:focus:outline-none hover:ring-1 hover:ring-black dark:focus:ring-2 focus:ring-black dark:focus:ring-white focus:ring-offset-2 dark:focus:ring-offset-gray-800">
           <!-- <span class="sr-only">View notifications</span> -->
           <!-- Heroicon name: outline/bell -->
 
           <!-- <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
           </svg> -->
+
+          <!-- cart -->
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
         </button>
 
         <!-- Profile dropdown -->
-        <div class="relative ml-3">
+        <div class="relative ml-3 hidden md:block">
           <div>
             <button type="button" class="rounded-full dark:bg-gray-800 p-1 dark:text-gray-400 hover:text-black dark:hover:text-white dark:focus:outline-none hover:ring-1 hover:ring-black dark:focus:ring-2 focus:ring-black dark:focus:ring-white focus:ring-offset-2 dark:focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
               <span class="sr-only">Open user menu</span>
@@ -98,9 +96,8 @@
             Active: "bg-gray-100", Not Active: "" 
           -->
           <div id="user-menu-dropdown" class="transition ease-out duration-150 absolute right-0 z-30 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
-            <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0">Your Profile</a>
-            <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>
-            <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</a>
+            <a href="{{site.url}}{{site.baseurl}}/styleguide" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1" id="user-menu-item-0">Styleguide</a>
+            <a href="{{site.url}}{{site.baseurl}}/get-started" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1" id="user-menu-item-1">Getting Started</a>
           </div>
         </div>
       </div>
