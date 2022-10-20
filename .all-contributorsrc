@@ -107,24 +107,33 @@
       "profile": "https://blakedrumm.com",
       "contributions": [
         "code"
-       ]
-     },
-     {
+      ]
+    },
+    {
       "login": "blakedrumm",
       "name": "Blake Drumm",
       "avatar_url": "https://avatars.githubusercontent.com/u/63755224?v=4",
       "profile": "https://blakedrumm.com",
       "contributions": [
         "doc"
-       ]
-      },
-      {
+      ]
+    },
+    {
       "login": "Ledmington",
       "name": "Filippo Barbari",
       "avatar_url": "https://avatars.githubusercontent.com/u/68538713?v=4",
       "profile": "https://ledmington.github.io",
       "contributions": [
         "code"
+      ]
+    },
+    {
+      "login": "Apezdr",
+      "name": "Adam Drumm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2986979?v=4",
+      "profile": "https://github.com/Apezdr",
+      "contributions": [
+        "doc"
       ]
     }
   ],
@@ -133,5 +142,6 @@
   "projectOwner": "sujaykundu777",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }
