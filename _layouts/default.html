@@ -3,12 +3,11 @@
 {%- include head.html -%}
 <body class="bg-white dark:bg-gray-800">
   {%- include header-tailwind.html -%}
-  <div class="bg-white dark:bg-gray-800">
+  <div class="bg-white dark:bg-gray-800 py-20">
     {{ content }}
   </div>
   {%- include footer.html -%}
-
- <script>
+  <script>
     /* Navbar code */
     $(document).ready(function() {
 
@@ -90,8 +89,7 @@
           }
         });
       });
-    })
-    
-  </script>
+    });
+    </script>
   </body>
 </html>
