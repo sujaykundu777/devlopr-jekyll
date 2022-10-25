@@ -65,10 +65,15 @@ author_project_details:
                 project_description: A Platform built for Gamers and Game Devs
                 project_url: https://gamershub.in
                 visibility: true
-              - project_thumbnail: hack4r.PNG
+              - project_thumbnail: hack4r.png
                 project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
+                visibility: true
+              - project_thumbnail: programmingebooks.png
+                project_url: https://programmingebooks.com
+                project_title: ProgrammingEbooks
+                project_description: A Library of Ebooks for Programmers, Developers and Coders.
                 visibility: true
 
 # social links
