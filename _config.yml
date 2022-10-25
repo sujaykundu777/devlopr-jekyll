@@ -75,9 +75,14 @@ author_project_details:
                 project_title: ProgrammingEbooks
                 project_description: A Library of Ebooks for Programmers, Developers and Coders.
                 visibility: true
+              - project_thumbnail: coolwebapp.png
+                project_url: https://coolweb.app
+                project_title: Cool Web App
+                project_description: Discover useful resources over the Web
+                visibility: true
 
 # social links
-twitter_username: johndoe
+twitter_username: sujaykundu777
 github_username:  sujaykundu777
 facebook_username: johndoe
 linkedin_username: johndoe

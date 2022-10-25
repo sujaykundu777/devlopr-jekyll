@@ -54,9 +54,47 @@ layout: default
     <!-- experience -->
     <div class="basis-full max-w-sm my-4 mx-2 ml-4">
         <div class="w-full max-w-screen-xl rounded-lg border dark:bg-gray-800 dark:border-gray-700 py-16 px-4 bg-white shadow-lg">
+           {% if site.show_author_work_experiences == true %} 
             <h1 class="text-gray-800 dark:text-gray-300 p-4 text-2xl"> Experience </h1>
-            <h1 class="text-gray-800 dark:text-gray-300 p-4 text-2xl"> Education </h1>
+             {% for exp in site.author_work_experiences %}
+                {% if exp.visibility == true %}
+                    <div class="flex flex-wrap md:flex-row max-w-screen bg-gray-100 dark:bg-gray-600 rounded-lg border border-gray-200 dark:border-none my-4 mx-4 p-4 shadow-sm">
+                        <div class="basis-full border-1 border-gray-500">
+                            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}" width="100px" class="shadow-lg rounded-sm m-2" />
+                        </div>
+                        <div class="basis-full border-1 border-gray-200 p-4">
+                            <h4 class="text-xl dark:text-gray-200 text-black text-bold">{{ exp.designation }}</h4>
+                            <h6 class="text-lg dark:text-gray-200 text-black py-2">{{ exp.company_name}}</h6>
+                            <p class="text-lg dark:text-gray-200 text-black py-2">{{ exp.description }}</p>
+                            <a href="{{exp.company_url}}" class="inline-flex items-center my-4 py-2 px-3 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                                Read more
+                            </a>
+                        </div>
+                    </div>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+            {% if site.show_author_education_details == true %}
+                <h1 class="text-gray-800 dark:text-gray-300 p-4 text-2xl"> Education </h1>
+                {% for detail in site.author_education_details %} 
+                    {% if detail.visibility == true %}
+                        <div class="flex flex-wrap md:flex-row max-w-screen bg-gray-100 dark:bg-gray-600 rounded-lg border border-gray-200 dark:border-none my-4 mx-4 p-4 shadow-sm">
+                            <div class="basis-full border-1 border-gray-500">
+                                <img src="{{site.url}}{{site.baseurl}}/assets/img/{{detail.college_logo}}" width="100px" class="shadow-lg rounded-sm m-2" />
+                            </div>
+                            <div class="basic-full border-1 border-gray-200 p-4">
+                                <h4 class="text-xl dark:text-gray-200 text-black text-bold">{{detail.college_degree }}</h4>
+                                <h6 class="text-lg dark:text-gray-200 text-black py-2">{{detail.college_name}}</h6>
+                                <p class="text-lg dark:text-gray-200 text-black py-2">{{detail.description}}</p>
+                                <a href="{{detail.college_url}}" class="inline-flex items-center my-4 py-2 px-3 text-sm font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                                    Read more
+                                </a>
+                            </div> 
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
         </div>
     </div>
-</div>
 
+</div>
