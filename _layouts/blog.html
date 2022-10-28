@@ -1,65 +1,66 @@
 ---
 layout: default
 ---
-<div class="col-lg-12">
- <div class="row justify-content-center">
-      <div class="col-lg-8">
-              <ul>
-                  <div class="row">
-                      {% for post in paginator.posts %}
-                      <div class="card blog-post">
-                          <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">
-                          <div class="card-body center">
-                              <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
-                              <h4 class="card-title">{{ post.title }}</h4>
 
-                              <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
-                              <p class="card-text">{{ post.summary }} </p>
+<div class="flex flex-wrap mx-4 md:mx-10 lg:mx-28 py-24">
+  <div class="w-full max-w-3xl mx-6">
+    {% for post in paginator.posts %}
+      <div class="max-w-full p-2 mb-4 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div class="bg-cover bg-center h-64" style="background-image: url('{{site.url}}{{site.baseurl}}{{ post.thumbnail }}')"></div>
+        <div class="p-5">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ post.title }}</h5>
+            </a>
+            <h6 class="text-gray-900 dark:text-white">{{ post.date | date: "%b %-d, %Y" }}</h6>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{ post.summary }}</p>
+            <a href="{{ post.url | prepend: site.baseurl }}" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Read more
+                <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
+          </div>
+        </div>
+    {% endfor %}
 
-                              <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
-                              <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
-
-                          </div>
-                      </div>
-                      {% endfor %}
-                  </div>
-              </ul>
-
-        <div class="row center">
-          <!-- Pagination links -->
-          {% if paginator.total_pages > 1 %}
-            <ul class="pagination pagination-sm">
-              {% if paginator.previous_page %}
-                <li class="pagination-link"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
-              {% else %}
-                <li class="pagination-link disabled"><span aria-hidden="true">&laquo;</span></li>
-              {% endif %}
-
-              <li class="pagination-link" ><a href="/blog">First</a></li>
-
-              {% for page in (1..paginator.total_pages) %}
-                {% if page == paginator.page %}
-                  <li class="active pagination-link"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
-                {% elsif page == 1 %}
-                  <li class="pagination-link"><a href="/blog">{{ page }}</a></li>
-                {% else %}
-                  <li class="pagination-link"><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-                {% endif %}
-              {% endfor %}
-
-              <li class="pagination-link"><a href="/blog/page/{{ paginator.total_pages }}/#/">Last</a></li>
-
-              {% if paginator.next_page %}
-                <li class="pagination-link"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
-              {% else %}
-                <li class="disabled pagination-link"><span>&raquo;</span></li>
-              {% endif %}
-            </ul>
+    <nav aria-label="navigate">
+      {% if paginator.total_pages > 1 %}
+      <ul class="inline-flex -space-x-px">
+        {% if paginator.previous_page %}
+        <li>
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="py-2 px-3 ml-0 leading-tight text-gray-500 bg-white rounded-l-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a>
+        </li>
+        {% endif %}
+        {% for page in (1..paginator.total_pages) %}
+          {% if page == paginator.page %}
+          <li>
+            <a aria-current="page" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="py-2 px-3 text-blue-600 bg-blue-50 border border-gray-300 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">{{page}}</a>
+          </li>
           {% endif %}
-      </div>
+        {% endfor %}
+        {% if paginator.next_page %}
+        <li>
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="py-2 px-3 leading-tight text-gray-500 bg-white rounded-r-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Next</a>
+        </li>
+      {% endif %}
+       </ul> 
+      {% endif %}
+    </nav>
 
+  </div>
+  <div class="w-full max-w-sm">
+    <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg m-2 border border-gray-200">
+       <h2 class="text-2xl dark:text-white"> About </h2>
+       <p class="text-lg dark:text-gray-300"> devlopr is a jekyll theme built for developers. </p>
     </div>
-    {%- include blog_sidebar.html -%}
-
- </div>
+    <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg m-2 border border-gray-200">
+       <h2 class="text-2xl dark:text-white"> Categories </h2>
+       {% for tag in site.categories %} {% capture tag_name %}{{ tag | first }}{% endcapture %}
+       <div id="#{{ tag_name | slugize }}"></div>
+       <li class="text-lg dark:text-gray-300">
+           <a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }}</a>
+       </li>
+       <a name="{{ tag_name | slugize }}"></a>
+       {% endfor %}
+    </div>  
+  </div>
 </div>
+

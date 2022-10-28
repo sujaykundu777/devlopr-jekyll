@@ -1,0 +1,54 @@
+
+<div class="grid grid-cols-8 my-4 gap-4">
+    <div class="col-start-2 col-span-6">
+        <!-- recent articles -->
+        <div class="p-4 w-full bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+            <div class="flex justify-between items-center mb-4">
+                <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Recent Articles</h5>
+                <a href="{{site.url}}{{site.baseUrl}}/blog" class="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
+                    View all
+                </a>
+        </div>
+        <div class="flow-root">
+                <ul role="list" class="dark:divide-gray-700">
+                    {% for post in site.posts %}
+                        <li class="py-3 sm:py-4 hover:bg-gray-200 dark:hover:bg-gray-600">
+                            <a href="{{post.url}}">
+                                <div class="flex items-center space-x-4 p-2">
+                                    <div class="flex-shrink-0">
+                                        {% if post.author %}
+                                        {% assign author = post.author %}
+                                        {% if author %}
+                                        {% assign author_data = site.data.authors[author] %}
+                                            <img
+                                                class="w-8 h-8 rounded-full"
+                                                src="{{site.url}}{{site.baseurl}}/assets/img/authors/{{author_data.avatar}}"
+                                                width="60px"
+                                                height="60px"
+                                                alt="Author Img"
+                                            />
+                                        {% endif %}
+                                        {% endif %}
+                                    </div>
+                                    <div class="flex-1 min-w-0">
+                                        <p class="text-sm font-medium text-gray-900 hover:text-black dark:text-gray-400 dark:hover:text-black truncate">
+                                            {{ post.title }}
+                                        </p>
+                                        <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+                                         <i><time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i>
+                                        </p>
+                                    </div>
+                                    <div class="inline-flex items-center text-base font-semibold text-gray-400 dark:text-gray-100">
+                                        {% for cat in post.category limit:1 %}
+                                            <button class="btn btn-sm btn-dark">{{cat}}</button>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+             </div>
+        </div>
+    </div>
+  </div>

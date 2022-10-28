@@ -1,0 +1,144 @@
+<div class="w-full max-w-sm rounded-lg border dark:bg-gray-800 dark:border-gray-700 py-12 bg-white shadow-lg">
+    <div class="flex flex-col items-center">
+        <img class="mb-3 w-32 h-32 rounded-full" src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" />
+        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+            {{ site.author }}
+        </h5>
+        <span class="text-sm text-gray-500 dark:text-gray-400"> Full Stack Web Developer </span>
+
+        <div class="flex flex-col mt-2 space-x-1 md:mt-2">
+            <span class="inline-flex items-center py-2 px-8 text-center">
+                <a href="mailto:{{ site.author_email }}" class="w-full py-2 m-2 px-4 text-sm font-medium text-blue-800 dark:text-white hover:text-white bg-white ring-1 dark:ring-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300  dark:bg-black dark:hover:bg-blue-800 dark:focus:ring-black">
+                    Hire Me
+                </a> 
+
+                <!--
+                    {% if site.author_email %} 
+                        <a href="mailto:{{ site.author_email }}" class="py-2 m-2 px-4 text-sm font-medium text-blue-800 dark:text-white hover:text-white bg-white ring-1 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-800">
+                        <i class="fas fa-envelope" class="social-link"></i>
+                    {% endif %} 
+                </a> -->
+                {% if site.author_website_url %}
+                    <a href="{{ site.author_website_url }}" class="py-2 m-2 px-4 text-sm font-medium text-blue-800  hover:text-white bg-white ring-1 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300  dark:hover:bg-blue-800">
+                        <i class="fas fa-link" class="social-link"></i>
+                    </a>
+                {% endif %}
+
+                 {% if site.author_location %}
+                    <a href="https://www.google.com/maps/search/?api=1&query={{ site.author_location }}" class="py-2 m-2 px-4 text-sm font-medium text-blue-800 hover:text-white bg-white ring-1 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:hover:bg-blue-800">
+                        <i class="fas fa-map-marker-alt"></i> 
+                    </a>
+                {% endif %} 
+                
+               
+            </span>
+            <div class="flex w-full px-8 text-center items-center">
+                <!-- github follow button -->
+                {% if site.github_username %}
+                    {%- include github_follow_button.html -%} 
+                {% endif %}
+            </div>
+            <div class="flex mt-4">
+                <div class="w-1/5 h-8 text-center items-center">
+                    {% if site.twitter_username %}
+                    <a
+                      class="text-gray-500 bg-white bg:text-gray-100 dark:bg-black border border-gray-500 border-1 hover:text-black dark:hover:text-white rounded-full w-6 h-6 text-sm py-1 px-2 m-2"
+                      href="http://twitter.com/{{ site.twitter_username }}"
+                    >
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    {% endif %} 
+                </div>
+                <div class="w-1/5 h-8 text-center items-center">
+                    {% if site.facebook_username %}
+                    <a
+                      class="text-gray-500 bg-white bg:text-gray-100 dark:bg-black border border-gray-500 border-1 hover:text-black dark:hover:text-white rounded-full w-6 h-6 text-sm py-1 px-2 m-2"
+                      href="http://facebook.com/{{ site.facebook_username }}"
+                    >
+                    <i class="fab fa-facebook-f"></i>
+                    </a>
+                  {% endif %} 
+                </div>
+                <div class="w-1/5 h-8 text-center items-center">
+                  {% if site.instagram_username %}
+                    <a 
+                        class="text-gray-500 bg-white bg:text-gray-100 dark:bg-black border border-gray-500 border-1 hover:text-black dark:hover:text-white rounded-full w-6 h-6 text-sm px-1.5 py-0.5 m-2"
+                        href="http://instagram.com/{{ site.instagram_username }}">
+                    <i class="fab fa-instagram"></i>
+                    </a>
+                 {% endif %} 
+                </div>
+                <div class="w-1/5 h-8 text-center items-center">
+                  {% if site.medium_username %}
+                    <a
+                      class="text-gray-500 bg-white bg:text-gray-100 dark:bg-black border border-gray-500 border-1 hover:text-black dark:hover:text-white rounded-full w-6 h-6 text-sm py-0.5 px-1.5 m-2"
+                      href="http://medium.com/@{{ site.medium_username }}"
+                     >
+                     <i class="fab fa-medium-m"></i>
+                    </a>
+                   {% endif %} 
+                </div>
+                <div class="w-1/5 h-8 text-center items-center">
+                   {% if site.github_username %}
+                    <a
+                      class="text-gray-500 bg-white bg:text-gray-100 dark:bg-black border border-gray-500 border-1 hover:text-black dark:hover:text-white rounded-full w-6 h-6 text-sm py-0.5 px-1.5 m-2"
+                      href="http://github.com/{{ site.github_username }}"
+                    >
+                     <i class="fab fa-github"></i>
+                    </a>
+                   {% endif %} 
+                </div>
+            </div>
+            <div class="flex">
+                <div class="w-1/5 h-8 text-center items-center">
+                    {% if site.behance_username %}
+                    <a
+                        class="text-gray-500 bg-white bg:text-gray-100 dark:bg-black border border-gray-500 border-1 hover:text-black dark:hover:text-white rounded-full w-6 h-6 text-sm py-0.5 px-1.5 m-2"
+                        href="http://behance.net/{{ site.behance_username }}"
+                    >
+                    <i class="fab fa-behance"></i>
+                        </a>
+                    {% endif %}
+                </div>
+                <div class="w-1/5 h-8 text-center items-center">
+                    {% if site.linkedin_username %}
+                    <a class="text-gray-500 bg-white bg:text-gray-100 dark:bg-black border border-gray-500 border-1 hover:text-black dark:hover:text-white rounded-full w-6 h-6 text-sm py-0.5 px-1.5 m-2"
+                       href="http://linkedin.com/in/{{ site.linkedin_username }}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    {% endif %}
+                </div>
+                <div class="w-1/5 h-8 text-center items-center">
+                    {% if site.telegram_username %}
+                    <a 
+                        class="text-gray-500 bg-white bg:text-gray-100 dark:bg-black border border-gray-500 border-1 hover:text-black dark:hover:text-white rounded-full w-6 h-6 text-sm py-0.5 px-1.5 m-2"
+                        href="http://t.me/{{ site.telegram_username }}">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    {% endif %}
+                </div>
+                <div class="w-1/5 h-8 text-center items-center">
+                    {% if site.dribbble_username %}
+                    <a
+                        class="text-gray-500 bg-white bg:text-gray-100 dark:bg-black border border-gray-500 border-1 hover:text-black dark:hover:text-white rounded-full w-6 h-6 text-sm py-0.5 px-1.5 m-2"
+                        href="https://dribbble.com/{{ site.dribbble_username }}"
+                    >
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                     {% endif %} 
+                </div>
+                <div class="w-1/5 h-8 text-center items-center">
+                    {% if site.flickr_username %}
+                    <a
+                        class="text-gray-500 bg-white bg:text-gray-100 dark:bg-black border border-gray-500 border-1 hover:text-black dark:hover:text-white rounded-full w-6 h-6 text-sm py-0.5 px-1.5 m-2"
+                        href="https://www.flickr.com/photos/{{ site.flickr_username }}"
+                        >
+                        <i class="fab fa-flickr"></i>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+         
+        </div>
+    </div>
+</div>

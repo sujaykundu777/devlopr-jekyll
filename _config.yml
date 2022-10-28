@@ -25,8 +25,9 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
+author: Sujay Kundu
+author_role: Full Stack Web Developer
+author_bio: Hi, I built this site using devlopr-jekyll :D
 author_email: "mail@sujaykundu.com"
 author_location: India
 author_website_url: "https://sujaykundu.com"
@@ -64,14 +65,24 @@ author_project_details:
                 project_description: A Platform built for Gamers and Game Devs
                 project_url: https://gamershub.in
                 visibility: true
-              - project_thumbnail: hack4r.PNG
+              - project_thumbnail: hack4r.png
                 project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
                 visibility: true
+              - project_thumbnail: programmingebooks.png
+                project_url: https://programmingebooks.com
+                project_title: ProgrammingEbooks
+                project_description: A Library of Ebooks for Programmers, Developers and Coders.
+                visibility: true
+              - project_thumbnail: coolwebapp.png
+                project_url: https://coolweb.app
+                project_title: Cool Web App
+                project_description: Discover useful resources over the Web
+                visibility: true
 
 # social links
-twitter_username: johndoe
+twitter_username: sujaykundu777
 github_username:  sujaykundu777
 facebook_username: johndoe
 linkedin_username: johndoe
@@ -164,6 +175,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-admin
+  # - jekyll-postcss
 
 # Jekyll Admin Config
 jekyll_admin:
