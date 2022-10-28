@@ -2,41 +2,64 @@
 layout: default
 ---
 
-<div class="row justify-content-center" id="blog-post-container">
-  <div class="col-lg-10">
-    {%- include blog_post_article.html -%}
-     {%- include blog_post_comments.html-%}
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-4">
-    <div class="card">
-      <div class="card-header">About {{site.author}}</div>
-      <div class="card-body">
-        <p class="author_bio">{{ site.author_bio }}</p>
-        {%- include github_star_button.html -%}
-      </div>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="card">
-      <div class="card-header">Categories</div>
-      <div class="card-body text-dark">
-        {%- include blog_categories.html -%}
-      </div>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="card">
-      <div class="card-header">Useful Links</div>
-      <div class="card-body text-dark">
-        {% for i in site.urls %}
-        <li>
-          <a href="{{ site.url}}{{site.baseurl}}{{ i.url }}">{{ i.text }}</a>
-        </li>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</div>
+  <div class="md:flex md:flex-wrap mx-4 md:mx-10 lg:mx-64 py-8">
+    <div class="my-16 p-4 bg-white dark:bg-gray-900 rounded-lg shadow-lg">
 
+      <article itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="text-2xl dark:text-white"> {{ page.title }}</h1>
+        <h4 class="text-lg dark:text-white"> {{ page.summary }}</h4>
+        <div class="p-4 border dark:border-gray-700 border-gray-500 py-4 shadow-lg dark:text-white">
+          Posted by : {% if page.author %}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name"><a href="{{site.url}}{{site.baseurl}}/blog/authors/{{page.author}}">{{ page.author }}</a></span> </span
+          >{% endif %} on
+          <time datetime="{{ page.date }}" itemprop="datePublished"
+            >{{ page.date | date: "%b %-d, %Y" }}</time>
+
+            {% if post %} 
+              {% assign categories = post.categories %} 
+            {% else %} 
+              {% assign categories = page.categories %} 
+            {% endif %} 
+
+            <h4 class="dark:text-white">Category : </h4>
+            {% for category in categories %}
+              <a href="{{site.baseurl}}/blog/categories/{{category|slugize}}" class="dark:text-white">{{category}}</a>
+              {% unless forloop.last %}
+                &nbsp;
+              {% endunless %} 
+            {% endfor %}
+        </div>
+
+        <div class="p-4" itemprop="articleBody">
+          <div class="p-4 dark:text-white">
+            <img
+              class="w-full"
+              src="{{site.url}}{{site.baseurl}}{{ page.thumbnail }}"
+              alt="{{ post.title }}"
+            />
+          </div>
+
+          <div class="p-4 dark:text-white">
+            {{ content }}
+          </div>
+
+          <div class="p-4 dark:text-white">
+            {%- include share_page.html -%}
+              {% assign author = site.data.authors[page.author] %}
+                {% if author %}
+                  {% include author.html %}
+                {% endif %}
+          </div>
+
+          {%- if site.hyvor_talk_website_id -%}
+            <div class="comments">
+              {%- include hyvor_comments.html -%}
+            </div>
+          {%- endif -%}
+
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
