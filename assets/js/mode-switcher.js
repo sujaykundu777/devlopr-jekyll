@@ -1,18 +1,18 @@
 $(document).ready(()=> modeSwitcher() )
 
+if ( !localStorage.getItem('color-theme') ){
+	document.documentElement.setAttribute('data-theme', 'dark');
+}
+else{
+	document.documentElement.setAttribute('data-theme', localStorage.getItem('color-theme'));
+}
+
 /**
  * Page theme switching between *light* and *dark*
  * 
  * Initialize page theme and set event handlers
  */
 function modeSwitcher() {
-
-	if ( !localStorage.getItem('color-theme') ){
-		document.documentElement.setAttribute('data-theme', 'dark');
-	}
-	else{
-		document.documentElement.setAttribute('data-theme', localStorage.getItem('color-theme'));
-	}
 
 	switch ( localStorage.getItem('color-theme') ){
 		case 'dark':
