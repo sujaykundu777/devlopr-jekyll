@@ -25,12 +25,12 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author: Hyum Ho Choo
+author_bio: Hi, my name is Choo. I'm an iOS Developer from South Korea
+author_email: "hyunho4178@gmail.com"
+author_location: South Korea
+author_website_url: "Achoo-kr.github.io"
+typewrite-text: love cooking, martial arts, meditation
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -51,10 +51,10 @@ author_work_experiences:
 # Education
 author_education_details:
               - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+                college_name: HUFS(Hankook University of Foreign Studies)
+                college_url: https://www.hufs.ac.kr/
+                college_degree: Double Majored in French Interpretation and Translation and AI Software
+                description: Bachelor of arts, Bachelor of Technology
                 visibility: true
 
 # Projects
