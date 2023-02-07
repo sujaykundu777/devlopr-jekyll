@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '~> 4.2.2', '>= 4.1.1'
-gem 'bundler', '~> 2.3.23'
+gem 'jekyll', '~> 4.3.2'
+gem 'bundler', '~> 2.3.7'
 gem 'faraday-retry'
 gem 'backports', '~> 3.23'
 gem 'kramdown'
