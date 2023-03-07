@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
-    backports (3.23.0)
+    backports (3.24.0)
     colorator (1.1.0)
     concurrent-ruby (1.2.0)
     em-websocket (0.5.3)
@@ -83,7 +83,6 @@ GEM
     rack (2.2.6.2)
     rack-protection (3.0.5)
       rack
-    rake (13.0.6)
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -91,9 +90,12 @@ GEM
     rouge (4.0.1)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
-    sass-embedded (1.58.0)
+    sass-embedded (1.58.0-arm64-darwin)
       google-protobuf (~> 3.21)
-      rake (>= 10.0.0)
+    sass-embedded (1.58.0-x86_64-darwin)
+      google-protobuf (~> 3.21)
+    sass-embedded (1.58.0-x86_64-linux-gnu)
+      google-protobuf (~> 3.21)
     sawyer (0.9.2)
       addressable (>= 2.3.5)
       faraday (>= 0.17.3, < 3)
@@ -125,7 +127,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  backports (~> 3.23)
+  backports (~> 3.24)
   bundler (~> 2.3.7)
   faraday-retry
   jekyll (~> 4.3.2)
