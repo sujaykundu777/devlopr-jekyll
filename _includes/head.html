@@ -11,12 +11,6 @@
   {% endif %}
    <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %},{{ page.keywords | escape }}"/>
 
-  <link
-    rel="alternate"
-    type="application/rss+xml"
-    title="RSS"
-    href="/feed.xml"
-  />
   <meta content="{{ site.share.fb_appid }}" property="fb:app_id" />
   <meta content="{{ site.title }}" property="og:site_name" />
   {% if page.noindex %}
@@ -48,39 +42,11 @@
   <meta content="{{ tag }}" property="article:tag" />
   {% endfor %} {% endif %}
 
-  <!-- Twitter Cards -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@{{ site.share.twitter_username }}" />
-  <meta name="twitter:creator" content="@{{ site.share.twitter_username }}" />
-
-  {% if page.title %}
-  <meta name="twitter:title" content="{{ page.title }}" />
-  {% else %}
-  <meta name="twitter:title" content="{{ site.title }}" />
-  {% endif %}
-
-  {% if page.url %}
-  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
-  {% endif %} {% if page.summary %}
-  <meta name="twitter:description" content="{{ page.summary }}" />
-  {% else %}
-  <meta name="twitter:description" content="{{ site.description }}" />
-  {% endif %} {% if page.header-img %}
-  <meta
-    name="twitter:image:src"
-    content="{{ site.url }}{{ page.thumbnail }}"
-  />
-  {% endif %}
-
   <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/main.css" />
   <!-- <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/custom-style.css" /> -->
   <link
     rel="stylesheet"
     href="{{site.url}}{{site.baseurl}}/assets/bower_components/lightgallery/dist/css/lightgallery.min.css"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.css"
   />
   <link
     rel="stylesheet"
@@ -162,28 +128,18 @@
       }
       js = d.createElement(h);
       js.id = m;
-      js.onload = function() {
-        window.makerWidgetComInit({
-          position: "left",
-          widget: "ofeeof264otl2l5g-zspk40eq2gaomj2n-higi2qphmveubksi"
-        });
-      };
-      js.src = "https://makerwidget.com/js/embed.js";
+
+      // 왼쪽 하단에 내 프로필 띄우는 코드
+      // js.onload = function() {
+      //   window.makerWidgetComInit({
+      //     position: "left",
+      //     widget: "ofeeof264otl2l5g-zspk40eq2gaomj2n-higi2qphmveubksi"
+      //   });
+      // };
+      // js.src = "https://makerwidget.com/js/embed.js";
       fjs.parentNode.insertBefore(js, fjs);
     })(document, "script", "dhm");
   </script>
-  <!-- buy me a coffeee -->
-  <script
-    data-name="BMC-Widget"
-    src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-    data-id="sujaykundu"
-    data-description="Support me on Buy me a coffee!"
-    data-message=""
-    data-color="#FF813F"
-    data-position="right"
-    data-x_margin="10"
-    data-y_margin="10"
-  ></script>
 
   <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
   <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->

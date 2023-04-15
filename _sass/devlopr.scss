@@ -566,11 +566,6 @@ header {
 }
 .fb_iframe_widget span{vertical-align:inherit !important;}
 
-/* floating btn for buy me coffee */
-#bmc-wbtn{
-    bottom: 40px !important;
-}
-
 /* Disqus */
 #reactions .reaction-items .reaction-item .reaction-item__text, #reactions-promotion .reaction-items .reaction-item .reaction-item__text {
     margin-left: 8px;
@@ -755,13 +750,6 @@ header {
         padding: 50px;
     }
 
-    #mc_embed_signup_scroll_footer {
-        margin-left: 25%;
-        margin-right: 25%;
-        text-align: center;
-        font-size: 22px;
-    }
-
     #mce-EMAIL_footer {
         width: 400px;
         padding: 14px;
@@ -771,10 +759,6 @@ header {
         text-align: center;
         text-transform: capitalize;
         border: 1px solid #fff;
-    }
-
-    #mc-embedded-subscribe_footer {
-        margin-top: 30px;
     }
 
 footer {
@@ -846,10 +830,6 @@ footer {
                 text-align: center;
                 text-transform: capitalize;
                 border: 1px solid #fff;
-            }
-
-            #mc-embedded-subscribe_footer {
-                margin-top: 30px;
             }
 
             .blog-post {
@@ -925,10 +905,6 @@ footer {
           text-align: center;
           text-transform: capitalize;
           border: 1px solid #fff;
-      }
-
-      #mc-embedded-subscribe_footer {
-          margin-top: 30px;
       }
 
       .blog-post {
@@ -1013,10 +989,6 @@ footer {
               text-align: center;
               text-transform: capitalize;
               border: 1px solid #fff;
-          }
-
-          #mc-embedded-subscribe_footer {
-              margin-top: 30px;
           }
 
           .blog-post {
