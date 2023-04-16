@@ -29,18 +29,16 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 
 # Experiences 경력
 author_work_experiences:
-            - company_name: 수정중
-              company_logo: google.png
-              company_url: https://yeen28.github.io
-              designation: Software Engineer
-              description: Worked on ...
+            - project_name: 프로젝트
+              designation: 웹 프로젝트
+              period: 2022.09. ~
+              description: 웹 개발
               visibility: true
-#            - company_name: Microsoft
-#              company_logo: microsoft.png
-#              company_url: https://microsoft.com
-#              designation: Azure Developer
-#              description: Worked on various Azure Cloud Products
-#              visibility: false
+            - project_name: 프로젝트2
+              designation: 웹 프로젝트2
+              period: 2023.03. ~
+              description: 웹 개발
+              visibility: true
 
 # Education
 #author_education_details:
