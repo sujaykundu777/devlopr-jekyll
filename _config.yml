@@ -29,29 +29,31 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 
 # Experiences 경력
 author_work_experiences:
-            - project_name: 프로젝트
-              designation: 웹 프로젝트
+            - company_name: 회사
               period: 2022.09. ~
               description: 웹 개발
               visibility: true
-            - project_name: 프로젝트2
-              designation: 웹 프로젝트2
+            - company_name: 회사2
               period: 2023.03. ~
               description: 웹 개발
               visibility: true
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: profile.png
+                project_title: 프로젝트
+                project_description: 웹 개발
+                designation: 웹 프로젝트
+                project_url:
+                project_period: 2022.09. ~
                 visibility: true
-#              - project_thumbnail: hack4r.PNG
-#                project_title: Hack4r
-#                project_description: A Platform built for Hackers and Penetration Testers
-#                project_url: https://hack4r.com
-#                visibility: true
+              - project_thumbnail: profile.png
+                project_title: 프로젝트2
+                project_description: 웹 개발
+                designation: 웹 프로젝트2
+                project_url:
+                project_period: 2023.03. ~
+                visibility: true
 
 # social links
 github_username:  yeen28
