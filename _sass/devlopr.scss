@@ -623,7 +623,11 @@ header {
 #article-container{
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 50fr 4fr;
+    grid-template-columns: 50fr 0fr 4fr;
+}
+
+.posts-list{
+    margin-left: 0px !important;
 }
 
 #recent-articles,#recent-projects{
@@ -633,10 +637,10 @@ header {
 #recent-articles-header{
     display: grid;
     width: 100%;
-    grid-template-columns: 17fr 2fr;
+    grid-template-columns: 30fr 2fr;
 }
 
-#article-img, #article-link, #article-alert {
+#article-link, #article-alert {
     padding-left: 5px;
     padding-top: 2px;
     margin: 5px;
