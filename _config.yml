@@ -40,15 +40,6 @@ author_work_experiences:
               description: 웹 개발
               visibility: true
 
-# Education
-#author_education_details:
-#              - college_logo: mit.png
-#                college_name: MIT
-#                college_url: https://mit.org
-#                college_degree: CS Engineer
-#                description: Bachelor of Technology
-#                visibility: true
-
 # Projects
 author_project_details:
               - project_thumbnail: gamershub.png
