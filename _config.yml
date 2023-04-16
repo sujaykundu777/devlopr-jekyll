@@ -1,5 +1,5 @@
 title: heo ye eun
-subtitle: ... # TODO 수정중
+subtitle: 주니어 개발자입니다.
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -18,9 +18,9 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png # TODO 사진 바꾸기
-author: Ye Eun
-author_bio: Hi, my name is Ye Eun.
+author_logo: profile.png
+author: ye eun
+author_bio: Hi, my name is ye eun.
 author_email: "yestar28@gmail.com"
 author_location: Korea
 author_website_url: "https://yeen28.github.io"
