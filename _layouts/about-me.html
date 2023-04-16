@@ -18,14 +18,11 @@ layout: default
           class="social-link"
           href="http://github.com/{{ site.github_username }}"
         >
-          <i class="fab fa-github"></i>
         </a>
         {% endif %}
       </p>
 
-      {% if site.author_location %}
-      <h6><a href="https://www.google.com/maps/search/?api=1&query={{ site.author_location }}" class="social-link"><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</a></h6>
-      {% endif %} {% if site.author_email %}
+      {% if site.author_email %}
       <h6><a href="mailto:{{ site.author_email }}"><i class="fas fa-envelope" class="social-link"></i> {{ site.author_email }}</a></h6>
       {% endif %} {% if site.author_website_url %}
       <h6><a href="{{ site.author_website_url }}"><i class="fas fa-link" class="social-link"></i> {{ site.author_website_url }}</a></h6>
@@ -38,13 +35,6 @@ layout: default
       {%- include author_skills.html -%}
     </div>
 
-    {% if site.wakatime_username %}
-    <div class="card">
-      <h1>Coding Activity</h1>
-
-      {%- include coding_activity.html -%}
-    </div>
-    {% endif %}
   </div>
   <div class="col-lg-8">
     {% if site.author_bio %}
