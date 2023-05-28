@@ -109,10 +109,6 @@ ol, ul {
     margin-left: 30px !important;
 }
 
-img {
-    max-width: 100%;
-}
-
 /* Progress bar */
 .progressline .bar {
     background: #f69801;
@@ -432,6 +428,10 @@ header {
 #blog-post-container{
     margin-top: 20px;
     margin-left: -35px;
+
+    img {
+        max-width: 100%;
+    }
 }
 
 .snipcart-modal__container {
