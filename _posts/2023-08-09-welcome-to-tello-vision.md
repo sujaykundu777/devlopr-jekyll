@@ -12,4 +12,4 @@ usemathjax: true
 ---
 
 
-Hello! Welcome to my [new site](https://tello-vision.netlify.app). I've migrated to a new theme and (at least for now) a new hosting [platform](https://www.netlify.com)
+Hello! Welcome to my [new site](https://telloviz.netlify.app). I've migrated to a new theme and (at least for now) a new hosting [platform](https://www.netlify.com)
