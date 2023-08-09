@@ -3,7 +3,7 @@ subtitle: The Portfolio of Joshua "Tello-" Lollis.
 description: >- # this means to ignore newlines until "baseurl:"
   
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://tello-vision.netlify.app" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -14,8 +14,8 @@ urls:
       url: /about
 #    - text: Blog
 #      url: /blog
-    - text: Gallery
-      url: /gallery
+#    - text: Gallery
+#      url: /gallery
 #    - text: Shop
 #      url : /shop
     - text: Contact
@@ -27,38 +27,51 @@ urls:
 author_logo: joshlollis.png
 author: Josh Lollis
 author_bio: Hi, my name is Josh Lollis!
-author_email: "lollisjosh@csu.fullerton.edu"
+author_email: "tellovisionstudio@gmail.com"
 author_location: Fullerton CA, USA
-author_website_url: "https://tello-vision.netlify.app/"
-typewrite-text: Game Developer | Programmer | Visual Artist | Musician | Composer
+author_website_url: "https://tello-vision.netlify.app"
+typewrite-text: Game Developer | Programmer | Visual Artist | Musician
 hero_cover_img: office.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
+            - company_name: Brain Builders Stem Education
+              company_logo: brain.png
+              company_url: https://www.brainbuildersed.org
+              designation: Educator
+              description: Engineering Educator for 3rd-6th grade students in after school programs around the Santa Ana CA area.
+              visibility: true
+            - company_name: Thales
+              company_logo: thales.png
+              company_url: https://www.thalesgroup.com/en
+              designation: Production Team Assistant
+              description: Quality Assurance on Digital Video/Audio assets per spec to client contract.
+              visibility: true
+            - company_name: ADI / Honeywell / Resideo
+              company_logo: adi.png
+              company_url: https://www.adiglobaldistribution.us
+              designation: Sales Asistant / Will-Call Lead
+              description: Order Pulling, Warehouse Logistics, Will-Call Window Lead
+              visibility: true
             - company_name: Wal*Mart
               company_logo: wallyworld.png
               company_url: https://walmart.com
               designation: Electronics Sales / Photo Lab Tech
               description: Worked most departments over 6 years.
               visibility: true
-            - company_name: ADI / Honeywell / Resideo
-              company_logo: adi.png
-              company_url: https://www.adiglobaldistribution.us/
-              designation: Sales Asistant / Will-Call Lead
-              description: Order Pulling, Warehouse Logistics, Will-Call Window Lead
-              visibility: true
+
 
 # Education
 author_education_details:
               - college_logo: fullcoll.png
                 college_name: Fullerton College
-                college_url: https://www.fullcoll.edu/
+                college_url: https://www.fullcoll.edu
                 college_degree: Computer Science
                 description: Associate of Science 
                 visibility: true
               - college_logo: csuf.png
                 college_name: California State University Fullerton
-                college_url: https://www.fullerton.edu/
+                college_url: https://www.fullerton.edu
                 college_degree: Computer Science
                 description: 4th year in Bachelor of Science 
                 visibility: true
