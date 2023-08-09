@@ -1,7 +1,7 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: Tello-Vision
+subtitle: The Portfolio of Joshua "Tello-" Lollis.
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -12,12 +12,12 @@ urls:
       url: /
     - text: About
       url: /about
-    - text: Blog
-      url: /blog
+#    - text: Blog
+#      url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
+#    - text: Shop
+#      url : /shop
     - text: Contact
       url : /contact
 
@@ -26,7 +26,7 @@ urls:
 
 author_logo: joshlollis.png
 author: Josh Lollis
-author_bio: Hi, my name is Josh Lollis.
+author_bio: Hi, my name is Josh Lollis!
 author_email: "lollisjosh@csu.fullerton.edu"
 author_location: Fullerton CA, USA
 author_website_url: "https://tello-vision.netlify.app/"
@@ -35,27 +35,33 @@ hero_cover_img: office.png # replace this for changing homepage cover (eg. try c
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: false
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: false
+            - company_name: Wal*Mart
+              company_logo: wallyworld.png
+              company_url: https://walmart.com
+              designation: Electronics Sales / Photo Lab Tech
+              description: Worked most departments over 6 years.
+              visibility: true
+            - company_name: ADI / Honeywell / Resideo
+              company_logo: adi.png
+              company_url: https://www.adiglobaldistribution.us/
+              designation: Sales Asistant / Will-Call Lead
+              description: Order Pulling, Warehouse Logistics, Will-Call Window Lead
+              visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: false
+              - college_logo: fullcoll.png
+                college_name: Fullerton College
+                college_url: https://www.fullcoll.edu/
+                college_degree: Computer Science
+                description: Associate of Science 
+                visibility: true
+              - college_logo: csuf.png
+                college_name: California State University Fullerton
+                college_url: https://www.fullerton.edu/
+                college_degree: Computer Science
+                description: 4th year in Bachelor of Science 
+                visibility: true
 
 # Projects
 author_project_details:
@@ -71,16 +77,16 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
+twitter_username: 
+github_username:  TelloViz
+facebook_username: 
 linkedin_username: lollisjosh
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+behance_username: 
+instagram_username: 
+medium_username: 
+telegram_username: 
+dribbble_username: 
+flickr_username: 
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 

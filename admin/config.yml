@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: sujaykundu777/sujaykundu777.github.io
-  branch: master
-  site_domain: agitated-northcutt-53b578.netlify.app
+  repo: TelloViz/TelloViz.github.io
+  branch: main
+  site_domain: tello-vision.netlify.app
 
 media_folder: "assets/img/posts" # Media files will be stored in the repo under images/uploads
 public_folder: "/assets/img/posts" # The src attribute for uploaded media will begin with /images/uploads

@@ -47,3 +47,18 @@ xplor4r:
       - title: "facebook"
         url: "https://www.facebook.com/sujay.kundu2"
 
+tello-:
+   name: Joshua Lollis
+   username: tello-
+   site: https://telloviz.github.io
+   avatar: joshlollis.png
+   bio: "Student/Game Dev/Programmer/Artist/Musician based in Fullerton CA, USA"
+   email: lollisjosh@csu.fullerton.edu
+   social:
+      - title: "github"
+        url: "https://github.com/telloviz"
+      - title: "linkedin"
+        url: "https://www.linkedin.com/in/lollisjosh"
+      - title: "youtube"
+        url: "https://www.youtube.com/channel/UC-FFrKPac98eL4zfAU1CW9g"
+
