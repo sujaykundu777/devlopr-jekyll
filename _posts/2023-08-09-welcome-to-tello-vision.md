@@ -7,7 +7,7 @@ date: '2023-08-09 14:35:08 +0700'
 category: general
 thumbnail: /assets/img/posts/hello.jpg
 keywords: hello-world
-permalink: /blog/welcome-to-tello-vision/
+permalink: /blog/welcome-to-tello-vision
 usemathjax: true
 ---
 

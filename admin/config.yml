@@ -2,7 +2,7 @@ backend:
   name: github
   repo: TelloViz/TelloViz.github.io
   branch: main
-  site_domain: telloviz.netlify.app/
+  site_domain: telloviz.netlify.app
 
 media_folder: "assets/img/posts" # Media files will be stored in the repo under images/uploads
 public_folder: "/assets/img/posts" # The src attribute for uploaded media will begin with /images/uploads
