@@ -31,7 +31,7 @@ author_email: "lollisjosh@csu.fullerton.edu"
 author_location: Fullerton CA, USA
 author_website_url: "https://tello-vision.netlify.app/"
 typewrite-text: Programmer | Game Developer | Visual Artist | Musician | Composer
-hero_cover_img: joshlollis.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
