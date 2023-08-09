@@ -13,3 +13,5 @@ _site/
 .bundle/
 vendor/
 node_modules/
+# Local Netlify folder
+.netlify
