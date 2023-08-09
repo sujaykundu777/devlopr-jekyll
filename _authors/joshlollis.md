@@ -2,7 +2,7 @@
 name: Joshua Lollis
 username: tello-
 bio: "Hi I a Josh, a GameDev, Programmer, Artist, and Musician."
-site: https://tello-vision.netlify.app
+site: https://telloviz.netlify.app
 avatar: joshlollis.png
 email: tellovisionstudio@gmail.com
 social:
