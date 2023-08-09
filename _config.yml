@@ -3,7 +3,7 @@ subtitle: The Portfolio of Joshua "Tello-" Lollis.
 description: >- # this means to ignore newlines until "baseurl:"
   
 
-url: "https://telloviz.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -192,7 +192,7 @@ jekyll_admin:
   #   - staticfiles
   #   - datafiles
   #   - configuration
-  homepage: "about"
+  homepage: "posts"
 
 
 # Exclude from processing.
