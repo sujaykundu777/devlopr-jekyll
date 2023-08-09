@@ -24,14 +24,14 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
+author_logo: joshlollis.png
 author: Josh Lollis
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
+author_bio: Hi, my name is Josh Lollis.
+author_email: "lollisjosh@csu.fullerton.edu"
 author_location: Fullerton CA, USA
-author_website_url: "https://telloviz.github.io"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+author_website_url: "https://tello-vision.netlify.app/"
+typewrite-text: Programmer | Game Developer | Visual Artist | Musician | Composer
+hero_cover_img: joshlollis.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
