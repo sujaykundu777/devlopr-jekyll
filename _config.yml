@@ -30,8 +30,8 @@ author_bio: Hi, my name is Josh Lollis.
 author_email: "lollisjosh@csu.fullerton.edu"
 author_location: Fullerton CA, USA
 author_website_url: "https://tello-vision.netlify.app/"
-typewrite-text: Programmer | Game Developer | Visual Artist | Musician | Composer
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+typewrite-text: Game Developer | Programmer | Visual Artist | Musician | Composer
+hero_cover_img: office.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
@@ -40,13 +40,13 @@ author_work_experiences:
               company_url: https://google.com
               designation: Software Engineer
               description: Worked on various Google Products
-              visibility: true
+              visibility: false
             - company_name: Microsoft
               company_logo: microsoft.png
               company_url: https://microsoft.com
               designation: Azure Developer
               description: Worked on various Azure Cloud Products
-              visibility: true
+              visibility: false
 
 # Education
 author_education_details:
@@ -55,7 +55,7 @@ author_education_details:
                 college_url: https://mit.org
                 college_degree: CS Engineer
                 description: Bachelor of Technology
-                visibility: true
+                visibility: false
 
 # Projects
 author_project_details:
