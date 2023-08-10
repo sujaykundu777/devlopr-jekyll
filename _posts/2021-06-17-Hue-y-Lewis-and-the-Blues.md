@@ -94,6 +94,6 @@ This is the old background, which chooses from a random color range at startup, 
 
 
 
-[larp_gif]: img/../../assets/img/posts/larp.gif
+[larp_gif]: ../assets/img/posts/larp.gif
 [lerbg_gif]: ../assets/img/posts/lerpbg.gif
 [wizard_gif]: ../assets/img/posts/magicmissile.gif

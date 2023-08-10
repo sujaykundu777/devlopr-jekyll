@@ -9,7 +9,6 @@ thumbnail: /assets/img/posts/hello.jpg
 keywords: unity-engine coding devlog neon-cloud
 permalink: /blog/obstacle-debacle/
 usemathjax: true
-comments: true
 ---
 
 **Today's Task:**

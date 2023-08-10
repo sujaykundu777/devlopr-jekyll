@@ -17,11 +17,11 @@ Today I spent a good portion of my time working on my website. I found a really 
 
 After I'd burned myself out on website editing, I decided to work on a new character for my Helicopter/Flappy game implementation in Unity. The artwork I'm currently using is placeholder art. The sprites come from the asset set of Super Mario World for the Super Nintendo. The character I have been using is one of the Super Koopas. If you don't remember, a super koopa is one of the koopa troopas without a shell, and a cape.
 
-![Super Koopa](/../../images/superkoopa.gif)
+![Super Koopa][super_koopa]
 
 I used this character as the inspiration for the character I began to doodle in pixels. My brother has been using a crab emoji a lot for some reason, so I also decided to make him a crab. My crab character wears a cape much like the super koopa. His cape is a little more defined, albeit sort of a mess right now.
 
-![Flying Crab WIP](/../../images/Crab.gif)
+![Flying Crab WIP][crab]
 
 I learned a lot in the time I spent making that little crab animation. And like usual, at the end of the day, I'm left wanting to take what I've learned, scrap the current version, and start fresh. I may or may not restart him. I'm kind of proud of what I was able to accomplish in that one sitting. I'd obviously like to clean up some of the cape animation, and the loose ends on the piece as a whole. I would also like to add some more dynamic motion to the animation. My brother, who is about to start college for animation, suggested that I add a vertical bob to the body of the crab. He suggested it be at a slower rate than the flap of the cape. I liked this idea. I also thought it'd be kinda funny to make the crab's eyes a little taller, more like Mr Krabs, and then make the eyes kind of flap back and forth in the breeze. I might consider adding a blink animation too. This crab is low on my priorities so it may be a revisited project.
 
@@ -32,3 +32,7 @@ A day like today, is the exact reason I got into programming in the first place.
 :: Tello-
 
 
+
+
+[super_koopa]: ../assets/img/posts/superkoopa.gif
+[crab]: ../assets/img/posts/Crab.gif
