@@ -10,17 +10,7 @@ keywords: unity-engine coding devlog neon-cloud
 permalink: /blog/decaf-and-decoupling/
 usemathjax: true
 ---
----
-title: 'Decaf and Decoupling'
-date: 2021-06-07
-permalink: /posts/2021/06/Decaf-and-Decoupling/
-tags:
-  - Devlog
-  - Coding
-  - Unity
-  - Z
-  - 'Neon Cloud'
----
+
 
 Today was one of those... less glamorous days of game development. I spent a majority of the day refactoring some of the code for my Flappy Koopa game. I got a lot of feedback from Z. Let's be real, he shredded my codebase. I am always open for a good critique though. He never holds back the truth and that is vital to me. A lot of his feedback was related to code formatting and consistency. I'll admit, I do have a tendency to "sketch" when I'm coding up something. Especially when its something I'm doing for fun. 
 
