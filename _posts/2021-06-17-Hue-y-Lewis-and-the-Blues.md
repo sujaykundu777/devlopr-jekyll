@@ -22,7 +22,7 @@ Today, I learned how to utilize *Linear Interpolation* (Lerp) in Unity.
 
 Lerping is...
 
-![Larping](img/../../assets/img/posts/larp.gif)
+![Larping][larp_gif]
 
 *No, not that...*
 
@@ -49,7 +49,7 @@ Linear Interpolation has many use cases in video game development. A character c
 
 Here's how lerp is utilized in my game, Neon Cloud:
 
-![BG Lerp](../assets/img/posts/lerpbg.gif)
+![BG Lerp][lerbg_gif]
 
 
 What you're seeing is a series of 10 sprite panels that make up the background. Each panel is lerping over a series of colors, offset from one-another by a fraction of time. The overall effect I've created is a retro-like box gradient of gradients. 
@@ -68,7 +68,7 @@ This is the old background, which chooses from a random color range at startup, 
 
 ---
 
-![Larp Wizard](../assets/img/posts/magicmissile.gif)
+![Larp Wizard][wizard_gif]
 
 **No!** Not that!
 
@@ -91,3 +91,8 @@ This is the old background, which chooses from a random color range at startup, 
 
 ---
 
+
+
+[larp_gif]: img/../../assets/img/posts/larp.gif
+[lerbg_gif]: ../assets/img/posts/lerpbg.gif
+[wizard_gif]: ../assets/img/posts/magicmissile.gif
