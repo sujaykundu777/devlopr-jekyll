@@ -7,6 +7,8 @@ tags:
   - Guitar
   - DigitalArt
   - 'Neon Cloud'
+  - 
+comments: true
 ---
 
 I don't spend absolutely all of my time coding. In fact, part of the reason I am a game developer is because all of my primary interests coalesce into what a game is made of. I play guitar and bass, I draw, I write stories and I am a software developer.

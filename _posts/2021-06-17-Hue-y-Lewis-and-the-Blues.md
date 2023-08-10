@@ -9,6 +9,7 @@ thumbnail: /assets/img/posts/hello.jpg
 keywords: unity-engine unity devlog neon-cloud
 permalink: /blog/huey-lewis-blues
 usemathjax: true
+comments: true
 ---
 
 ## :: Lerp ::

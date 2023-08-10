@@ -7,6 +7,8 @@ tags:
   - Unity
   - Devlog
   - 'Neon Cloud'
+  - 
+comments: true
 ---
 
 Tonight I got an invite from Z to have a screen share session on Discord. I was almost hesitant to jump on the call because phone calls have never been my forte. I always have awkward timing and have a terrible time interjecting over the phone. I rely very heavily on body language, hand gestures and the natural rhythm of an in person conversation. This is not to say I'm shy by any means. I believe that this hesitancy is just a symptom of my ADHD. I've become really good at recognizing these traits and growing past them or at the very least growing into them.

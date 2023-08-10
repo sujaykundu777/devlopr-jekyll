@@ -9,6 +9,7 @@ thumbnail: /assets/img/posts/hello.jpg
 keywords: hello-world
 permalink: /blog/welcome-to-tello-vision
 usemathjax: true
+comments: true
 ---
 
 

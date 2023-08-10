@@ -9,6 +9,7 @@ thumbnail: /assets/img/posts/hello.jpg
 keywords: unity-engine coding devlog neon-cloud
 permalink: /blog/decaf-and-decoupling/
 usemathjax: true
+comments: true
 ---
 
 
