@@ -1,13 +1,14 @@
 ---
-title: 'Obstacle Debacle'
-date: 2021-06-09
-permalink: /posts/2021/06/Obstacle-Debacle/
-tags:
-  - Unity
-  - Coding
-  - Devlog
-  - 'Neon Cloud'
-  - Z
+layout: post
+title:  "Obstacle Debacle"
+summary: "Thinking on solutions for good object generation practices in Unity Engine."
+author: tello-
+date: '2021-06-09'
+category: general
+thumbnail: /assets/img/posts/hello.jpg
+keywords: unity-engine coding devlog neon-cloud
+permalink: /blog/obstacle-debacle/
+usemathjax: true
 ---
 
 **Today's Task:**
