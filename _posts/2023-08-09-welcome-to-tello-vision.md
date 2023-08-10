@@ -9,12 +9,9 @@ thumbnail: /assets/img/posts/hello.jpg
 keywords: hello-world
 permalink: /blog/welcome-to-tello-vision
 usemathjax: true
-comments: true
 ---
 
 
 Hello! Welcome to my [new site](https://telloviz.netlify.app). I've migrated to a new theme and (at least for now) a new hosting [platform](https://www.netlify.com)
 
 
-<script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
-<hyvor-talk-comments website-id="9321" page-id=""></hyvor-talk-comments>
