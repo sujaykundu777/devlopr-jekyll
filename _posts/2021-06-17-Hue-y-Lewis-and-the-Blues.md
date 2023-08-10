@@ -6,21 +6,10 @@ author: tello-
 date: '2021-06-17'
 category: general
 thumbnail: /assets/img/posts/hello.jpg
-keywords: unity-engine
+keywords: unity-engine unity devlog neon-cloud
 permalink: /blog/huey-lewis-blues
 usemathjax: true
 ---
-
----
-title: 'Hue-y Lewis and the Blues'
-date: 2021-06-17
-permalink: /posts/2021/06/Hue-y-Lewis/
-tags:
-  - Unity
-  - Devlog
-  - 'Neon Cloud'
----
-
 
 ## :: Lerp ::
 ### The planes will be painted red... ...with a smooth transition to purple, then blue.
@@ -33,7 +22,7 @@ Today, I learned how to utilize *Linear Interpolation* (Lerp) in Unity.
 
 Lerping is...
 
-![Larping](larp.gif)
+![Larping](img/../../assets/img/posts/larp.gif)
 
 *No, not that...*
 
@@ -60,7 +49,7 @@ Linear Interpolation has many use cases in video game development. A character c
 
 Here's how lerp is utilized in my game, Neon Cloud:
 
-![BG Lerp](lerpbg.gif)
+![BG Lerp](../assets/img/posts/lerpbg.gif)
 
 
 What you're seeing is a series of 10 sprite panels that make up the background. Each panel is lerping over a series of colors, offset from one-another by a fraction of time. The overall effect I've created is a retro-like box gradient of gradients. 
@@ -70,7 +59,7 @@ What you're seeing is a series of 10 sprite panels that make up the background. 
 This is the old background, which chooses from a random color range at startup, and that's it...BORING
 
 
-![Old BG](prelerp.gif)
+![Old BG](../assets/img/posts/prelerp.gif)
 
 ---
 
@@ -79,7 +68,7 @@ This is the old background, which chooses from a random color range at startup, 
 
 ---
 
-![Larp Wizard](magicmissile.gif)
+![Larp Wizard](../assets/img/posts/magicmissile.gif)
 
 **No!** Not that!
 
