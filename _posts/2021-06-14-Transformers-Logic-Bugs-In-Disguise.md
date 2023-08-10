@@ -1,11 +1,14 @@
 ---
-title: 'Transformers :: Logic Bugs in Disguise'
-date: 2021-06-14
-permalink: /posts/2021/06/Transformers/
-tags:
-  - Unity
-  - Devlog
-  - 'Neon Cloud'
+layout: post
+title:  "Transformers :: Logic Bugs in Disguise"
+summary: ""
+author: tello-
+date: '2021-06-14'
+category: general
+thumbnail: /assets/img/posts/hello.jpg
+keywords: unity-engine unity devlog neon-cloud
+permalink: /blog/Transformers/
+usemathjax: true
 ---
 
 # I have one word of advice for anyone treading into Unity for the first time....
@@ -22,7 +25,7 @@ Both Q and Z have shared this advice with me. They both stressed the importance 
 
 ## I followed. 
 
-![Transformer](/../../images/Transformers.gif)
+![Transformer](../assets/img/posts/Transformers.gif)
 
 Even so, I fell victim to the pain wrought by the silent but deadly transform component...
 
@@ -69,7 +72,7 @@ Panels used to travel from right to left, then shift back to the right to begin 
 
 I spent the entire day trying to make my background panels return to their once working state. I considered my game pointless and dull without the parallaxed background. I was losing hope. I reset transforms and repositioned panels for hours; even began breaking up all parent-child relationships and adjusting pivot points. The further I tinkered in this mess, the worse it seemed to get. I was so close to rethinking the whole thing. I truly was in Inferno.
 
- ![Inferno](/../../images/dante.jpg)
+ ![Inferno](../assets/img/posts/dante.jpg)
 
 # Pivot to Paradiso
 

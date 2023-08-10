@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hue-y Lewis and the Blues"
-summary: "My first post on the new site."
+summary: "Lerping in Unity Engine"
 author: tello-
 date: '2021-06-17'
 category: general
@@ -83,11 +83,11 @@ This is the old background, which chooses from a random color range at startup, 
 
   ***And** every subscriber gets me closer to a shorter URL!*
 
-My Channel: https://www.youtube.com/channel/UC-FFrKPac98eL4zfAU1CW9g
+[My Channel](https://www.youtube.com/channel/UC-FFrKPac98eL4zfAU1CW9g)
 
-Lerp Snippet: https://youtu.be/kCTCbXfQMr0
+[Lerp Snippet]( https://youtu.be/kCTCbXfQMr0)
 
-For Math nerds: https://en.wikipedia.org/wiki/Linear_interpolation
+[For Math nerds](https://en.wikipedia.org/wiki/Linear_interpolation)
 
 ---
 
