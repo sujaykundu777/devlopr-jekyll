@@ -1,0 +1,43 @@
+<div class="container">
+  <header>Simple<b style="color: #FFF;">Metronome</b></header>
+
+  <section class="metronome-container">
+    <div class="counter"></div>
+    
+    <i class="fa fa-cog options-btn"></i>
+
+    <div class="controls">
+      <label>BPM: <span>
+                    <i class="fa fa-minus bpm-minus"></i>
+                    <input type="text" value="60" class="bpm-input" />
+                    <i class="fa fa-plus bpm-plus"></i>
+                  </span>
+      </label>
+      <label>
+        Beat: <input type="text" value="4" class="ts-top" /></label>
+      <div style="margin-bottom: 15px;">
+        <input type="checkbox" id="timer-check" />
+        <label for="timer-check"></label>
+        
+        Timer: <input type="text" value="60" class="timer" />
+      </div>
+
+      <button class="tap-btn">Tap</button>
+      <button class="play-btn">Play</button>
+    </div>
+    
+    <div class="options">
+      <i class="fa fa-caret-down up"></i>
+      <label>Off Beat Pitch: <input type="range" min="0" max="500" value="200" class="beat-range" /></label>
+      <label>Accent Pitch: <input type="range" min="0" max="500" value="380" class="accent-range" /></label>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <ul>
+    <li>Click circles to make an accent on that beat</li>
+    <li>Best viewed in <b>Google Chrome</b></li>
+    <li>Use options to change pitches of beats.</li>
+  </ul>
+</footer>

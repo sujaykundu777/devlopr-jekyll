@@ -9,9 +9,12 @@ thumbnail: /assets/img/posts/hello.jpg
 keywords: hello-world
 permalink: /blog/welcome-to-tello-vision
 usemathjax: true
+metronome: true
 ---
 
 
-Hello! Welcome to my [new site](https://telloviz.netlify.app). I've migrated to a new theme and (at least for now) a new hosting [platform](https://www.netlify.com)
+
+
+<p>Hello! Welcome to my [new site](https://telloviz.netlify.app). I've migrated to a new theme and (at least for now) a new hosting [platform](https://www.netlify.com)</p>
 
 

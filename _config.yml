@@ -122,6 +122,12 @@ olvy_widget_type: sidebar
 
 # syntax highlighter
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: none
+  hard_wrap: false
+  include: ["_includes"]
+
 highlighter: rouge
 permalink: pretty
 
