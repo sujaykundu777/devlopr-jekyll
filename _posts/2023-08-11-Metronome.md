@@ -5,7 +5,7 @@ summary: "Embedded Metronome"
 author: tello-
 date: '2023-08-11 17:13:00 -0700'
 category: general
-thumbnail: /assets/img/posts/hello.jpg
+thumbnail: /assets/img/office.png
 keywords: metronome
 permalink: /blog/metronome
 usemathjax: true

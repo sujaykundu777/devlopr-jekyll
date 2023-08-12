@@ -5,7 +5,7 @@ summary: "Lerping in Unity Engine"
 author: tello-
 date: '2021-06-17'
 category: general
-thumbnail: /assets/img/posts/hello.jpg
+thumbnail: /assets/img/office.png
 keywords: unity-engine unity devlog neon-cloud
 permalink: /blog/huey-lewis-blues
 usemathjax: true

@@ -5,7 +5,7 @@ summary: "My first post on the new site."
 author: tello-
 date: '2023-08-09 14:35:08 -0700'
 category: general
-thumbnail: /assets/img/posts/hello.jpg
+thumbnail: /assets/img/office.png
 keywords: hello-world
 permalink: /blog/welcome-to-tello-vision
 usemathjax: true

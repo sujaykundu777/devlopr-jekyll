@@ -5,7 +5,7 @@ summary: "The Perils of the Unity Trasform Component"
 author: tello-
 date: '2021-06-14'
 category: general
-thumbnail: /assets/img/posts/hello.jpg
+thumbnail: /assets/img/office.png
 keywords: unity-engine unity devlog neon-cloud
 permalink: /blog/Transformers/
 usemathjax: true
