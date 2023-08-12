@@ -12,7 +12,7 @@ usemathjax: true
 ---
 
 
-# Thank You For Your Pat
+# Thank You For Your Patience
 
 <p> This site is currently being converted from the template theme to my existing sites current state. During this initial construction period there will be many broken features, broken links, incorrect artifactual information and fluctuating page content.</p>
 
