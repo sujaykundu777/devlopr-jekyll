@@ -14,6 +14,8 @@ urls:
       url: /about
     - text: Artwork
       url: /artwork
+    - text: Music
+      url: /Music
 #    - text: Blog
 #      url: /blog
 #    - text: Gallery
@@ -109,13 +111,13 @@ disqus_shortname: tello-vision
 #hyvor_talk_website_id: 9321
 
 # wakatime username (coding activity)
-wakatime_username: "telloviz" #sujaykundu777
+wakatime_username: "telloviz"
 
 # mailchimp embedded form url (newsletter):
 mailchimp_form_url: " " #https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
-getform_endpoint: d4103f46-9fbd-4438-9eee-5337432dd46e
+#getform_endpoint: d4103f46-9fbd-4438-9eee-5337432dd46e
 formspree_email: tellovisionstudio@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
