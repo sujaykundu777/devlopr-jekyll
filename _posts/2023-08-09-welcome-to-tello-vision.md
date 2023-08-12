@@ -15,6 +15,6 @@ metronome: true
 
 
 
-<p>Hello! Welcome to my [new site](https://telloviz.netlify.app). I've migrated to a new theme and (at least for now) a new hosting [platform](https://www.netlify.com)</p>
+<p>Hello! Welcome to my new site. I migrating to this new theme and (at least for now) a new build system, netlify. </p>
 
 
