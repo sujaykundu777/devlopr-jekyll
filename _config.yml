@@ -12,6 +12,8 @@ urls:
       url: /
     - text: About
       url: /about
+    - text: Artwork
+      url: /artwork
 #    - text: Blog
 #      url: /blog
 #    - text: Gallery
@@ -30,7 +32,7 @@ author_bio: Hi, my name is Josh Lollis!
 author_email: "tellovisionstudio@gmail.com"
 author_location: Fullerton CA, USA
 author_website_url: "https://telloviz.netlify.app"
-typewrite-text: Game Developer | Programmer | Visual Artist | Musician
+typewrite-text: GameDev | Programmer | VizArt | Musician
 hero_cover_img: office.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
