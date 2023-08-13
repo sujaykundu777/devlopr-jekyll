@@ -1,21 +1,23 @@
 <style>
-/* change cover_img in config.yml */
-.jumbotron {
+  /* change cover_img in config.yml */
+  .jumbotron {
     background-color: var(--main-background-color) !important;
     background-image: url('/assets/img/{{site.hero_cover_img}}');
     text-align: center;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-}
-.jumbotron-btns {
-  display: block;
-  margin-top: 50px;
-}
+  }
 
-.jumbotron-heading, .lead {
-  color: #fff;
-}
+  .jumbotron-btns {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .jumbotron-heading,
+  .lead {
+    color: #fff;
+  }
 </style>
 
 <!-- home hero section -->
@@ -29,12 +31,13 @@
     {%- include github_fork_button.html -%}
   </span>
   <!-- uncomment/modify buttons as you want-->
- <!----> <div class="jumbotron-btns">
+  <!---->
+  <!-- <div class="jumbotron-btns">
     <a href="{{site.url}}{{site.baseurl}}/get-started">
       <button class="btn btn-md btn-warning"> <strong>Get Started</strong> </button>
     </a>
     <a id="olvy-target">
       <button class="btn btn-md btn-default"> <strong>What's New</strong> </button>
-     </a>
-  </div>
+    </a>
+  </div> -->
 </div>
