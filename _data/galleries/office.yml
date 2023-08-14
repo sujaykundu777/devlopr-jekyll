@@ -3,11 +3,11 @@ preview:
   filename: office
   original: office.png
   sizes:
-  - office
+  - office.png
   thumbnail: office-thumbnail.png
 pictures:
 - filename: office
   original: office.png
   sizes:
   - office.png
-  thumbnail: office-thumbnail.jpg
+  thumbnail: office-thumbnail.png
