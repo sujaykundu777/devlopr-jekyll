@@ -1,0 +1,13 @@
+picture_path: office
+preview:
+  filename: office
+  original: office.png
+  sizes:
+  - office
+  thumbnail: office-thumbnail.png
+pictures:
+- filename: office
+  original: office.png
+  sizes:
+  - office.png
+  thumbnail: office-thumbnail.jpg
