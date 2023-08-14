@@ -16,10 +16,10 @@ urls:
       url: /artwork
     - text: Music
       url: /Music
-#    - text: Blog
-#      url: /blog
-#    - text: Gallery
-#      url: /gallery
+    - text: Blog
+      url: /blog
+    - text: Gallery
+      url: /gallery
 #    - text: Shop
 #      url : /shop
     - text: Contact
@@ -202,7 +202,7 @@ jekyll_admin:
   #   - staticfiles
   #   - datafiles
   #   - configuration
-  homepage: "posts"
+  homepage: "about-me"
 
 
 # Exclude from processing.
