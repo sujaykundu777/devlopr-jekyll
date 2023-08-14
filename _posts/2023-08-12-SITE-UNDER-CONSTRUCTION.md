@@ -18,7 +18,7 @@ usemathjax: true
 
 ## I am updating as fast as my little fingers can type!
 
-[][cat_typing]
+![][cat_typing]
 
 
 
