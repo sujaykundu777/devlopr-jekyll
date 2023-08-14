@@ -202,7 +202,7 @@ jekyll_admin:
   #   - staticfiles
   #   - datafiles
   #   - configuration
-  homepage: "about-me"
+  homepage: "about"
 
 
 # Exclude from processing.
