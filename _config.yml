@@ -12,8 +12,8 @@ urls:
       url: /
     - text: About
       url: /about
-    - text: Artwork
-      url: /artwork
+    # - text: Artwork
+    #   url: /artwork
     - text: Music
       url: /Music
     - text: Blog
@@ -202,7 +202,7 @@ jekyll_admin:
   #   - staticfiles
   #   - datafiles
   #   - configuration
-  homepage: "about"
+  homepage: "posts"
 
 
 # Exclude from processing.
