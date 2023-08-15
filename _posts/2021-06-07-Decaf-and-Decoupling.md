@@ -4,7 +4,7 @@ title:  "Decaf and Decoupling"
 summary: "Cabin Fever during COVID Pandemic and Decoupling in Unity Engine"
 author: tello-
 date: '2021-06-07'
-category: general
+category: unity
 thumbnail: /assets/img/office.png
 keywords: unity-engine coding devlog neon-cloud
 permalink: /blog/decaf-and-decoupling/

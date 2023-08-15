@@ -4,7 +4,7 @@ title:  "Hue-y Lewis and the Blues"
 summary: "Lerping in Unity Engine"
 author: tello-
 date: '2021-06-17'
-category: general
+category: unity
 thumbnail: /assets/img/office.png
 keywords: unity-engine unity devlog neon-cloud
 permalink: /blog/huey-lewis-blues

@@ -1,19 +1,23 @@
 ---
-title: 'Flying Crab and Guitar Tab'
-date: 2021-06-05
-permalink: /posts/2012/06/Flying-Crab-and-Guitar-Tab/
-tags:
-  - Web
-  - Guitar
-  - DigitalArt
-  - 'Neon Cloud'
-  - 
-comments: true
+layout: post
+title:  "Flying Crab and Guitar Tab"
+summary: "Thinking on solutions for good object generation practices in Unity Engine."
+author: tello-
+date: '2021-06-05'
+category: unity
+thumbnail: /assets/img/office.png
+keywords: unity-engine coding devlog neon-cloud art digital-art guitar
+permalink: /blog/flying-crab/
+usemathjax: true
 ---
 
-I don't spend absolutely all of my time coding. In fact, part of the reason I am a game developer is because all of my primary interests coalesce into what a game is made of. I play guitar and bass, I draw, I write stories and I am a software developer.
+#### I don't spend absolutely all of my time coding. 
 
-Today I spent a good portion of my time working on my website. I found a really fleshed out template for my github.io page on someone's repository. I forked the repo and got to work trying to understand how it was put together. I say it like this, because I am by no means a web developer. I have a basic understanding of some concepts. I've built some scrapers in python in the past. I built one that pulled the serebii.net page for the new Galar Pokemon when Pokemon Sword and Shield was in development. I wanted to see if I could make a cool program to pull and parse the html data for the new Pokemon page. Other than those kinds of projects, I'd never had any kind of training in web related development. It took me some trial and error, probing different parts of the code base and refreshing the web page, until I finally found where I needed to make my marks. I ended up finding a very helpful commit by the creator as well. The commit allowed you to see what they would change, if they were in your place, filling the information in for yourself. I still don't consider myself a web developer, but after today, I was on my way to having my own website.
+In fact, part of the reason I am a game developer is because all of my primary interests coalesce into what a game is made of. I play guitar and bass, I draw, I write stories and I am a software developer.
+
+Today I spent a good portion of my time working on my website. I found a really fleshed out template for my github.io page on someone's repository. I forked the repo and got to work trying to understand how it was put together. I say it like this, because I am by no means a web developer. 
+
+I have a basic understanding of some concepts. I've built some scrapers in python in the past. I built one that pulled the serebii.net page for the new Galar Pokemon when Pokemon Sword and Shield was in development. I wanted to see if I could make a cool program to pull and parse the html data for the new Pokemon page. Other than those kinds of projects, I'd never had any kind of training in web related development. It took me some trial and error, probing different parts of the code base and refreshing the web page, until I finally found where I needed to make my marks. I ended up finding a very helpful commit by the creator as well. The commit allowed you to see what they would change, if they were in your place, filling the information in for yourself. I still don't consider myself a web developer, but after today, I was on my way to having my own website.
 
 After I'd burned myself out on website editing, I decided to work on a new character for my Helicopter/Flappy game implementation in Unity. The artwork I'm currently using is placeholder art. The sprites come from the asset set of Super Mario World for the Super Nintendo. The character I have been using is one of the Super Koopas. If you don't remember, a super koopa is one of the koopa troopas without a shell, and a cape.
 

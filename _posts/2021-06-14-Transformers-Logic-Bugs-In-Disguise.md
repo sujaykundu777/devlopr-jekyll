@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Transformers :: Logic Bugs in Disguise"
-summary: "The Perils of the Unity Trasform Component"
+summary: "The Perils of the Unity Transform Component"
 author: tello-
 date: '2021-06-14'
-category: general
+category: unity
 thumbnail: /assets/img/office.png
 keywords: unity-engine unity devlog neon-cloud
-permalink: /blog/Transformers/
+permalink: /blog/transformers/
 usemathjax: true
 comments: true
 ---

@@ -4,7 +4,7 @@ title:  "Metronome"
 summary: "Embedded Metronome"
 author: tello-
 date: '2023-08-11 17:13:00 -0700'
-category: general
+category: tools
 thumbnail: /assets/img/office.png
 keywords: metronome
 permalink: /blog/metronome

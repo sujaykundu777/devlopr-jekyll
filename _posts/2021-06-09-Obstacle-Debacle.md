@@ -4,7 +4,7 @@ title:  "Obstacle Debacle"
 summary: "Thinking on solutions for good object generation practices in Unity Engine."
 author: tello-
 date: '2021-06-09'
-category: general
+category: unity
 thumbnail: /assets/img/office.png
 keywords: unity-engine coding devlog neon-cloud
 permalink: /blog/obstacle-debacle/

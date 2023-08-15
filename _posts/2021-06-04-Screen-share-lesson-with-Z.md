@@ -1,14 +1,14 @@
 ---
-title: 'Screen share lesson with Z'
-date: 2021-06-04
-permalink: /posts/2021/06/Screen-share-lesson-with-Z/
-tags:
-  - Z
-  - Unity
-  - Devlog
-  - 'Neon Cloud'
-  - 
-comments: true
+layout: post
+title:  "Screen share lesson with mentor Z"
+summary: "Thoughts on a conversation with my mentor Z"
+author: tello-
+date: '2021-06-04'
+category: unity
+thumbnail: /assets/img/office.png
+keywords: unity-engine coding devlog neon-cloud
+permalink: /blog/flying-crab/
+usemathjax: true
 ---
 
 Tonight I got an invite from Z to have a screen share session on Discord. I was almost hesitant to jump on the call because phone calls have never been my forte. I always have awkward timing and have a terrible time interjecting over the phone. I rely very heavily on body language, hand gestures and the natural rhythm of an in person conversation. This is not to say I'm shy by any means. I believe that this hesitancy is just a symptom of my ADHD. I've become really good at recognizing these traits and growing past them or at the very least growing into them.
@@ -17,9 +17,17 @@ Tonight I got an invite from Z to have a screen share session on Discord. I was 
     
 Z is my friend Q's mentor as well as a retired Senior Developer. Q is a Game Developer I met in my Game Design class this last semester. She introduced me to Z after inviting me to their discord server. The server... serves... as a meetup place for Unity devs and the meetups they are planning.
  
-Recently I declared that I would from now on be "hanging my balls out there", to quote Jerry McGuire. I completely subscribe to this sentiment. I believe this is the only way I will attain my dream of being a professional game developer. Opportunities don't come to your door. They drive on by, often very quickly. They don't stop and open the door for you like a chauffeur there to serve you. You have to hail opportunities like a cab in an aggressive city. You have to jump onto the hood of opportunity and hope to find a handhold rather than launch off of the windshield into traffic. And an opportunity in your eyes isn't even always an opportunity in reality. This is the risk you take. I've been thrown off of the windshield into traffic many times throwing myself out there.
+Recently I declared that I would from now on be 
+
+> "hanging my balls out there"
  
-So cabs and balls aside, I joined the Discord session. Once we all got our sound settings tuned up to chat, conversation evolved naturally. There was no small-talk or awkward overly polite pleasantries. I shared my display with Z as he walked me through the concept of creating custom events in Unity. He showed me how to incorporate the Observer pattern into a Unity setting. I'd been familiar with the Observer Pattern from my years of C++ study. I am however, still very new to the relationships between files in Unity, so it's been a task getting my feet wet. He led me as a student and not an inferior developer. He gave me guidance but let me make the choices.
+to quote Jerry McGuire. 
+
+I completely subscribe to this sentiment. I believe this is the only way I will attain my dream of being a professional game developer. Opportunities don't come to your door. They drive on by, often very quickly. They don't stop and open the door for you like a chauffeur there to serve you. You have to hail opportunities like a cab in an aggressive city. You have to jump onto the hood of opportunity and hope to find a handhold rather than launch off into traffic. Worth mentioning however, an opportunity in your eyes isn't even always an opportunity in reality. This is the risk you take. I've been thrown off of the windshield into traffic many times.
+ 
+---
+
+So cabs and quotes aside, I joined the Discord session. Once we all got our sound settings tuned up to chat, conversation evolved naturally. There was no small-talk or awkward overly polite pleasantries. I shared my display with Z as he walked me through the concept of creating custom events in Unity. He showed me how to incorporate the Observer pattern into a Unity setting. I'd been familiar with the Observer Pattern from my years of C++ study. I am however, still very new to the relationships between files in Unity, so it's been a task getting my feet wet. He led me as a student and not an inferior developer. He gave me guidance but let me make the choices.
  
 After just over an hour, I felt confident in dependency injection in a Unity setting. What he taught me in that hour changed my whole perspective on development. Not just in Unity, but in other realms of my development. I love that learning a concept in one setting can suddenly clear the fog from the map in so many other places of my interest. I always equate it to knowing multiple routes to and from a place, but never understanding where these routes are in relation to one another. Then there is this moment, where suddenly you feel you've gained a birds-eye view of the lay of the road system. Suddenly you can't "unsee" how all of the individual routes you've taken so many times are related in the scope of the whole road system. This is what I live for. This is why I do it! (Well beside the opportunity to create and to bring joy to others...) I love learning and this was like an intense hit of knowledge to my brain.
  

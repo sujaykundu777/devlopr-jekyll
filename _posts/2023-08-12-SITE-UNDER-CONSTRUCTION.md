@@ -4,9 +4,9 @@ title:  "Site Under Construction"
 summary: "Some external links or widgets may be innacurate."
 author: tello-
 date: '2023-08-12 13:48:08 -0700'
-category: general
+category: admin
 thumbnail: /assets/img/office.png
-keywords: construction
+keywords: construction admin
 permalink: /blog/site-under-construction
 usemathjax: true
 ---
