@@ -1,6 +1,7 @@
 title: Tello-Vision
 subtitle: The Portfolio of Joshua "Tello-" Lollis.
 description: >- # this means to ignore newlines until "baseurl:"
+  Here you will find info about me as well as my blog, art, music and projects!
   
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
@@ -12,18 +13,16 @@ urls:
       url: /
     - text: About
       url: /about
-    # - text: Artwork
-    #   url: /artwork
     - text: Music
       url: /Music
     - text: Blog
       url: /blog
     - text: Gallery
       url: /gallery
-#    - text: Shop
-#      url : /shop
     - text: Contact
       url : /contact
+#   - text: Shop
+#     url : /shop
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
@@ -31,7 +30,7 @@ urls:
 author_logo: joshlollis.png
 author: Josh Lollis
 author_bio: Hi, my name is Josh! I love creating! I hope you find something that inspires you here. :D
-author_email: "tellovisionstudio@gmail.com"
+author_email: "lollisjosh@csu.fullerton.edu"
 author_location: Fullerton CA, USA
 author_website_url: "https://telloviz.netlify.app"
 typewrite-text: GameDev | Programmer | VizArt | Musician
@@ -105,19 +104,19 @@ telegram_username:
 dribbble_username: 
 flickr_username: 
 
-#for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
+# for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 disqus_shortname: tello-vision
-#hyvor_talk_website_id: 9321
+# hyvor_talk_website_id: 9321
 
 # wakatime username (coding activity)
 wakatime_username: "telloviz"
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: " " #https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+mailchimp_form_url: "" # https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
-#getform_endpoint: d4103f46-9fbd-4438-9eee-5337432dd46e
+# getform_endpoint: d4103f46-9fbd-4438-9eee-5337432dd46e
 formspree_email: f/meqbalrl
 
 # releases - widget can be (sidebar, modal or embed)
@@ -126,11 +125,11 @@ olvy_widget_type: sidebar
 
 # syntax highlighter
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: none
-  hard_wrap: false
-  include: ["_includes"]
+# kramdown:
+#   input: GFM
+#   syntax_highlighter: none
+#   hard_wrap: false
+#   include: ["_includes"]
 
 highlighter: rouge
 permalink: pretty

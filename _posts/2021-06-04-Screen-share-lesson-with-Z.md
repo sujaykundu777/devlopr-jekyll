@@ -7,7 +7,7 @@ date: '2021-06-04'
 category: unity
 thumbnail: /assets/img/office.png
 keywords: unity-engine coding devlog neon-cloud
-permalink: /blog/flying-crab/
+permalink: /blog/lesson-with-z/
 usemathjax: true
 ---
 
