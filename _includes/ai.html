@@ -1,13 +1,15 @@
-<div class="container">
+<div class="container"> <!-- Add a container here -->
     <h2>AI Image Detection</h2>
-    <div class="hero-home_drop-zone-form-block w-form">
-        <form id="ai-detection-form" method="post" class="hero-home_drop-zone-form">
-            <div class="hero-home_drop-zone-form-row has-margin-bottom is-form">
-                <input type="text" class="input w-input" autocomplete="off" maxlength="256" name="image-url" placeholder="Paste image URL here" id="ai-image-url" />
-                <a id="ai-detection-button" href="#" class="button is-secondary is-disabled w-node-da27dc73-ff09-c4b6-b8b4-a4f509b14775-0d72156d">AI or not?</a>
-            </div>
-            <div id="ai-result-container" class="hero-home_drop-zone-form-row has-margin-bottom is-text hide"></div>
-        </form>
-    </div>
+    <form id="detection-form">
+        <label for="image-url">Image URL:</label>
+        <input type="text" id="image-url" name="image-url" required>
+        <button type="submit">Check Image</button>
+    </form>
+    <div id="result-container"></div>
 </div>
-<script src="{{ site.baseurl }}/assets/js/ai-detection.js"></script>
+
+
+<!-- Include jQuery library -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/detection.js"></script>
+
