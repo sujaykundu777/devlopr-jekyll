@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         xhr.onload = function () {
             if (xhr.status === 200) {
-                const response = JSON.parse(xhr.responseText);
+                const response = xhr.response; // The response is already parsed JSON
                 resultContainer.innerHTML = `
                     <h3>AI Detection Result:</h3>
                     <p>AI Confidence: ${response.report.ai.confidence}</p>
@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         };
 
+        xhr.responseType = 'json'; // Set the response type to JSON
         xhr.send(JSON.stringify(payload));
     });
 });
