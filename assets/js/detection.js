@@ -9,18 +9,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const imageUrl = document.getElementById('ai-image-url').value;
 
-        const payload = {
-            object: imageUrl
-        };
+        const urlWithParams = `${apiUrl}?object=${encodeURIComponent(imageUrl)}`;
 
         const xhr = new XMLHttpRequest();
-        xhr.open('POST', apiUrl);
-        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.open('GET', urlWithParams);
         xhr.setRequestHeader('X-API-KEY', apiKey);
 
         xhr.onload = function () {
             if (xhr.status === 200) {
-                const response = xhr.response; // The response is already parsed JSON
+                const response = JSON.parse(xhr.responseText);
                 resultContainer.innerHTML = `
                     <h3>AI Detection Result:</h3>
                     <p>AI Confidence: ${response.report.ai.confidence}</p>
@@ -33,7 +30,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         };
 
-        xhr.responseType = 'json'; // Set the response type to JSON
-        xhr.send(JSON.stringify(payload));
+        xhr.send();
     });
 });
