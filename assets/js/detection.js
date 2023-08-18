@@ -9,15 +9,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const imageUrl = document.getElementById('ai-image-url').value;
 
+        console.log('Submitted URL:', imageUrl); // Debug line
+
         const urlWithParams = `${apiUrl}?object=${encodeURIComponent(imageUrl)}`;
+        
+        console.log('API URL:', urlWithParams); // Debug line
 
         const xhr = new XMLHttpRequest();
         xhr.open('GET', urlWithParams);
         xhr.setRequestHeader('X-API-KEY', apiKey);
 
         xhr.onload = function () {
+            console.log('Response Status:', xhr.status); // Debug line
+            
             if (xhr.status === 200) {
                 const response = JSON.parse(xhr.responseText);
+                console.log('API Response:', response); // Debug line
+
                 resultContainer.innerHTML = `
                     <h3>AI Detection Result:</h3>
                     <p>AI Confidence: ${response.report.ai.confidence}</p>
