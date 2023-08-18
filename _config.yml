@@ -21,6 +21,8 @@ urls:
       url: /gallery
     - text: Contact
       url : /contact
+    - text: AI Detection
+      url: /ai-detection
 #   - text: Shop
 #     url : /shop
 
