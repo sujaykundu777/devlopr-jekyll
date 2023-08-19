@@ -1,0 +1,230 @@
+picture_path: bomber
+preview:
+  filename: 1
+  original: 1.jpg
+  sizes:
+  - 1.jpg
+  thumbnail: 1-t.jpg
+pictures:
+- filename: 1
+  original: 1.jpg
+  sizes:
+  - 1.jpg
+  thumbnail: 1-t.jpg
+- filename: 2
+  original: 2.png
+  sizes:
+  - 2.png
+  thumbnail: 2-t.jpg
+- filename: 3
+  original: 3.jpg
+  sizes:
+  - 3.jpg
+  thumbnail: 3-t.jpg
+- filename: 4
+  original: 4.jpg
+  sizes:
+  - 4.jpg
+  thumbnail: 4-t.jpg
+- filename: 5
+  original: 5.jpg
+  sizes:
+  - 5.jpg
+  thumbnail: 5-t.jpg
+- filename: 6
+  original: 6.jpg
+  sizes:
+  - 6.jpg
+  thumbnail: 6-t.jpg
+- filename: 7
+  original: 7.jpg
+  sizes:
+  - 7.jpg
+  thumbnail: 7-t.jpg
+- filename: 8
+  original: 8.jpg
+  sizes:
+  - 8.jpg
+  thumbnail: 8-t.jpg
+- filename: 9
+  original: 9.jpg
+  sizes:
+  - 9.jpg
+  thumbnail: 9-t.jpg
+- filename: 10
+  original: 10.jpg
+  sizes:
+  - 10.jpg
+  thumbnail: 10-t.jpg
+- filename: 11
+  original: 11.jpg
+  sizes:
+  - 11.jpg
+  thumbnail: 11-t.jpg
+- filename: 12
+  original: 12.jpg
+  sizes:
+  - 12.jpg
+  thumbnail: 12-t.jpg
+- filename: 13
+  original: 13.jpg
+  sizes:
+  - 13.jpg
+  thumbnail: 13-t.jpg
+- filename: 14
+  original: 14.jpg
+  sizes:
+  - 14.jpg
+  thumbnail: 14-t.jpg
+- filename: 15
+  original: 15.jpg
+  sizes:
+  - 15.jpg
+  thumbnail: 15-t.jpg
+- filename: 16
+  original: 16.jpg
+  sizes:
+  - 16.jpg
+  thumbnail: 16-t.jpg
+- filename: 18
+  original: 18.jpg
+  sizes:
+  - 18.jpg
+  thumbnail: 18-t.jpg
+- filename: 19
+  original: 19.jpg
+  sizes:
+  - 19.jpg
+  thumbnail: 19-t.jpg
+- filename: 20
+  original: 20.jpg
+  sizes:
+  - 20.jpg
+  thumbnail: 20-t.jpg
+- filename: 21
+  original: 21.jpg
+  sizes:
+  - 21.jpg
+  thumbnail: 21-t.jpg
+- filename: 22
+  original: 22.jpg
+  sizes:
+  - 22.jpg
+  thumbnail: 22-t.jpg
+- filename: 23
+  original: 23.jpg
+  sizes:
+  - 23.jpg
+  thumbnail: 23-t.jpg
+- filename: 24
+  original: 24.jpg
+  sizes:
+  - 24.jpg
+  thumbnail: 24-t.jpg
+- filename: 25
+  original: 25.jpg
+  sizes:
+  - 25.jpg
+  thumbnail: 25-t.jpg
+- filename: 26
+  original: 26.jpg
+  sizes:
+  - 26.jpg
+  thumbnail: 26-t.jpg
+- filename: 27
+  original: 27.jpg
+  sizes:
+  - 27.jpg
+  thumbnail: 27-t.jpg
+- filename: 28
+  original: 28.jpg
+  sizes:
+  - 28.jpg
+  thumbnail: 28-t.jpg
+- filename: 29
+  original: 29.jpg
+  sizes:
+  - 29.jpg
+  thumbnail: 29-t.jpg
+- filename: 30
+  original: 30.jpg
+  sizes:
+  - 30.jpg
+  thumbnail: 30-t.jpg
+- filename: 31
+  original: 31.jpg
+  sizes:
+  - 31.jpg
+  thumbnail: 31-t.jpg
+- filename: 32
+  original: 32.jpg
+  sizes:
+  - 32.jpg
+  thumbnail: 32-t.jpg
+- filename: 33
+  original: 33.jpg
+  sizes:
+  - 33.jpg
+  thumbnail: 33-t.jpg
+- filename: 34
+  original: 34.jpg
+  sizes:
+  - 34.jpg
+  thumbnail: 34-t.jpg
+
+- filename: 36
+  original: 36.jpg
+  sizes:
+  - 36.jpg
+  thumbnail: 36-t.jpg
+- filename: 37
+  original: 37.jpg
+  sizes:
+  - 37.jpg
+  thumbnail: 37-t.jpg
+- filename: 38
+  original: 38.jpg
+  sizes:
+  - 38.jpg
+  thumbnail: 38-t.jpg
+- filename: 39
+  original: 39.jpg
+  sizes:
+  - 39.jpg
+  thumbnail: 39-t.jpg
+- filename: 40
+  original: 40.jpg
+  sizes:
+  - 40.jpg
+  thumbnail: 40-t.jpg
+- filename: 41
+  original: 41.jpg
+  sizes:
+  - 41.jpg
+  thumbnail: 41-t.jpg
+- filename: 42
+  original: 42.jpg
+  sizes:
+  - 42.jpg
+  thumbnail: 42-t.jpg
+- filename: 43
+  original: 43.jpg
+  sizes:
+  - 43.jpg
+  thumbnail: 43-t.jpg
+- filename: 44
+  original: 44.jpg
+  sizes:
+  - 44.jpg
+  thumbnail: 44-t.jpg
+- filename: 45
+  original: 45.jpg
+  sizes:
+  - 45.jpg
+  thumbnail: 45-t.jpg
+- filename: 46
+  original: 46.jpg
+  sizes:
+  - 46.jpg
+  thumbnail: 46-t.jpg
+  
