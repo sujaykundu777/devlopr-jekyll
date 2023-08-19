@@ -89,7 +89,7 @@ author_project_details:
                 project_url: https://github.com/TelloViz/Snake-SFML
                 visibility: true
               - project_thumbnail: gyofish.PNG
-                project_title: ChompChomp (Gyo Fish!)
+                project_title: Gyo Fish!
                 project_description: Summer Jam project with my brother. The goal was to implement the fishing mechanic from Stardew Valley.
                 project_url: https://github.com/TelloViz/ChompChomp
                 visibility: true

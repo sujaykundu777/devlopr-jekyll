@@ -11,3 +11,28 @@ pictures:
   sizes:
   - office.png
   thumbnail: office-thumbnail.png
+- filename: early.png
+  original: early.png
+  sizes:
+  - early.png
+  thumbnail: early-thumbnail.png
+- filename: coffee-table.png
+  original: coffee-table.png
+  sizes:
+  - coffee-table.png
+  thumbnail: coffee-table-thumbnail.png
+- filename: early-updated.png
+  original: early-updated.png
+  sizes:
+  - early-updated.png
+  thumbnail: early-updated-thumbnail.png
+- filename: patio.png
+  original: patio.png
+  sizes:
+  - patio.png
+  thumbnail: patio-thumbnail.png
+- filename: treasure-chest.png
+  original: treasure-chest.png
+  sizes:
+  - treasure-chest.png
+  thumbnail: treasure-chest-thumbnail.png

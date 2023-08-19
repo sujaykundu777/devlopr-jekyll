@@ -8,3 +8,12 @@
     sizes:
     - office-thumbnail.png
     thumbnail: office-thumbnail.png
+-
+  title: Snake
+  directory: snake
+  preview:
+    filename: snake-logo.png
+    original: snake-logo-thumbnail.png
+    sizes:
+    - snake-logo-thumbnail.png
+    thumbnail: snake-logo-thumbnail.png

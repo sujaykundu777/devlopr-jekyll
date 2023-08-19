@@ -1,0 +1,28 @@
+picture_path: snake
+preview:
+  filename: snake-logo
+  original: snake-logo.png
+  sizes:
+  - snake-logo.png
+  thumbnail: snake-logo-thumbnail.png
+pictures:
+- filename: snake-logo
+  original: snake-logo.png
+  sizes:
+  - snake-logo.png
+  thumbnail: snake-logo-thumbnail.png
+- filename: snake-title
+  original: snake-title.jpg
+  sizes:
+  - snake-title.jpg
+  thumbnail: snake-title-thumbnail.jpg
+- filename: snake
+  original: snake.jpg
+  sizes:
+  - snake.jpg
+  thumbnail: snake-thumbnail.jpg
+- filename: snake-score
+  original: snake-score.jpg
+  sizes:
+  - snake-score.jpg
+  thumbnail: snake-score-thumbnail.jpg
