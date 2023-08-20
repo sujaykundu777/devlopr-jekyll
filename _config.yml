@@ -68,17 +68,17 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: fullcoll.png
-                college_name: Fullerton College
-                college_url: https://www.fullcoll.edu
-                college_degree: Computer Science
-                description: Associate of Science 
-                visibility: true
               - college_logo: csuf.png
                 college_name: California State University Fullerton
                 college_url: https://www.fullerton.edu
                 college_degree: Computer Science
                 description: 3rd/4th year in Bachelor of Science 
+                visibility: true
+              - college_logo: fullcoll.png
+                college_name: Fullerton College
+                college_url: https://www.fullcoll.edu
+                college_degree: Computer Science
+                description: Associate of Science 
                 visibility: true
 
 # Projects
