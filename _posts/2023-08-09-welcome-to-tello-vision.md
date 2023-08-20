@@ -15,6 +15,6 @@ metronome: true
 
 
 
-<p>Hello! Welcome to my new site. I migrating to this new theme and (at least for now) a new build system, netlify. </p>
+<p>Hello! Welcome to my new site. I'm migrating to this new theme and (at least for now) a new build system, netlify. </p>
 
 
