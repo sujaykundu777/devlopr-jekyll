@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Admin
+title: admin
 permalink: /blog/categories/admin/
 ---
 
