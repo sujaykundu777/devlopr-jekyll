@@ -85,7 +85,7 @@ author_education_details:
 author_project_details: 
               - project_thumbnail: snake-logo.png
                 project_title: Snake
-                project_description: Snake Clone built in C++ using SFML.
+                project_description: Snake Clone built in C++ using SFML. Art by me.
                 project_url: https://github.com/TelloViz/Snake-SFML
                 visibility: true
               - project_thumbnail: gyofish.PNG
@@ -95,7 +95,7 @@ author_project_details:
                 visibility: true
               - project_thumbnail: heltowers.PNG
                 project_title: H.E.L. Towers
-                project_description: A Video Game Development Club Project imagined and overseen by Digx7
+                project_description: A Video Game Development Club Project imagined and overseen by Digx7. I created the README, wrote code, and provided guidance to software team.
                 project_url: https://github.com/TelloViz/HellTowers.git
                 visibility: true
 
