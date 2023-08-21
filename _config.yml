@@ -83,14 +83,14 @@ author_education_details:
 
 # Projects
 author_project_details:
-              - project_thumbnail: snake.png
-                project_title: Snake + SFML
+              - project_thumbnail: snake-logo-thumbnail.png
+                project_title: Snake
                 project_description: Snake Clone built in C++ using SFML.
                 project_url: https://github.com/TelloViz/Snake-SFML
                 visibility: true
               - project_thumbnail: gyofish.PNG
                 project_title: Gyo Fish!
-                project_description: Summer Jam project with my brother. The goal was to implement the fishing mechanic from Stardew Valley.
+                project_description: A Summer Game-Jam project my brother and I challenged ourselves with.
                 project_url: https://github.com/TelloViz/ChompChomp
                 visibility: true
 
