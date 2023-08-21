@@ -83,7 +83,7 @@ author_education_details:
 
 # Projects
 author_project_details: 
-              - project_thumbnail: snake-logo-thumbnail.png
+              - project_thumbnail: snake-logo.png
                 project_title: Snake
                 project_description: Snake Clone built in C++ using SFML.
                 project_url: https://github.com/TelloViz/Snake-SFML
