@@ -182,9 +182,9 @@ layout: default
         </div>
         <div class="col-md-6">
           <h4 class="experience-title">{{ exp.designation }}</h4>
-          <h6 class="experience-info">{{ exp.company_name}}</h6>
+          <h6 class="experience-info"><a href="{{exp.company_url}}">{{ exp.company_name}}</a></h6>
           <p class="experience-desc">{{ exp.description }}</p>
-          <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>
+          <p></p>
         </div>
       </div>
       {% endif %} {% endfor %}
