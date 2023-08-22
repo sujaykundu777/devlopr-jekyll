@@ -113,9 +113,8 @@ class Solution {
 public:
      bool repeatedSubstringPattern(std::string s) {
           int sLen = int(s.length());
-
-          // Start iterating at first character in s, stop before last
-          // Explanation: full string is not a sub string solution.
+	
+          // Note: full string is not a sub string solution.
           for (int i = 1; i &lt; sLen; i++) {
                
                // Only substrings of length that are factors of s are considered
