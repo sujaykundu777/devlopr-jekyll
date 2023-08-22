@@ -13,15 +13,17 @@ usemathjax: true
 
 <h1><center> !!WARNING!!</center> </h1>
 
-<h2><center> The following document contains my solution for leetcode challenge 459: Repeated Substring Pattern. </center></h2>
+<center>
+<h2> The following document contains my solution for leetcode challenge 459: Repeated Substring Pattern.</h2></center>
 
-<center>By reading past this point, you are acknowledging 1 of 3 things: </center>
+<p>By reading past this point, you are acknowledging 1 of 3 things:
 
 1) You have already solved the challenge on your own.
 2) You are trying to cheat.
-3) You have no intention of ever solving the challenge.
+3) You have no intention of ever solving the challenge.</p>
 
-<center>Please make your choice before continuing forward...</center>
+<h4><center>Please make your choice before continuing forward...</center></h4>
+
 
 ---
 
@@ -104,8 +106,8 @@ Explanation: It is the substring "abc" four times or the substring "abcabc" twic
 
 <h3>Submission</h3>
 
-<pre><code>&lt;include&gt; &lt;string&gt;
-&lt;iostream&gt;
+<pre><code>#include &lt;string&gt;
+#include &lt;iostream&gt;
 
 class Solution {
 public:
@@ -168,7 +170,7 @@ int main()
 
 <p>I went with the brain-easy solution as my initial submission (nested for-loop). This is of course not the most elegant way to solve the problem, but I often go with the straightforward approach first, then optimize in subsequent iterations.</p>
 
-<p>My solution in pseudo-code:</p>
+<h3>My solution in pseudo-code:</h3>
 
 <ol>
 <li>Note <code>s.length</code></li>
