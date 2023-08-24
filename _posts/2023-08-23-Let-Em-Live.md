@@ -3,7 +3,7 @@ layout: post
 title:  "Let 'Em Live"
 summary: "A Group-Mate Tooooooootally Redeems themself!"
 author: tello-
-date: '2023-08-18 15:00:00 -0700'
+date: '2023-08-23 15:00:00 -0700'
 category: collaboration
 thumbnail: /assets/img/office.png
 keywords: collaboration github group-project school-project second-chances
