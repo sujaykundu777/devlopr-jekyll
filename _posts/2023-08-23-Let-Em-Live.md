@@ -4,7 +4,7 @@ title:  "Let 'Em Live"
 summary: "A Group-Mate Tooooooootally Redeems themself!"
 author: tello-
 date: '2023-08-18 15:00:00 -0700'
-category: general
+category: collaboration
 thumbnail: /assets/img/office.png
 keywords: collaboration github group-project school-project second-chances
 permalink: /blog/let-em-live
@@ -27,9 +27,9 @@ usemathjax: true
     <p>I remember thinking, "what had we to lose if we let him stay?" He would either continue to not contribute, and get a grade he didn't deserve...or he would do something.</p>
     <p>So we let him live...</p>
     <p>And wouldn't you know it, in the final few days he contributed more to the project than 2 of the others that had been there the entire semester!</p>
-        <hr>
-    <img src="../assets/img/groupProject.png" alt="Group Project">
-        <hr>
+    <hr>
+    <center><img src="../assets/img/groupProject.png" alt="Group Project"></center>
+    <hr>
     <p>Sometimes we eat ourselves up inside way more than others ever could(or should). For all I know, he had to spend a month working up the courage to come back, and apologize...</p>
     <hr>
     <center><img src="../assets/img/posts/redeem.gif" alt="Redeem"></center>
