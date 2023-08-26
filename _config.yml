@@ -13,14 +13,17 @@ urls:
       url: /
     - text: About
       url: /about
+    - text: Unity Engine
+      url : /unity
+    - text: Gallery
+      url: /gallery
     - text: Music
       url: /Music
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
     - text: Contact
       url : /contact
+
 #    - text: AI Detection
 #      url: /ai-detection
 #   - text: Shop
@@ -204,6 +207,9 @@ jekyll_admin:
   #   - datafiles
   #   - configuration
   homepage: "posts"
+
+# include:
+#   - NeonCloud/Bulid
 
 
 # Exclude from processing.
