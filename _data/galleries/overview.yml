@@ -1,6 +1,6 @@
 
 -
-  title: 'My Office : 3ds Max + Chaos Corona'
+  title: 'My Office 3D Render : 3ds Max + Chaos Corona'
   directory: office
   preview:
     filename: office.png
@@ -18,7 +18,7 @@
     - snake-logo-thumbnail.png
     thumbnail: snake-logo-thumbnail.png
 -
-  title: Bob Bömbermann & Dugg Diggins
+  title: 'Bob Bömbermann & Dugg Diggins : Concept Art'
   directory: bomber
   preview:
     filename: 36
