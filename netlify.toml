@@ -4,3 +4,27 @@
 
 [build.environment]
   JEKYLL_ENV = "production"
+
+[[headers]]
+  for = "/Build/*.data.br"
+  [headers.values]
+    Content-Encoding = "br"
+    Content-Type = "application/octet-stream"
+
+[[headers]]
+  for = "/Build/*.wasm.br"
+  [headers.values]
+    Content-Encoding = "br"
+    Content-Type = "application/wasm"
+
+[[headers]]
+  for = "/Build/*.js"
+  [headers.values]
+    Content-Encoding = "js"
+    Content-Type = "application/javascript"
+
+[[headers]]
+  for = "/Build/*.js.br"
+  [headers.values]
+    Content-Encoding = "br"
+    Content-Type = "application/javascript"
