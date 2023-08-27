@@ -13,8 +13,6 @@ urls:
       url: /
     - text: About
       url: /about
-    - text: Unity Engine
-      url : /unity
     - text: Gallery
       url: /gallery
     - text: Music
@@ -28,6 +26,8 @@ urls:
 #      url: /ai-detection
 #   - text: Shop
 #     url : /shop
+#   - text: Unity Engine
+#     url : /unity
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
