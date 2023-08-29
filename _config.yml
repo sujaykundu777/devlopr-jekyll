@@ -11,6 +11,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     - text: Home
       url: /
+    - text: CV
+      url: /cv
     - text: About
       url: /about
     - text: Gallery
