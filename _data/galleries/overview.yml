@@ -9,7 +9,7 @@
     - snake-logo-thumbnail.png
     thumbnail: snake-logo-thumbnail.png
 -
-  title: 'Neon Cloud(Server Surfer) : Unity mentorship project'
+  title: 'Neon Cloud : Unity mentorship project'
   directory: neoncloud
   preview:
     filename: surfer-t.png
@@ -18,7 +18,7 @@
     - surfer-t.png
     thumbnail: surfer-t.png
 -
-  title: 'Gyo Fish (2-week Jam): C++, SFML'
+  title: 'Gyo Fish (2-week Jam) : C++, SFML'
   directory: chomp
   preview:
     filename: chomp.png
