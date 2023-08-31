@@ -199,6 +199,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-admin
+  - jekyll-pdf-embed
 
 # Jekyll Admin Config
 jekyll_admin:
