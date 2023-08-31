@@ -33,6 +33,8 @@ usemathjax: true
 - Bug with running into bones not creating more bones
 
 
+---
+
 Disclaimer: 
 Sound Effects sourced from [The Sounds Resource](https://www.sounds-resource.com/) and are used strictly for educational purposes in my portfolio. 
 
