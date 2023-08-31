@@ -1,0 +1,13 @@
+picture_path: neoncloud
+preview:
+  filename: surfer-t
+  original: surfer-t.png
+  sizes:
+  - surfer-t.png
+  thumbnail: surfer-t.png
+pictures:
+- filename: surfer-t
+  original: surfer-t.png
+  sizes:
+  - surfer-t.png
+  thumbnail: surfer-t.png
