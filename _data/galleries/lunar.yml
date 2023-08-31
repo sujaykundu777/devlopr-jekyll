@@ -1,0 +1,13 @@
+picture_path: lunar
+preview:
+  filename: lunar-t
+  original: lunar-t.png
+  sizes:
+  - lunar-t.png
+  thumbnail: lunar-t.png
+pictures:
+- filename: lunar-t
+  original: lunar-t.png
+  sizes:
+  - lunar-t.png
+  thumbnail: lunar-t.png
