@@ -99,7 +99,7 @@ author_project_details:
                 project_url: https://telloviz.netlify.app/gallery/chomp
                 visibility: true
               - project_thumbnail: surfer-t.PNG
-                project_title: Neon Cloud (Server Surfer)
+                project_title: Neon Cloud
                 project_description: Summer mentorship project in Unity Engine
                 project_url: https://telloviz.netlify.app/gallery/neoncloud
                 visibility: true
