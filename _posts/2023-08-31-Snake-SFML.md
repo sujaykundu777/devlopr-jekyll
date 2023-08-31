@@ -16,6 +16,15 @@ usemathjax: true
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/DtEGNMsFRR8?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+- Written in C++
+- with SFML for graphics, input and audio
+- and Cereal for serialization
+
+- [Repository](https://github.com/TelloViz/Snake-SFML) 
+  1. clone
+  2. build x86
+  3. enjoy
+
 ### New Mechanics
 
 <p>Snakes now have 3 lives! Beware however, running into your own tail will leave bones in the playfield!</p>
