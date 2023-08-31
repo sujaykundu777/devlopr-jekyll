@@ -90,18 +90,18 @@ author_education_details:
 author_project_details: 
               - project_thumbnail: snake-logo.png
                 project_title: Snake
-                project_description: Snake Clone built in C++ using SFML. Art by me.
-                project_url: https://github.com/TelloViz/Snake-SFML
+                project_description: Snake Clone built in C++ using SFML w/ art by me
+                project_url: https://telloviz.netlify.app/gallery/snake
                 visibility: true
               - project_thumbnail: gyofish.PNG
                 project_title: Gyo Fish!
-                project_description: A Summer Game-Jam project with my brother Caleb. Developed by Me, Art by Caleb
-                project_url: https://github.com/TelloViz/ChompChomp
+                project_description: A Summer Game-Jam project w/ art by my brother
+                project_url: https://telloviz.netlify.app/gallery/chomp
                 visibility: true
               - project_thumbnail: surfer-t.PNG
                 project_title: Neon Cloud (Server Surfer)
                 project_description: Summer mentorship project in Unity Engine
-                project_url: https://github.com/TelloViz/NeonCloud
+                project_url: https://telloviz.netlify.app/gallery/neoncloud
                 visibility: true
 
 # social links

@@ -18,6 +18,15 @@
     - surfer-t.png
     thumbnail: surfer-t.png
 -
+  title: 'Gyo Fish (2-week Jam): C++, SFML'
+  directory: chomp
+  preview:
+    filename: chomp.png
+    original: chomp.png
+    sizes:
+    - chomp.png
+    thumbnail: chomp.png
+-
   title: 'My Office 3D Render : 3ds Max + Chaos Corona'
   directory: office
   preview:
