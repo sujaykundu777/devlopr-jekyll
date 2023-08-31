@@ -1,3 +1,4 @@
 ---
-layout: product
+layout: gallery
 ---
+
