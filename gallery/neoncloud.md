@@ -39,7 +39,9 @@ title: Neon Cloud
 
 ### Progress Videos
 
-
+<h4>3-stance mechanic and flight-path</h4>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/cOl0YcgvyA0?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<hr>
 <h4>Converted player character to my own design</h4>
 <iframe width="800" height="450" src="https://www.youtube.com/embed/2yQsls8u0wg?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <hr>
