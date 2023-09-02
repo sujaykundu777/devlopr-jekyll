@@ -32,8 +32,8 @@
     filename: chomp.png
     original: chomp.png
     sizes:
-    - chomp.png
-    thumbnail: chomp.png
+    - chomp-t.png
+    thumbnail: chomp-t.png
 -
   title: 'My Office 3D Render : 3ds Max + Chaos Corona'
   directory: office

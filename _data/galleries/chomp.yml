@@ -1,0 +1,13 @@
+picture_path: chomp
+preview:
+  filename: chomp-t
+  original: chomp-t.png
+  sizes:
+  - chomp-t.png
+  thumbnail: chomp-t.png
+pictures:
+- filename: chomp-t
+  original: chomp-t.png
+  sizes:
+  - chomp-t.png
+  thumbnail: chomp-t.png
