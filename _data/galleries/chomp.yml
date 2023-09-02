@@ -6,8 +6,8 @@ preview:
   - chomp-t.png
   thumbnail: chomp-t.png
 pictures:
-- filename: chomp-t
-  original: chomp-t.png
+- filename: chomp
+  original: chomp.png
   sizes:
   - chomp-t.png
   thumbnail: chomp-t.png
