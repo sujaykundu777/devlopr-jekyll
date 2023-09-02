@@ -1,5 +1,5 @@
 -
-  title: 'Snake : C++, SFML,  Cereal'
+  title: 'Snake : C++, SFML'
   directory: snake
   preview:
     filename: snake-logo.png
@@ -8,7 +8,7 @@
     - snake-logo-thumbnail.png
     thumbnail: snake-logo-thumbnail.png
 -
-  title: 'Lunar Lander : Unity Engine'
+  title: 'Lunar Lander : Unity'
   directory: lunar
   preview:
     filename: lunar-t.png
@@ -26,7 +26,7 @@
     - surfer-t.png
     thumbnail: surfer-t.png
 -
-  title: 'Gyo Fish (2-week Jam) : C++, SFML'
+  title: 'Gyo Fish : 2-week jam, C++, SFML'
   directory: chomp
   preview:
     filename: chomp.png
