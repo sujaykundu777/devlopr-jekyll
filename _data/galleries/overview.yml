@@ -29,11 +29,11 @@
   title: 'Gyo Fish : 2-week jam, C++, SFML'
   directory: chomp
   preview:
-    filename: chomp.png
-    original: chomp.png
+    filename: screen2.png
+    original: screen2.png
     sizes:
-    - chomp-t.png
-    thumbnail: chomp-t.png
+    - screen2-t.png
+    thumbnail: screen2-t.png
 -
   title: 'My Office 3D Render : 3ds Max + Chaos Corona'
   directory: office

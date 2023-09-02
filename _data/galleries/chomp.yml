@@ -1,18 +1,23 @@
 picture_path: chomp
 preview:
-  filename: chomp-t
-  original: chomp-t.png
+  filename: screen2-t
+  original: screen2-t.png
   sizes:
-  - chomp-t.png
-  thumbnail: chomp-t.png
+  - screen2-t.png
+  thumbnail: screen2-t.png
 pictures:
-- filename: chomp
-  original: chomp.png
-  sizes:
-  - chomp-t.png
-  thumbnail: chomp-t.png
 - filename: fishFrame
   original: fishFrame.png
   sizes:
   - fishFrame.png
   thumbnail: fishFrame.png
+- filename: screen1-t
+  original: screen1-t.png
+  sizes:
+  - screen1-t.png
+  thumbnail: screen1-t.png
+- filename: screen2-t
+  original: screen2-t.png
+  sizes:
+  - screen2-t.png
+  thumbnail: screen2-t.png

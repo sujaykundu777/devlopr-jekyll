@@ -1,0 +1,9 @@
+-
+  title: 'Eek My Boyfriend Turned Into a Worm'
+  directory: worm
+  preview:
+    filename: worm-title
+    original: worm-title.png
+    sizes:
+    - worm-title.png
+    thumbnail: worm-title.png

@@ -18,7 +18,7 @@ urls:
     - text: Gallery
       url: /gallery
     - text: Music
-      url: /Music
+      url: /music
     - text: Blog
       url: /blog
     - text: Contact
@@ -177,6 +177,11 @@ defaults:
   -
     scope:
       path: "gallery"
+    values:
+      permalink: /:path/:basename:output_ext
+  -
+    scope:
+      path: "music"
     values:
       permalink: /:path/:basename:output_ext
   -

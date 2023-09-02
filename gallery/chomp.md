@@ -4,12 +4,15 @@ title: Chomp
 ---
 
 
-<h1>Gyo Fish</h1>
-<h3>
+<h2>Gyo Fish</h2>
+<h4>
     <center>
         2-week game jam recreating the fishing mini-game from Stardew Valley
     </center>
-</h3>
-<h4><center>Initial art by me, Production art by Caleb</center></h4>
+</h4>
+
+<h5>Note:</h5>
+<h6>Green-toned Art by Me</h6>
+<h6>Colored art by my brother, Caleb</h6>
 
 {% include gallery-layout.html gallery=site.data.galleries.chomp %}
