@@ -11,7 +11,7 @@ pictures:
   sizes:
   - chomp-t.png
   thumbnail: chomp-t.png
-  - filename: fishFrame
+- filename: fishFrame
   original: fishFrame.png
   sizes:
   - fishFrame.png
