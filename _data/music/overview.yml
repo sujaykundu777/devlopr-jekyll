@@ -7,3 +7,12 @@
     sizes:
     - worm-title.png
     thumbnail: worm-title.png
+-
+  title: Guitar & Bass
+  directory: guitar
+  preview:
+    filename: guitar
+    original: guitar.png
+    sizes:
+    - guitar.png
+    thumbnail: guitar.png

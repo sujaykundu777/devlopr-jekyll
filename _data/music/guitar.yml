@@ -1,0 +1,13 @@
+picture_path: guitar
+preview:
+  filename: guitar
+  original: guitar.png
+  sizes:
+  - guitar.png
+  thumbnail: guitar.png
+pictures:
+- filename: guitar
+  original: guitar.png
+  sizes:
+  - guitar.png
+  thumbnail: guitar.png
