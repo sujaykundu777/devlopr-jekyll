@@ -35,6 +35,15 @@
     - editor.png
     thumbnail: editor.png
 -
+  title: 'Kingdom Coinquest : Card Game'
+  directory: kingdom
+  preview:
+    filename: kingdom-t
+    original: kingdom-t.png
+    sizes:
+    - kingdom-t.png
+    thumbnail: kingdom-t.png
+-
   title: 'Gyo Fish : 2-week jam, C++, SFML'
   directory: chomp
   preview:

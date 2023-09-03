@@ -1,0 +1,13 @@
+picture_path: kingdom
+preview:
+  filename: kingdom-t
+  original: kingdom-t.png
+  sizes:
+  - kingdom-t.png
+  thumbnail: kingdom-t.png
+pictures:
+- filename: kingdom-t
+  original: kingdom-t.png
+  sizes:
+  - kingdom-t.png
+  thumbnail: kingdom-t.png
