@@ -93,16 +93,22 @@ author_project_details:
                 project_description: Snake built in C++ using SFML w/ art by me
                 project_url: https://telloviz.netlify.app/gallery/snake
                 visibility: true
-              - project_thumbnail: gyofish.PNG
-                project_title: Gyo Fish!
-                project_description: A Summer Game-Jam project w/ art by my brother
-                project_url: https://telloviz.netlify.app/projects/chomp
-                visibility: true
               - project_thumbnail: surfer-t.PNG
                 project_title: Neon Cloud
                 project_description: Summer mentorship project in Unity Engine
                 project_url: https://telloviz.netlify.app/projects/neoncloud
                 visibility: true
+              - project_thumbnail: editor.PNG
+                project_title: TCG Editor Window
+                project_description: Custom Unity Editor Rest Interface
+                project_url: https://telloviz.netlify.app/projects/editor
+                visibility: true
+              - project_thumbnail: gyofish.PNG
+                project_title: Gyo Fish!
+                project_description: A Summer Game-Jam project w/ art by my brother
+                project_url: https://telloviz.netlify.app/projects/chomp
+                visibility: true
+
 
 # social links
 twitter_username: 
