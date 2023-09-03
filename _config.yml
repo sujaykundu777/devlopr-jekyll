@@ -15,8 +15,8 @@ urls:
       url: /cv
     - text: About
       url: /about
-    - text: Gallery
-      url: /gallery
+    - text: Projects
+      url: /projects
     - text: Music
       url: /music
     - text: Blog
@@ -96,12 +96,12 @@ author_project_details:
               - project_thumbnail: gyofish.PNG
                 project_title: Gyo Fish!
                 project_description: A Summer Game-Jam project w/ art by my brother
-                project_url: https://telloviz.netlify.app/gallery/chomp
+                project_url: https://telloviz.netlify.app/projects/chomp
                 visibility: true
               - project_thumbnail: surfer-t.PNG
                 project_title: Neon Cloud
                 project_description: Summer mentorship project in Unity Engine
-                project_url: https://telloviz.netlify.app/gallery/neoncloud
+                project_url: https://telloviz.netlify.app/projects/neoncloud
                 visibility: true
 
 # social links
@@ -176,7 +176,7 @@ collections:
 defaults:
   -
     scope:
-      path: "gallery"
+      path: "projects"
     values:
       permalink: /:path/:basename:output_ext
   -

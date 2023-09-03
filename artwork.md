@@ -1,5 +1,5 @@
 ---
 title: Artwork
-layout: gallery
+layout: projects
 permalink: /artwork/
 ---

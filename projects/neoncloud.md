@@ -1,12 +1,12 @@
 ---
-layout: gallery
+layout: projects
 title: Neon Cloud
 ---
 
 ## Neon Cloud (Server Surfer)
 ### A Unity mentorship project created Summer '21
 
-<center><img src="../assets/gallery/../img/gallery/neoncloud/surfer-t.png" alt="Surfer"></center>
+<center><img src="../assets/projects/../img/projects/neoncloud/surfer-t.png" alt="Surfer"></center>
 
 ---
 

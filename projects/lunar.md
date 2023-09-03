@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: projects
 title: Lunar Lander
 ---
 

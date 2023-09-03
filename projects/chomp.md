@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: projects
 title: Chomp
 ---
 
@@ -15,4 +15,4 @@ title: Chomp
 <h6>Green-toned Art by Me</h6>
 <h6>Colored art by my brother, Caleb</h6>
 
-{% include gallery-layout.html gallery=site.data.galleries.chomp %}
+{% include projects-layout.html projects=site.data.galleries.chomp %}
