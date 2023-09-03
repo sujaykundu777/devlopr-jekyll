@@ -1,4 +1,13 @@
 -
+  title: 'My Office 3D Render : 3ds Max + Chaos Corona'
+  directory: office
+  preview:
+    filename: office.png
+    original: office-thumbnail.png
+    sizes:
+    - office-thumbnail.png
+    thumbnail: office-thumbnail.png
+-
   title: 'Path of Pain : Photoshop'
   directory: design
   preview:

@@ -44,15 +44,6 @@
     - chomp-t.png
     thumbnail: chomp-t.png
 -
-  title: 'My Office 3D Render : 3ds Max + Chaos Corona'
-  directory: office
-  preview:
-    filename: office.png
-    original: office-thumbnail.png
-    sizes:
-    - office-thumbnail.png
-    thumbnail: office-thumbnail.png
--
   title: 'Bob Bömbermann & Dugg Diggins : Concept Art'
   directory: bomber
   preview:
