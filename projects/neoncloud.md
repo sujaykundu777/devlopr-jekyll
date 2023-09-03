@@ -10,7 +10,7 @@ title: Neon Cloud
 
 ---
 
-### Synpsis 
+### Synopsis 
 
 <p>You are the Server Surfer! Surf the wave forms of the data stream.</p>
 
