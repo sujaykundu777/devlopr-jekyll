@@ -1,13 +1,4 @@
 -
-  title: 'Flowers : Photoshop'
-  directory: flowers
-  preview:
-    filename: splat
-    original: splat.png
-    sizes:
-    - splat.png
-    thumbnail: splat-t.png
--
   title: 'Path of Pain : Photoshop'
   directory: design
   preview:
@@ -16,3 +7,12 @@
     sizes:
     - shoe.png
     thumbnail: shoe-t.png
+-
+  title: 'Flowers : Photoshop'
+  directory: flowers
+  preview:
+    filename: splat
+    original: splat.png
+    sizes:
+    - splat.png
+    thumbnail: splat-t.png
