@@ -1,0 +1,23 @@
+picture_path: spider
+preview:
+  filename: blue-spider
+  original: blue-spider.png
+  sizes:
+  - blue-spider.png
+  thumbnail: blue-spider-t.png
+pictures:
+- filename: blue-spider
+  original: blue-spider.png
+  sizes:
+  - blue-spider.png
+  thumbnail: blue-spider-t.png
+- filename: purp-spider
+  original: purp-spider.png
+  sizes:
+  - purp-spider.png
+  thumbnail: purp-spider-t.png
+- filename: green-spider
+  original: green-spider.png
+  sizes:
+  - green-spider.png
+  thumbnail: green-spider-t.png

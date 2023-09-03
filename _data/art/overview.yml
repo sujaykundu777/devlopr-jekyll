@@ -17,6 +17,15 @@
     - shoe.png
     thumbnail: shoe-t.png
 -
+  title: 'Spider-Man : Photoshop, Lightroom'
+  directory: spider
+  preview:
+    filename: blue-spider
+    original: blue-spider.png
+    sizes:
+    - blue-spider.png
+    thumbnail: blue-spider-t.png
+-
   title: 'Flowers : Photoshop'
   directory: flowers
   preview:
