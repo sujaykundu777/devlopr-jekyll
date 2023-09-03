@@ -1,0 +1,9 @@
+-
+  title: 'Photoshop'
+  directory: photoshop
+  preview:
+    filename: dark-flower
+    original: dark-flower.jpg
+    sizes:
+    - dark-flower.jpg
+    thumbnail: dark-flower.jpg

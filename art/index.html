@@ -1,7 +1,7 @@
 ---
-layout: music
-title: Music
-permalink: /music/
+layout: art
+title: Art
+permalink: /art/
 ---
 
 
@@ -10,15 +10,15 @@ permalink: /music/
   <div class="row">
     {% assign count = 0 %}
     {% assign align = "left" %}
-    {% for music in site.data.music.overview %}
+    {% for art in site.data.art.overview %}
     {% if count == 0 %}<div class="row">{% endif %}
       <div class="card">
-        <div class="card-title"> {{music.title}}</div>
+        <div class="card-title"> {{art.title}}</div>
         <div class="row">
 
-          <a href="{{ site.url }}{{ site.baseurl }}/music/{{ music.directory }}.html">
-            <img class="img-thumbnail" alt="{{ music.title }}"
-              src="{{ site.url }}{{ site.baseurl }}/assets/img/music/{% if music.picture_path %}{{ music.picture_path }}{% else %}{{ music.directory }}{% endif %}/{{ music.preview.thumbnail }}" />
+          <a href="{{ site.url }}{{ site.baseurl }}/art/{{ art.directory }}.html">
+            <img class="img-thumbnail" alt="{{ art.title }}"
+              src="{{ site.url }}{{ site.baseurl }}/assets/img/art/{% if art.picture_path %}{{ art.picture_path }}{% else %}{{ art.directory }}{% endif %}/{{ art.preview.thumbnail }}" />
           </a>
         </div>
       </div>

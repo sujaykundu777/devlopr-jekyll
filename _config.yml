@@ -17,6 +17,8 @@ urls:
       url: /about
     - text: Projects
       url: /projects
+    - text: Art
+      url: /art
     - text: Music
       url: /music
     - text: Blog
@@ -183,6 +185,11 @@ defaults:
   -
     scope:
       path: "projects"
+    values:
+      permalink: /:path/:basename:output_ext
+  -
+    scope:
+      path: "art"
     values:
       permalink: /:path/:basename:output_ext
   -
