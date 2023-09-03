@@ -18,7 +18,7 @@ title: Custom Editor
 
 <hr>
 
-<p>The answer to both is <b>Yes!</b></p>
+
 <hr>
 <h4>Demo Videos</h4>
 <iframe width="800" height="450" src="https://www.youtube.com/embed/S0erU7VOkkg?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
