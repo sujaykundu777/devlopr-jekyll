@@ -79,7 +79,7 @@ author_education_details:
                 college_name: California State University Fullerton
                 college_url: https://www.fullerton.edu
                 college_degree: Computer Science
-                description: 3rd/4th year in Bachelor of Science 
+                description: Bachelor of Science (Spring 2025)
                 visibility: true
               - college_logo: fullcoll.png
                 college_name: Fullerton College
@@ -105,10 +105,10 @@ author_project_details:
                 project_description: Custom Unity Editor Rest Interface
                 project_url: https://telloviz.netlify.app/projects/editor
                 visibility: true
-              - project_thumbnail: gyofish.PNG
-                project_title: Gyo Fish!
-                project_description: A Summer Game-Jam project w/ art by my brother
-                project_url: https://telloviz.netlify.app/projects/chomp
+              - project_thumbnail: lander.png
+                project_title: Lunar Lander
+                project_description: A modern Lunar Lander in Unity
+                project_url: https://telloviz.netlify.app/projects/lunar
                 visibility: true
 
 
