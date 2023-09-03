@@ -1,0 +1,14 @@
+picture_path: editor
+preview:
+  filename: editor
+  original: editor.png
+  sizes:
+  - editor.png
+  thumbnail: editor.png
+pictures:
+- filename: editor
+  original: editor.png
+  sizes:
+  - editor.png
+  thumbnail: editor.png
+

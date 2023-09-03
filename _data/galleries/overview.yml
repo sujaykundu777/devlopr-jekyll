@@ -26,14 +26,23 @@
     - surfer-t.png
     thumbnail: surfer-t.png
 -
+  title: 'Unity Custom Editor'
+  directory: editor
+  preview:
+    filename: editor.png
+    original: editor.png
+    sizes:
+    - editor.png
+    thumbnail: editor.png
+-
   title: 'Gyo Fish : 2-week jam, C++, SFML'
   directory: chomp
   preview:
-    filename: screen2.png
-    original: screen2.png
+    filename: chomp-t.png
+    original: chomp-t.png
     sizes:
-    - screen2-t.png
-    thumbnail: screen2-t.png
+    - chomp-t.png
+    thumbnail: chomp-t.png
 -
   title: 'My Office 3D Render : 3ds Max + Chaos Corona'
   directory: office
