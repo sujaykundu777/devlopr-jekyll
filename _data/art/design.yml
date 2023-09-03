@@ -1,0 +1,18 @@
+picture_path: design
+preview:
+  filename: shoe
+  original: shoe.png
+  sizes:
+  - shoe.png
+  thumbnail: shoe-t.png
+pictures:
+- filename: shoe
+  original: shoe.png
+  sizes:
+  - shoe.png
+  thumbnail: shoe-t.png
+- filename: shoe
+  original: shoe2.png
+  sizes:
+  - shoe2.png
+  thumbnail: shoe2-t.png

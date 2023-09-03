@@ -1,0 +1,23 @@
+picture_path: flowers
+preview:
+  filename: splat
+  original: splat.png
+  sizes:
+  - splat.png
+  thumbnail: splat-t.png
+pictures:
+- filename: dark-flower
+  original: dark-flower.png
+  sizes:
+  - dark-flower.png
+  thumbnail: dark-flower-t.png
+- filename: soul-flower
+  original: soul-flower.png
+  sizes:
+  - soul-flower.png
+  thumbnail: soul-flower-t.png
+- filename: splat
+  original: splat.png
+  sizes:
+  - splat.png
+  thumbnail: splat-t.png

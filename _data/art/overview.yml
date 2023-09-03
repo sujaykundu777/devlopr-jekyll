@@ -1,9 +1,18 @@
 -
-  title: 'Photoshop'
-  directory: photoshop
+  title: 'Flowers : Photoshop'
+  directory: flowers
   preview:
-    filename: dark-flower
-    original: dark-flower.jpg
+    filename: splat
+    original: splat.png
     sizes:
-    - dark-flower.jpg
-    thumbnail: dark-flower.jpg
+    - splat.png
+    thumbnail: splat-t.png
+-
+  title: 'Path of Pain : Photoshop'
+  directory: design
+  preview:
+    filename: shoe
+    original: shoe.png
+    sizes:
+    - shoe.png
+    thumbnail: shoe-t.png
