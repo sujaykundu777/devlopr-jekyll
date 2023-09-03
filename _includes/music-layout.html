@@ -1,8 +1,8 @@
 <!-- Single Gallery -->
 <div class="col-lg-20">
   <div id="imageGallery{% if include.id_number %}-{{ include.id_number }}{% endif %}">
-    <div id="gallery-sizer{% if include.id_number %}-{{ include.id_number }}{% endif %}"></div>
-    {% for picture in include.gallery.pictures %}
+    <div id="music-sizer{% if include.id_number %}-{{ include.id_number }}{% endif %}"></div>
+    {% for picture in include.music.pictures %}
     <a href="{{ site.url }}{{ site.baseurl }}/assets/img/music/{{ include.music.picture_path }}/{{ picture.original }}"
       data-responsive="{% for size in picture.sizes %} {{ site.url}}{{ site.baseurl }}/assets/music/{{ include.music.picture_path }}/{{ size }}{% endfor %}"
       class="image" {% if picture.title %}
