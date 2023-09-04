@@ -15,7 +15,8 @@ title: Lunar Lander
 
 ---
 
-🔊Feelin' It? : tello-
+<h4>🔊Feelin' It?</h4>
+<p>Bass Guitar, slicing, mixing, composing by tello-</p>
 
 ---
 
