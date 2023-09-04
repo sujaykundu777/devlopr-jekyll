@@ -4,13 +4,14 @@
     {% if {page.title %}{{ page.title }} - {{site.title}}{% else %}{{ site.title }} - {{
     site.subtitle }}{% endif %}
   </title>
-
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e0a4b0a2-c0a3-4645-856e-2d4c2cca202b"
+    type="text/javascript" async></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJV6E5LHVM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
-    gtag('consent', 'default', {ad_storage:'denied', analytics_storage:'denied'});
+    gtag('consent', 'default', { ad_storage: 'denied', analytics_storage: 'denied' });
     gtag('set', 'ads_data_redaction', true);
     gtag('set', 'url_passthrough', true);
     gtag('js', new Date());
