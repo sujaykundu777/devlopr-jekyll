@@ -143,6 +143,10 @@ formspree_email: f/meqbalrl
 # olvy_organization: devlopr
 # olvy_widget_type: sidebar
 
+# Google Analytics
+google_analytics: G-GX0M7D7MJR
+
+
 # syntax highlighter
 markdown: kramdown
 
