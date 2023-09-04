@@ -14,7 +14,9 @@ usemathjax: true
 ### **Lunar Lander**
 ##### Prototype made in Unity
 
+<div class="yt-video">
 <iframe width="800" height="450" src="https://www.youtube.com/embed/O9CsgTUTqkI?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 #### The focus was:
 - **Perlin Noise** : landscape generator

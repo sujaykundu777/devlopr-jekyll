@@ -40,22 +40,36 @@ title: Neon Cloud
 ### Progress Videos
 
 <h4>3-stance mechanic and flight-path</h4>
-<iframe width="800" height="450" src="https://www.youtube.com/embed/cOl0YcgvyA0?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="yt-video">
+<center><iframe width="800" height="450" src="https://www.youtube.com/embed/cOl0YcgvyA0?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+</div>
 <hr>
 <h4>Converted player character to my own design</h4>
-<iframe width="800" height="450" src="https://www.youtube.com/embed/2yQsls8u0wg?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="yt-video">
+<center><iframe width="800" height="450" src="https://www.youtube.com/embed/2yQsls8u0wg?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+</div>
 <hr>
 <h4>Created more asthetically appealng movement for player</h4>
-<iframe width="800" height="450" src="https://www.youtube.com/embed/kCTCbXfQMr0?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="yt-video">
+<center><iframe width="800" height="450" src="https://www.youtube.com/embed/kCTCbXfQMr0?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+</div>
 <hr>
 <h4>Introduced flight patterns</h4>
-<iframe width="800" height="450" src="https://www.youtube.com/embed/ghEL2NIQV_0?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="yt-video">
+<center><iframe width="800" height="450" src="https://www.youtube.com/embed/ghEL2NIQV_0?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+</div>
 <hr>
 <h4>More on flight patterns</h4>
-<iframe width="800" height="450" src="https://www.youtube.com/embed/TxkyfSkyaFY?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="yt-video">
+<center><iframe width="800" height="450" src="https://www.youtube.com/embed/TxkyfSkyaFY?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+</div>
 <hr>
 <h4>Looped enemy via custom event triggers</h4>
-<iframe width="800" height="450" src="https://www.youtube.com/embed/c8jDT2u8Ty0?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="yt-video">
+<center><iframe width="800" height="450" src="https://www.youtube.com/embed/c8jDT2u8Ty0?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+</div>
 <hr>
 <h4>Introduced project originally as Flappy Koopa</h4>
-<iframe width="800" height="450" src="https://www.youtube.com/embed/3BDFBor0CzU?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<center><div class="yt-video">
+<iframe width="800" height="450" src="https://www.youtube.com/embed/3BDFBor0CzU?si=DV5msCV0-Xeq4_Iy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+</div>
