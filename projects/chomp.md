@@ -50,7 +50,7 @@ title: Chomp
     <li>No way to reset game session</li>
     <li>No win state (or lose state)</li>
 </ul>
-<p>Overall I think we did well for one of our first projects together, and one of hefty challenge to us at the time. It was a lot of fun working with my brother on this!</p>
+<blockquote>Overall I think we did well for one of our first projects together, and one of hefty challenge to us at the time. It was a lot of fun working with my brother on this!</blockquote>
 <hr>
 {% include projects-layout.html projects=site.data.projects.chomp %}
 <hr>
