@@ -5,25 +5,26 @@ layout: compress
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
 {%- include head.html -%}
+
 <body>
-        {%- include header.html -%}
-        <div class="main-container">
-            {{ content }}
-        </div>
+  {%- include header.html -%}
+  <div class="main-container">
+    {{ content }}
+  </div>
 
-        {%- include footer.html -%}
-     <script>
-            var options = {
-                classname: 'progressline',
-                id: 'my-id'
-            };
-            var nanobar = new Nanobar( options );
-            nanobar.go( 30 );
-            nanobar.go( 76 );
-            nanobar.go(100);
-        </script>
+  {%- include footer.html -%}
+  <script>
+    var options = {
+      classname: 'progressline',
+      id: 'my-id'
+    };
+    var nanobar = new Nanobar(options);
+    nanobar.go(30);
+    nanobar.go(76);
+    nanobar.go(100);
+  </script>
 
-   <script>
+  <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
         if (!user) {
@@ -34,5 +35,6 @@ layout: compress
       });
     }
   </script>
-  </body>
+</body>
+
 </html>
