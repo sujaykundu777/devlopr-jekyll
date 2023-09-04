@@ -1,4 +1,4 @@
-/*This function will load script and call the callback once the script has loaded*/
+/*This function will load script and call the callback once the script has loaded
 
 function loadScriptAsync(scriptSrc, callback) {
     if (typeof callback !== 'function') {
@@ -10,7 +10,7 @@ function loadScriptAsync(scriptSrc, callback) {
     document.head.appendChild(script);
 }
 
-/* This is the part where you call the above defined function and "calls back" your code which gets executed after the script has loaded */
+This is the part where you call the above defined function and "calls back" your code which gets executed after the script has loaded
 
 loadScriptAsync('https://www.googletagmanager.com/gtag/js?id=G-GX0M7D7MJR', function () {
     window.dataLayer = window.dataLayer || [];
@@ -18,3 +18,4 @@ loadScriptAsync('https://www.googletagmanager.com/gtag/js?id=G-GX0M7D7MJR', func
     gtag('js', new Date());
     gtag('config', 'G-GX0M7D7MJR', { 'anonymize_ip': true });
 })
+ */
