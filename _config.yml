@@ -1,4 +1,4 @@
-title: austinkliebhan
+title: Austin Kliebhan
 subtitle: A Portfolio Built on a Jekyll Theme Built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
@@ -30,23 +30,23 @@ author_bio: Hi, my name is Austin Kliebhan. I built this site using devlopr-jeky
 author_email: "austin.kliebhan@gmail.com"
 author_location: United States
 author_website_url: https://austinkliebhan.github.io
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+typewrite-text: Welcome to my personal portfolio site!
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
             - company_name: Spins
-              company_logo: google.png
-              company_url: https://google.com
+              company_logo: spins.png
+              company_url: https://www.spins.com/
               designation: Data Engineer
               description: Worked on various Spins Products
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
+              - college_logo: uiowacoe.png
                 college_name: University of Iowa
-                college_url: https://mit.org
+                college_url: https://engineering.uiowa.edu/
                 college_degree: BS Chemical Engineering
                 description: Bachelor of Engineering
                 visibility: true
@@ -65,8 +65,8 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
+twitter_username: 
+github_username:  austinkliebhan
 facebook_username: johndoe
 linkedin_username: johndoe
 behance_username: johndoe

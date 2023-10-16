@@ -10,7 +10,7 @@ permalink: /get-started/
 
 If you aren’t familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked…just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! If you are a beginner we recommend you start with [Jekyll’s Docs](https://jekyllrb.com/docs/installation/). Now, if you know how to use Jekyll, let’s move on to using this theme in Jekyll:
 
-## Watch Tutorial
+<!--## Watch Tutorial
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cXBEfpn0qrg?rel=0&amp;controls=0&amp;showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -173,3 +173,4 @@ Visit your Github Repo settings ! Enable master branch as Github Pages Branch :
 
 You can visit the blog using [http://your-github-username.github.io](http://your-github-username.github.io).
 
+-->
