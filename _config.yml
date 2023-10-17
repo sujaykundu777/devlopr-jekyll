@@ -1,7 +1,7 @@
 title: Austin Kliebhan
-subtitle: A Portfolio Built on a Jekyll Theme Built for Developers
+subtitle: Personal Portfolio Site
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  Welcome to my personal site! You can see what I am working on and what I have been up to. Feel free to contact me at austin.kliebhan@gmail.com
 
 url: https://austinkliebhan.github.io # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: / # the subpath of your site, e.g. /blog
@@ -12,6 +12,8 @@ urls:
       url: /
     - text: About
       url: /about
+    - text: Resume
+      url: /resume
     - text: Blog
       url: /blog
     - text: Gallery
@@ -57,24 +59,24 @@ author_project_details:
                 project_title: Gamers Hub
                 project_description: A Platform built for Gamers and Game Devs
                 project_url: https://gamershub.in
-                visibility: true
+                visibility: false
               - project_thumbnail: hack4r.PNG
                 project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
-                visibility: true
+                visibility: false
 
 # social links
-twitter_username: 
+# twitter_username: 
 github_username:  austinkliebhan
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+# facebook_username: johndoe
+linkedin_username: james-austin-kliebhan-400a96111
+# behance_username: johndoe
+# instagram_username: johndoe
+# medium_username: johndoe
+# telegram_username: johndoe
+# dribbble_username: johndoe
+# flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
