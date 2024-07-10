@@ -20,8 +20,7 @@ GEM
       net-http
     faraday-retry (2.2.1)
       faraday (~> 2.0)
-    ffi (1.17.0-arm64-darwin)
-    ffi (1.17.0-x86_64-linux-gnu)
+    ffi (1.16.3)
     forwardable-extended (2.6.0)
     google-protobuf (4.27.2-arm64-darwin)
       bigdecimal
@@ -99,6 +98,8 @@ GEM
       google-protobuf (>= 3.25, < 5.0)
     sass-embedded (1.77.5-x86_64-linux-gnu)
       google-protobuf (>= 3.25, < 5.0)
+    sass-embedded (1.77.5-x86_64-linux-musl)
+      google-protobuf (>= 3.25, < 5.0)
     sawyer (0.9.2)
       addressable (>= 2.3.5)
       faraday (>= 0.17.3, < 3)
@@ -119,6 +120,7 @@ PLATFORMS
   arm64-darwin-23
   universal-darwin-21
   x86_64-linux
+  x86_64-linux-musl
 
 DEPENDENCIES
   backports (~> 3.25.0)
@@ -126,6 +128,7 @@ DEPENDENCIES
   bundler (~> 2.5.15)
   csv
   faraday-retry
+  ffi (~> 1.16.3)
   jekyll (~> 4.3.3)
   jekyll-feed (~> 0.17.0)
   jekyll-gist (~> 1.5.0)
