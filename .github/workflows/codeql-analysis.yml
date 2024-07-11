@@ -31,7 +31,7 @@ jobs:
         run: |
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+          jekyll/builder:pages /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
 
   # Then check the markdown files are properly formatted
   analyse:
