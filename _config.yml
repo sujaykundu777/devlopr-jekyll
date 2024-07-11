@@ -192,6 +192,10 @@ plugins:
 # gh-pages - For Github Pages
 # firebase - For Firebase Hosting
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/
