@@ -71,16 +71,16 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
+twitter_username: xplor4r
 github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+instagram_username: xplor4r
+# facebook_username: johndoe
+# linkedin_username: johndoe
+# behance_username: johndoe
+# medium_username: johndoe
+# telegram_username: johndoe
+# dribbble_username: johndoe
+# flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
@@ -163,17 +163,20 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-admin
+  - jekyll-feed
+
+  # jekyll admin is causing issues with github pages, so it's disabled by default
+  # - jekyll-admin 
 
 # Jekyll Admin Config
-jekyll_admin:
+# jekyll_admin:
   # hidden_links:
   #   - posts
   #   - pages
   #   - staticfiles
   #   - datafiles
   #   - configuration
-  homepage: "posts"
+  # homepage: "posts"
 
 
 # Exclude from processing.

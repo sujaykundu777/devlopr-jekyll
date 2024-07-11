@@ -39,12 +39,17 @@ or if you want to try fast :
 
 ## Local Development Steps :
 
-### Clone Locally:
+Step 1: Fork this repo with your github username.
+
+Step 2: Clone Locally
 
 ```s
 $ git clone https://github.com/your_github_username/your_github_username.github.io.git
 $ cd your_github_username
 ```
+
+Step 3: Now follow the below guides based on your OS.
+
 ### For Linux : (Ubuntu 20.04)
 
 To work locally with ubuntu, follow this commands.
@@ -96,50 +101,99 @@ $ bundle exec jekyll serve
 Start the server locally at http://127.0.0.1:4000/ or http://localhost:4000/
 
 ### For MacOS :
+
 Run the following in your terminal :
 
-1. Install Homebrew
+#### Option 1. Install ruby using Homebrew
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
+`brew install ruby`
+
+Add the below in ~/.zshrc file: 
+
+Edit either the  ~/.zshrc and ~/.zprofile files:
+
+`$ open -e ~/.zshrc`
+
+### For Mac M1, M2, M3
+
+```sh
+# override system ruby with homebrew-installed ruby
+if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
+  export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+  export PATH=`gem environment gemdir`/bin:$PATH
+```
+
+### For Mac Intel 
+
+On Mac Intel, add this at the end of your ~/.zshrc or ~/.zprofile file.
+
+```sh
+if [ -d "/usr/local/opt/ruby/bin" ]; then
+  export PATH=/usr/local/opt/ruby/bin:$PATH
+  export PATH=`gem environment gemdir`/bin:$PATH
+fi
+```
+Save the file. This sets the Homebrew-installed Ruby to a higher priority than the system Ruby and adds the directory used for Ruby gems.
+
+### Reset the shell session
+Close and reopen the Terminal window to pick up the changes to the configuration file. Or enter source ~/.zshrc or source ~/.zprofile to reset the shell environment without closing the Terminal window.
+
+```sh
+$ source ~/.zprofile
+$ source ~/.zshrc
+```
+The source command reads and executes a shell script file, resetting the shell environment.
+
+You should be able to see this :
+```sh
+$ ruby -v
+ruby 3.3.4 (2024-07-09 revision be1089c8ec) [arm64-darwin23]
+```
+
 2. Install churby and ruby-install with Homebrew
 
-`brew install chruby ruby-install`
+We will be using [ruby-install](https://github.com/postmodern/ruby-install) to install ruby and [chruby](https://github.com/postmodern/chruby) to change the current ruby version.
 
-3. Install latest ruby version 
+`brew install chruby ruby-install`
+ Install latest ruby version 
 
 `ruby-install ruby`
 
-4. This will take a few minutes, and once it’s done, configure your shell to automatically use chruby:
+This will take a few minutes, and once it’s done, configure your shell to automatically use chruby:
 
 ```sh
 echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
 echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
-echo "chruby ruby-3.1.2" >> ~/.zshrc
+echo "chruby ruby-3.3.4" >> ~/.zshrc
 ```
+If you are facing any problems not getting the version that you just now installed, here is a amazing guide :
+[how to uninstall ruby on mac](https://mac.install.guide/ruby/9)
+
 If you’re using Bash, replace *.zshrc* with *.bash_profile*.
 
 Quit and relaunch Terminal, then check that everything is working:
 
 `$ ruby -v`
-ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-darwin21]
+ruby 3.3.4 (2024-07-09 revision be1089c8ec) [arm64-darwin23]
 
 5. Install latest gems
 
-```s
+```sh
 $ gem install jekyll bundler
+$ gem update --system 3.5.15
 
 $ bundler -v
-Bundler version 2.3.23
+Bundler version 2.5.15
 
 $ bundle update
 
 $ bundle exec jekyll -v 
-jekyll 4.2.2
+jekyll 4.3.3
 
 $ bundle exec jekyll serve --livereload
 ```
-
 
 ### Security 
 
