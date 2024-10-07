@@ -21,7 +21,9 @@ GEM
       net-http
     faraday-retry (2.2.1)
       faraday (~> 2.0)
-    ffi (1.16.3)
+    ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x86_64-linux-gnu)
+    ffi (1.17.0-x86_64-linux-musl)
     forwardable-extended (2.6.0)
     google-protobuf (4.28.2-arm64-darwin)
       bigdecimal
@@ -128,7 +130,6 @@ DEPENDENCIES
   bundler (~> 2.5.15)
   csv
   faraday-retry
-  ffi (~> 1.16.3)
   jekyll (~> 4.3.3)
   jekyll-feed (~> 0.17.0)
   jekyll-gist (~> 1.5.0)
