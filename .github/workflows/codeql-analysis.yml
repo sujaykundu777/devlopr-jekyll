@@ -4,20 +4,18 @@
 
 name: "Jekyll CI"
 
-
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ master ]
+    branches: [master]
   # Triggers the workflow on push or pull request events but only for the main branch
   schedule:
     # Runs at 6am UTC every Monday
-    - cron: '0 6 * * 1'
-
+    - cron: "0 6 * * 1"
 
 jobs:
   # Check the Jekyll itself for errors and syntax
@@ -28,12 +26,23 @@ jobs:
     # Check that the Jekyll can actually build
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-      - name: Build the site in the jekyll/builder container
+        uses: actions/checkout@v4
+      - name: Build the site in the jekyll-docker container
         run: |
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+          jvconseil/jekyll-docker:4.3.3 /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+
+      # - name: Build the site in the jekyll/builder container
+      #   run: |
+      #     docker run \
+      #     -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+      #     jekyll/builder:4.3.3 /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+      # - name: Build the site in the jekyll/builder container
+      #   run: |
+      #     docker run \
+      #     -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+      #     jekyll/builder:pages /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
 
   # Then check the markdown files are properly formatted
   analyse:
@@ -43,13 +52,13 @@ jobs:
     # Check markdown files are markdown-lint compliant
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Lint markdown files with markdown-lint
         uses: articulate/actions-markdownlint@v1.1.0
         with:
           # Includes some specific rules to ignore
           config: .github/workflows/markdownlint-config.json
-          files: '_posts/**/*.md'
+          files: "_posts/**/*.md"
           # Ignore the built website, might have some funky files
           ignore: _site/
           # Try to fix basic errors

@@ -2,7 +2,7 @@ name: Deploy Site
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   workflow_dispatch:
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
     outputs:
       target: ${{ steps.set-output.outputs.target }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: get deployment target
         run: |
@@ -44,14 +44,14 @@ jobs:
     if: needs.set-deploy-type.outputs.target == 'gh-pages'
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-    - name: Deploy Jekyll Site
-      uses: sujaykundu777/jekyll-deploy-action@1.0.3
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-        GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+      - name: Deploy Jekyll Site
+        uses: sujaykundu777/jekyll-deploy-action@1.0.5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
 
   deploy-firebase:
     runs-on: ubuntu-latest
@@ -59,22 +59,22 @@ jobs:
     if: needs.set-deploy-type.outputs.target == 'firebase'
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-    - name: setup ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        bundler-cache: true
+      - name: setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
 
-    - name: build jekyll
-      run: |
-        bundle install
-        bundle exec jekyll build
+      - name: build jekyll
+        run: |
+          bundle install
+          bundle exec jekyll build
 
-    - name: deploy to firebase
-      uses: w9jds/firebase-action@master
-      with:
-        args: deploy --only hosting
-      env:
-        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+      - name: deploy to firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
