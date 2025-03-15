@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   I am a Geodetic Engineer specializing in geoinformatics and remote sensing.
 
 url: "https://jarencecasisirano.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "/jareo-jekyll" # the subpath of your site, e.g. /blog
+# baseurl: "/jareo-jekyll" # the subpath of your site, e.g. /blog
 
 # # Theme
 # theme: devlopr-jekyll
