@@ -3,7 +3,7 @@ subtitle: Geospatial and Earth Observation
 description: >- # this means to ignore newlines until "baseurl:"
   I am a Geodetic Engineer specializing in geoinformatics and remote sensing.
 
-url: "https://jarencecasisirano.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://jareo.xyz" # the base hostname & protocol for your site, e.g. https://example.github.io
 # baseurl: "/jareo-jekyll" # the subpath of your site, e.g. /blog
 
 # # Theme
