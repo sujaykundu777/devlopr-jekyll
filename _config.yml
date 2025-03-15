@@ -1,9 +1,9 @@
 title: My Portfolio
 subtitle: Geospatial and Earth Observation
 description: >- # this means to ignore newlines until "baseurl:"
-  Jarence is a Geodetic Engineer specializing in geoinformatics and remote sensing.
+  I am a Geodetic Engineer specializing in geoinformatics and remote sensing.
 
-url: "https://jarencecasisirano.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://jarencecasisirano.github.io/jareo-jekyll" # the base hostname & protocol for your site, e.g. https://example.github.io
 # baseurl: "/" # the subpath of your site, e.g. /blog
 
 # # Theme
@@ -29,11 +29,11 @@ urls:
 
 author_logo: profile.png
 author: Jarence Casisirano
-author_bio: Hi, my name is Jarence Casisirano. I built this site using devlopr-jekyll :D
+author_bio: Hi, my name is Jarence Casisirano. I am a Geodetic Engineer specializing in geoinformatics and remote sensing. :D
 author_email: "jarencecasisirano@gmail.com"
 author_location: Philippines
 author_website_url: "https://jareo.xyz"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+typewrite-text: I am a Geodetic Engineer specializing in geoinformatics and remote sensing.
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
