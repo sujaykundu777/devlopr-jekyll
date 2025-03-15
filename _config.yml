@@ -1,9 +1,9 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: My Portfolio
+subtitle: Geospatial and Earth Observation
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  Jarence is a Geodetic Engineer specializing in geoinformatics and remote sensing.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://jarencecasisirano.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -25,11 +25,11 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
+author: Jarence Casisirano
+author_bio: Hi, my name is Jarence Casisirano. I built this site using devlopr-jekyll :D
+author_email: "jarencecasisirano@gmail.com"
+author_location: Philippines
+author_website_url: "https://jareo.xyz"
 typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
