@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Jarence is a Geodetic Engineer specializing in geoinformatics and remote sensing.
 
 url: "https://jarencecasisirano.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "/" # the subpath of your site, e.g. /blog
+# baseurl: "/" # the subpath of your site, e.g. /blog
 
 # # Theme
 # theme: devlopr-jekyll
