@@ -6,8 +6,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://jarencecasisirano.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "/" # the subpath of your site, e.g. /blog
 
-# Theme
-theme: devlopr-jekyll
+# # Theme
+# theme: devlopr-jekyll
 
 # Navigation
 urls:
