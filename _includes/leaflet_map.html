@@ -1,0 +1,21 @@
+<!-- Leaflet Map -->
+<div id="map" style="height: 400px; width: 100%;"></div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        console.log("Leaflet script running...");
+
+        var map = L.map('map').setView([14.65661931331959, 121.07105344247948], 18);
+        console.log("Map initialized...");
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors'
+        }).addTo(map);
+        console.log("Tile layer added...");
+
+        L.marker([14.65661931331959, 121.07105344247948]).addTo(map)
+            .bindPopup('<b>National Engineering Center, UP Diliman</b><br>Quezon City, Philippines.')
+            .openPopup();
+        console.log("Marker added...");
+    });
+</script>
