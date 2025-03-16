@@ -27,7 +27,7 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
+author_logo: profile.jpg
 author: Jarence Casisirano
 author_bio: Hi, my name is Jarence Casisirano. I am a Geodetic Engineer specializing in geoinformatics and remote sensing. :D
 author_email: "jarencecasisirano@gmail.com"

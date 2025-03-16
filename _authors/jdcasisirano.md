@@ -1,0 +1,17 @@
+---
+name: Jarence Casisirano
+username: jdcasisirano
+bio: "Geospatial engineer based in Cavite, Philippines"
+site: https://jareo.xyz
+avatar: profile.jpg
+email: jarencecasisirano@gmail.com
+social:
+    - title: "github"
+      url: "https://github.com/jarencecasisirano"
+    - title: "linkedin"
+      url: "https://www.linkedin.com/in/jarencecasisirano"
+    - title: "instagram"
+      url: "https://www.instagram.com/jrnzdvd"
+    - title: "facebook"
+      url: "https://www.facebook.com/jarencedavid.casisirano/"
+---
