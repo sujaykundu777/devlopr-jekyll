@@ -69,6 +69,6 @@ Feel free to fork, adapt, or learn from this repo — with proper credit to the 
 
 If you're interested in collaborating, connecting, or just saying hello:
 
-📧 [jarencecasisirano@gmail.com]  
+📧 jarencecasisirano@gmail.com; jarencecasisirano@proton.me
 🌐 [https://jareo.xyz](https://jareo.xyz)
 
