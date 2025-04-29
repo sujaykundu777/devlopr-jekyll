@@ -1,0 +1,25 @@
+<header class="bg-zinc-800 text-white shadow-md fixed-top">
+      <div class="container mx-auto py-4 flex justify-between items-center">
+          <div id="logo">
+            <a href="/">
+                <span> devlopr </span>
+            </a>
+          </div>
+          <div id="topNav">
+            <nav>
+                <ul class="flex flex-col lg:flex-row gap-2">
+                    {% for url in site.urls %}
+                        <li>
+                            <a href="{{site.url}}{{site.baseurl}}">
+                                {{ url.text }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                </ul>
+            </nav>
+         </div>
+         <div 
+      </div>
+
+
+</header>

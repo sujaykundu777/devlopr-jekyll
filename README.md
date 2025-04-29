@@ -363,3 +363,21 @@ You can contact me, if you need any help via [Email](mailto:sujaykundu777@gmail.
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). You can do anything you want, including projects for your clients, as long as you mention an attribution back (credit links in footer). See the [Licence](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/LICENSE) file
 
+## v2
+
+Colors:
+
+Ecstasy : 
+
+--color-ecstasy-50: #fff9ec;
+--color-ecstasy-100: #fff2d3;
+--color-ecstasy-200: #ffe2a5;
+--color-ecstasy-300: #ffcb6d;
+--color-ecstasy-400: #ffa932;
+--color-ecstasy-500: #ff8e0a;
+--color-ecstasy-600: #ff7601;
+--color-ecstasy-700: #cc5502;
+--color-ecstasy-800: #a1420b;
+--color-ecstasy-900: #82380c;
+--color-ecstasy-950: #461a04;
+

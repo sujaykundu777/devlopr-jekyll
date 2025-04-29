@@ -72,7 +72,33 @@
   />
   {% endif %}
 
-  <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/main.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            myBlue: '#007bff',
+            myGreen: '#28a745',
+            myRed: '#dc3545',
+            ecstasy50: '#fff9ec',
+            ecstasy100: '#fff2d3',
+            ecstasy200: '#ffe2a5',
+            ecstasy300: '#ffcb6d',
+            ecstasy400: '#ffa932',
+            ecstasy500: '#ff8e0a',
+            ecstasy600: '#ff7601',
+            ecstasy700: '#cc5502',
+            ecstasy800: '#a1420b',
+            ecstasy900: '#82380c',
+            ecstasy950: '#461a04',
+            ecstasyDark: '#020617'
+          },
+        },
+      },
+    };
+  </script>
+  <!-- <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/main.css" /> -->
   <!-- <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/css/custom-style.css" /> -->
   <link
     rel="stylesheet"
