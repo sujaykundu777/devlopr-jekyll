@@ -8,7 +8,7 @@ layout: default
       <a href="/">
         <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
       </a>
-      <h1 class="profile-name">{{ site.title }}</h1>
+      <h1 class="profile-name">{{ site.author }}</h1>
       <p class="profile-bio">{{ site.subtitle }}</p>
       {% if site.github_username %} {%- include github_follow_button.html -%} {%
       endif %}
@@ -67,12 +67,12 @@ layout: default
         <a class="social-link" href="http://t.me/{{ site.telegram_username }}">
           <i class="fab fa-telegram-plane"></i>
         </a>
-        {% endif %} {% if site.dribbble_username %}
+        {% endif %} {% if site.youtube_username %}
         <a
           class="social-link"
-          href="https://dribbble.com/{{ site.dribbble_username }}"
+          href="https://www.youtube.com/@{{ site.youtube_username }}"
         >
-          <i class="fab fa-dribbble"></i>
+          <i class="fab fa-youtube"></i>
         </a>
         {% endif %} {% if site.flickr_username %}
         <a

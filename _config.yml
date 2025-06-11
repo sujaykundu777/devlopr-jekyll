@@ -31,7 +31,6 @@ author_bio: Welcome to my software engineering profile! My name is Nash Morrison
   Through this profile, I aim to share my work, collaborate with fellow professionals, and continue growing within the ever-evolving world of software development. Thanks for stopping by, I look forward to connecting with you!
 author_email: "nwmorrison1086@eagle.fgcu.edu"
 author_location: Fort Myers, Florida
-author_website_url: "www.youtube.com/@NashWMorrison"
 typewrite-text: Welcome to my Software Engineering Portfolio.
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
@@ -55,7 +54,7 @@ author_education_details:
               - college_logo: fgcu_logo.png
                 college_name: Florida Gulf Coast University
                 college_url: https://www.fgcu.edu/
-                college_degree: Software Engineer
+                college_degree: Software Engineering
                 description: Bachelor of Science
                 visibility: true
 
@@ -91,7 +90,7 @@ youtube_username: NashWMorrison
 # hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: NWMorrison
 
 # mailchimp embedded form url (newsletter):
 #mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
