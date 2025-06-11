@@ -1,4 +1,14 @@
 -
+  title: Booker
+  directory: bookers
+  preview:
+    filename: Booker.jpg
+    original: Booker.jpg
+    sizes:
+      - Booker.jpg
+    thumbnail: Booker.jpg
+
+-
   title: Mountains
   directory: mountains
   preview:

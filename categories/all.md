@@ -24,5 +24,3 @@ permalink: /blog/categories/
   </div>
 {% endfor %}
 </div>
-
-
