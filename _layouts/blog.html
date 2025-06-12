@@ -8,6 +8,7 @@ layout: default
                   <div class="row">
                       {% for post in paginator.posts %}
                       <div class="card blog-post">
+                          <!--The class directly below handles the thumbnails for each individual blog post on the blog main page-->
                           <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">
                           <div class="card-body center">
                               <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
