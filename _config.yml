@@ -16,14 +16,9 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-#    - text: Shop
-#      url : /shop
-#    - text: Contact
-#      url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
-
 author_logo: nashProfilePicture.jpg
 author: Nash William Morrison
 author_bio: Welcome to my software engineering profile! My name is Nash Morrison, a passionate and driven software engineer with a strong foundation built through an ABET-accredited engineering program. This accreditation ensures that my education met rigorous global standards in areas like mathematics, computing, engineering principles, and ethical practice, preparing me to tackle complex challenges and contribute meaningfully to the tech industry.
@@ -73,32 +68,17 @@ author_project_details:
                 visibility: true
 
 # social links
-# twitter_username: xplor4r
+# twitter_username:
 linkedin_username: nashwmorrison
 github_username:  NWMorrison
 youtube_username: NashWMorrison
-# instagram_username: xplor4r
-# facebook_username: johndoe
-# behance_username: johndoe
-# medium_username: johndoe
-# telegram_username: johndoe
-# dribbble_username: johndoe
-# flickr_username: johndoe
-
-#for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
-
-# disqus_shortname: sujay-kundu
-# hyvor_talk_website_id: 476
+# instagram_username:
+# facebook_username:
+# telegram_username:
 
 # wakatime username (coding activity)
 wakatime_username: NWMorrison
 
-# mailchimp embedded form url (newsletter):
-#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
-
-# contact form - (choose formspress or getform)
-# getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-#formspree_email: johndoe@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: devlopr
@@ -119,21 +99,6 @@ paginate: 4
 per_page: 4
 paginate_path: "/blog/page/:num/"
 
-# minify
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
-#   ignore:
-#     envs: ['development']
-
-# Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
 
 collections:
   products:
@@ -167,33 +132,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-
-  # jekyll admin is causing issues with github pages, so it's disabled by default
-  # - jekyll-admin 
-
-# Jekyll Admin Config
-# jekyll_admin:
-  # hidden_links:
-  #   - posts
-  #   - pages
-  #   - staticfiles
-  #   - datafiles
-  #   - configuration
-  # homepage: "posts"
-
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-
-### Switching Deployment Strategy (in DEPLOY_STRATEGY) file change the key accordingly:
-# none - For no default
-# gh-pages - For Github Pages
-# firebase - For Firebase Hosting
 
 sass:
   sass_dir: _sass
