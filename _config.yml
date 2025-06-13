@@ -1,5 +1,5 @@
 title: Portfolio
-subtitle: Software Engineering
+subtitle: B.S. Software Engineer
 description: >- # this means to ignore newlines until "baseurl:"
   
 
@@ -21,9 +21,12 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 author_logo: nashProfilePicture.jpg
 author: Nash William Morrison
-author_bio: Welcome to my software engineering profile! My name is Nash Morrison, a passionate and driven software engineer with a strong foundation built through an ABET-accredited engineering program. This accreditation ensures that my education met rigorous global standards in areas like mathematics, computing, engineering principles, and ethical practice, preparing me to tackle complex challenges and contribute meaningfully to the tech industry.
-  
-  Through this profile, I aim to share my work, collaborate with fellow professionals, and continue growing within the ever-evolving world of software development. Thanks for stopping by, I look forward to connecting with you!
+author_bio: Welcome to my software engineering profile. My name is Nash Morrison, 
+  a passionate and driven software engineer with a strong foundation built through an ABET-accredited engineering program through Florida Gulf Coast University. 
+  This accreditation ensures that my education met rigorous global standards in areas like mathematics, computing, engineering 
+  principles, and ethical practices, preparing me to tackle complex challenges and contribute meaningfully to the tech industry.
+  Through this profile, I aim to share my work, collaborate with fellow professionals, and continue growing within the ever-evolving 
+  world of software development. Thanks for stopping by, I look forward to connecting with you!
 author_email: "nwmorrison1086@eagle.fgcu.edu"
 author_location: Fort Myers, Florida
 typewrite-text: Welcome to my Software Engineering Portfolio.
@@ -63,7 +66,7 @@ author_project_details:
                 visibility: true
               - project_thumbnail: mctesters.png
                 project_title: McDonald's Automation Testing
-                project_description: Group project utilizing Maven Repository
+                project_description: Group Project Utilizing Maven Repository
                 project_url: https://github.com/NWMorrison/McTesters
                 visibility: true
 
