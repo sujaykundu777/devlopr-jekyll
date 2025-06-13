@@ -62,7 +62,7 @@ layout: default
       {% if site.author_location %}
       <h6><a href="https://www.google.com/maps/search/?api=1&query={{ site.author_location }}" class="social-link"><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</a></h6>
       {% endif %} {% if site.author_email %}
-      <h6><a href="mailto:{{ site.author_email }}"><i class="fas fa-envelope" class="social-link"></i> {{ site.author_email }}</a></h6>
+      <h6><a href="mailto:{{ site.author_email }}"><i class="fas fa-envelope" class="social-link"></i> email</a></h6>
       {% endif %} {% if site.author_website_url %}
       <h6><a href="{{ site.author_website_url }}"><i class="fas fa-link" class="social-link"></i> {{ site.author_website_url }}</a></h6>
       {% endif %}
@@ -96,7 +96,7 @@ layout: default
       == true %}
       <div class="row" id="project-card">
         <div class="col-md-6">
-          <img
+          <img style='height: 100%; width: 100%; object-fit: contain'
             src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
             class="project-img"
           />
@@ -107,7 +107,7 @@ layout: default
           <p class="experience-desc">{{ project.project_description }}</p>
           <p>
             <a class="project-link" href="{{project.project_url}}"
-              >{{ project.project_url}}</a
+              >GitHub Repository</a
             >
           </p>
         </div>
@@ -123,7 +123,7 @@ layout: default
       == true %}
       <div class="row">
         <div class="col-md-2">
-          <img
+          <img style='height: 100%; width: 100%; object-fit: contain'
                   src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
                   class="company-logo"
           />
@@ -132,7 +132,7 @@ layout: default
           <h4 class="experience-title">{{detail.college_degree }}</h4>
           <h6 class="experience-info">{{detail.college_name}}</h6>
           <p class="experience-desc">{{detail.description}}, {{detail.college_gpa}}</p>
-          <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>
+          <p><a href="{{detail.college_url}}">Website</a></p>
         </div>
       </div>
       {% endif %} {% endfor %}
@@ -144,17 +144,19 @@ layout: default
       {% for exp in site.author_work_experiences %} {% if exp.visibility == true
       %}
       <div class="row">
-        <div class="col-md-2">
-          <img
+        <div class="col-md-3">
+          <img style='height: 100%; width: 100%; object-fit: contain'
             src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
             class="company-logo"
+
           />
+
         </div>
         <div class="col-md-6">
           <h4 class="experience-title">{{ exp.designation }}</h4>
           <h6 class="experience-info">{{ exp.company_name}}</h6>
           <p class="experience-desc">{{ exp.description }}</p>
-          <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>
+          <p><a href="{{exp.company_url}}">Website</a></p>
         </div>
       </div>
       {% endif %} {% endfor %}
