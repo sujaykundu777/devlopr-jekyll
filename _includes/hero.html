@@ -10,11 +10,15 @@
 }
 .jumbotron-btns {
   display: block;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .jumbotron-heading, .lead {
   color: #fff;
+}
+
+.linkedin-container {
+  font-size: 25px;
 }
 </style>
 
@@ -25,6 +29,14 @@
 
   <p class="lead" id="typewriteText"></p>
   {% if site.github_username %} {%- include github_follow_button.html -%} {% endif %}
+
+  {% if site.linkedin_username %}
+  <div class="linkedin-container">
+    <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+  </div>
+  {% endif %}
 
   <!-- uncomment/modify buttons as you want-->
   <div class="jumbotron-btns">
