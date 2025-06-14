@@ -62,12 +62,12 @@ author_project_details:
               - project_thumbnail: tetris.jpg
                 project_title: -Py-tris-
                 project_description: Built Tetris using Python
-                project_url: https://github.com/NWMorrison/-Py-tris-
+                project_url: https://nwmorrison.github.io/projects/PyTris/
                 visibility: true
               - project_thumbnail: mctesters.png
                 project_title: McDonald's Automation Testing
                 project_description: Group Project Utilizing Maven Repository
-                project_url: https://github.com/NWMorrison/McTesters
+                project_url: https://nwmorrison.github.io/projects/McTesters/
                 visibility: true
 
 # social links
