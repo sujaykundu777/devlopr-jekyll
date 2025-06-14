@@ -44,7 +44,7 @@ permalink: /styleguide/
 </ol>
 
 <blockquote>
-<p>This is a Block Quote,  It can Expand Multiple Lines </p>
+<p>This is a Block Quote, It can Expand Multiple Lines </p>
 
 </blockquote>
 
