@@ -1,13 +1,13 @@
 ---
 layout: page
-title: NeuralNetworks
-permalink: /blog/categories/NeuralNetworks/
+title: Neural-Networks
+permalink: /blog/categories/Neural-Networks/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>
 
 <div class="card">
-{% for post in site.categories.NeuralNetworks %}
+{% for post in site.categories.Neural-Networks %}
     <div class="category-posts"><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></div>
 {% endfor %}
 </div>
