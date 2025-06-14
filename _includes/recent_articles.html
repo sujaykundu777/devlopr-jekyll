@@ -19,11 +19,14 @@
               {% assign author = post.author %}
               {% if author %}
                {% assign author_data = site.data.authors[author] %}
-               <img
-                src="{{site.url}}{{site.baseurl}}/assets/img/authors/nashProfilePicture.jpg"
+
+                <!--src takes each post thumbnail and uses that for recent articles image based off of the layout of .html-->
+               <img style='object-fit: contain'
+                src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}"
                 width="50px"
                 height="50px"
-             />
+               />
+
               {% endif %}
             {% endif %}
 
