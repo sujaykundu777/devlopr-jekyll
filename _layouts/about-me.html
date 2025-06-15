@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+
+<style>
+  .colored-bio {color: darkorange;}
+  .colored-skills{color: darkorange;}
+</style>
+
 <div class="col-lg-12">
 <div class="row">
   <div class="col-lg-4">
@@ -68,12 +74,12 @@ layout: default
       {% endif %}
     </div>
 
-    <div class="card">
-      <h1>Skills</h1>
-
-      {%- include author_skills.html -%}
+    <div class="colored-skills">
+      <div class="card">
+        <h1>Skills</h1>
+        {%- include author_skills.html -%}
+      </div>
     </div>
-
     {% if site.wakatime_username %}
     <div class="card">
       <h1>Coding Activity</h1>
@@ -84,10 +90,12 @@ layout: default
   </div>
   <div class="col-lg-8">
     {% if site.author_bio %}
+  <div class="colored-bio">
     <div class="card">
       <h1 class="card-title">About</h1>
       <p>{{ site.author_bio }}</p>
     </div>
+  </div>
     {% endif %} {% if site.show_author_project_details == true %} <!--Start of Projects section of about.-->
     <div id="author_projects" class="card">
       <h1 class="card-title">Projects</h1>

@@ -23,14 +23,14 @@ author_logo: nashProfilePicture.jpg
 author: Nash William Morrison
 author_bio: Welcome to my software engineering profile. My name is Nash Morrison, 
   a passionate and driven software engineer with a strong foundation built through an ABET-accredited engineering program through Florida Gulf Coast University. 
-  This accreditation ensures that my education met rigorous global standards in areas like mathematics, computing, engineering 
+  This accreditation ensures that my education meets rigorous global standards in areas like mathematics, computing, engineering 
   principles, and ethical practices, preparing me to tackle complex challenges and contribute meaningfully to the tech industry.
-  Through this profile, I aim to share my work, collaborate with fellow professionals, and continue growing within the ever-evolving 
+  Through this portfolio, I aim to share my work, collaborate with fellow professionals, and continue growing within the ever-evolving 
   world of software development. Thanks for stopping by, I look forward to connecting with you!
 author_email: "nwmorrison1086@eagle.fgcu.edu"
 author_location: Fort Myers, Florida
 typewrite-text: Welcome to my Software Engineering Portfolio.
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: home-cover-picture-cpu-city.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
