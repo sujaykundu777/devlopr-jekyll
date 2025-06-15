@@ -1,16 +1,21 @@
 <style>
 /* change cover_img in config.yml */
+
 .jumbotron {
     background-color: var(--main-background-color) !important;
-    background-image: url('/assets/img/{{site.hero_cover_img}}');
+    /*background-image: url('/assets/img/{{site.hero_cover_img}}');*/
+    background-image: url('../assets/img/home-cover-picture-cpu-city.png');
     text-align: center;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
+
 .jumbotron-btns {
   display: block;
-  margin-top: 10px;
+  margin-top: 8px;
+  padding-bottom: 10px;
+  border-radius: 10px;
 }
 
 .jumbotron-heading, .lead {
@@ -19,6 +24,28 @@
 
 .linkedin-container {
   font-size: 25px;
+  display: inline-block;
+  backdrop-filter: blur(10px);
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.lead {
+  color: darkorange;
+  font-size: 20px;
+  display: inline-block;
+  backdrop-filter: blur(10px);
+  padding: 5px 5px;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: adds slight dark background */
+  border-radius: 10px; /* Optional: rounds the corners */
+}
+
+.code-stats{
+  display: inline-block;
+  backdrop-filter: blur(15px);
+  padding: 7px 7px;
+  border-radius: 10px;
 }
 </style>
 
@@ -27,8 +54,10 @@
   <img class="author-profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo}}" />
   <p class="jumbotron-heading">{{site.author}}</p>
 
+<div>
   <p class="lead" id="typewriteText"></p>
-  {% if site.github_username %} {%- include github_follow_button.html -%} {% endif %}
+</div>
+
 
   {% if site.linkedin_username %}
   <div class="linkedin-container">
@@ -44,8 +73,20 @@
       <button class="btn btn-md btn-warning"> <strong>get to know me</strong> </button>
     </a>
   </div>
-  <br>
-  <figure>
-    <embed src="https://wakatime.com/share/@efa0cc05-201c-4ae1-bb0f-0ca759db5b91/d52cf0be-20e4-4699-bbbf-4a8a515449b1.svg"></embed>
-  </figure>
+
+
+  {% if site.github_username %}
+  <div>
+    {%- include github_follow_button.html -%}
+  </div>
+  {% endif %}
+
+
+
+
+  <div class="code-stats">
+    <figure>
+      <embed src="https://wakatime.com/share/@efa0cc05-201c-4ae1-bb0f-0ca759db5b91/d52cf0be-20e4-4699-bbbf-4a8a515449b1.svg"></embed>
+    </figure>
+  </div>
 </div>
