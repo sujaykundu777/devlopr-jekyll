@@ -21,15 +21,6 @@
     color: #fff;
   }
 
-  .linkedin-container {
-    font-size: 25px;
-    display: inline-block;
-    backdrop-filter: blur(10px);
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-  }
-
   .lead {
     color: darkorange;
     font-size: 20px;
@@ -51,20 +42,14 @@
 <!-- home hero section -->
 <div class="jumbotron">
   <img class="author-profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo}}" />
+
   <p class="jumbotron-heading">{{site.author}}</p>
 
 <div>
   <p class="lead" id="typewriteText"></p>
 </div>
 
-
-  {% if site.linkedin_username %}
-  <div class="linkedin-container">
-    <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}">
-      <i class="fab fa-linkedin-in"></i>
-    </a>
-  </div>
-  {% endif %}
+<div class="code-stats">
 
   <!-- uncomment/modify buttons as you want-->
   <div class="jumbotron-btns">
@@ -72,7 +57,6 @@
       <button class="btn btn-md btn-warning"> <strong>get to know me</strong> </button>
     </a>
   </div>
-
 
   {% if site.github_username %}
   <div>
@@ -82,10 +66,10 @@
 
 <br/>
 
-
-  <div class="code-stats">
     <figure>
-      <embed src="https://wakatime.com/share/@efa0cc05-201c-4ae1-bb0f-0ca759db5b91/d52cf0be-20e4-4699-bbbf-4a8a515449b1.svg"></embed>
+      <embed src="https://wakatime.com/share/@efa0cc05-201c-4ae1-bb0f-0ca759db5b91/d52cf0be-20e4-4699-bbbf-4a8a515449b1.svg">
     </figure>
+
   </div>
+
 </div>

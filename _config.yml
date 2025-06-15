@@ -18,7 +18,7 @@ urls:
       url: /gallery
 
 
-# Edit Author details (For multi authors check _data/authors.yml)
+# Author details (For multi authors check _data/authors.yml)
 author_logo: nashProfilePicture.jpg
 author: Nash William Morrison
 author_bio: Welcome to my software engineering profile. My name is Nash Morrison, 
@@ -30,7 +30,7 @@ author_bio: Welcome to my software engineering profile. My name is Nash Morrison
 author_email: "nwmorrison1086@eagle.fgcu.edu"
 author_location: Fort Myers, Florida
 typewrite-text: Welcome to my Software Engineering Portfolio.
-hero_cover_img: home-cover-picture-cpu-city.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: home-cover-picture-cpu-city.png
 
 # Experiences
 author_work_experiences:
@@ -75,11 +75,12 @@ author_project_details:
 linkedin_username: nashwmorrison
 github_username:  NWMorrison
 youtube_username: NashWMorrison
+bluesky_username: nashwm.bsky.social
 # instagram_username:
 # facebook_username:
 # telegram_username:
 
-# wakatime username (coding activity)
+# waka-time username (coding activity)
 wakatime_username: NWMorrison
 
 
