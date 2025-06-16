@@ -2,8 +2,41 @@
 layout: default
 ---
 <style>
+
   .colored-bio {color: darkorange;}
   .colored-skills {color: darkorange;}
+
+  .location-links {
+    justify-content: center;
+  }
+
+  .profile-links svg {
+    vertical-align: middle; /* Aligns SVG with other icons */
+    position: relative;
+    top: -1px; /* Fine-tune vertical position */
+    width: 16px; /* Match Font Awesome icon size */
+    height: 16px; /* Match Font Awesome icon size */
+  }
+
+  .profile-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Creates equal spacing between icons */
+  }
+
+
+  .social-link:hover {
+    transform: scale(1.2); /* Makes icon slightly bigger on hover */
+    color: darkorange; /* Matches your existing color scheme */
+  }
+
+
+
+  .profile-links:hover {
+    color: darkorange;
+
+  }
+
 </style>
 
 <div class="col-lg-12">
@@ -19,72 +52,44 @@ layout: default
       endif %}
 
       <p class="profile-links">
-
-        {% if site.twitter_username %}
-        <a
-          class="social-link"
-          href="http://twitter.com/{{ site.twitter_username }}"
-        >
-          <i class="fab fa-twitter"></i>
-        </a>
-        {% endif %}
-
-        {% if site.facebook_username %}
-        <a
-          class="social-link"
-          href="http://facebook.com/{{ site.facebook_username }}"
-        >
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        {% endif %}
-
-        {% if site.instagram_username %}
-        <a
-          class="social-link"
-          href="http://instagram.com/{{ site.instagram_username }}"
-        >
-          <i class="fab fa-instagram"></i>
-        </a>
-        {% endif %}
-
-
-        <a
-          class="social-link"
-          href="https://bsky.app/profile/{{ site.bluesky_username }}">
-
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-bluesky" viewBox="0 0 16 16">
+        {% if site.bluesky_username %}
+        <a class="social-link" href="https://bsky.app/profile/{{ site.bluesky_username }}">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bluesky" viewBox="0 0 16 16">
             <path d="M3.468 1.948C5.303 3.325 7.276 6.118 8 7.616c.725-1.498 2.698-4.29 4.532-5.668C13.855.955 16 .186 16 2.632c0 .489-.28 4.105-.444 4.692-.572 2.04-2.653 2.561-4.504 2.246 3.236.551 4.06 2.375 2.281 4.2-3.376 3.464-4.852-.87-5.23-1.98-.07-.204-.103-.3-.103-.218 0-.081-.033.014-.102.218-.379 1.11-1.855 5.444-5.231 1.98-1.778-1.825-.955-3.65 2.28-4.2-1.85.315-3.932-.205-4.503-2.246C.28 6.737 0 3.12 0 2.632 0 .186 2.145.955 3.468 1.948"/>
           </svg>
-
         </a>
+        {% endif %}
 
         {% if site.linkedin_username %}
-        <a
-          class="social-link"
-          href="http://linkedin.com/in/{{ site.linkedin_username }}"
-        >
+        <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}">
           <i class="fab fa-linkedin-in"></i>
         </a>
         {% endif %}
 
         {% if site.youtube_username %}
-        <a
-          class="social-link"
-          href="https://www.youtube.com/@{{ site.youtube_username }}"
-        >
+        <a class="social-link" href="https://www.youtube.com/@{{ site.youtube_username }}">
           <i class="fab fa-youtube"></i>
         </a>
         {% endif %}
-
       </p>
 
+
+      <div class="location-links">
       {% if site.author_location %}
       <h6><a href="https://www.google.com/maps/search/?api=1&query={{ site.author_location }}" class="social-link"><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</a></h6>
-      {% endif %} {% if site.author_email %}
-      <h6><a href="mailto:{{ site.author_email }}"><i class="fas fa-envelope" class="social-link"></i> email</a></h6>
-      {% endif %} {% if site.author_website_url %}
-      <h6><a href="{{ site.author_website_url }}"><i class="fas fa-link" class="social-link"></i> {{ site.author_website_url }}</a></h6>
       {% endif %}
+
+      {% if site.author_email %}
+      <h6><a href="mailto:{{ site.author_email }}"><i class="fas fa-envelope" class="social-link"></i> email</a></h6>
+      {% endif %}
+      {% if site.author_website_url %}
+      <h6>
+        <a href="{{ site.author_website_url }}">
+          <i class="fas fa-link" class="social-link"></i> {{ site.author_website_url }}
+        </a>
+      </h6>
+      {% endif %}
+</div>
     </div>
 
     <div class="colored-skills">
