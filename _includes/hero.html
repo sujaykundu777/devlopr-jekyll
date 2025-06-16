@@ -1,76 +1,76 @@
 <!--StyleGuide-->
 <style>
-  .jumbotron {
-    background-color: var(--main-background-color) !important;
-    /*background-image: url('/assets/img/{{site.hero_cover_img}}');*/
-    background-image: url('../assets/img/home-cover-picture-cpu-city.png');
-    text-align: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-  }
+    .jumbotron {
+        background-color: var(--main-background-color) !important;
+        /*background-image: url('/assets/img/{{site.hero_cover_img}}');*/
+        background-image: url('../assets/img/home-cover-picture-cpu-city.png');
+        text-align: center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
 
-  .jumbotron-btns {
-    display: block;
-    margin-top: 8px;
-    padding-bottom: 10px;
-    border-radius: 10px;
-  }
+    .jumbotron-btns {
+        display: block;
+        margin-top: 8px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
 
-  .jumbotron-heading, .lead {
-    color: #fff;
-    text-shadow: 4px 4px 5px #000;
-  }
+    .jumbotron-heading, .lead {
+        color: #fff;
+        text-shadow: 4px 4px 5px #000;
+    }
 
-  .lead {
-    color: darkorange;
-    font-size: 20px;
-    display: inline-block;
-    backdrop-filter: blur(10px);
-    padding: 5px 5px;
-    background-color: rgba(0, 0, 0, 0.5); /*adds slight dark background */
-    border-radius: 10px; /* rounds the corners */
-  }
+    .lead {
+        color: darkorange;
+        font-size: 20px;
+        display: inline-block;
+        backdrop-filter: blur(10px);
+        padding: 5px 5px;
+        background-color: rgba(0, 0, 0, 0.5); /*adds slight dark background */
+        border-radius: 10px; /* rounds the corners */
+    }
 
-  .code-stats{
-    display: inline-block;
-    backdrop-filter: blur(15px);
-    padding: 7px 7px;
-    border-radius: 10px;
-  }
+    .code-stats {
+        display: inline-block;
+        backdrop-filter: blur(15px);
+        padding: 7px 7px;
+        border-radius: 10px;
+    }
 </style>
 
 <!-- home hero section -->
 <div class="jumbotron">
-  <img class="author-profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo}}" />
+    <img class="author-profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo}}"/>
 
-  <p class="jumbotron-heading">{{site.author}}</p>
+    <p class="jumbotron-heading">{{site.author}}</p>
 
-<div>
-  <p class="lead" id="typewriteText"></p>
-</div>
+    <div>
+        <p class="lead" id="typewriteText"></p>
+    </div>
 
-<div class="code-stats">
+    <div class="code-stats">
 
-  <!-- uncomment/modify buttons as you want-->
-  <div class="jumbotron-btns">
-    <a href="{{site.url}}{{site.baseurl}}/about">
-      <button class="btn btn-md btn-warning"> <strong>get to know me</strong> </button>
-    </a>
-  </div>
+        <!-- uncomment/modify buttons as you want-->
+        <div class="jumbotron-btns">
+            <a href="{{site.url}}{{site.baseurl}}/about">
+                <button class="btn btn-md btn-warning"><strong>get to know me</strong></button>
+            </a>
+        </div>
 
-  {% if site.github_username %}
-  <div>
-    {%- include github_follow_button.html -%}
-  </div>
-  {% endif %}
+        {% if site.github_username %}
+        <div>
+            {%- include github_follow_button.html -%}
+        </div>
+        {% endif %}
 
-<br/>
+        <br/>
 
-    <figure>
-      <embed src="https://wakatime.com/share/@efa0cc05-201c-4ae1-bb0f-0ca759db5b91/d52cf0be-20e4-4699-bbbf-4a8a515449b1.svg">
-    </figure>
+        <figure>
+            <embed src="https://wakatime.com/share/@efa0cc05-201c-4ae1-bb0f-0ca759db5b91/d52cf0be-20e4-4699-bbbf-4a8a515449b1.svg">
+        </figure>
 
-  </div>
+    </div>
 
 </div>

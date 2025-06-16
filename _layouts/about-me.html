@@ -3,186 +3,195 @@ layout: default
 ---
 <style>
 
-  .colored-bio {color: darkorange;}
-  .colored-skills {color: darkorange;}
+    .colored-bio {
+        color: darkorange;
+    }
 
-  .location-links {
-    justify-content: center;
-  }
+    .colored-skills {
+        color: darkorange;
+    }
 
-  .profile-links svg {
-    vertical-align: middle; /* Aligns SVG with other icons */
-    position: relative;
-    top: -1px; /* Fine-tuning vertical position */
-    width: 16px; /* Match Font Awesome icon size */
-    height: 16px; /* Match Font Awesome icon size */
-  }
+    .location-links {
+        justify-content: center;
+    }
 
-  .profile-links {
-    display: flex;
-    justify-content: center;
-    gap: 10px; /* Creates equal spacing between icons */
-  }
+    .profile-links svg {
+        vertical-align: middle; /* Aligns SVG with other icons */
+        position: relative;
+        top: -1px; /* Fine-tuning vertical position */
+        width: 16px; /* Match Font Awesome icon size */
+        height: 16px; /* Match Font Awesome icon size */
+    }
 
-  .social-link:hover {
-    transform: scale(1.2); /* Makes icon slightly bigger on hover */
-    color: darkorange; /* Matches your existing color scheme */
-  }
+    .profile-links {
+        display: flex;
+        justify-content: center;
+        gap: 10px; /* Creates equal spacing between icons */
+    }
 
-  .profile-links:hover {
-    color: darkorange;
-  }
+    .social-link:hover {
+        transform: scale(1.2); /* Makes icon slightly bigger on hover */
+        color: darkorange; /* Matches your existing color scheme */
+    }
+
+    .profile-links:hover {
+        color: darkorange;
+    }
 
 </style>
 
 <div class="col-lg-12">
-<div class="row">
-  <div class="col-lg-4">
-    <div class="card" id="profile-card">
-      <a href="/">
-        <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
-      </a>
-      <h1 class="profile-name">{{ site.author }}</h1>
-      <p class="profile-bio">{{ site.subtitle }}</p>
-      {% if site.github_username %} {%- include github_follow_button.html -%} {%
-      endif %}
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card" id="profile-card">
+                <a href="/">
+                    <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img"/>
+                </a>
+                <h1 class="profile-name">{{ site.author }}</h1>
+                <p class="profile-bio">{{ site.subtitle }}</p>
+                {% if site.github_username %} {%- include github_follow_button.html -%} {%
+                endif %}
 
-      <p class="profile-links">
-        {% if site.bluesky_username %}
-        <a class="social-link" href="https://bsky.app/profile/{{ site.bluesky_username }}">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bluesky" viewBox="0 0 16 16">
-            <path d="M3.468 1.948C5.303 3.325 7.276 6.118 8 7.616c.725-1.498 2.698-4.29 4.532-5.668C13.855.955 16 .186 16 2.632c0 .489-.28 4.105-.444 4.692-.572 2.04-2.653 2.561-4.504 2.246 3.236.551 4.06 2.375 2.281 4.2-3.376 3.464-4.852-.87-5.23-1.98-.07-.204-.103-.3-.103-.218 0-.081-.033.014-.102.218-.379 1.11-1.855 5.444-5.231 1.98-1.778-1.825-.955-3.65 2.28-4.2-1.85.315-3.932-.205-4.503-2.246C.28 6.737 0 3.12 0 2.632 0 .186 2.145.955 3.468 1.948"/>
-          </svg>
-        </a>
-        {% endif %}
+                <p class="profile-links">
+                    {% if site.bluesky_username %}
+                    <a class="social-link" href="https://bsky.app/profile/{{ site.bluesky_username }}">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-bluesky" viewBox="0 0 16 16">
+                            <path d="M3.468 1.948C5.303 3.325 7.276 6.118 8 7.616c.725-1.498 2.698-4.29 4.532-5.668C13.855.955 16 .186 16 2.632c0 .489-.28 4.105-.444 4.692-.572 2.04-2.653 2.561-4.504 2.246 3.236.551 4.06 2.375 2.281 4.2-3.376 3.464-4.852-.87-5.23-1.98-.07-.204-.103-.3-.103-.218 0-.081-.033.014-.102.218-.379 1.11-1.855 5.444-5.231 1.98-1.778-1.825-.955-3.65 2.28-4.2-1.85.315-3.932-.205-4.503-2.246C.28 6.737 0 3.12 0 2.632 0 .186 2.145.955 3.468 1.948"/>
+                        </svg>
+                    </a>
+                    {% endif %}
 
-        {% if site.linkedin_username %}
-        <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        {% endif %}
+                    {% if site.linkedin_username %}
+                    <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    {% endif %}
 
-        {% if site.youtube_username %}
-        <a class="social-link" href="https://www.youtube.com/@{{ site.youtube_username }}">
-          <i class="fab fa-youtube"></i>
-        </a>
-        {% endif %}
-      </p>
+                    {% if site.youtube_username %}
+                    <a class="social-link" href="https://www.youtube.com/@{{ site.youtube_username }}">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    {% endif %}
+                </p>
 
 
-      <div class="location-links">
-      {% if site.author_location %}
-      <h6><a href="https://www.google.com/maps/search/?api=1&query={{ site.author_location }}" class="social-link"><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</a></h6>
-      {% endif %}
+                <div class="location-links">
+                    {% if site.author_location %}
+                    <h6><a href="https://www.google.com/maps/search/?api=1&query={{ site.author_location }}"
+                           class="social-link"><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</a></h6>
+                    {% endif %}
 
-      {% if site.author_email %}
-      <h6><a href="mailto:{{ site.author_email }}"><i class="fas fa-envelope" class="social-link"></i> email</a></h6>
-      {% endif %}
-      {% if site.author_website_url %}
-      <h6>
-        <a href="{{ site.author_website_url }}">
-          <i class="fas fa-link" class="social-link"></i> {{ site.author_website_url }}
-        </a>
-      </h6>
-      {% endif %}
-</div>
-    </div>
+                    {% if site.author_email %}
+                    <h6><a href="mailto:{{ site.author_email }}"><i class="fas fa-envelope" class="social-link"></i>
+                        email</a></h6>
+                    {% endif %}
+                    {% if site.author_website_url %}
+                    <h6>
+                        <a href="{{ site.author_website_url }}">
+                            <i class="fas fa-link" class="social-link"></i> {{ site.author_website_url }}
+                        </a>
+                    </h6>
+                    {% endif %}
+                </div>
+            </div>
 
-    <div class="colored-skills">
-      <div class="card">
-        <h1>Skills</h1>
-        {%- include author_skills.html -%}
-      </div>
-    </div>
-    {% if site.wakatime_username %}
-    <div class="card">
-      <h1>Coding Activity</h1>
+            <div class="colored-skills">
+                <div class="card">
+                    <h1>Skills</h1>
+                    {%- include author_skills.html -%}
+                </div>
+            </div>
+            {% if site.wakatime_username %}
+            <div class="card">
+                <h1>Coding Activity</h1>
 
-      {%- include coding_activity.html -%}
-    </div>
-    {% endif %}
-  </div>
-  <div class="col-lg-8">
-    {% if site.author_bio %}
-  <div class="colored-bio">
-    <div class="card">
-      <h1 class="card-title">About</h1>
-      <p>{{ site.author_bio }}</p>
-    </div>
-  </div>
-    {% endif %} {% if site.show_author_project_details == true %} <!--Start of Projects section of about.-->
-    <div id="author_projects" class="card">
-      <h1 class="card-title">Projects</h1>
-      <br />
-      {% for project in site.author_project_details %} {% if project.visibility
-      == true %}
-      <div class="row" id="project-card">
-        <div class="col-md-6">
-          <img style='height: 100%; width: 100%; object-fit: contain'
-            src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
-            class="project-img"
-          />
+                {%- include coding_activity.html -%}
+            </div>
+            {% endif %}
         </div>
-        <div class="col-md-4 center">
-          <h4 class="experience-title">{{ project.project_title }}</h4>
-          <h6 class="experience-info">{{ project.project_info}}</h6>
-          <p class="experience-desc">{{ project.project_description }}</p>
-          <p>
-            <a class="project-link" href="{{project.project_url}}"
-              >Overview</a
-            >
-          </p>
-        </div>
-      </div>
-      <br />
-      {% endif %} {% endfor %}
-    </div>
-    {% endif %} {% if site.show_author_education_details == true %} <!--Start of Education section of about-->
-    <div class="card">
-      <h1 class="card-title">Education</h1>
-      <br />
-      {% for detail in site.author_education_details %} {% if detail.visibility
-      == true %}
-      <div class="row">
-        <div class="col-md-2">
-          <img style='height: 100%; width: 100%; object-fit: contain'
-                  src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
-                  class="company-logo"
-          />
-        </div>
-        <div class="col-md-6">
-          <h4 class="experience-title">{{detail.college_degree }}</h4>
-          <h6 class="experience-info">{{detail.college_name}}</h6>
-          <p class="experience-desc">{{detail.description}}, {{detail.college_gpa}}</p>
-          <p><a href="{{detail.college_url}}">Website</a></p>
-        </div>
-      </div>
-      {% endif %} {% endfor %}
-    </div>
-    {% endif %} {% if site.show_author_work_experiences == true %} <!--Start of work experience portion of about-->
-    <div class="card">
-      <h1 class="card-title">Work Experience</h1>
-      <br />
-      {% for exp in site.author_work_experiences %} {% if exp.visibility == true
-      %}
-      <div class="row">
-        <div class="col-md-3">
-          <img style='height: 100%; width: 100%; object-fit: contain'
-            src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
-            class="company-logo"
-          />
+        <div class="col-lg-8">
+            {% if site.author_bio %}
+            <div class="colored-bio">
+                <div class="card">
+                    <h1 class="card-title">About</h1>
+                    <p>{{ site.author_bio }}</p>
+                </div>
+            </div>
+            {% endif %} {% if site.show_author_project_details == true %} <!--Start of Projects section of about.-->
+            <div id="author_projects" class="card">
+                <h1 class="card-title">Projects</h1>
+                <br/>
+                {% for project in site.author_project_details %} {% if project.visibility
+                == true %}
+                <div class="row" id="project-card">
+                    <div class="col-md-6">
+                        <img style='height: 100%; width: 100%; object-fit: contain'
+                             src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
+                             class="project-img"
+                        />
+                    </div>
+                    <div class="col-md-4 center">
+                        <h4 class="experience-title">{{ project.project_title }}</h4>
+                        <h6 class="experience-info">{{ project.project_info}}</h6>
+                        <p class="experience-desc">{{ project.project_description }}</p>
+                        <p>
+                            <a class="project-link" href="{{project.project_url}}"
+                            >Overview</a
+                            >
+                        </p>
+                    </div>
+                </div>
+                <br/>
+                {% endif %} {% endfor %}
+            </div>
+            {% endif %} {% if site.show_author_education_details == true %} <!--Start of Education section of about-->
+            <div class="card">
+                <h1 class="card-title">Education</h1>
+                <br/>
+                {% for detail in site.author_education_details %} {% if detail.visibility
+                == true %}
+                <div class="row">
+                    <div class="col-md-2">
+                        <img style='height: 100%; width: 100%; object-fit: contain'
+                             src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
+                             class="company-logo"
+                        />
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="experience-title">{{detail.college_degree }}</h4>
+                        <h6 class="experience-info">{{detail.college_name}}</h6>
+                        <p class="experience-desc">{{detail.description}}, {{detail.college_gpa}}</p>
+                        <p><a href="{{detail.college_url}}">Website</a></p>
+                    </div>
+                </div>
+                {% endif %} {% endfor %}
+            </div>
+            {% endif %} {% if site.show_author_work_experiences == true %}
+            <!--Start of work experience portion of about-->
+            <div class="card">
+                <h1 class="card-title">Work Experience</h1>
+                <br/>
+                {% for exp in site.author_work_experiences %} {% if exp.visibility == true
+                %}
+                <div class="row">
+                    <div class="col-md-3">
+                        <img style='height: 100%; width: 100%; object-fit: contain'
+                             src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
+                             class="company-logo"
+                        />
 
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="experience-title">{{ exp.designation }}</h4>
+                        <h6 class="experience-info">{{ exp.company_name}}</h6>
+                        <p class="experience-desc">{{ exp.description }}</p>
+                        <p><a href="{{exp.company_url}}">Website</a></p>
+                    </div>
+                </div>
+                {% endif %} {% endfor %}
+            </div>
+            {% endif %}
         </div>
-        <div class="col-md-6">
-          <h4 class="experience-title">{{ exp.designation }}</h4>
-          <h6 class="experience-info">{{ exp.company_name}}</h6>
-          <p class="experience-desc">{{ exp.description }}</p>
-          <p><a href="{{exp.company_url}}">Website</a></p>
-        </div>
-      </div>
-      {% endif %} {% endfor %}
     </div>
-    {% endif %}
-  </div>
-</div>
 </div>

@@ -1,122 +1,116 @@
 <style>
-  .nav.justify-content-end {
-    margin-right: 10px;
-  }
-
-  .linkedin-container {
-    font-size: 25px;
-    display: inline-block;
-    backdrop-filter: blur(10px);
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    transition: all 0.3s ease;  /* Adds a smooth transition */
-    /*margin-left: 5px;  Extra added margin !*/
-  }
-
-  .linkedin-container:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  }
-
-
-  @media (max-width: 991.98px)
-  {
-    .d-flex.align-items-center
-    {
-      margin-left: auto;
+    .nav.justify-content-end {
+        margin-right: 10px;
     }
 
-    .linkedin-container
-    {
-      padding: 18px 18px;
-      font-size: 20px;
+    .linkedin-container {
+        font-size: 25px;
+        display: inline-block;
+        backdrop-filter: blur(10px);
+        padding: 10px 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        transition: all 0.3s ease; /* Adds a smooth transition */
+        /*margin-left: 5px;  Extra added margin !*/
     }
-  }
 
-  @media (max-width: 575.98px)
-  {
-    .linkedin-container
-    {
-      padding: 8px 12px;
-      font-size: 18px;
+    .linkedin-container:hover {
+        background-color: rgba(0, 0, 0, 0.7);
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     }
-  }
+
+
+    @media (max-width: 991.98px) {
+        .d-flex.align-items-center {
+            margin-left: auto;
+        }
+
+        .linkedin-container {
+            padding: 18px 18px;
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width: 575.98px) {
+        .linkedin-container {
+            padding: 8px 12px;
+            font-size: 18px;
+        }
+    }
 
 </style>
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="topNav">
-  <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-  >
-    <span class="icono-hamburger" id="navbar-hamburger"> </span>
-  </button>
-  <a class="navbar-brand" href="/">{{site.title}}</a>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      {% for i in site.urls %}
-      <li class="nav-item">
-        <a class="nav-link" href="{{ site.url}}{{site.baseurl}}{{ i.url }}">{{ i.text }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div class="d-flex align-items-center">
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link toggle-search-button" href="#search">
-          <i class="fa fa-search search-icon" aria-hidden="true"></i>
-        </a>
-      </li>
-      <li class="nav-item">
-        <input class="nav-link switch theme-toggle" type="checkbox" name="checkbox" />
-      </li>
-    </ul>
-
-    <!--Start of Static Linkedin action button-->
-    {% if site.linkedin_username %}
-    <div class="linkedin-container">
-      <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
+    <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+    >
+        <span class="icono-hamburger" id="navbar-hamburger"> </span>
+    </button>
+    <a class="navbar-brand" href="/">{{site.title}}</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            {% for i in site.urls %}
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.url}}{{site.baseurl}}{{ i.url }}">{{ i.text }}</a>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
-    {% endif %}
-  </div>
+
+    <div class="d-flex align-items-center">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link toggle-search-button" href="#search">
+                    <i class="fa fa-search search-icon" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <input class="nav-link switch theme-toggle" type="checkbox" name="checkbox"/>
+            </li>
+        </ul>
+
+        <!--Start of Static Linkedin action button-->
+        {% if site.linkedin_username %}
+        <div class="linkedin-container">
+            <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+        {% endif %}
+    </div>
 </nav>
 
-        <div id="progress-bar"></div>
-        <!-- Search Form -->
-        <div class="search-form-container">
+<div id="progress-bar"></div>
+<!-- Search Form -->
+<div class="search-form-container">
 
-          <form class="search-form">
-            <fieldset class="search-form__fieldset">
-              <div class="row">
+    <form class="search-form">
+        <fieldset class="search-form__fieldset">
+            <div class="row">
                 <div class="col-lg-8 offset-md-2">
-                  <input class="search-form__field" placeholder="Type to Search..." autofocus>
-                  <input class="search-form__submit" type="submit" value="search">
+                    <input class="search-form__field" placeholder="Type to Search..." autofocus>
+                    <input class="search-form__submit" type="submit" value="search">
                 </div>
-              </div>
-            </fieldset>
-          </form>
-
-          <div class="row">
-            <div class="col-lg-8 offset-md-2 search-results">
-              <div class="card search-results"></div>
             </div>
-          </div>
+        </fieldset>
+    </form>
 
-          <div class="close-search-button search-form-container__close">
-              <i class="fa fa-times icon"></i>
-          </div>
-
-
-
+    <div class="row">
+        <div class="col-lg-8 offset-md-2 search-results">
+            <div class="card search-results"></div>
         </div>
+    </div>
+
+    <div class="close-search-button search-form-container__close">
+        <i class="fa fa-times icon"></i>
+    </div>
+
+
+</div>

@@ -3,10 +3,6 @@ title: Styleguide
 layout: page
 permalink: /styleguide/
 ---
-
-
-### devlopr - Styleguide
-
 <hr />
 
  <img src="/assets/img/styleguide.png" class="img-fluid">
