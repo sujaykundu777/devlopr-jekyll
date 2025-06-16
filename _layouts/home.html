@@ -3,14 +3,14 @@ layout: full-width
 ---
 
 <script>
-  $(document).ready(function() {
-    $("#typewriteText").typewrite({
-      actions: [{ type: "{{site.typewrite-text}}" }]
+    $(document).ready(function () {
+        $("#typewriteText").typewrite({
+            actions: [{type: "{{site.typewrite-text}}"}]
+        });
     });
-  });
 </script>
-    <!-- hero section-->
-    {%- include hero.html -%}
-    <div class="col-lg-8 offset-md-2">
-      {%- include recent_articles.html -%}
-    </div>
+<!-- hero section-->
+{%- include hero.html -%}
+<div class="col-lg-8 offset-md-2">
+    {%- include recent_articles.html -%}
+</div>
