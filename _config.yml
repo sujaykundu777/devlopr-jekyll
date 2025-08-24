@@ -1,237 +1,69 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
-description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+# Site settings
+# Título principal do seu portfólio.
+title: "Duilio Melo"
+# Subtítulo, geralmente sua área de atuação.
+subtitle: "Cientista de dados"
+# Uma breve descrição sobre você ou seu portfólio.
+description: "Meus projetos"
+# URL completa do seu site.
+url: "https://dudumelo98.github.io/dudu98"
+# O nome do seu repositório.
+baseurl: "/dudu98"
+# Seu nome.
+author: "Duilio Melo"
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
-
-# Navigation
+# Navigation links
+# Esta seção define os links da barra de navegação do seu site.
+# O "text" é o texto que aparece no menu.
+# O "url" é o caminho para a página.
 urls:
-    - text: Home
-      url: /
-    - text: About
-      url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
+- text: "Home"
+  url: "/"
+- text: "Meus Projetos"
+  url: "/meus-projetos/"
+- text: "Blog"
+  url: "/blog/"
+- text: "Sobre"
+  url: "/about/"
 
-
-# Edit Author details (For multi authors check _data/authors.yml)
-
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
-
-# Experiences
-author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true
-
-# Education
-author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: true
-
-# Projects
-author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
-
-# social links
-twitter_username: xplor4r
-github_username:  sujaykundu777
-instagram_username: xplor4r
-# facebook_username: johndoe
-# linkedin_username: johndoe
-# behance_username: johndoe
-# medium_username: johndoe
-# telegram_username: johndoe
-# dribbble_username: johndoe
-# flickr_username: johndoe
-
-#for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
-
-# disqus_shortname: sujay-kundu
-# hyvor_talk_website_id: 476
-
-# wakatime username (coding activity)
-wakatime_username: sujaykundu777
-
-# mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
-
-# contact form - (choose formspress or getform)
-# getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
-
-# releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
-olvy_widget_type: sidebar
-
-# syntax highlighter
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-
-# Choose what to show ( can be true or false)
-show_author_work_experiences: true
-show_author_education_details: true
-show_author_project_details: true
-
-# pagination of posts
-paginate: 4
-per_page: 4
-paginate_path: "/blog/page/:num/"
-
-# minify
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
-#   ignore:
-#     envs: ['development']
-
-# Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
-
-collections:
-  products:
-    output: true
-  authors:
-    output: true
-
-defaults:
-  -
-    scope:
-      path: "gallery"
-    values:
-      permalink: /:path/:basename:output_ext
-  -
-    scope:
-      path: ""
-      type: authors
-    values:
-      layout: author
-      permalink: /blog/authors/:slug
-  -
-    scope:
-      path: 'assets/**'
-    values:
-      sitemap: false
-
-# Build settings
-plugins:
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-
-  # jekyll admin is causing issues with github pages, so it's disabled by default
-  # - jekyll-admin 
-
-# Jekyll Admin Config
-# jekyll_admin:
-  # hidden_links:
-  #   - posts
-  #   - pages
-  #   - staticfiles
-  #   - datafiles
-  #   - configuration
-  # homepage: "posts"
-
+# User settings
+# Configurações pessoais para exibir no site.
+username: "dudumelo98"
+email: "dudmelomelo723@gmail.com"
+github: "dudumelo98"
+twitter: "dudumelo98"
+linkedin: "https://www.linkedin.com/in/duilio-melo-a865a1359/"
+googleplus: "dudumelo98"
+instagram: "dudumelo98"
+# Caminho para sua imagem de perfil. Certifique-se de que a imagem está em assets/img/
+avatar: "assets/img/Work.jpg"
 
 # Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
+# Os seguintes itens não serão processados, por padrão.
 #
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-
-### Switching Deployment Strategy (in DEPLOY_STRATEGY) file change the key accordingly:
-# none - For no default
-# gh-pages - For Github Pages
-# firebase - For Firebase Hosting
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
+# - vendor folder excluded to prevent Jekyll from attempting to process vendor-specific files.
+# - assets/css/vendor folder excluded to prevent Jekyll from attempting to process vendor-specific files.
+# - assets/js/vendor folder excluded to prevent Jekyll from attempting to process vendor-specific files.
+# - assets/img/vendor folder excluded to prevent Jekyll from attempting to process vendor-specific files.
+# - gemspec files
+# - Gemfile and Gemfile.lock files
+# - Rakefile
+# - vendor folder and all its contents
+# - _site folder
+#
 exclude:
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - assets/bower_components/isotope-layout/README.md
-  - assets/bower_components/icono/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-svg-core/README.md
-  - assets/bower_components/ghosthunter/README.md
-  - assets/bower_components/nanobar/README.md
-  - assets/bower_components/lightgallery/demo/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-brands-svg-icons/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-solid-svg-icons/README.md
-  - assets/bower_components/jquery-mousewheel/README.md
-  - assets/bower_components/get-size/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome/README.md
-  - assets/bower_components/jquery-mousewheel/ChangeLog/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/README.md
-  - assets/bower_components/desandro-matches-selector/README.md
-  - assets/bower_components/ev-emitter/README.md
-  - assets/bower_components/font-awesome/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-common-types/README.md
-  - assets/bower_components/ghosthunter/example/Index.html
-  - assets/bower_components/lightgallery/test/lightgallery.html
-  - assets/bower_components/masonry-layout/README.md
-  - assets/bower_components/imagesloaded/README.md
+  - Rakefile
+  - vendor/
+  - assets/css/vendor/
+  - assets/js/vendor/
+  - assets/img/vendor/
+  - node_modules
+  - LICENSE
+  - README.md
+  - CNAME
 
-
-destination: ./build
