@@ -1,0 +1,30 @@
+name: Build and Deploy to Github Pages
+
+on:
+  push:
+    branches:
+      - master # Here source code branch is `master`, it could be other branch
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Use GitHub Actions' cache to cache dependencies on servers
+      - uses: actions/cache@v4
+        with:
+          path: |
+            .asdf/**
+            vendor/bundle
+          key: ${{ runner.os }}-cache-${{ hashFiles('**/cache.key') }}
+          restore-keys: |
+            ${{ runner.os }}-cache-
+
+      # Use GitHub Deploy Action to build and deploy to Github
+      # For latest version: `jeffreytse/jekyll-deploy-action@master`
+      - uses: jeffreytse/jekyll-deploy-action@v0.6.0
+        with:
+          provider: "github" # Default is github
+          token: ${{ secrets.GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
+          branch: "gh-pages" # Default is gh-pages for github provider
