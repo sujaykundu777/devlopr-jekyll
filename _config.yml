@@ -164,6 +164,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-postcss-v2
 
   # jekyll admin is causing issues with github pages, so it's disabled by default
   # - jekyll-admin 
@@ -195,6 +196,9 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
+
+postcss:
+  cache: false
 
 exclude:
   - .sass-cache/
