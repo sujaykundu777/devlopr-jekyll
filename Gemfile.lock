@@ -17,41 +17,32 @@ GEM
       faraday-net_http (>= 2.0, < 3.5)
       json
       logger
-    faraday-net_http (3.4.1)
-      net-http (>= 0.5.0)
+    faraday-net_http (3.4.2)
+      net-http (~> 0.5)
     faraday-retry (2.3.2)
       faraday (~> 2.0)
-    ffi (1.17.2-arm64-darwin)
-    ffi (1.17.2-x86_64-darwin)
-    ffi (1.17.2-x86_64-linux-gnu)
-    ffi (1.17.2-x86_64-linux-musl)
+    ffi (1.17.2-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
-    google-protobuf (4.33.0-arm64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.33.0-x86_64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.33.0-x86_64-linux-gnu)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.33.0-x86_64-linux-musl)
+    google-protobuf (4.33.0-x64-mingw-ucrt)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
-    jekyll (4.3.4)
+    jekyll (4.4.1)
       addressable (~> 2.4)
+      base64 (~> 0.2)
       colorator (~> 1.0)
+      csv (~> 3.0)
       em-websocket (~> 0.5)
       i18n (~> 1.0)
       jekyll-sass-converter (>= 2.0, < 4.0)
       jekyll-watch (~> 2.0)
+      json (~> 2.6)
       kramdown (~> 2.3, >= 2.3.1)
       kramdown-parser-gfm (~> 1.0)
       liquid (~> 4.0)
-      mercenary (>= 0.3.6, < 0.5)
+      mercenary (~> 0.3, >= 0.3.6)
       pathutil (~> 0.9)
       rouge (>= 3.0, < 5.0)
       safe_yaml (~> 1.0)
@@ -73,7 +64,7 @@ GEM
     jgd (1.14.0)
       jekyll (>= 1)
       trollop (>= 2)
-    json (2.15.2)
+    json (2.16.0)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
@@ -102,13 +93,7 @@ GEM
     rexml (3.4.4)
     rouge (4.6.1)
     safe_yaml (1.0.5)
-    sass-embedded (1.93.2-arm64-darwin)
-      google-protobuf (~> 4.31)
-    sass-embedded (1.93.2-x86_64-darwin)
-      google-protobuf (~> 4.31)
-    sass-embedded (1.93.2-x86_64-linux-gnu)
-      google-protobuf (~> 4.31)
-    sass-embedded (1.93.2-x86_64-linux-musl)
+    sass-embedded (1.94.0-x64-mingw-ucrt)
       google-protobuf (~> 4.31)
     sawyer (0.9.3)
       addressable (>= 2.3.5)
@@ -121,36 +106,32 @@ GEM
     tzinfo-data (1.2025.2)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
-    uri (1.1.0)
-    wdm (0.1.1)
+    uri (1.1.1)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
-  arm64-darwin-23
-  arm64-darwin-24
-  universal-darwin-21
-  x86_64-linux
-  x86_64-linux-musl
+  x64-mingw-ucrt
 
 DEPENDENCIES
-  backports (~> 3.25.0)
+  backports (>= 3.25.0)
   base64
-  bundler (~> 2.7.2)
+  bundler (>= 2.7.2)
   csv
   faraday-retry
-  jekyll (~> 4.3.3)
-  jekyll-feed (~> 0.17.0)
-  jekyll-gist (~> 1.5.0)
-  jekyll-paginate (~> 1.1.0)
-  jekyll-seo-tag (~> 2.8.0)
-  jekyll-sitemap (~> 1.4.0)
-  jgd (~> 1.14.0)
+  jekyll (>= 4.3.3)
+  jekyll-feed (>= 0.17.0)
+  jekyll-gist (>= 1.5.0)
+  jekyll-paginate (>= 1.1.0)
+  jekyll-seo-tag (>= 2.8.0)
+  jekyll-sitemap (>= 1.4.0)
+  jgd (>= 1.14.0)
   kramdown
   puma
-  tzinfo (~> 2.0)
+  tzinfo (>= 2.0)
   tzinfo-data
-  wdm (~> 0.1.1)
-  webrick (~> 1.7)
+  wdm (>= 0.1.1)
+  webrick (>= 1.7)
 
 BUNDLED WITH
    2.7.2
