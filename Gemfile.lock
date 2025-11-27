@@ -123,7 +123,7 @@ GEM
     unicode-display_width (2.6.0)
     uri (1.1.0)
     wdm (0.1.1)
-    webrick (1.9.1)
+    webrick (1.9.2)
 
 PLATFORMS
   arm64-darwin-23
@@ -150,7 +150,7 @@ DEPENDENCIES
   tzinfo (~> 2.0)
   tzinfo-data
   wdm (~> 0.1.1)
-  webrick (~> 1.7)
+  webrick (~> 1.9)
 
 BUNDLED WITH
    2.7.2

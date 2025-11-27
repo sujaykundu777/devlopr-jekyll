@@ -39,5 +39,5 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.9"
 # gem "ffi", "~> 1.16.3"
