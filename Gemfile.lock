@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
-    backports (3.25.2)
+    backports (3.25.3)
     base64 (0.3.0)
     bigdecimal (3.3.1)
     colorator (1.1.0)
@@ -133,7 +133,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  backports (~> 3.25.0)
+  backports (~> 3.25.3)
   base64
   bundler (~> 2.7.2)
   csv
