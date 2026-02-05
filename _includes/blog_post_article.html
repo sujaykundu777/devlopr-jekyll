@@ -5,10 +5,10 @@
     <p class="post-summary">
       Posted by : {% if page.author %}
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name"><a href="{{site.url}}{{site.baseurl}}/blog/authors/{{page.author}}">{{ page.author }}</a></span> </span
+        <span itemprop="name"><a href="{{site.url}}{{site.baseurl}}/blog/authors/{{page.author}}/">{{ page.author }}</a></span> </span
       >{% endif %} on
       <time datetime="{{ page.date }}" itemprop="datePublished"
-        >{{ page.date | date: "%b %-d, %Y" }}</time
+        >{{ page.date | date: "%B %Y" }}</time
       >
     </p>
     <span
@@ -45,21 +45,7 @@
   </div>
 
   <div class="comments">
-    <script src="https://giscus.app/client.js"
-        data-repo="sujaykundu777/devlopr-jekyll"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkxMzk1NzQ1NTY="
-        data-category="General"
-        data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyODk4MTky"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-    </script>
+    <p>Comments placeholder. Add your preferred comment system here.</p>
   </div>
 
   {%- if site.hyvor_talk_website_id -%}

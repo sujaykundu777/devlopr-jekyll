@@ -1,9 +1,7 @@
 ---
-title: Our Sponsors
+title: Sponsors
 layout: page
 permalink: /sponsors/
 ---
 
-Thanks to all the amazing contributors and our Backers for the support.
-
-- [Dirish Mohan](https://dirishmohan.com)
+Sponsor list placeholder. Add sponsor names or acknowledgments here.

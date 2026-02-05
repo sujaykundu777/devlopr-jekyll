@@ -5,8 +5,8 @@ layout: default
 <div class="row">
   <div class="col-lg-4">
     <div class="card" id="profile-card">
-      <a href="/">
-        <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
+      <a href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/assets/img/{{ site.author_logo }}" class="profile-img" alt="Headshot of {{ site.author }}" />
       </a>
       <h1 class="profile-name">{{ site.title }}</h1>
       <p class="profile-bio">{{ site.subtitle }}</p>
@@ -81,14 +81,25 @@ layout: default
         >
           <i class="fab fa-flickr"></i>
         </a>
+        {% endif %} {% if site.googlescholar_username %}
+        <a
+          class="social-link"
+          href="https://scholar.google.com/citations?user={{ site.googlescholar_username }}"
+        >
+          <i class="ai ai-google-scholar"></i>
+        </a>
         {% endif %}
       </p>
 
       {% if site.author_location %}
       <h6><a href="https://www.google.com/maps/search/?api=1&query={{ site.author_location }}" class="social-link"><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</a></h6>
-      {% endif %} {% if site.author_email %}
-      <h6><a href="mailto:{{ site.author_email }}"><i class="fas fa-envelope" class="social-link"></i> {{ site.author_email }}</a></h6>
-      {% endif %} {% if site.author_website_url %}
+      {% endif %}
+
+      {% if site.author_email %}
+      <h6><i class="fas fa-envelope"></i> {{ site.author_email | replace: "@", " [at] " | replace: ".", " [dot] " }}</h6>
+      {% endif %}
+
+      {% if site.author_website_url %}
       <h6><a href="{{ site.author_website_url }}"><i class="fas fa-link" class="social-link"></i> {{ site.author_website_url }}</a></h6>
       {% endif %}
     </div>
@@ -108,9 +119,12 @@ layout: default
     {% endif %}
   </div>
   <div class="col-lg-8">
+    <div class="card">
+      {{ content }}
+    </div>
     {% if site.author_bio %}
     <div class="card">
-      <h1 class="card-title">About</h1>
+      <h1 class="card-title">Bio</h1>
       <p>{{ site.author_bio }}</p>
     </div>
     {% endif %} {% if site.show_author_project_details == true %}
@@ -122,7 +136,7 @@ layout: default
       <div class="row" id="project-card">
         <div class="col-md-6">
           <img
-            src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
+            src="{{ site.baseurl }}/assets/img/{{project.project_thumbnail}}"
             class="project-img"
           />
         </div>
@@ -149,7 +163,7 @@ layout: default
       <div class="row">
         <div class="col-md-2">
           <img
-            src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
+            src="{{ site.baseurl }}/assets/img/{{ exp.company_logo }}"
             class="company-logo"
           />
         </div>
@@ -171,7 +185,7 @@ layout: default
       <div class="row">
         <div class="col-md-2">
           <img
-            src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
+            src="{{ site.baseurl }}/assets/img/{{ detail.college_logo}}"
             class="company-logo"
           />
         </div>

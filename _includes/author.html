@@ -13,7 +13,7 @@
                 </div>
                 <div class="col-md-6">
                         <p class="author_bio">{{author.bio}}</p>
-                        <p>Email : {{author.email}}</p>
+                        <p>Email : {{author.email | replace: "@", " [at] " | replace: ".", " [dot] " }}</p>
                         <p>Website : {{author.site}}</p>
                         <p class="profile-links">
                             {% for network in author.social %}

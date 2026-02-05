@@ -1,18 +1,50 @@
 ---
 layout: default
 ---
-</div>
-<div class="container">
+
+<div class="container mt-5">
     <div class="row d-flex justify-content-center">
-        <div class="col-10 m10">
-            <div class="card">
-                <h1 class="card-title"> Contact us </h1>
-                <!-- Replace with contact-getform or contact-formspree -->
-                    {%- include contact-getform.html -%}
+        <div class="col-lg-8">
+            <div class="card shadow-sm p-4">
+                <h1 class="card-title text-center mb-4">Contact Information</h1>
+
+                <div class="contact-details">
+                    <div class="mb-4">
+                        <h5><i class="fas fa-envelope mr-2"></i> Email</h5>
+                        <p>
+                            <strong>{{ site.author_email | replace: "@", " [at] " | replace: ".", " [dot] " }}</strong>
+                        </p>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5><i class="fas fa-university mr-2"></i> Affiliation</h5>
+                        <p>
+                            Amirkabir University of Technology (Tehran Polytechnic)<br>
+                            Department of Physics / Department of Mathematics & Computer Science
+                        </p>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5><i class="fas fa-map-marker-alt mr-2"></i> Location</h5>
+                        <p>{{ site.author_location }}</p>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <p>Feel free to reach out for research collaborations or academic inquiries.</p>
+                        <div class="social-icons">
+                            {% if site.github_username %}
+                            <a href="https://github.com/{{ site.github_username }}" class="btn btn-outline-dark mx-1"><i class="fab fa-github"></i> GitHub</a>
+                            {% endif %}
+                            {% if site.linkedin_username %}
+                            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="btn btn-outline-primary mx-1"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                            {% endif %}
+                            {% if site.twitter_username %}
+                            <a href="https://twitter.com/{{ site.twitter_username }}" class="btn btn-outline-info mx-1"><i class="fab fa-twitter"></i> Twitter</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-
-

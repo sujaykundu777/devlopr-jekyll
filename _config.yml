@@ -1,10 +1,11 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
-description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+title: Rafe Sharif
+subtitle: Academic Portfolio & Research Lab
+description: >-
+  Physics & CS Student | Scientific Computing | Machine Learning | Computational Astrophysics
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://rafe-sharif.github.io"
+baseurl: "/portfolio" # Project page deployment for rafe-sharif/portfolio.
+email: rafe.sharif.moghaddam@gmail.com
 
 # Navigation
 urls:
@@ -12,93 +13,83 @@ urls:
       url: /
     - text: About
       url: /about
+    - text: Projects
+      url: /projects
+    - text: Publications
+      url: /publications
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
     - text: Contact
       url : /contact
 
 
-# Edit Author details (For multi authors check _data/authors.yml)
-
+# Edit Author details
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+author: Rafe Sharif
+author_bio: B.Sc. Physics & CS Minor at AUT. Specializing in computational modeling, tensor methods, and data-driven astrophysics.
+author_email: "rafe.sharif.moghaddam@gmail.com"
+author_location: Tehran, Iran
+author_website_url: "https://rafe-sharif.github.io"
+typewrite-text: Physics & CS Student | Computational Astrophysics | Machine Learning
+hero_cover_img: sample_cover.jpg # Keep sample until user replaces
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Amirkabir University of Technology
+              designation: Research Assistant (Astrophysics Lab)
+              description: Developed MST-GMM probabilistic workflows for star cluster membership inference using Gaia DR3 data.
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Amirkabir University of Technology (Math & CS Dept)
+              designation: Teaching Assistant | Numerical Linear Algebra (MA332)
+              description: Fall 2024 (Past). Instructing students in matrix computations and Python under Prof. M. Dehghan.
+              visibility: true
+            - company_name: Ikaf LLC
+              designation: Patent Drafter
+              description: Drafting patent applications in physics/engineering and conducting Freedom-to-Operate analyses.
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_name: Amirkabir University of Technology
+                college_degree: B.Sc. in Physics (Minor in Computer Science)
+                description: "GPA: 3.82/4.00 (Physics) | 4.00/4.00 (CS Minor). Thesis: Open Star Clusters using Gaia Data."
                 visibility: true
 
-# Projects
+# Projects (Updated from projects.md content)
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: gamershub.png # Update with real asset later
+                project_title: MST-GMM Star Cluster Classifier
+                project_description: Probabilistic membership inference using Minimum Spanning Trees and Gaussian Mixture Models on Gaia DR3 data.
+                project_url: /projects
                 visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_thumbnail: hack4r.PNG # Update with real asset later
+                project_title: Supernova Tracing in Collinder 69
+                project_description: Kinematic analysis of the Lambda Orionis region to detect historical supernova signatures.
+                project_url: /projects
+                visibility: true
+              - project_thumbnail: sample_cover.jpg
+                project_title: Tensor Linear Solvers
+                project_description: High-dimensional tensor linear system solvers using Einstein summation notation.
+                project_url: /projects
                 visibility: true
 
 # social links
-twitter_username: xplor4r
-github_username:  sujaykundu777
-instagram_username: xplor4r
-# facebook_username: johndoe
-# linkedin_username: johndoe
-# behance_username: johndoe
-# medium_username: johndoe
-# telegram_username: johndoe
-# dribbble_username: johndoe
-# flickr_username: johndoe
-
-#for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
-
-# disqus_shortname: sujay-kundu
-# hyvor_talk_website_id: 476
+twitter_username: rafe_sharif
+github_username: rafe-sharif
+linkedin_username: rafe-sharif
+googlescholar_username: # Add Google Scholar ID if known
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+# wakatime_username:
 
-# mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+# mailchimp embedded form url (newsletter) - Commented out to avoid generic errors
+# mailchimp_form_url:
 
-# contact form - (choose formspress or getform)
-# getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+# contact form
+formspree_email: rafe.sharif.moghaddam@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
+olvy_organization: ""
 olvy_widget_type: sidebar
 
 # syntax highlighter
@@ -115,22 +106,6 @@ show_author_project_details: true
 paginate: 4
 per_page: 4
 paginate_path: "/blog/page/:num/"
-
-# minify
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
-#   ignore:
-#     envs: ['development']
-
-# Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
 
 collections:
   products:
@@ -150,7 +125,7 @@ defaults:
       type: authors
     values:
       layout: author
-      permalink: /blog/authors/:slug
+      permalink: /blog/authors/:slug/
   -
     scope:
       path: 'assets/**'
@@ -164,33 +139,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-
-  # jekyll admin is causing issues with github pages, so it's disabled by default
-  # - jekyll-admin 
-
-# Jekyll Admin Config
-# jekyll_admin:
-  # hidden_links:
-  #   - posts
-  #   - pages
-  #   - staticfiles
-  #   - datafiles
-  #   - configuration
-  # homepage: "posts"
-
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-
-### Switching Deployment Strategy (in DEPLOY_STRATEGY) file change the key accordingly:
-# none - For no default
-# gh-pages - For Github Pages
-# firebase - For Firebase Hosting
 
 sass:
   sass_dir: _sass

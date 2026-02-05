@@ -13,7 +13,7 @@ layout: default
                               <!-- <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img"> -->
                               <h4 class="card-title">{{ post.title }}</h4>
 
-                              <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
+                              <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%B %Y" }}</h6>
                               <p class="card-text">{{ post.summary }} </p>
 
                               <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-dark btn-lg">Read</a>
@@ -35,19 +35,19 @@ layout: default
                 <li class="pagination-link disabled"><span aria-hidden="true">&laquo;</span></li>
               {% endif %}
 
-              <li class="pagination-link" ><a href="/blog">First</a></li>
+              <li class="pagination-link" ><a href="{{ '/blog/' | prepend: site.baseurl | replace: '//', '/' }}">First</a></li>
 
               {% for page in (1..paginator.total_pages) %}
                 {% if page == paginator.page %}
              <li class="disabled pagination-link"><span><b>{{ page }}</b></span></li>
                 {% elsif page == 1 %}
-                  <li class="pagination-link"><a href="/blog">{{ page }}</a></li>
+                  <li class="pagination-link"><a href="{{ '/blog/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
                 {% else %}
                   <li class="pagination-link"><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
                 {% endif %}
               {% endfor %}
 
-              <li class="pagination-link"><a href="/blog/page/{{ paginator.total_pages }}/#/">Last</a></li>
+              <li class="pagination-link"><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages }}">Last</a></li>
 
               {% if paginator.next_page %}
                 <li class="pagination-link"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
