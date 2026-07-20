@@ -3,24 +3,23 @@ subtitle: A Portfolio Jekyll Theme Built for Developers
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://pppbin/pppbin.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-    - text: Home
-      url: /
-    - text: About
-      url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
-
+  - text: Home
+    url: /
+  - text: About
+    url: /about
+  - text: Blog
+    url: /blog
+  - text: Gallery
+    url: /gallery
+  - text: Shop
+    url: /shop
+  - text: Contact
+    url: /contact
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
@@ -35,44 +34,44 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true
+  - company_name: Google
+    company_logo: google.png
+    company_url: https://google.com
+    designation: Software Engineer
+    description: Worked on various Google Products
+    visibility: true
+  - company_name: Microsoft
+    company_logo: microsoft.png
+    company_url: https://microsoft.com
+    designation: Azure Developer
+    description: Worked on various Azure Cloud Products
+    visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: true
+  - college_logo: mit.png
+    college_name: MIT
+    college_url: https://mit.org
+    college_degree: CS Engineer
+    description: Bachelor of Technology
+    visibility: true
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
+  - project_thumbnail: gamershub.png
+    project_title: Gamers Hub
+    project_description: A Platform built for Gamers and Game Devs
+    project_url: https://gamershub.in
+    visibility: true
+  - project_thumbnail: hack4r.PNG
+    project_title: Hack4r
+    project_description: A Platform built for Hackers and Penetration Testers
+    project_url: https://hack4r.com
+    visibility: true
 
 # social links
 twitter_username: xplor4r
-github_username:  sujaykundu777
+github_username: sujaykundu777
 instagram_username: xplor4r
 # facebook_username: johndoe
 # linkedin_username: johndoe
@@ -139,21 +138,18 @@ collections:
     output: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "gallery"
     values:
       permalink: /:path/:basename:output_ext
-  -
-    scope:
+  - scope:
       path: ""
       type: authors
     values:
       layout: author
       permalink: /blog/authors/:slug
-  -
-    scope:
-      path: 'assets/**'
+  - scope:
+      path: "assets/**"
     values:
       sitemap: false
 
@@ -166,18 +162,17 @@ plugins:
   - jekyll-feed
 
   # jekyll admin is causing issues with github pages, so it's disabled by default
-  # - jekyll-admin 
+  # - jekyll-admin
 
 # Jekyll Admin Config
 # jekyll_admin:
-  # hidden_links:
-  #   - posts
-  #   - pages
-  #   - staticfiles
-  #   - datafiles
-  #   - configuration
-  # homepage: "posts"
-
+# hidden_links:
+#   - posts
+#   - pages
+#   - staticfiles
+#   - datafiles
+#   - configuration
+# homepage: "posts"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -232,6 +227,5 @@ exclude:
   - assets/bower_components/lightgallery/test/lightgallery.html
   - assets/bower_components/masonry-layout/README.md
   - assets/bower_components/imagesloaded/README.md
-
 
 destination: ./build
