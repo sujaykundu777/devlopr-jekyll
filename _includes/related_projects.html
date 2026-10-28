@@ -1,0 +1,17 @@
+{%- comment -%}
+  Strengths 페이지의 "관련 프로젝트" 링크.
+  _data/projects.yml 에서 strengths 목록에 include.strength 가 있는 프로젝트를 모아서 보여줍니다.
+  사용: {% include related_projects.html strength="결과에 끝까지 책임" %}
+{%- endcomment -%}
+{%- assign related = site.data.projects | where_exp: "project", "project.strengths contains include.strength" -%}
+{%- if jekyll.environment == "production" -%}
+  {%- assign related = related | where_exp: "project", "project.draft != true" -%}
+{%- endif -%}
+{%- if related.size > 0 -%}
+<div class="related-projects">
+  <strong>관련 프로젝트</strong><br />
+  {%- for project in related %}
+  <a href="{% if project.writeup %}{{ project.writeup }}{% else %}/projects/#{{ project.id }}{% endif %}">{{ project.name }}</a>
+  {%- endfor %}
+</div>
+{%- endif -%}

@@ -1,0 +1,81 @@
+- name: Data Pipeline
+  icon: "fa-solid fa-diagram-project"
+  tags:
+    - name: Kafka
+      color: "#4A4A4A"
+    - name: Logstash
+      color: "#F0BF24"
+    - name: ElasticSearch
+      color: "#00AEEF"
+    - name: MongoDB
+      color: "#47A248"
+    - name: MySQL
+      color: "#4479A1"
+
+- name: ETL / Batch Processing
+  icon: "fa-solid fa-code-branch"
+  tags:
+    - name: Python
+      color: "#3776AB"
+    - name: Pandas
+      color: "#816BFF"
+    - name: PySpark
+      color: "#E25A1C"
+    - name: Athena SQL
+      color: "#FF9900"
+    - name: CTAS
+      color: "#FF9900"
+    - name: Scheduler
+      color: "#BBBBBB"
+
+- name: Backend Development
+  icon: "fa-solid fa-server"
+  tags:
+    - name: Python
+      color: "#3776AB"
+    - name: Node.js
+      color: "#68A063"
+    - name: REST API
+      color: "#2299FF"
+
+- name: DevOps & Automation
+  icon: "fa-solid fa-gear"
+  tags:
+    - name: Jenkins
+      color: "#D33833"
+    - name: Bash
+      color: "#00FF88"
+
+- name: Cloud & Infra
+  icon: "fa-solid fa-cloud"
+  tags:
+    - name: AWS S3
+      color: "#FF9900"
+    - name: EC2
+      color: "#FF9900"
+    - name: IAM
+      color: "#FF9900"
+    - name: CloudWatch
+      color: "#FF9900"
+    - name: Kafka Cluster
+      color: "#4A4A4A"
+
+- name: Monitoring & BI
+  icon: "fa-solid fa-chart-line"
+  tags:
+    - name: Metabase
+      color: "#509EE3"
+    - name: Tableau
+      color: "#E97627"
+    - name: Kibana
+      color: "#E8478B"
+
+- name: Programming Languages
+  icon: "fa-solid fa-code"
+  tags:
+    - name: Python
+      color: "#3776AB"
+    - name: SQL
+      color: "#00CCFF"
+    - name: Node.js
+      color: "#68A063"

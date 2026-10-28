@@ -1,0 +1,112 @@
+/* =========================
+   Global Dark Theme
+========================= */
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+
+a,
+a:hover {
+  color: #58a6ff;
+}
+
+.section-title,
+.section-title span {
+  color: #e6edf3;
+}
+
+/* 카드 공통 배경 */
+.box-shadow-full,
+.portfolio-section {
+  background: #161b22;
+  border-radius: 10px;
+  border: 1px solid #30363d;
+}
+
+
+/* =========================
+   Skills Section Layout
+========================= */
+#skills {
+  margin-top: 60px;
+}
+
+.skills-inner {
+  padding-left: 22px;   /* ← Strengths처럼 들여쓰기 */
+  border-left: 2px solid #30363d;
+}
+
+
+/* =========================
+   Skill Card
+========================= */
+.skill-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+
+  padding: 18px;
+  background: #161b22;
+
+  border: 1px solid #30363d;
+  border-radius: 4px;   /* ← 각진 네모 */
+
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+}
+
+.skill-card:hover {
+  background: #1c2128;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+
+
+/* =========================
+   Skill Icon
+========================= */
+.skill-icon {
+  margin-top: 4px;
+  color: #8b949e;
+}
+
+
+/* =========================
+   Skill Content
+========================= */
+.skill-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* =========================
+   Skill Badge (각진 네모)
+========================= */
+#skills .skill-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+
+  padding: 6px 10px !important;
+  margin: 6px 8px 0 0 !important;
+
+  border-radius: 3px !important;   /* ← 핵심: 각진 네모 */
+  border: 1px solid rgba(255,255,255,0.2) !important;
+
+  background: rgba(255,255,255,0.06) !important;
+
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+
+  white-space: nowrap !important;
+}
+
+#skills .skill-badge:hover {
+  background: rgba(255,255,255,0.12) !important;
+}
+

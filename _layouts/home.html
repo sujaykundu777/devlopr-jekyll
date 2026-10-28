@@ -2,15 +2,171 @@
 layout: full-width
 ---
 
-<script>
-  $(document).ready(function() {
-    $("#typewriteText").typewrite({
-      actions: [{ type: "{{site.typewrite-text}}" }]
-    });
-  });
-</script>
-    <!-- hero section-->
-    {%- include hero.html -%}
-    <div class="col-lg-8 offset-md-2">
-      {%- include recent_articles.html -%}
+<!-- Hero Section -->
+<section id="hero">
+  <div class="container text-center">
+    <h1 class="hero-title">
+      안정적이고 확장 가능한 데이터 시스템을 설계하는 데이터 엔지니어
+    </h1>
+
+    <p class="hero-subtitle">
+      실제 서비스 환경에서 대규모 로그와 트래픽을 처리하며,
+      신뢰성과 운영성을 중심으로 데이터 파이프라인과 분석 시스템을 구축해왔습니다.
+    </p>
+
+    <div class="d-flex justify-content-center flex-wrap hero-badges">
+      <span class="badge badge-pill badge-etl">ETL</span>
+      <span class="badge badge-pill badge-analytics">Data Analytics</span>
+      <span class="badge badge-pill badge-cloud">Cloud Infra</span>
     </div>
+
+    <a href="#projects" class="btn hero-cta btn-lg">
+      View My Projects
+    </a>
+  </div>
+</section>
+
+<section class="section-padding">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10">
+
+        <!-- Architecture -->
+        <section id="architecture" class="section-padding mt-5">
+          <div class="container p-0">
+            <h2 class="mb-4">Architecture</h2>
+
+            <!-- 다이어그램이 어두운 배경 기준으로 그려져 있어 라이트/다크 모두 어두운 카드에 표시 (main.scss) -->
+            <div class="card p-3 shadow-sm">
+              <a href="{{ site.baseurl }}/assets/img/architecture/data_pipeline.png" target="_blank" rel="noopener" title="원본 크기로 보기">
+                <img
+                  src="{{ site.baseurl }}/assets/img/architecture/data_pipeline.png"
+                  alt="End-to-End Data Pipeline Architecture"
+                  class="img-fluid"
+                />
+              </a>
+              <p class="small text-muted text-center mt-3 mb-0">
+                Kafka → Logstash → S3 / Elasticsearch<br/>
+                → Athena &amp; MongoDB Aggregation<br/>
+                → MySQL (Aggregated Metrics)<br/>
+                → Metabase
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Featured Projects (Top 3): _data/projects.yml 에서 featured: true 인 항목 -->
+        {% assign featured_projects = site.data.projects | where: "featured", true %}
+        {% comment %} draft: true 항목은 배포(production) 빌드에서 숨김 {% endcomment %}
+        {% if jekyll.environment == "production" %}
+          {% assign featured_projects = featured_projects | where_exp: "project", "project.draft != true" %}
+        {% endif %}
+        <section id="projects" class="section-padding mt-5">
+          <div class="container p-0">
+            <h2 class="mb-4">Featured Projects</h2>
+
+            <div class="row">
+              {% for project in featured_projects limit: 3 %}
+              <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow-sm project-card">
+                  {% if project.image %}
+                  <img src="{{ project.image }}" class="card-img-top" alt="{{ project.name }}">
+                  {% endif %}
+
+                  <div class="card-body d-flex flex-column">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <h5 class="card-title">{{ project.name }}</h5>
+                      {% if project.draft or project.status %}
+                      <div class="ml-2 flex-shrink-0">
+                        {% if project.draft %}<span class="badge badge-danger">Draft</span>{% endif %}
+                        {% if project.status %}<span class="badge badge-status">{{ project.status }}</span>{% endif %}
+                      </div>
+                      {% endif %}
+                    </div>
+                    <p class="card-text">{{ project.descr }}</p>
+
+                    <div class="mb-3">
+                      {% for tag in project.tags %}
+                      <span class="badge badge-pill project-tag" data-tag="{{ tag }}">{{ tag }}</span>
+                      {% endfor %}
+                    </div>
+
+                    {% comment %} 상세 페이지(writeup)가 있으면 그쪽으로, 없으면 Projects 페이지의 해당 카드로 이동 {% endcomment %}
+                    {% if project.writeup %}
+                      {% assign project_link = project.writeup %}
+                    {% else %}
+                      {% assign project_link = "/projects/#" | append: project.id %}
+                    {% endif %}
+                    <div class="mt-auto d-flex align-items-center">
+                      {% if project.source %}
+                      <a href="{{ project.source }}" class="btn btn-sm btn-outline-primary mr-2" target="_blank" rel="noopener">
+                        View Code
+                      </a>
+                      {% endif %}
+                      {% if project.demo %}
+                      <a href="{{ project.demo }}" class="btn btn-sm btn-outline-success mr-2" target="_blank" rel="noopener">
+                        Live Demo
+                      </a>
+                      {% endif %}
+                      <a href="{{ project_link }}" class="btn btn-sm btn-outline-secondary ml-auto">
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="text-center mt-3">
+              <a href="/projects" class="btn btn-outline-primary">
+                See All Projects
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience summary (Home) -->
+        <section id="experience" class="section-padding mt-5 mb-5">
+          <div class="container">
+            <h2 class="mb-4">Experience</h2>
+
+            <div class="experience-content text-muted" style="line-height: 1.8; max-width: 900px;">
+              <p>
+                7년 이상 서버 엔지니어 및 데이터 엔지니어로 근무하며, 실제 서비스 환경에서
+                <strong>안정적이고 확장 가능한 데이터 파이프라인과 분석 시스템</strong>을 설계·운영해왔습니다.
+              </p>
+
+              <p>
+                커리어 초반에는 게임 서버 엔지니어로 근무하며 Node.js 기반 서버 기능 개발, 운영툴 개발, 배포 자동화를 경험했습니다.
+                이 과정에서 <strong>데이터가 생성되는 지점을 이해하는 것</strong>이 이후 데이터 파이프라인 설계의 중요한 기반이 되었습니다.
+              </p>
+
+              <p>
+                이후 Kafka–Logstash–S3/Elasticsearch–Athena–MongoDB–MySQL 기반의 <strong>엔드투엔드 데이터 파이프라인</strong>을
+                직접 설계·구현·운영하며, 실시간 모니터링과 배치 분석 워크로드를 분리한 구조로 대규모 로그 트래픽 환경에서도 안정성을 확보했습니다.
+              </p>
+
+              <p>
+                단순한 데이터 처리에 그치지 않고 운영 안정성·비용 효율성·운영 편의성을 설계 기준으로 삼아 배치 자동화, 모니터링, 알림 체계를 구축했습니다.
+                또한 콘텐츠별 리셋 시간 차이로 발생하던 지표 왜곡 문제를 해결하여 <strong>지표 정합성을 100% 확보</strong>한 경험이 있습니다.
+              </p>
+
+              <p>
+                Metabase 기반 데이터 조회 환경을 구축하여 기획·운영팀이 개발팀의 도움 없이도 지표를 확인할 수 있도록 지원했고,
+                이를 통해 조직 전체의 데이터 활용성과 의사결정 속도를 개선했습니다.
+              </p>
+            </div>
+          </div>
+          <div class="text-center mt-4">
+            <a href="/experience" class="btn btn-sm btn-outline-secondary">
+              View Full Experience
+            </a>
+          </div>
+
+        </section>
+
+      </div>
+    </div>
+  </div>
+</section>

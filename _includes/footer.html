@@ -1,5 +1,15 @@
-<footer>
-    <p> Powered by<a href="https://github.com/sujaykundu777/devlopr-jekyll"> devlopr jekyll</a>. Hosted with <a href="https://pages.github.com">Github Pages</a>. Subscribe via
-        <a href="{{ " /feed.xml " | prepend: site.baseurl }}">RSS</a>
-    </p>
+<footer class="footer pt-5 pb-5 text-center">
+  <div class="container">
+    <div class="socials-media">
+      <ul class="list-unstyled">
+        {% if site.github_username %}
+        <li class="d-inline-block ml-1 mr-1"><a href="https://github.com/{{ site.github_username }}" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+        {% endif %}
+      </ul>
+    </div>
+
+    <p>© {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
+    
+    <p class="small text-muted">Data Engineering Portfolio</p>
+  </div>
 </footer>

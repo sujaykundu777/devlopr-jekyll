@@ -1,0 +1,33 @@
+<section id="skills" class="section-padding mt-5">
+  <h2 class="section-title mb-4">
+    🛠 Tech Stack
+  </h2>
+
+  <!-- Strengths처럼 안쪽으로 한 번 더 들여쓰기 -->
+  <div class="skills-inner">
+    <div class="row">
+      {% for skill in site.data.skills %}
+        <div class="col-md-6 mb-4">
+          <div class="skill-card">
+            {% if skill.icon %}
+              <i class="{{ skill.icon }} fa-lg skill-icon"></i>
+            {% endif %}
+
+            <div class="skill-content">
+              <h5 class="skill-title">{{ skill.name }}</h5>
+
+              <div class="skill-tags">
+                {% for tag in skill.tags %}
+                  <span class="skill-badge"
+                        style="background: {{ tag.color }}22; color: {{ tag.color }};">
+                    {{ tag.name }}
+                  </span>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,22 @@
+{%- comment -%}
+  프로젝트 상세 페이지의 그림 칸 (설계도, 인프라 구성도 등).
+  src 경로에 파일이 있으면 그림을 보여주고, 아직 없으면 로컬 미리보기에서만 점선 상자로 자리를 표시합니다.
+  배포(production) 빌드에서는 파일이 없는 그림 칸을 아예 출력하지 않습니다.
+  사용: {% include project_figure.html src="/assets/img/projects/lrs/architecture.png" caption="LRS 아키텍처" %}
+{%- endcomment -%}
+{%- assign figure_file = site.static_files | where: "path", include.src | first -%}
+{%- if figure_file -%}
+<figure class="project-figure">
+  <a href="{{ include.src | relative_url }}" target="_blank" rel="noopener" title="원본 크기로 보기">
+    <img src="{{ include.src | relative_url }}" alt="{{ include.alt | default: include.caption }}" class="img-fluid" loading="lazy" />
+  </a>
+  {%- if include.caption %}
+  <figcaption>{{ include.caption }}</figcaption>
+  {%- endif %}
+</figure>
+{%- elsif jekyll.environment != "production" -%}
+<div class="project-figure-placeholder">
+  <strong>그림 자리: {{ include.caption | default: include.alt }}</strong><br />
+  <code>{{ include.src }}</code> 에 파일을 넣으면 여기에 표시됩니다.
+</div>
+{%- endif -%}

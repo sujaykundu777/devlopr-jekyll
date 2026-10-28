@@ -1,10 +1,12 @@
 ---
 layout: default
 ---
-<div class="row justify-content-center">
+<!-- mx-0: .container 없이 쓰인 .row의 음수 마진 때문에 모바일에서 가로 스크롤이 생기는 것 방지 -->
+<div class="row justify-content-center mx-0">
     <div class="col-lg-12">
             <div class="card">
-                    <div class="col-md-8 offset-md-2">
+                    <!-- front matter에 wide: true 를 주면 본문을 넓게 (카드 그리드 페이지용) -->
+                    <div class="{% if page.wide %}col-12{% else %}col-md-8 offset-md-2{% endif %}">
                       {{ content }}
                      </div>
                </div>

@@ -1,0 +1,111 @@
+# 미래엔 (2026.05 ~) 프로젝트: 초안(draft) 상태라 배포 사이트에서는 숨겨져 있습니다.
+# 공개하려면 내용을 채운 뒤 draft 줄을 지우고, projects/<id>.md 의 published: false 줄도 지우세요.
+- name: LRS 구축
+  id: lrs # /projects/#lrs 링크용
+  draft: true
+  featured: true
+  company: 미래엔
+  period: 2026.05 – 현재
+  status: 진행 중
+  role: "TODO: 맡은 역할 (예: 수집·적재 파이프라인 설계·구축, 팀 N명 중 데이터 담당)"
+  one_liner: "TODO: 한 줄 요약"
+  descr: >
+    TODO: 어떤 학습 데이터를 어떻게 모으고, 저장하고, 활용하는지 2~3문장으로
+  strengths: [] # 해당하는 강점 추가: 결과에 끝까지 책임 / 대규모 로그를 구조로 해결 / 운영/협업을 고려한 설계
+  tags:
+    - LRS
+  source:
+  demo:
+  writeup: /projects/lrs/
+
+- name: AI 문제 생성
+  id: ai-question-generation # /projects/#ai-question-generation 링크용
+  draft: true
+  featured: true
+  company: 미래엔
+  period: 2026.05 – 현재
+  status: 진행 중
+  role: "TODO: 맡은 역할 (예: 생성용 데이터 파이프라인·품질 검증 담당)"
+  one_liner: "TODO: 한 줄 요약"
+  descr: >
+    TODO: 어떤 데이터로 어떤 문제를 생성하는지, 그중 데이터 엔지니어로서 맡은 부분을 2~3문장으로
+  strengths: [] # 해당하는 강점 추가: 결과에 끝까지 책임 / 대규모 로그를 구조로 해결 / 운영/협업을 고려한 설계
+  tags:
+    - AI
+  source:
+  demo:
+  writeup: /projects/ai-question-generation/
+
+- name: 대용량 로그 파이프라인 재설계
+  id: log-pipeline # /projects/#log-pipeline 링크용
+  featured: true
+  one_liner: "운영 장애/유실을 줄이기 위해 End-to-End 로그 수집 구조를 재설계"
+  descr: >
+    Kafka–Logstash–S3/Elasticsearch로 흐름을 분리해 운영 DB 부하와 단일 병목을 제거하고,
+    장애 상황에서도 수집이 지속되도록 안정성을 중심으로 파이프라인을 개선했습니다.
+  strengths:
+    - 결과에 끝까지 책임
+    - 대규모 로그를 구조로 해결
+  tags:
+    - Kafka
+    - Logstash
+    - S3
+    - Elasticsearch
+    - Reliability
+  source: 
+  demo:
+  writeup: # 상세 페이지(케이스 스터디)를 만들면 경로 입력 (예: /projects/log-pipeline/)
+
+- name: Athena 기반 서버리스 분석 환경 구축
+  id: athena-analytics # /projects/#athena-analytics 링크용
+  featured: true
+  one_liner: "RDB 분석 병목을 S3+Athena로 전환해 비용/성능 개선"
+  descr: >
+    대규모 로그 분석 시 발생하던 쿼리 병목과 운영 DB 부하를 줄이기 위해
+    S3 + Athena 기반의 서버리스 분석 환경을 구축하고 집계 체계를 고도화했습니다.
+  strengths:
+    - 대규모 로그를 구조로 해결
+    - 운영/협업을 고려한 설계
+  tags:
+    - Athena
+    - S3
+    - Presto
+    - Cost
+  source:
+  demo:
+  writeup: # 상세 페이지(케이스 스터디)를 만들면 경로 입력 (예: /projects/athena-analytics/)
+
+- name: Metabase 데이터 조회 환경 구축
+  id: metabase # /projects/#metabase 링크용
+  featured: true
+  one_liner: "운영/기획팀이 직접 지표를 확인할 수 있도록 셀프서브 BI 제공"
+  descr: >
+    기획·운영팀의 데이터 접근성을 개선하기 위해 Metabase 기반 조회 환경을 구축하고,
+    공통 지표/쿼리 템플릿을 제공해 커뮤니케이션 비용을 줄였습니다.
+  strengths:
+    - 운영/협업을 고려한 설계
+  tags:
+    - Metabase
+    - BI
+    - Metrics
+  source:
+  demo:
+  writeup: # 상세 페이지(케이스 스터디)를 만들면 경로 입력 (예: /projects/metabase/)
+
+- name: 배치/백업/모니터링 자동화
+  id: ops-automation # /projects/#ops-automation 링크용
+  featured: false
+  one_liner: "반복 운영 작업을 자동화해 안정성과 대응 속도를 개선"
+  descr: >
+    배치 스케줄링, 백업 정책, 모니터링/알림을 자동화해 운영 리스크를 낮추고
+    장애 감지 및 대응 시간을 단축했습니다.
+  strengths:
+    - 결과에 끝까지 책임
+    - 운영/협업을 고려한 설계
+  tags:
+    - Automation
+    - Monitoring
+    - Operations
+  source:
+  demo:
+  writeup: # 상세 페이지(케이스 스터디)를 만들면 경로 입력 (예: /projects/ops-automation/)

@@ -1,0 +1,101 @@
+<section id="projects" class="section-padding mt-5">
+  <div class="container p-0">
+    <div class="d-flex align-items-end justify-content-between flex-wrap">
+      <div>
+        <h2 class="mb-2">{{ include.title | default: "Projects" }}</h2>
+        <p class="text-muted mb-0">
+          Each project demonstrates my strengths in reliability, scalability, and operability.
+        </p>
+      </div>
+
+      {% if include.show_all_link != false %}
+      <a class="btn btn-sm btn-outline-primary" href="/projects/">
+        See All Projects
+      </a>
+      {% endif %}
+    </div>
+
+    <div class="row mt-4">
+      {% assign items = site.data.projects %}
+      {% comment %} draft: true 항목은 배포(production) 빌드에서 숨김 {% endcomment %}
+      {% if jekyll.environment == "production" %}
+        {% assign items = items | where_exp: "project", "project.draft != true" %}
+      {% endif %}
+      {% if include.only_featured == true %}
+        {% assign items = items | where: "featured", true %}
+      {% endif %}
+
+      {% if include.limit %}
+        {% assign items = items | slice: 0, include.limit %}
+      {% endif %}
+
+      {% for project in items %}
+      <div class="col-md-6 mb-4">
+        {% comment %} id: Home / Strengths 페이지에서 /projects/#<id> 로 연결 {% endcomment %}
+        <div class="card h-100 shadow-sm project-anchor" id="{{ project.id }}">
+
+          {% if project.image %}
+          <img src="{{ project.image }}" class="card-img-top" alt="{{ project.name }}">
+          {% endif %}
+
+          <div class="card-body d-flex flex-column">
+            <div class="d-flex justify-content-between align-items-start">
+              <h5 class="card-title mb-2">{{ project.name }}</h5>
+              <div class="ml-2 flex-shrink-0">
+                {% if project.draft %}<span class="badge badge-danger">Draft</span>{% endif %}
+                {% if project.status %}<span class="badge badge-status">{{ project.status }}</span>{% endif %}
+                {% if project.featured %}<span class="badge badge-warning">Featured</span>{% endif %}
+              </div>
+            </div>
+
+            {% if project.one_liner %}
+            <p class="text-muted mb-2">{{ project.one_liner }}</p>
+            {% endif %}
+
+            <p class="card-text mb-3">{{ project.descr }}</p>
+
+            {% if project.strengths and project.strengths.size > 0 %}
+            <div class="mb-3">
+              <div class="small text-muted mb-1">Proves strengths</div>
+              {% for s in project.strengths %}
+              <span class="badge badge-secondary mr-1 mb-1">{{ s }}</span>
+              {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if project.tags and project.tags.size > 0 %}
+            <div class="mb-3">
+              {% for tag in project.tags %}
+              <span class="badge badge-secondary mr-1 mb-1">{{ tag }}</span>
+              {% endfor %}
+            </div>
+            {% endif %}
+
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <div class="d-flex flex-wrap">
+                {% if project.source %}
+                <a href="{{ project.source }}" class="btn btn-sm btn-outline-primary mr-2" target="_blank" rel="noopener">
+                  View Code
+                </a>
+                {% endif %}
+                {% if project.demo %}
+                <a href="{{ project.demo }}" class="btn btn-sm btn-outline-success mr-2" target="_blank" rel="noopener">
+                  Live Demo
+                </a>
+                {% endif %}
+              </div>
+
+              {% if project.writeup %}
+              <a href="{{ project.writeup }}" class="btn btn-sm btn-outline-secondary">
+                Read More
+              </a>
+              {% endif %}
+            </div>
+
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -3,6 +3,329 @@
 
 @import "devlopr";
 
-.example-main {
-  color: blue;
+/* =========================
+   Theme tokens
+   라이트가 기본값이고, 다크는 mode-switcher.js 가 <html data-theme="dark"> 를 붙였을 때 적용됩니다.
+   (테마는 html.dark 같은 클래스를 쓰지 않으므로 다크 스타일은 항상 html[data-theme="dark"] 기준으로 작성)
+========================= */
+html {
+  --hero-bg: #f8f9fa;
+  --hero-cta-border: rgba(0, 0, 0, 0.35);
+  --hero-cta-hover-bg: rgba(0, 0, 0, 0.06);
+  --project-tag-bg: rgba(0, 0, 0, 0.04);
+  --project-tag-border: rgba(0, 0, 0, 0.12);
+  --project-tag-color: #343a40;
+  --timeline-line-color: rgba(0, 0, 0, 0.12);
+  --timeline-text-color: #495057;
+  --related-link-border: rgba(100, 100, 100, 0.35);
+}
+
+html[data-theme="dark"] {
+  --hero-bg: #1c1c1e;
+  --hero-cta-border: rgba(255, 255, 255, 0.55);
+  --hero-cta-hover-bg: rgba(255, 255, 255, 0.12);
+  --project-tag-bg: rgba(255, 255, 255, 0.06);
+  --project-tag-border: rgba(255, 255, 255, 0.16);
+  --project-tag-color: #e6edf3;
+  --timeline-line-color: rgba(255, 255, 255, 0.18);
+  --timeline-text-color: #adb5bd;
+  --related-link-border: rgba(255, 255, 255, 0.35);
+}
+
+/* Bootstrap .text-muted(#6c757d)는 다크 배경에서 대비가 부족해 밝게 조정 */
+html[data-theme="dark"] .text-muted {
+  color: #9aa0a6 !important;
+}
+
+/* =========================
+   Home: Hero
+========================= */
+#hero {
+  padding-top: 110px; /* 상단 고정 nav 높이에 맞춰 여유 */
+  padding-bottom: 70px;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  background: var(--hero-bg);
+}
+
+/* 타이틀이 너무 커서 잘리는 문제 방지 */
+.hero-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 14px;
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  max-width: 760px;
+  margin: 0 auto 22px;
+  opacity: 0.92;
+}
+
+/* CTA 버튼 테두리가 라이트/다크 모두 보이도록 (글자색은 테마의 링크 색) */
+.hero-cta.btn {
+  border-color: var(--hero-cta-border);
+}
+
+.hero-cta.btn:hover {
+  background: var(--hero-cta-hover-bg);
+}
+
+/* =========================
+   Home: Architecture
+   다이어그램이 어두운 배경 기준으로 그려져 있어 라이트/다크 모두 어두운 카드에 표시
+========================= */
+#architecture .card {
+  background-color: #202022 !important; /* data_pipeline.png 배경색과 동일 (테마 .card 배경이 !important라 같이 지정) */
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+#architecture .card .text-muted {
+  color: #a8adb3 !important;
+}
+
+/* Projects 상단 제목 간격 */
+#projects {
+  scroll-margin-top: 90px; /* CTA 스크롤 시 헤더에 가리지 않게 */
+}
+
+/* /projects/#<id> 로 이동했을 때 헤더에 가리지 않게 + 대상 카드 강조 */
+.project-anchor {
+  scroll-margin-top: 90px;
+}
+
+.project-anchor:target {
+  box-shadow: 0 0 0 2px #4F8EF7 !important;
+}
+
+/* Strengths - related projects */
+.related-projects {
+  margin-top: 12px;
+}
+
+.related-projects a {
+  display: inline-block;
+  margin: 4px 6px 0 0;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--related-link-border);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.related-projects a:hover {
+  background: rgba(100,100,100,0.08);
+  transform: translateY(-1px);
+}
+
+/* =========================
+   Global Badges (Hero + Strengths)
+========================= */
+.badge-pill {
+  padding: 8px 14px !important;
+  border-radius: 999px !important;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #fff !important;
+  letter-spacing: 0.3px;
+  opacity: 0.9;
+  display: inline-flex;
+  align-items: center;
+}
+
+.badge-pill:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+/* Hero badges wrapper */
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 26px;
+}
+
+/* Strengths summary badges wrapper */
+.strengths-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0 28px;
+}
+
+/* 기존 클래스와 호환 */
+.badge-etl        { background: #4F8EF7 !important; }
+.badge-analytics  { background: #3FB984 !important; }
+.badge-cloud      { background: #9B6BFF !important; }
+
+.badge-reliability { background: #4F8EF7 !important; }
+.badge-scalability { background: #3FB984 !important; }
+.badge-operability { background: #9B6BFF !important; }
+
+/* =========================
+   Project tags (colored)
+========================= */
+.project-tag {
+  margin: 6px 8px 0 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid var(--project-tag-border);
+  background: var(--project-tag-bg) !important;
+  color: var(--project-tag-color) !important;
+}
+
+/* 특정 키워드만 색 포인트 */
+.project-tag[data-tag="Kafka"] { background: rgba(79,142,247,0.22) !important; border-color: rgba(79,142,247,0.35); }
+.project-tag[data-tag="Athena"] { background: rgba(63,185,132,0.22) !important; border-color: rgba(63,185,132,0.35); }
+.project-tag[data-tag="Metabase"] { background: rgba(155,107,255,0.22) !important; border-color: rgba(155,107,255,0.35); }
+.project-tag[data-tag="Elasticsearch"] { background: rgba(79,142,247,0.16) !important; border-color: rgba(79,142,247,0.28); }
+.project-tag[data-tag="S3"] { background: rgba(63,185,132,0.16) !important; border-color: rgba(63,185,132,0.28); }
+
+/* =========================
+   Project card accent line
+========================= */
+.project-card {
+  position: relative;
+  overflow: hidden;
+}
+.project-card:before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #4F8EF7, #3FB984, #9B6BFF);
+  opacity: 0.95;
+}
+
+/* =========================
+   Experience Timeline polish
+========================= */
+.timeline-list {
+  padding-left: 18px;
+  border-left: 3px solid var(--timeline-line-color);
+}
+
+.timeline-list .list-group-item {
+  border: 0;
+  padding-left: 14px;
+  margin-bottom: 18px;
+  background: transparent;
+}
+
+.timeline-list .list-group-item h5 {
+  font-weight: 700;
+}
+
+/* =========================
+   Timeline bullets (new)
+========================= */
+.timeline-bullets {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  color: var(--timeline-text-color);
+}
+
+.timeline-bullets li {
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+
+
+.timeline-descr {
+  white-space: pre-line; /* \n 줄바꿈을 그대로 보여줌 */
+  line-height: 1.75;
+}
+
+/* 프로젝트 상태 배지 (예: 진행 중) */
+.badge-status {
+  background: #0b5ed7;
+  color: #fff;
+}
+
+/* =========================
+   Project detail (case study) pages: _layouts/project.html
+========================= */
+.project-back {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+}
+
+.project-title {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.project-one-liner {
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+}
+
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+
+.project-meta-label {
+  font-weight: 700;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+.project-content h2 {
+  margin-top: 40px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.project-content h3 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.project-content td,
+.project-content th {
+  overflow-wrap: anywhere; /* 긴 영문·URL이 있어도 표가 화면 밖으로 넘치지 않게 */
+}
+
+.project-figure {
+  margin: 24px 0;
+  text-align: center;
+}
+
+.project-figure img {
+  border-radius: 8px;
+  border: 1px solid var(--light-border-color);
+}
+
+.project-figure figcaption {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+/* 그림 파일이 아직 없을 때 로컬 미리보기에서만 보이는 자리 표시 (_includes/project_figure.html) */
+.project-figure-placeholder {
+  margin: 24px 0;
+  padding: 48px 16px;
+  border: 2px dashed var(--light-border-color);
+  border-radius: 8px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* =========================
+   Footer
+========================= */
+/* GitHub 아이콘: 테마의 소셜 아이콘 색을 써서 다크 모드에서도 보이도록 */
+.footer .socials-media a {
+  color: var(--social-link-color) !important;
 }

@@ -1,0 +1,92 @@
+- title: Data Engineer
+  org: 미래엔
+  from: 2026.05
+  to: 현재
+  draft: true # 초안: 배포 사이트에서는 숨김. 내용을 채운 뒤 이 줄을 지우면 공개됩니다
+  bullets:
+    - "LRS 구축 (진행 중): TODO 한 줄 요약"
+    - "AI 문제 생성 (진행 중): TODO 한 줄 요약"
+
+- title: Data Engineer
+  org: (주)야나두
+  from: 2023.03
+  to: 2025.12
+  bullets:
+    - "로그 파이프라인 재설계: S3–ES–MongoDB로 흐름 분리, 장애 상황에서도 수집 지속"
+    - "Kafka 도입으로 단일 서버 병목 제거, 일일 수천만 건 로그 처리 구조로 확장"
+    - "Athena 분석 환경 구축: MySQL 집계 전환으로 타임아웃 제거, 처리 시간 70~80% 단축"
+    - "Partitioning/CTAS로 쿼리 비용·응답시간 최적화"
+    - "Metabase 기반 셀프서브 BI 구축으로 개발 반복 업무 감소"
+    - "배치·모니터링 자동화 및 ES Composite Aggregation으로 지표 정합성 100% 확보"
+
+- title: Server Engineer
+  org: 엔엑스엔주식회사 (NXN Co., Ltd.)
+  from: 2022.08
+  to: 2023.03
+  bullets:
+    - "Node.js 기반 게임 서버 핵심 기능(상점/교환소/자동사냥) 개발"
+    - "서버 로그 수집(Filebeat–Fluentd–Elasticsearch) 환경 구축"
+    - "Jenkins Pipeline 기반 배포 자동화로 패치 안정성과 배포 속도 개선"
+
+- title: Server Engineer
+  org: (주)제로게임즈
+  from: 2019.11
+  to: 2022.08
+  bullets:
+    - "Kafka/Zookeeper 기반 로그 수집 파이프라인 구축"
+    - "Logstash로 실시간 조회(Elasticsearch) / 장기 보관(S3) 분리"
+    - "Python 스케줄러 기반 시간·일 단위 집계 자동화로 운영 부담 제거"
+    - "Elasticsearch 기반 실시간 운영 대시보드로 장애·CS 대응 속도 향상"
+
+- title: Data Engineer
+  org: 넷마블에프앤씨
+  from: 2018.08
+  to: 2019.11
+  bullets:
+    - "Pyspark 기반 ETL 파이프라인 운영 및 지표 생성(MySQL)"
+    - "대규모 로그 데이터 정제·집계 및 ETL 안정성/성능 개선"
+    - "내부 BI 페이지 및 Tableau 환경 운영으로 데이터 활용 지원"
+
+- title: Server Engineer
+  org: 구로발게임즈(주)
+  from: 2016.12
+  to: 2018.08
+  bullets:
+    - "게임 서버 기능 개발 및 GM 운영툴 개발/유지보수"
+    - "서버 패치 및 환경 설정 자동화로 반복 운영 작업 감소"
+    - "배포 안정성 향상 및 운영 효율 개선"
+
+- title: Server Engineer
+  org: 마이어스게임즈
+  from: 2016.02
+  to: 2016.12
+  bullets:
+    - "게임 서버 및 운영툴 개발"
+    - "길드전/하우징 등 주요 콘텐츠 로직 구현"
+    - "패치 및 설정 자동화로 운영 효율 개선"
+
+- title: App Developer
+  org: 한국광성전자(주)
+  from: 2016.01
+  to: 2016.02
+  bullets:
+    - "BLE 스피커 연동 iOS 앱 개발"
+    - "오디오/라디오 기능 및 이미지 파싱·렌더링 기능 구현"
+    - "LCD 설정 화면 및 이미지 포맷 변환 기능 개발"
+
+- title: App Developer
+  org: 광성테크놀로지홀딩스 한국지사
+  from: 2015.07
+  to: 2016.01
+  bullets:
+    - "BLE 스피커 연동 iOS 앱 개발"
+    - "오디오 모드 제어 및 이미지 디코딩/렌더링 UI 구현"
+
+- title: Software Engineer
+  org: 믹시스템(주)
+  from: 2012.03
+  to: 2015.04
+  bullets:
+    - "KT OllehMap iOS 앱 고도화(지도/대중교통/소셜 연동)"
+    - "메시지 큐 기반 대량 메일링 시스템 개발"
+    - "사내 서비스 관리 기능 개발 및 운영 지원"

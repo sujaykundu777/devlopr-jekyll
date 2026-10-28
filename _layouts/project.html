@@ -1,0 +1,49 @@
+---
+layout: default
+---
+{%- comment -%}
+  프로젝트 상세(케이스 스터디) 페이지.
+  front matter의 project_id 로 _data/projects.yml 항목을 찾아 제목·한 줄 요약·회사·기간·역할·상태·태그를 위에 보여주고,
+  그 아래에 본문(마크다운)을 표시합니다.
+{%- endcomment -%}
+{%- assign project = site.data.projects | where: "id", page.project_id | first -%}
+<div class="row justify-content-center mx-0">
+    <div class="col-lg-12">
+            <div class="card">
+                    <div class="col-lg-10 offset-lg-1 project-detail">
+                      {% if page.published == false %}
+                      <div class="alert alert-warning">
+                        초안입니다. 배포 사이트에는 보이지 않으며, 내용을 다 채운 뒤 front matter의 <code>published: false</code> 줄을 지우면 공개됩니다.
+                      </div>
+                      {% endif %}
+
+                      <a class="project-back" href="/projects/">← Projects</a>
+                      <h1 class="project-title">{{ project.name | default: page.title }}</h1>
+                      {% if project.one_liner %}
+                      <p class="project-one-liner">{{ project.one_liner }}</p>
+                      {% endif %}
+
+                      <div class="project-meta">
+                        {% if project.company %}<div><span class="project-meta-label">Company</span>{{ project.company }}</div>{% endif %}
+                        {% if project.period %}<div><span class="project-meta-label">Period</span>{{ project.period }}</div>{% endif %}
+                        {% if project.role %}<div><span class="project-meta-label">Role</span>{{ project.role }}</div>{% endif %}
+                        {% if project.status %}<div><span class="project-meta-label">Status</span><span class="badge badge-status">{{ project.status }}</span></div>{% endif %}
+                      </div>
+
+                      {% if project.tags and project.tags.size > 0 %}
+                      <div class="mb-3">
+                        {% for tag in project.tags %}
+                        <span class="badge badge-pill project-tag" data-tag="{{ tag }}">{{ tag }}</span>
+                        {% endfor %}
+                      </div>
+                      {% endif %}
+
+                      <hr />
+
+                      <div class="project-content">
+                        {{ content }}
+                      </div>
+                    </div>
+            </div>
+    </div>
+</div>
